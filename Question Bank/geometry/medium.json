@@ -1,0 +1,187 @@
+[
+  {
+    "id": "geo-medium-001",
+    "grade": 6,
+    "question": "Area of a triangle with base 6 and height 4?",
+    "options": [
+      "10",
+      "12",
+      "20",
+      "24"
+    ],
+    "correct": 1,
+    "tags": [
+      "area"
+    ],
+    "explanation": "$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 6 \\times 4 = 12$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-002",
+    "grade": 7,
+    "question": "Circumference of a circle with radius 7 (use $\\pi = \\frac{22}{7}$)?",
+    "options": [
+      "22",
+      "44",
+      "49",
+      "154"
+    ],
+    "correct": 1,
+    "tags": [
+      "circles",
+      "circumference"
+    ],
+    "explanation": "$C = 2\\pi r = 2 \\times \\frac{22}{7} \\times 7 = 44$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-003",
+    "grade": 6,
+    "question": "Volume of a cube with side 3?",
+    "options": [
+      "9",
+      "18",
+      "27",
+      "36"
+    ],
+    "correct": 2,
+    "tags": [
+      "volume",
+      "3d-shapes"
+    ],
+    "explanation": "$V = s^3 = 3^3 = 27$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-004",
+    "grade": 6,
+    "question": "Sum of interior angles of a quadrilateral?",
+    "options": [
+      "$180°$",
+      "$270°$",
+      "$360°$",
+      "$540°$"
+    ],
+    "correct": 2,
+    "tags": [
+      "angles",
+      "polygons"
+    ],
+    "explanation": "Any quadrilateral's interior angles sum to $360°$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-005",
+    "grade": 6,
+    "question": "Volume of a rectangular box with dimensions $3 \\times 4 \\times 5$?",
+    "options": [
+      "12",
+      "47",
+      "60",
+      "120"
+    ],
+    "correct": 2,
+    "tags": [
+      "volume"
+    ],
+    "explanation": "$V = l \\times w \\times h = 3 \\times 4 \\times 5 = 60$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-006",
+    "grade": 7,
+    "question": "Area of a circle with radius 5 (use $\\pi = 3.14$)?",
+    "options": [
+      "15.7",
+      "31.4",
+      "78.5",
+      "157"
+    ],
+    "correct": 2,
+    "tags": [
+      "circles",
+      "area"
+    ],
+    "explanation": "$A = \\pi r^2 = 3.14 \\times 25 = 78.5$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-007",
+    "grade": 6,
+    "question": "Two angles of a triangle are $50°$ and $60°$. The third angle is?",
+    "options": [
+      "$60°$",
+      "$70°$",
+      "$80°$",
+      "$90°$"
+    ],
+    "correct": 1,
+    "tags": [
+      "angles"
+    ],
+    "explanation": "Sum is $180°$: $180 - 50 - 60 = 70°$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-008",
+    "grade": 6,
+    "question": "Area of a parallelogram with base 8 and height 5?",
+    "options": [
+      "13",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct": 3,
+    "tags": [
+      "area"
+    ],
+    "explanation": "$\\text{Area} = \\text{base} \\times \\text{height} = 8 \\times 5 = 40$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-009",
+    "grade": 7,
+    "question": "A square has perimeter 36. What is its area?",
+    "options": [
+      "36",
+      "72",
+      "81",
+      "144"
+    ],
+    "correct": 2,
+    "tags": [
+      "area",
+      "perimeter"
+    ],
+    "explanation": "Side = $\\frac{36}{4} = 9$. Area = $9^2 = 81$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-medium-010",
+    "grade": 6,
+    "question": "How many degrees are in a straight line?",
+    "options": [
+      "$90°$",
+      "$120°$",
+      "$180°$",
+      "$360°$"
+    ],
+    "correct": 2,
+    "tags": [
+      "angles"
+    ],
+    "explanation": "A straight line forms a straight angle of $180°$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

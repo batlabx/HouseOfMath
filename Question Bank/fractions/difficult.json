@@ -1,0 +1,190 @@
+[
+  {
+    "id": "frac-difficult-001",
+    "grade": 7,
+    "question": "$\\frac{5}{6} - \\frac{2}{3} + \\frac{1}{4} = ?$",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{5}{12}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{7}{12}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "addition",
+      "subtraction",
+      "common-denominator"
+    ],
+    "explanation": "LCD is 12: $\\frac{10}{12} - \\frac{8}{12} + \\frac{3}{12} = \\frac{5}{12}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-002",
+    "grade": 7,
+    "question": "$\\frac{2}{3} \\div \\frac{4}{9} = ?$",
+    "options": [
+      "$\\frac{8}{27}$",
+      "$\\frac{3}{2}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "division"
+    ],
+    "explanation": "Reciprocal of $\\frac{4}{9}$ is $\\frac{9}{4}$. $\\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-003",
+    "grade": 7,
+    "question": "$\\left(\\frac{3}{5}\\right)^2 = ?$",
+    "options": [
+      "$\\frac{6}{10}$",
+      "$\\frac{6}{5}$",
+      "$\\frac{9}{10}$",
+      "$\\frac{9}{25}$"
+    ],
+    "correct": 3,
+    "tags": [
+      "exponents"
+    ],
+    "explanation": "Square top and bottom: $\\frac{3^2}{5^2} = \\frac{9}{25}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-004",
+    "grade": 7,
+    "question": "A recipe needs $\\frac{2}{3}$ cup of flour. For 1.5x the recipe, how much flour?",
+    "options": [
+      "$\\frac{1}{2}$ cup",
+      "$\\frac{5}{6}$ cup",
+      "$1$ cup",
+      "$\\frac{4}{3}$ cup"
+    ],
+    "correct": 2,
+    "tags": [
+      "word-problems",
+      "multiplication"
+    ],
+    "explanation": "$\\frac{2}{3} \\times \\frac{3}{2} = \\frac{6}{6} = 1$ cup.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-005",
+    "grade": 7,
+    "question": "Convert $0.375$ to a fraction in simplest form.",
+    "options": [
+      "$\\frac{3}{8}$",
+      "$\\frac{3}{10}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{375}{1000}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "decimals"
+    ],
+    "explanation": "$0.375 = \\frac{375}{1000} = \\frac{3}{8}$ (divide by 125).",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-006",
+    "grade": 7,
+    "question": "$\\frac{7}{12} + \\frac{5}{8} = ?$",
+    "options": [
+      "$\\frac{12}{20}$",
+      "$\\frac{29}{24}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{35}{96}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "addition",
+      "common-denominator"
+    ],
+    "explanation": "LCD is 24: $\\frac{14}{24} + \\frac{15}{24} = \\frac{29}{24}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-007",
+    "grade": 8,
+    "question": "$1\\frac{1}{2} \\times 2\\frac{2}{3} = ?$",
+    "options": [
+      "$2\\frac{2}{6}$",
+      "$3$",
+      "$4$",
+      "$5\\frac{1}{6}$"
+    ],
+    "correct": 2,
+    "tags": [
+      "mixed-numbers",
+      "multiplication"
+    ],
+    "explanation": "Convert: $\\frac{3}{2} \\times \\frac{8}{3} = \\frac{24}{6} = 4$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-008",
+    "grade": 7,
+    "question": "If $\\frac{3}{5}$ of $x$ equals 18, what is $x$?",
+    "options": [
+      "10",
+      "15",
+      "30",
+      "60"
+    ],
+    "correct": 2,
+    "tags": [
+      "equations",
+      "fractions-of-a-number"
+    ],
+    "explanation": "$\\frac{3}{5}x = 18 \\Rightarrow x = 18 \\times \\frac{5}{3} = 30$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-009",
+    "grade": 7,
+    "question": "$\\frac{5}{6} - \\frac{1}{4} - \\frac{1}{3} = ?$",
+    "options": [
+      "$\\frac{1}{4}$",
+      "$\\frac{1}{3}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{12}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "subtraction",
+      "common-denominator"
+    ],
+    "explanation": "LCD is 12: $\\frac{10}{12} - \\frac{3}{12} - \\frac{4}{12} = \\frac{3}{12} = \\frac{1}{4}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-difficult-010",
+    "grade": 7,
+    "question": "The reciprocal of $2\\frac{3}{4}$ is?",
+    "options": [
+      "$\\frac{4}{11}$",
+      "$\\frac{4}{3}$",
+      "$\\frac{3}{4}$",
+      "$\\frac{11}{4}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "reciprocals",
+      "mixed-numbers"
+    ],
+    "explanation": "$2\\frac{3}{4} = \\frac{11}{4}$. Reciprocal is $\\frac{4}{11}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

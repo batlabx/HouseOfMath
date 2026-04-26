@@ -1,0 +1,182 @@
+[
+  {
+    "id": "pct-easy-001",
+    "grade": 5,
+    "question": "What is $50\\%$ of $100$?",
+    "options": [
+      "25",
+      "50",
+      "75",
+      "100"
+    ],
+    "correct": 1,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$50\\%$ means half. Half of 100 is 50.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-002",
+    "grade": 5,
+    "question": "What is $25\\%$ of $80$?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 2,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$25\\%$ means a quarter. $\\frac{80}{4} = 20$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-003",
+    "grade": 5,
+    "question": "Convert $0.5$ to a percentage.",
+    "options": [
+      "5%",
+      "0.5%",
+      "50%",
+      "500%"
+    ],
+    "correct": 2,
+    "tags": [
+      "conversion"
+    ],
+    "explanation": "Multiply by 100: $0.5 \\times 100 = 50\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-004",
+    "grade": 5,
+    "question": "Convert $75\\%$ to a fraction in simplest form.",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{7}{10}$",
+      "$\\frac{75}{100}$",
+      "$\\frac{1}{4}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "conversion"
+    ],
+    "explanation": "$75\\% = \\frac{75}{100} = \\frac{3}{4}$ (divide by 25).",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-005",
+    "grade": 5,
+    "question": "What is $10\\%$ of $200$?",
+    "options": [
+      "10",
+      "20",
+      "100",
+      "200"
+    ],
+    "correct": 1,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$10\\%$ means one tenth. $\\frac{200}{10} = 20$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-006",
+    "grade": 5,
+    "question": "$20\\%$ as a decimal is?",
+    "options": [
+      "0.02",
+      "0.20",
+      "2.0",
+      "20.0"
+    ],
+    "correct": 1,
+    "tags": [
+      "conversion"
+    ],
+    "explanation": "Divide by 100: $\\frac{20}{100} = 0.20$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-007",
+    "grade": 5,
+    "question": "What is $100\\%$ of $45$?",
+    "options": [
+      "0",
+      "4.5",
+      "45",
+      "100"
+    ],
+    "correct": 2,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$100\\%$ means the whole amount: 45.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-008",
+    "grade": 5,
+    "question": "Half of 100 is what percent?",
+    "options": [
+      "25%",
+      "50%",
+      "75%",
+      "100%"
+    ],
+    "correct": 1,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "Half = $\\frac{1}{2}$ = $50\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-009",
+    "grade": 5,
+    "question": "$\\frac{1}{4}$ expressed as a percentage is?",
+    "options": [
+      "10%",
+      "20%",
+      "25%",
+      "40%"
+    ],
+    "correct": 2,
+    "tags": [
+      "conversion"
+    ],
+    "explanation": "$\\frac{1}{4} = 0.25 = 25\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-easy-010",
+    "grade": 5,
+    "question": "What is $50\\%$ of $50$?",
+    "options": [
+      "10",
+      "20",
+      "25",
+      "50"
+    ],
+    "correct": 2,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$50\\%$ of 50 is half of 50 = 25.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

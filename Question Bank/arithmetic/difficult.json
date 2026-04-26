@@ -1,0 +1,189 @@
+[
+  {
+    "id": "ari-difficult-001",
+    "grade": 6,
+    "question": "$(-3) + (-7) = ?$",
+    "options": [
+      "-10",
+      "-4",
+      "4",
+      "10"
+    ],
+    "correct": 0,
+    "tags": [
+      "integers",
+      "negative-numbers"
+    ],
+    "explanation": "Adding two negatives gives a more negative result: $(-3) + (-7) = -10$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-002",
+    "grade": 6,
+    "question": "$(-12) \\times 4 = ?$",
+    "options": [
+      "-48",
+      "-16",
+      "16",
+      "48"
+    ],
+    "correct": 0,
+    "tags": [
+      "integers",
+      "multiplication"
+    ],
+    "explanation": "Negative times positive is negative: $(-12) \\times 4 = -48$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-003",
+    "grade": 6,
+    "question": "$(-15) \\div (-3) = ?$",
+    "options": [
+      "-5",
+      "-3",
+      "3",
+      "5"
+    ],
+    "correct": 3,
+    "tags": [
+      "integers",
+      "division"
+    ],
+    "explanation": "Negative divided by negative is positive: $(-15) \\div (-3) = 5$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-004",
+    "grade": 7,
+    "question": "$2^3 \\times 2^2 = ?$",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "128"
+    ],
+    "correct": 1,
+    "tags": [
+      "exponents",
+      "laws-of-exponents"
+    ],
+    "explanation": "Same base: add exponents. $2^3 \\times 2^2 = 2^{3+2} = 2^5 = 32$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-005",
+    "grade": 7,
+    "question": "$\\sqrt{81} = ?$",
+    "options": [
+      "7",
+      "8",
+      "9",
+      "10"
+    ],
+    "correct": 2,
+    "tags": [
+      "square-roots"
+    ],
+    "explanation": "$\\sqrt{81} = 9$ because $9 \\times 9 = 81$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-006",
+    "grade": 6,
+    "question": "Find the LCM of 12 and 18.",
+    "options": [
+      "6",
+      "24",
+      "36",
+      "72"
+    ],
+    "correct": 2,
+    "tags": [
+      "lcm",
+      "factors"
+    ],
+    "explanation": "Multiples of 12: 12, 24, 36, ... Multiples of 18: 18, 36, ... Smallest common is $36$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-007",
+    "grade": 6,
+    "question": "Find the HCF (GCD) of 24 and 36.",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "18"
+    ],
+    "correct": 2,
+    "tags": [
+      "hcf",
+      "factors"
+    ],
+    "explanation": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Largest common: $12$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-008",
+    "grade": 7,
+    "question": "Express $0.625$ as a fraction in simplest form.",
+    "options": [
+      "$\\frac{5}{8}$",
+      "$\\frac{3}{5}$",
+      "$\\frac{6}{25}$",
+      "$\\frac{7}{8}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "decimals",
+      "fractions"
+    ],
+    "explanation": "$0.625 = \\frac{625}{1000} = \\frac{5}{8}$ after dividing top and bottom by 125.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-009",
+    "grade": 6,
+    "question": "Evaluate $(3 \\times 4) + (2 \\times 5) - 6$.",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correct": 3,
+    "tags": [
+      "order-of-operations"
+    ],
+    "explanation": "Brackets first: $12 + 10 - 6 = 16$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-difficult-010",
+    "grade": 7,
+    "question": "$2^4 + 3^2 = ?$",
+    "options": [
+      "13",
+      "20",
+      "25",
+      "26"
+    ],
+    "correct": 2,
+    "tags": [
+      "exponents"
+    ],
+    "explanation": "$2^4 = 16$ and $3^2 = 9$. Sum: $16 + 9 = 25$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

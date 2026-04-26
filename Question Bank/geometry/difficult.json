@@ -1,0 +1,190 @@
+[
+  {
+    "id": "geo-difficult-001",
+    "grade": 8,
+    "question": "In a right triangle, the legs are 6 and 8. What is the hypotenuse?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "$\\sqrt{14}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "pythagorean-theorem"
+    ],
+    "explanation": "$c = \\sqrt{a^2 + b^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-002",
+    "grade": 8,
+    "question": "Area of a circle with diameter 14 (use $\\pi = \\frac{22}{7}$)?",
+    "options": [
+      "44",
+      "77",
+      "154",
+      "616"
+    ],
+    "correct": 2,
+    "tags": [
+      "circles",
+      "area"
+    ],
+    "explanation": "Radius = 7. $A = \\pi r^2 = \\frac{22}{7} \\times 49 = 154$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-003",
+    "grade": 9,
+    "question": "Volume of a cylinder with $r = 3$, $h = 10$ (use $\\pi = 3.14$)?",
+    "options": [
+      "94.2",
+      "188.4",
+      "282.6",
+      "565.2"
+    ],
+    "correct": 2,
+    "tags": [
+      "volume",
+      "cylinders"
+    ],
+    "explanation": "$V = \\pi r^2 h = 3.14 \\times 9 \\times 10 = 282.6$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-004",
+    "grade": 8,
+    "question": "Sum of interior angles of a hexagon?",
+    "options": [
+      "$540°$",
+      "$720°$",
+      "$900°$",
+      "$1080°$"
+    ],
+    "correct": 1,
+    "tags": [
+      "polygons",
+      "angles"
+    ],
+    "explanation": "$(n-2) \\times 180° = (6-2) \\times 180° = 720°$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-005",
+    "grade": 8,
+    "question": "The hypotenuse of a right triangle is 13 and one leg is 5. What is the other leg?",
+    "options": [
+      "6",
+      "8",
+      "12",
+      "18"
+    ],
+    "correct": 2,
+    "tags": [
+      "pythagorean-theorem"
+    ],
+    "explanation": "$b = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-006",
+    "grade": 8,
+    "question": "Surface area of a cube with side 4?",
+    "options": [
+      "48",
+      "64",
+      "96",
+      "128"
+    ],
+    "correct": 2,
+    "tags": [
+      "surface-area",
+      "3d-shapes"
+    ],
+    "explanation": "$SA = 6s^2 = 6 \\times 16 = 96$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-007",
+    "grade": 9,
+    "question": "A right triangle has legs 9 and 12. What is its perimeter?",
+    "options": [
+      "21",
+      "30",
+      "36",
+      "42"
+    ],
+    "correct": 2,
+    "tags": [
+      "pythagorean-theorem",
+      "perimeter"
+    ],
+    "explanation": "Hypotenuse = $\\sqrt{81 + 144} = \\sqrt{225} = 15$. Perimeter = $9 + 12 + 15 = 36$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-008",
+    "grade": 9,
+    "question": "Volume of a sphere with radius 3 (use $V = \\frac{4}{3}\\pi r^3$, $\\pi = 3.14$)?",
+    "options": [
+      "28.26",
+      "56.52",
+      "113.04",
+      "339.12"
+    ],
+    "correct": 2,
+    "tags": [
+      "volume",
+      "spheres"
+    ],
+    "explanation": "$V = \\frac{4}{3} \\times 3.14 \\times 27 = 113.04$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-009",
+    "grade": 8,
+    "question": "Each interior angle of a regular pentagon?",
+    "options": [
+      "$72°$",
+      "$90°$",
+      "$108°$",
+      "$120°$"
+    ],
+    "correct": 2,
+    "tags": [
+      "polygons",
+      "angles"
+    ],
+    "explanation": "Sum = $(5-2) \\times 180° = 540°$. Each angle = $\\frac{540}{5} = 108°$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-difficult-010",
+    "grade": 9,
+    "question": "Distance between $(1, 2)$ and $(4, 6)$?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "7"
+    ],
+    "correct": 2,
+    "tags": [
+      "coordinate-geometry",
+      "distance"
+    ],
+    "explanation": "$d = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

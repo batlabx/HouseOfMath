@@ -1,0 +1,184 @@
+[
+  {
+    "id": "pct-difficult-001",
+    "grade": 8,
+    "question": "A $\\$200$ item increases by $20\\%$, then decreases by $20\\%$. Final price?",
+    "options": [
+      "$\\$192$",
+      "$\\$200$",
+      "$\\$208$",
+      "$\\$240$"
+    ],
+    "correct": 0,
+    "tags": [
+      "compound-percent"
+    ],
+    "explanation": "After increase: $200 \\times 1.20 = 240$. After decrease: $240 \\times 0.80 = 192$. Note: percent increase then equal percent decrease does NOT return to original.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-002",
+    "grade": 9,
+    "question": "Simple interest on $\\$1000$ at $5\\%$ per year for 3 years?",
+    "options": [
+      "$\\$50$",
+      "$\\$100$",
+      "$\\$150$",
+      "$\\$300$"
+    ],
+    "correct": 2,
+    "tags": [
+      "simple-interest"
+    ],
+    "explanation": "$SI = \\frac{P \\times R \\times T}{100} = \\frac{1000 \\times 5 \\times 3}{100} = 150$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-003",
+    "grade": 9,
+    "question": "Compound interest on $\\$1000$ at $10\\%$ for 2 years (compounded annually)?",
+    "options": [
+      "$\\$100$",
+      "$\\$200$",
+      "$\\$210$",
+      "$\\$220$"
+    ],
+    "correct": 2,
+    "tags": [
+      "compound-interest"
+    ],
+    "explanation": "$A = P(1+r)^t = 1000(1.10)^2 = 1210$. CI = $1210 - 1000 = \\$210$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-004",
+    "grade": 8,
+    "question": "If the price increases from $\\$80$ to $\\$96$, what is the percent increase?",
+    "options": [
+      "16%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 1,
+    "tags": [
+      "percent-change"
+    ],
+    "explanation": "Increase = 16. Percent = $\\frac{16}{80} = 0.20 = 20\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-005",
+    "grade": 8,
+    "question": "$75$ is $60\\%$ of what number?",
+    "options": [
+      "100",
+      "115",
+      "125",
+      "150"
+    ],
+    "correct": 2,
+    "tags": [
+      "finding-whole"
+    ],
+    "explanation": "$0.60 \\times x = 75 \\Rightarrow x = \\frac{75}{0.60} = 125$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-006",
+    "grade": 9,
+    "question": "A jacket gets $25\\%$ off, then an additional $10\\%$ off. What is the total discount?",
+    "options": [
+      "30%",
+      "32.5%",
+      "35%",
+      "40%"
+    ],
+    "correct": 1,
+    "tags": [
+      "compound-percent"
+    ],
+    "explanation": "After first discount: $0.75$. After second: $0.75 \\times 0.90 = 0.675$. Total discount = $1 - 0.675 = 32.5\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-007",
+    "grade": 8,
+    "question": "Population grew from 5000 to 6500. Percent increase?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "65%"
+    ],
+    "correct": 2,
+    "tags": [
+      "percent-change",
+      "word-problems"
+    ],
+    "explanation": "Increase = 1500. Percent = $\\frac{1500}{5000} = 0.30 = 30\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-008",
+    "grade": 8,
+    "question": "A salary of $\\$50{,}000$ receives an $8\\%$ increase. New salary?",
+    "options": [
+      "$\\$52{,}000$",
+      "$\\$54{,}000$",
+      "$\\$58{,}000$",
+      "$\\$58{,}500$"
+    ],
+    "correct": 1,
+    "tags": [
+      "increase"
+    ],
+    "explanation": "$50000 \\times 1.08 = 54000$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-009",
+    "grade": 9,
+    "question": "If $65\\%$ of students passed and 14 failed, how many students total?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "correct": 2,
+    "tags": [
+      "word-problems",
+      "finding-whole"
+    ],
+    "explanation": "Failures are $35\\%$. $0.35 \\times x = 14 \\Rightarrow x = 40$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-difficult-010",
+    "grade": 8,
+    "question": "Tax of $8\\%$ on $\\$250 = ?$",
+    "options": [
+      "$\\$15$",
+      "$\\$20$",
+      "$\\$25$",
+      "$\\$28$"
+    ],
+    "correct": 1,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$0.08 \\times 250 = 20$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

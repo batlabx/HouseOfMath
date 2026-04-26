@@ -1,0 +1,35 @@
+[
+  {
+    "id": "alg-easy-fixture-001",
+    "grade": 6,
+    "question": "Solve for $x$: $x + 3 = 10$.",
+    "options": ["$x = 5$", "$x = 7$", "$x = 10$", "$x = 13$"],
+    "correct": 1,
+    "tags": ["linear-equations", "one-step"],
+    "explanation": "Subtract 3 from both sides: $x = 7$.",
+    "source": "test-fixture",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-fixture-002",
+    "grade": 7,
+    "question": "Solve: $2x = 14$.",
+    "options": ["$x = 6$", "$x = 7$", "$x = 8$", "$x = 12$"],
+    "correct": 1,
+    "tags": ["linear-equations"],
+    "explanation": "Divide both sides by 2: $x = 7$.",
+    "source": "test-fixture",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-fixture-003",
+    "grade": null,
+    "question": "What is the value of $x$ in $x - 4 = 9$?",
+    "options": ["$5$", "$13$", "$36$", "$-5$"],
+    "correct": 1,
+    "tags": ["linear-equations"],
+    "explanation": "Add 4 to both sides: $x = 13$.",
+    "source": "test-fixture",
+    "license": "MIT"
+  }
+]

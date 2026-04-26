@@ -1,0 +1,190 @@
+[
+  {
+    "id": "alg-medium-001",
+    "grade": 7,
+    "question": "Solve: $3x + 4 = 19$.",
+    "options": [
+      "$x = 4$",
+      "$x = 5$",
+      "$x = 6$",
+      "$x = 7$"
+    ],
+    "correct": 1,
+    "tags": [
+      "linear-equations",
+      "two-step"
+    ],
+    "explanation": "Subtract 4: $3x = 15$. Divide by 3: $x = 5$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-002",
+    "grade": 7,
+    "question": "Solve: $2(x + 3) = 14$.",
+    "options": [
+      "$x = 4$",
+      "$x = 5$",
+      "$x = 7$",
+      "$x = 11$"
+    ],
+    "correct": 0,
+    "tags": [
+      "linear-equations",
+      "distribution"
+    ],
+    "explanation": "Divide by 2: $x + 3 = 7$. Subtract 3: $x = 4$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-003",
+    "grade": 8,
+    "question": "Solve: $5x - 7 = 3x + 9$.",
+    "options": [
+      "$x = 2$",
+      "$x = 4$",
+      "$x = 6$",
+      "$x = 8$"
+    ],
+    "correct": 3,
+    "tags": [
+      "linear-equations",
+      "variables-both-sides"
+    ],
+    "explanation": "Subtract $3x$: $2x - 7 = 9$. Add 7: $2x = 16$. Divide: $x = 8$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-004",
+    "grade": 8,
+    "question": "Expand: $(x + 2)(x + 3)$.",
+    "options": [
+      "$x^2 + 5x + 6$",
+      "$x^2 + 6x + 5$",
+      "$x^2 + 6$",
+      "$2x + 5$"
+    ],
+    "correct": 0,
+    "tags": [
+      "expansion",
+      "foil"
+    ],
+    "explanation": "FOIL: $x^2 + 3x + 2x + 6 = x^2 + 5x + 6$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-005",
+    "grade": 8,
+    "question": "Factor: $x^2 + 5x + 6$.",
+    "options": [
+      "$(x+1)(x+6)$",
+      "$(x+2)(x+3)$",
+      "$(x+5)(x+1)$",
+      "$(x-2)(x-3)$"
+    ],
+    "correct": 1,
+    "tags": [
+      "factoring"
+    ],
+    "explanation": "Find numbers multiplying to 6 and adding to 5: 2 and 3. So $(x+2)(x+3)$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-006",
+    "grade": 7,
+    "question": "Solve for $x$: $\\frac{x}{3} + 2 = 5$.",
+    "options": [
+      "$x = 1$",
+      "$x = 6$",
+      "$x = 9$",
+      "$x = 15$"
+    ],
+    "correct": 2,
+    "tags": [
+      "linear-equations",
+      "fractions"
+    ],
+    "explanation": "Subtract 2: $\\frac{x}{3} = 3$. Multiply by 3: $x = 9$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-007",
+    "grade": 8,
+    "question": "If $4x - 3 = 2x + 7$, find $x$.",
+    "options": [
+      "$x = 2$",
+      "$x = 4$",
+      "$x = 5$",
+      "$x = 10$"
+    ],
+    "correct": 2,
+    "tags": [
+      "linear-equations"
+    ],
+    "explanation": "$2x = 10 \\Rightarrow x = 5$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-008",
+    "grade": 8,
+    "question": "Simplify: $2(3x - 1) - 4(x + 2)$.",
+    "options": [
+      "$2x - 10$",
+      "$2x + 6$",
+      "$10x - 10$",
+      "$6x - 10$"
+    ],
+    "correct": 0,
+    "tags": [
+      "distribution",
+      "like-terms"
+    ],
+    "explanation": "$6x - 2 - 4x - 8 = 2x - 10$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-009",
+    "grade": 7,
+    "question": "Solve: $5 - 2x = 11$.",
+    "options": [
+      "$x = -3$",
+      "$x = 3$",
+      "$x = 6$",
+      "$x = 8$"
+    ],
+    "correct": 0,
+    "tags": [
+      "linear-equations",
+      "negative-numbers"
+    ],
+    "explanation": "Subtract 5: $-2x = 6$. Divide by $-2$: $x = -3$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-medium-010",
+    "grade": 8,
+    "question": "Substitute $x = 2$ into $3x^2 - 4x + 1$.",
+    "options": [
+      "$1$",
+      "$5$",
+      "$9$",
+      "$13$"
+    ],
+    "correct": 1,
+    "tags": [
+      "substitution",
+      "exponents"
+    ],
+    "explanation": "$3(4) - 4(2) + 1 = 12 - 8 + 1 = 5$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

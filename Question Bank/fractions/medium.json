@@ -1,0 +1,185 @@
+[
+  {
+    "id": "frac-medium-001",
+    "grade": 5,
+    "question": "$\\frac{1}{2} + \\frac{1}{3} = ?$",
+    "options": [
+      "$\\frac{2}{5}$",
+      "$\\frac{2}{6}$",
+      "$\\frac{5}{6}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct": 2,
+    "tags": [
+      "addition",
+      "common-denominator"
+    ],
+    "explanation": "LCD is 6: $\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-002",
+    "grade": 5,
+    "question": "$\\frac{3}{4} - \\frac{1}{2} = ?$",
+    "options": [
+      "$\\frac{1}{2}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{2}{4}$",
+      "$\\frac{1}{8}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "subtraction"
+    ],
+    "explanation": "Convert: $\\frac{1}{2} = \\frac{2}{4}$. Then $\\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-003",
+    "grade": 6,
+    "question": "$\\frac{2}{3} \\times \\frac{3}{4} = ?$",
+    "options": [
+      "$\\frac{5}{12}$",
+      "$\\frac{1}{2}$",
+      "$\\frac{6}{7}$",
+      "$\\frac{1}{6}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "multiplication"
+    ],
+    "explanation": "Multiply across: $\\frac{2 \\times 3}{3 \\times 4} = \\frac{6}{12} = \\frac{1}{2}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-004",
+    "grade": 6,
+    "question": "$\\frac{1}{2} \\div \\frac{1}{4} = ?$",
+    "options": [
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{2}$",
+      "$1$",
+      "$2$"
+    ],
+    "correct": 3,
+    "tags": [
+      "division"
+    ],
+    "explanation": "Multiply by reciprocal: $\\frac{1}{2} \\times \\frac{4}{1} = \\frac{4}{2} = 2$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-005",
+    "grade": 5,
+    "question": "Convert $\\frac{7}{4}$ to a mixed number.",
+    "options": [
+      "$1\\frac{1}{4}$",
+      "$1\\frac{3}{4}$",
+      "$2\\frac{1}{4}$",
+      "$\\frac{4}{7}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "mixed-numbers"
+    ],
+    "explanation": "$7 \\div 4 = 1$ remainder $3$, so $\\frac{7}{4} = 1\\frac{3}{4}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-006",
+    "grade": 5,
+    "question": "Convert $2\\frac{1}{2}$ to an improper fraction.",
+    "options": [
+      "$\\frac{3}{2}$",
+      "$\\frac{4}{2}$",
+      "$\\frac{5}{2}$",
+      "$\\frac{6}{2}$"
+    ],
+    "correct": 2,
+    "tags": [
+      "mixed-numbers"
+    ],
+    "explanation": "$2\\frac{1}{2} = \\frac{2 \\times 2 + 1}{2} = \\frac{5}{2}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-007",
+    "grade": 6,
+    "question": "Which order is from smallest to largest: $\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\frac{5}{6}$?",
+    "options": [
+      "$\\frac{5}{6}, \\frac{3}{4}, \\frac{2}{3}, \\frac{1}{2}$",
+      "$\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\frac{5}{6}$",
+      "$\\frac{1}{2}, \\frac{3}{4}, \\frac{2}{3}, \\frac{5}{6}$",
+      "$\\frac{2}{3}, \\frac{1}{2}, \\frac{3}{4}, \\frac{5}{6}$"
+    ],
+    "correct": 1,
+    "tags": [
+      "comparison",
+      "ordering"
+    ],
+    "explanation": "Decimal forms: 0.50, 0.67, 0.75, 0.83 — already in ascending order.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-008",
+    "grade": 5,
+    "question": "$\\frac{2}{5}$ of $30 = ?$",
+    "options": [
+      "6",
+      "10",
+      "12",
+      "15"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions-of-a-number"
+    ],
+    "explanation": "$\\frac{2}{5} \\times 30 = \\frac{60}{5} = 12$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-009",
+    "grade": 5,
+    "question": "$\\frac{3}{8} + \\frac{1}{4} = ?$",
+    "options": [
+      "$\\frac{4}{12}$",
+      "$\\frac{4}{8}$",
+      "$\\frac{5}{8}$",
+      "$\\frac{1}{2}$"
+    ],
+    "correct": 2,
+    "tags": [
+      "addition",
+      "common-denominator"
+    ],
+    "explanation": "LCD is 8: $\\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "frac-medium-010",
+    "grade": 6,
+    "question": "Simplify $\\frac{18}{24}$.",
+    "options": [
+      "$\\frac{3}{4}$",
+      "$\\frac{2}{3}$",
+      "$\\frac{9}{12}$",
+      "$\\frac{6}{8}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "simplification"
+    ],
+    "explanation": "Divide by 6 (the GCD): $\\frac{18 \\div 6}{24 \\div 6} = \\frac{3}{4}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

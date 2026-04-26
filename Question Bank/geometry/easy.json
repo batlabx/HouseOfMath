@@ -1,0 +1,182 @@
+[
+  {
+    "id": "geo-easy-001",
+    "grade": 3,
+    "question": "How many sides does a triangle have?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "tags": [
+      "polygons"
+    ],
+    "explanation": "A triangle has 3 sides. The prefix 'tri-' means three.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-002",
+    "grade": 4,
+    "question": "How many sides does a pentagon have?",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "tags": [
+      "polygons"
+    ],
+    "explanation": "A pentagon has 5 sides. The prefix 'penta-' means five.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-003",
+    "grade": 5,
+    "question": "What is the sum of angles in a triangle?",
+    "options": [
+      "$90°$",
+      "$120°$",
+      "$180°$",
+      "$360°$"
+    ],
+    "correct": 2,
+    "tags": [
+      "angles"
+    ],
+    "explanation": "The angles of any triangle add up to $180°$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-004",
+    "grade": 4,
+    "question": "A right angle measures?",
+    "options": [
+      "$45°$",
+      "$60°$",
+      "$90°$",
+      "$180°$"
+    ],
+    "correct": 2,
+    "tags": [
+      "angles"
+    ],
+    "explanation": "A right angle is exactly $90°$ — the corner of a square.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-005",
+    "grade": 4,
+    "question": "What is the perimeter of a square with side length 5?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 2,
+    "tags": [
+      "perimeter"
+    ],
+    "explanation": "Square has 4 equal sides: $4 \\times 5 = 20$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-006",
+    "grade": 4,
+    "question": "What is the area of a rectangle 4 by 6?",
+    "options": [
+      "10",
+      "20",
+      "24",
+      "48"
+    ],
+    "correct": 2,
+    "tags": [
+      "area"
+    ],
+    "explanation": "Area = length $\\times$ width = $4 \\times 6 = 24$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-007",
+    "grade": 4,
+    "question": "How many faces does a cube have?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "12"
+    ],
+    "correct": 1,
+    "tags": [
+      "3d-shapes"
+    ],
+    "explanation": "A cube has 6 square faces — top, bottom, and four sides.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-008",
+    "grade": 4,
+    "question": "How many straight sides does a circle have?",
+    "options": [
+      "0",
+      "1",
+      "Infinite",
+      "4"
+    ],
+    "correct": 0,
+    "tags": [
+      "shapes"
+    ],
+    "explanation": "A circle has no straight sides — its boundary is one continuous curve.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-009",
+    "grade": 4,
+    "question": "What is the perimeter of a triangle with sides 3, 4, and 5?",
+    "options": [
+      "7",
+      "9",
+      "12",
+      "15"
+    ],
+    "correct": 2,
+    "tags": [
+      "perimeter"
+    ],
+    "explanation": "Add all sides: $3 + 4 + 5 = 12$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "geo-easy-010",
+    "grade": 4,
+    "question": "What shape has 4 equal sides and 4 right angles?",
+    "options": [
+      "Rectangle",
+      "Rhombus",
+      "Square",
+      "Trapezium"
+    ],
+    "correct": 2,
+    "tags": [
+      "polygons"
+    ],
+    "explanation": "All four properties together (equal sides + right angles) define a square.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

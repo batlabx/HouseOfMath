@@ -1,0 +1,188 @@
+[
+  {
+    "id": "alg-easy-001",
+    "grade": 6,
+    "question": "Solve for $x$: $x + 5 = 12$.",
+    "options": [
+      "$x = 5$",
+      "$x = 7$",
+      "$x = 12$",
+      "$x = 17$"
+    ],
+    "correct": 1,
+    "tags": [
+      "linear-equations",
+      "one-step"
+    ],
+    "explanation": "Subtract 5 from both sides: $x = 12 - 5 = 7$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-002",
+    "grade": 6,
+    "question": "Solve for $x$: $3x = 21$.",
+    "options": [
+      "$x = 3$",
+      "$x = 6$",
+      "$x = 7$",
+      "$x = 18$"
+    ],
+    "correct": 2,
+    "tags": [
+      "linear-equations",
+      "one-step"
+    ],
+    "explanation": "Divide both sides by 3: $x = 7$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-003",
+    "grade": 6,
+    "question": "Evaluate $2x + 3$ when $x = 4$.",
+    "options": [
+      "7",
+      "9",
+      "11",
+      "14"
+    ],
+    "correct": 2,
+    "tags": [
+      "substitution"
+    ],
+    "explanation": "$2(4) + 3 = 8 + 3 = 11$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-004",
+    "grade": 6,
+    "question": "Solve for $x$: $x - 7 = 10$.",
+    "options": [
+      "$x = 3$",
+      "$x = 7$",
+      "$x = 10$",
+      "$x = 17$"
+    ],
+    "correct": 3,
+    "tags": [
+      "linear-equations",
+      "one-step"
+    ],
+    "explanation": "Add 7 to both sides: $x = 17$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-005",
+    "grade": 6,
+    "question": "Solve for $x$: $\\frac{x}{4} = 5$.",
+    "options": [
+      "$x = 1$",
+      "$x = 9$",
+      "$x = 20$",
+      "$x = 25$"
+    ],
+    "correct": 2,
+    "tags": [
+      "linear-equations",
+      "one-step"
+    ],
+    "explanation": "Multiply both sides by 4: $x = 20$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-006",
+    "grade": 6,
+    "question": "Simplify: $3x + 2x$.",
+    "options": [
+      "$5$",
+      "$5x$",
+      "$6x$",
+      "$x^5$"
+    ],
+    "correct": 1,
+    "tags": [
+      "like-terms"
+    ],
+    "explanation": "Combine like terms: $3x + 2x = 5x$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-007",
+    "grade": 7,
+    "question": "Simplify: $5x - 2x + x$.",
+    "options": [
+      "$2x$",
+      "$3x$",
+      "$4x$",
+      "$8x$"
+    ],
+    "correct": 2,
+    "tags": [
+      "like-terms"
+    ],
+    "explanation": "$(5 - 2 + 1)x = 4x$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-008",
+    "grade": 7,
+    "question": "Solve for $x$: $2x + 1 = 9$.",
+    "options": [
+      "$x = 3$",
+      "$x = 4$",
+      "$x = 5$",
+      "$x = 8$"
+    ],
+    "correct": 1,
+    "tags": [
+      "linear-equations",
+      "two-step"
+    ],
+    "explanation": "Subtract 1: $2x = 8$. Divide by 2: $x = 4$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-009",
+    "grade": 6,
+    "question": "Evaluate $x^2$ when $x = 3$.",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "27"
+    ],
+    "correct": 1,
+    "tags": [
+      "substitution",
+      "exponents"
+    ],
+    "explanation": "$3^2 = 3 \\times 3 = 9$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "alg-easy-010",
+    "grade": 6,
+    "question": "If $a = 5$ and $b = 3$, find $2a + b$.",
+    "options": [
+      "8",
+      "10",
+      "13",
+      "16"
+    ],
+    "correct": 2,
+    "tags": [
+      "substitution"
+    ],
+    "explanation": "$2(5) + 3 = 10 + 3 = 13$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

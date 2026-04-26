@@ -1,0 +1,185 @@
+[
+  {
+    "id": "ari-easy-001",
+    "grade": 3,
+    "question": "$7 + 5 = ?$",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correct": 2,
+    "tags": [
+      "addition"
+    ],
+    "explanation": "$7 + 5 = 12$. Count up 5 from 7: 8, 9, 10, 11, 12.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-002",
+    "grade": 3,
+    "question": "$12 - 4 = ?$",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "tags": [
+      "subtraction"
+    ],
+    "explanation": "$12 - 4 = 8$. Count down 4 from 12: 11, 10, 9, 8.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-003",
+    "grade": 3,
+    "question": "$6 \\times 3 = ?$",
+    "options": [
+      "15",
+      "16",
+      "18",
+      "21"
+    ],
+    "correct": 2,
+    "tags": [
+      "multiplication"
+    ],
+    "explanation": "$6 \\times 3 = 18$. Three groups of six: $6 + 6 + 6 = 18$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-004",
+    "grade": 3,
+    "question": "$20 \\div 4 = ?$",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 1,
+    "tags": [
+      "division"
+    ],
+    "explanation": "$20 \\div 4 = 5$. Four equal groups from 20 gives 5 each.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-005",
+    "grade": 3,
+    "question": "What is the next number in the pattern: 2, 4, 6, 8, ?",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correct": 1,
+    "tags": [
+      "patterns"
+    ],
+    "explanation": "Each number increases by 2. After 8 comes $8 + 2 = 10$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-006",
+    "grade": 3,
+    "question": "$25 + 17 = ?$",
+    "options": [
+      "32",
+      "41",
+      "42",
+      "52"
+    ],
+    "correct": 2,
+    "tags": [
+      "addition"
+    ],
+    "explanation": "Add ones: $5 + 7 = 12$ (write 2, carry 1). Add tens: $2 + 1 + 1 = 4$. Result: $42$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-007",
+    "grade": 4,
+    "question": "$100 - 35 = ?$",
+    "options": [
+      "55",
+      "65",
+      "75",
+      "85"
+    ],
+    "correct": 1,
+    "tags": [
+      "subtraction"
+    ],
+    "explanation": "$100 - 35 = 65$. Subtract 30 to get 70, then subtract 5 more to get 65.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-008",
+    "grade": 4,
+    "question": "$9 \\times 8 = ?$",
+    "options": [
+      "64",
+      "72",
+      "81",
+      "98"
+    ],
+    "correct": 1,
+    "tags": [
+      "multiplication",
+      "times-table"
+    ],
+    "explanation": "$9 \\times 8 = 72$. Memorize: nine eights are seventy-two.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-009",
+    "grade": 4,
+    "question": "$36 \\div 6 = ?$",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "correct": 1,
+    "tags": [
+      "division",
+      "times-table"
+    ],
+    "explanation": "$36 \\div 6 = 6$ because $6 \\times 6 = 36$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-easy-010",
+    "grade": 4,
+    "question": "Round 47 to the nearest 10.",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "47"
+    ],
+    "correct": 2,
+    "tags": [
+      "rounding",
+      "place-value"
+    ],
+    "explanation": "47 is between 40 and 50. Since the ones digit (7) is 5 or more, round up to 50.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

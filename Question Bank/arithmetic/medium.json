@@ -1,0 +1,188 @@
+[
+  {
+    "id": "ari-medium-001",
+    "grade": 5,
+    "question": "$234 + 567 = ?$",
+    "options": [
+      "701",
+      "791",
+      "801",
+      "811"
+    ],
+    "correct": 2,
+    "tags": [
+      "addition",
+      "multi-digit"
+    ],
+    "explanation": "Add column by column: $4+7=11$ (write 1, carry 1), $3+6+1=10$ (write 0, carry 1), $2+5+1=8$. Result $801$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-002",
+    "grade": 5,
+    "question": "$456 - 189 = ?$",
+    "options": [
+      "267",
+      "277",
+      "287",
+      "367"
+    ],
+    "correct": 0,
+    "tags": [
+      "subtraction",
+      "borrowing"
+    ],
+    "explanation": "Borrow as needed. $456 - 189 = 267$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-003",
+    "grade": 5,
+    "question": "$23 \\times 14 = ?$",
+    "options": [
+      "282",
+      "302",
+      "322",
+      "342"
+    ],
+    "correct": 2,
+    "tags": [
+      "multiplication",
+      "multi-digit"
+    ],
+    "explanation": "$23 \\times 14 = 23 \\times 10 + 23 \\times 4 = 230 + 92 = 322$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-004",
+    "grade": 5,
+    "question": "$144 \\div 12 = ?$",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "14"
+    ],
+    "correct": 2,
+    "tags": [
+      "division"
+    ],
+    "explanation": "$144 \\div 12 = 12$ because $12 \\times 12 = 144$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-005",
+    "grade": 5,
+    "question": "What is $8^2$?",
+    "options": [
+      "16",
+      "32",
+      "64",
+      "82"
+    ],
+    "correct": 2,
+    "tags": [
+      "exponents"
+    ],
+    "explanation": "$8^2 = 8 \\times 8 = 64$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-006",
+    "grade": 5,
+    "question": "Using order of operations, $3 + 4 \\times 2 = ?$",
+    "options": [
+      "10",
+      "11",
+      "14",
+      "16"
+    ],
+    "correct": 1,
+    "tags": [
+      "order-of-operations",
+      "bodmas"
+    ],
+    "explanation": "Multiply first: $4 \\times 2 = 8$. Then add: $3 + 8 = 11$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-007",
+    "grade": 6,
+    "question": "$5^3 = ?$",
+    "options": [
+      "15",
+      "75",
+      "125",
+      "150"
+    ],
+    "correct": 2,
+    "tags": [
+      "exponents"
+    ],
+    "explanation": "$5^3 = 5 \\times 5 \\times 5 = 25 \\times 5 = 125$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-008",
+    "grade": 6,
+    "question": "The sum of two consecutive whole numbers is 25. What is the smaller number?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "14"
+    ],
+    "correct": 1,
+    "tags": [
+      "word-problems"
+    ],
+    "explanation": "Let the numbers be $n$ and $n+1$. $n + (n+1) = 25$, so $2n = 24$, giving $n = 12$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-009",
+    "grade": 5,
+    "question": "$1.5 + 2.7 = ?$",
+    "options": [
+      "3.2",
+      "4.1",
+      "4.2",
+      "4.3"
+    ],
+    "correct": 2,
+    "tags": [
+      "decimals",
+      "addition"
+    ],
+    "explanation": "Align decimal points: $1.5 + 2.7 = 4.2$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "ari-medium-010",
+    "grade": 5,
+    "question": "$6.4 - 2.9 = ?$",
+    "options": [
+      "3.3",
+      "3.5",
+      "3.7",
+      "4.5"
+    ],
+    "correct": 1,
+    "tags": [
+      "decimals",
+      "subtraction"
+    ],
+    "explanation": "$6.4 - 2.9 = 3.5$. Borrow from the ones place when subtracting tenths.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]

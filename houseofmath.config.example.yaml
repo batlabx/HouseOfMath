@@ -1,0 +1,29 @@
+# HouseOfMath configuration
+# Copy this to `houseofmath.config.yaml` (gitignored) or run `houseofmath init`.
+
+provider: none      # one of: none | claude-code | gemini | ollama | anthropic | openai
+
+# Only the block matching `provider` above is read.
+
+claude-code:
+  # Uses the `claude` CLI from Claude Code, which carries the user's
+  # subscription auth. No API key needed here.
+  # Run `claude /login` once before first use.
+  binary: claude              # path or name of the Claude Code CLI
+  model: claude-sonnet-4-6    # optional; passes --model to the CLI
+
+gemini:
+  model: gemini-2.0-flash
+  api_key_env: GOOGLE_AI_API_KEY   # get a free key at https://aistudio.google.com
+
+ollama:
+  base_url: http://localhost:11434
+  model: llama3
+
+anthropic:
+  model: claude-sonnet-4-6
+  api_key_env: ANTHROPIC_API_KEY
+
+openai:
+  model: gpt-4o-mini
+  api_key_env: OPENAI_API_KEY

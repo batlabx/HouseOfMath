@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "houseofmath"
+version = "0.1.0"
+description = "An open-source, BYO-LLM math practice agent. Pick a topic, level, grade — get a 10-question MCQ test in your browser."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+authors = [{ name = "Batlab", email = "batlab.x@gmail.com" }]
+keywords = ["math", "education", "practice", "mcq", "llm", "streamlit", "byo-llm"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Education",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Education",
+]
+dependencies = [
+  "click>=8.1",
+  "streamlit>=1.30",
+  "pydantic>=2.0",
+  "pyyaml>=6.0",
+  "pylatexenc>=2.10",
+  "httpx>=0.27",
+  "pandas>=2.0",
+]
+
+[project.optional-dependencies]
+anthropic = ["anthropic>=0.40"]
+openai = ["openai>=1.0"]
+gemini = ["google-generativeai>=0.8"]
+dev = ["pytest>=7.0", "pytest-cov>=4.0"]
+all = ["houseofmath[anthropic,openai,gemini,dev]"]
+
+[project.scripts]
+houseofmath = "houseofmath.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/batlabx/HouseOfMath"
+Repository = "https://github.com/batlabx/HouseOfMath"
+Issues = "https://github.com/batlabx/HouseOfMath/issues"
+
+[tool.setuptools]
+packages = [
+  "houseofmath",
+  "houseofmath.app",
+  "houseofmath.llm",
+  "houseofmath.storage",
+  "houseofmath.validation",
+  "houseofmath.prompts",
+]
+include-package-data = true
+
+[tool.setuptools.package-data]
+"houseofmath.prompts" = ["*.md"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_classes = ["Test*"]
+addopts = "-q"
+filterwarnings = [
+  "ignore::pytest.PytestCollectionWarning",
+]

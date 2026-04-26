@@ -1,0 +1,184 @@
+[
+  {
+    "id": "pct-medium-001",
+    "grade": 6,
+    "question": "What is $15\\%$ of $60$?",
+    "options": [
+      "6",
+      "9",
+      "12",
+      "15"
+    ],
+    "correct": 1,
+    "tags": [
+      "basic-percent"
+    ],
+    "explanation": "$15\\% \\times 60 = 0.15 \\times 60 = 9$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-002",
+    "grade": 7,
+    "question": "A shirt costs $\\$40$. After a $25\\%$ markup, what is the new price?",
+    "options": [
+      "$\\$45$",
+      "$\\$48$",
+      "$\\$50$",
+      "$\\$60$"
+    ],
+    "correct": 2,
+    "tags": [
+      "markup",
+      "word-problems"
+    ],
+    "explanation": "$25\\%$ of 40 is 10. New price: $40 + 10 = \\$50$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-003",
+    "grade": 7,
+    "question": "A $\\$50$ item is on sale at $20\\%$ off. What is the sale price?",
+    "options": [
+      "$\\$30$",
+      "$\\$35$",
+      "$\\$40$",
+      "$\\$45$"
+    ],
+    "correct": 2,
+    "tags": [
+      "discount",
+      "word-problems"
+    ],
+    "explanation": "$20\\%$ of 50 is 10. Sale price: $50 - 10 = \\$40$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-004",
+    "grade": 7,
+    "question": "$24$ is what percent of $80$?",
+    "options": [
+      "20%",
+      "24%",
+      "30%",
+      "40%"
+    ],
+    "correct": 2,
+    "tags": [
+      "finding-percentage"
+    ],
+    "explanation": "$\\frac{24}{80} = 0.30 = 30\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-005",
+    "grade": 7,
+    "question": "If $30\\%$ of $x = 60$, what is $x$?",
+    "options": [
+      "100",
+      "150",
+      "180",
+      "200"
+    ],
+    "correct": 3,
+    "tags": [
+      "equations"
+    ],
+    "explanation": "$0.30 \\times x = 60 \\Rightarrow x = \\frac{60}{0.30} = 200$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-006",
+    "grade": 7,
+    "question": "Increase 200 by $35\\%$.",
+    "options": [
+      "230",
+      "240",
+      "270",
+      "335"
+    ],
+    "correct": 2,
+    "tags": [
+      "increase"
+    ],
+    "explanation": "$200 \\times 1.35 = 270$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-007",
+    "grade": 7,
+    "question": "Decrease 150 by $40\\%$.",
+    "options": [
+      "60",
+      "90",
+      "100",
+      "110"
+    ],
+    "correct": 1,
+    "tags": [
+      "decrease"
+    ],
+    "explanation": "$150 \\times 0.60 = 90$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-008",
+    "grade": 8,
+    "question": "Which is greater: $30\\%$ of $90$ or $40\\%$ of $60$?",
+    "options": [
+      "They are equal",
+      "$30\\%$ of $90$",
+      "$40\\%$ of $60$",
+      "Cannot determine"
+    ],
+    "correct": 1,
+    "tags": [
+      "comparison"
+    ],
+    "explanation": "$30\\%$ of $90 = 27$. $40\\%$ of $60 = 24$. So $30\\%$ of 90 is greater.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-009",
+    "grade": 8,
+    "question": "The price went from $\\$80$ to $\\$100$. What is the percent increase?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "80%"
+    ],
+    "correct": 1,
+    "tags": [
+      "percent-change"
+    ],
+    "explanation": "Increase = $100 - 80 = 20$. Percent increase = $\\frac{20}{80} = 25\\%$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  },
+  {
+    "id": "pct-medium-010",
+    "grade": 8,
+    "question": "$12.5\\%$ as a fraction in simplest form is?",
+    "options": [
+      "$\\frac{1}{8}$",
+      "$\\frac{1}{6}$",
+      "$\\frac{1}{4}$",
+      "$\\frac{12.5}{100}$"
+    ],
+    "correct": 0,
+    "tags": [
+      "conversion"
+    ],
+    "explanation": "$12.5\\% = \\frac{12.5}{100} = \\frac{125}{1000} = \\frac{1}{8}$.",
+    "source": "houseofmath-seed-v1",
+    "license": "MIT"
+  }
+]
