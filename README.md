@@ -12,7 +12,26 @@ Connecting an LLM (Claude, OpenAI, local Ollama, etc.) unlocks personalized post
 
 ---
 
-## Quickstart
+## 🟢 Easy install (macOS, no terminal needed)
+
+For non-technical users on a Mac:
+
+1. **Download the project** — at the top of this page, click the green **`Code`** button → **Download ZIP**.
+2. **Unzip** the file you just downloaded (double-click `HouseOfMath-main.zip` in your Downloads folder).
+3. Move the unzipped `HouseOfMath-main` folder somewhere you'll remember (e.g. your `Desktop`).
+4. **Open the folder** and **double-click `Start HouseOfMath.command`**.
+   - macOS may show a warning that the file is "from an unidentified developer". To get past it:
+     **right-click** (or Control-click) the file → **Open** → click **Open** in the dialog. You only need to do this once.
+5. A black Terminal window will pop up. **The first time only**, it will install the things HouseOfMath needs (Homebrew, Python). This takes 5–10 minutes — let it finish.
+6. When it's done, your browser will open automatically with HouseOfMath running. Pick a topic and start practicing.
+
+To use it again later, just **double-click `Start HouseOfMath.command`** — every launch after the first one is instant.
+
+To stop HouseOfMath, close the Terminal window or press **Ctrl+C** in it.
+
+---
+
+## Quickstart (developer install)
 
 HouseOfMath needs **Python 3.10 or newer**.
 
