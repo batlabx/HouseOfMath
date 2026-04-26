@@ -14,21 +14,99 @@ Connecting an LLM (Claude, OpenAI, local Ollama, etc.) unlocks personalized post
 
 ## Quickstart
 
+HouseOfMath needs **Python 3.10 or newer**.
+
+### macOS
+
+The system Python on macOS is 3.9 — too old. Easiest path is Homebrew + a virtual environment.
+
+**1. Install Homebrew** (if you don't have it):
+
+```bash
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+After it finishes, run the two `eval` lines it prints under "Next steps" so `brew` is on your PATH.
+
+**2. Install Python 3.12:**
+
+```bash
+brew install python@3.12
+python3.12 --version          # confirm: Python 3.12.x
+```
+
+**3. Clone and install in a venv:**
+
 ```bash
 git clone https://github.com/batlabx/HouseOfMath
 cd HouseOfMath
+python3.12 -m venv .venv
+source .venv/bin/activate
 pip install -e .
-houseofmath init        # picks LLM provider, defaults to "none"
-houseofmath run         # interactive prompts for topic + level + grade
 ```
 
-Non-interactive form:
+**4. Run it:**
+
+```bash
+houseofmath init              # picks LLM provider, defaults to "none"
+houseofmath run               # opens the app in your browser
+```
+
+Next time you come back, just re-activate the venv before running:
+
+```bash
+cd ~/Desktop/HouseofMath
+source .venv/bin/activate
+houseofmath run
+```
+
+To leave the venv when you're done: `deactivate`.
+
+### Linux
+
+Most distros ship Python 3.10+ already. Otherwise install via your package manager (e.g. `sudo apt install python3.12 python3.12-venv`), then:
+
+```bash
+git clone https://github.com/batlabx/HouseOfMath
+cd HouseOfMath
+python3 -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip      # PEP 660 editable installs need pip ≥ 21.3
+pip install -e .
+houseofmath init
+houseofmath run
+```
+
+### Windows
+
+```powershell
+git clone https://github.com/batlabx/HouseOfMath
+cd HouseOfMath
+py -3.12 -m venv .venv
+.venv\Scripts\activate
+python -m pip install --upgrade pip
+pip install -e .
+houseofmath init
+houseofmath run
+```
+
+### Non-interactive shortcut
+
+Once installed, you can skip the Home screen and jump straight to a configured test:
 
 ```bash
 houseofmath run --topic algebra --level medium --grade 7
 ```
 
 Once you run `houseofmath run`, the browser is the only interface you need: pick a topic, take the test, review answers, view stats, and retake — all in the UI.
+
+### Troubleshooting
+
+- **`pip: command not found`** — use `python3 -m pip ...` (or `pip3`) instead.
+- **`ERROR: File "setup.py" or "setup.cfg" not found`** — your `pip` is older than 21.3. Run `python3 -m pip install --upgrade pip` first.
+- **`error: externally-managed-environment`** (Homebrew Python on macOS, or recent Debian/Ubuntu) — you skipped the `python -m venv .venv && source .venv/bin/activate` step. Don't use `--break-system-packages`; use the venv.
+- **`Package 'houseofmath' requires a different Python: 3.9.6 not in '>=3.10'`** — you're on the system Python. Install 3.10+ via Homebrew (macOS) or your package manager and use that explicit version (`python3.12 -m venv .venv`).
+- **`zsh: command not found: houseofmath`** — your venv isn't activated. Run `source .venv/bin/activate` from the project root.
 
 ---
 
