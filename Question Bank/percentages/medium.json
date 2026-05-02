@@ -13,7 +13,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Sol.\nSaving = [100 - (40 + 20 + 10 + 10]% = 20%.\nLet the monthly salary be Rs. x.\nThen, 20% of x = 1000\n\u00e2\u2021\u201d 20 / 100x = 1000\n\u00e2\u2021\u201d x = 1000 \u00c3\u2014 5 = 5000.\nAnswer A",
+    "explanation": "Sol.\nSaving = [100 - (40 + 20 + 10 + 10]% = 20%.\nLet the monthly salary be Rs. x.\nThen, 20% of x = 1000\nâ‡” 20 / 100x = 1000\nâ‡” x = 1000 Ã— 5 = 5000.\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -49,7 +49,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Quantity X Rate = Price\n1 x 1 = 1\n0.7 x 1.25 = 0.875\nDecrease in price = (0.125/1) \u00d7 100 = 12.5%\nC",
+    "explanation": "Quantity X Rate = Price\n1 x 1 = 1\n0.7 x 1.25 = 0.875\nDecrease in price = (0.125/1) × 100 = 12.5%\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -67,7 +67,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nFor an income of Rs. 1 in 12% stock at 132, investment = Rs. (132/12)= Rs. 11 .\nFor an income of Rs. 1 in 10% stock at 80, investment = Rs.(80/10) = Rs. 8.\n\u2234 Ratio of investments = 11:8 =11:8\nAnswer C",
+    "explanation": "Solution\nFor an income of Rs. 1 in 12% stock at 132, investment = Rs. (132/12)= Rs. 11 .\nFor an income of Rs. 1 in 10% stock at 80, investment = Rs.(80/10) = Rs. 8.\n∴ Ratio of investments = 11:8 =11:8\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -113,9 +113,9 @@
     "question": "For any positive x, y and z if x is n% of y and z is m% of y then what percentage Q must x be of z?",
     "options": [
       "(n/m)%",
-      "(m \u00d7 n)%",
-      "(100 / [m \u00d7 n]) %",
-      "(100 \u00d7 n/m)%"
+      "(m × n)%",
+      "(100 / [m × n]) %",
+      "(100 × n/m)%"
     ],
     "correct": 3,
     "tags": [
@@ -128,12 +128,12 @@
   {
     "id": "aqua-perc-0014",
     "grade": 8,
-    "question": "Bill made a profit of 10% by selling a product. If he had purchased that product for 10% less and sold it at a profit of 30%, he would have received $ 35 more. What was his original selling price?",
+    "question": "Bill made a profit of 10% by selling a product. If he had purchased that product for 10% less and sold it at a profit of 30%, he would have received \\$ 35 more. What was his original selling price?",
     "options": [
-      "$770",
-      "$550",
-      "$700",
-      "$1100"
+      "\\$770",
+      "\\$550",
+      "\\$700",
+      "\\$1100"
     ],
     "correct": 1,
     "tags": [
@@ -148,16 +148,16 @@
     "grade": 8,
     "question": "Craig sells major appliances. For each appliance he sells, Craig receives a commission of $50 plus 10 percent of the selling price. During one particular week Craig sold 6 appliances for selling prices totaling $3,620. What was the total of Craig's commissions for that week?",
     "options": [
-      "$412",
-      "$526",
-      "$585",
-      "$662"
+      "\\$412",
+      "\\$526",
+      "\\$585",
+      "\\$662"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Craig receives a commission of $50 on each appliance plus a 10% commission on total sales, thus his commission was 6*50 + 0.1*3,620 = 662.\nAnswer: E.",
+    "explanation": "Craig receives a commission of \\$50 on each appliance plus a 10% commission on total sales, thus his commission was 6*50 + 0.1*3,620 = 662.\nAnswer: E.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -211,7 +211,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Old price = $100 (assume);\nOld consumption = 1 kg (assume).\nNew price = $107.\nWe want the spendings to remain at $100.\n(New consumption)*107 = 100 --> (New consumption) = 100/107 kg.\nPercent decrease = Change/Original *100 = (1 - 100/107)/1*100 = 700/107%.\nAnswer: A.",
+    "explanation": "Old price = \\$100 (assume);\nOld consumption = 1 kg (assume).\nNew price = \\$107.\nWe want the spendings to remain at \\$100.\n(New consumption)*107 = 100 --> (New consumption) = 100/107 kg.\nPercent decrease = Change/Original *100 = (1 - 100/107)/1*100 = 700/107%.\nAnswer: A.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -247,7 +247,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Note : majority (20 %) = difference in votes polled to win (60 %) & defeated candidates (40 %)\n20 % = 60 % - 40 %\n20% -----> 280 (20\u00d714 = 280 )\n100% -----> 1400 (100\u00d714 = 1400)\nOption 'B'",
+    "explanation": "Note : majority (20 %) = difference in votes polled to win (60 %) & defeated candidates (40 %)\n20 % = 60 % - 40 %\n20% -----> 280 (20×14 = 280 )\n100% -----> 1400 (100×14 = 1400)\nOption 'B'",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -355,7 +355,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nKavi's monthly income = Rs.19,000\nHe spends 50% on food.\nThe total money spent on food = 50/100 * 19000 = Rs. 9500\nNow, his monthly remaining income = Rs.19000 \u2013 Rs.9500 = Rs. 9500\nOut of Rs. 9500, he saves 40%.\nAmount saved = 40/100 * 9500 = Rs. 3800\nANSWER:D",
+    "explanation": "Explanation:\nKavi's monthly income = Rs.19,000\nHe spends 50% on food.\nThe total money spent on food = 50/100 * 19000 = Rs. 9500\nNow, his monthly remaining income = Rs.19000 – Rs.9500 = Rs. 9500\nOut of Rs. 9500, he saves 40%.\nAmount saved = 40/100 * 9500 = Rs. 3800\nANSWER:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -418,16 +418,16 @@
     "grade": 8,
     "question": "Mazy bought shares for a total value of $1000. Next day, the price of shares is reduced by 10%. With the same $1000, he could now buy 10 more shares. Which of the following is closest to the original price per share?",
     "options": [
-      "$10",
-      "$11",
-      "$12",
-      "$13"
+      "\\$10",
+      "\\$11",
+      "\\$12",
+      "\\$13"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "From the given information,we can conclude that Mazy bought x number of shares for $1000. With a 10% reduction in price, he could buy the same x number of shares for 1000*.90 = $900 . With the remaining money ($1000 - $900 = $100), he can buy 10 more shares. So, the reduced price per share = $100/10 = $10.\nTherefore, if the reduced price of $10 equals the original price * 9/10, then the original price is approximately $11=B",
+    "explanation": "From the given information,we can conclude that Mazy bought x number of shares for \\$1000. With a 10% reduction in price, he could buy the same x number of shares for 1000*.90 = \\$900 . With the remaining money (\\$1000 - \\$900 = \\$100), he can buy 10 more shares. So, the reduced price per share = \\$100/10 = \\$10.\nTherefore, if the reduced price of \\$10 equals the original price * 9/10, then the original price is approximately \\$11=B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -452,18 +452,18 @@
   {
     "id": "aqua-perc-0066",
     "grade": 8,
-    "question": "A toy store regularly sells all stock at a discount of 20 percent to 40 percent. If an additional 25 percent were deducted from the discount price during a special sale, what would be the lowest possible price of a toy costing $16 before any discount?",
+    "question": "A toy store regularly sells all stock at a discount of 20 percent to 40 percent. If an additional 25 percent were deducted from the discount price during a special sale, what would be the lowest possible price of a toy costing \\$16 before any discount?",
     "options": [
-      "$5.60",
-      "$7.20",
-      "$8.80",
-      "$9.60"
+      "\\$5.60",
+      "\\$7.20",
+      "\\$8.80",
+      "\\$9.60"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "Cost price is $16. Lowest possible price is when max discount is applied.\nSo Discount of 40% first and then 25%.\nFinal price = 16 * (1-40/100) * (1- 25/100) = 16 * 60/100 * 75/100 = 7.2\nAns B",
+    "explanation": "Cost price is \\$16. Lowest possible price is when max discount is applied.\nSo Discount of 40% first and then 25%.\nFinal price = 16 * (1-40/100) * (1- 25/100) = 16 * 60/100 * 75/100 = 7.2\nAns B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -506,7 +506,7 @@
   {
     "id": "aqua-perc-0071",
     "grade": 8,
-    "question": "Barbata invests $2600 in the National Bank at 5%. How much additional money must she invest at 8% so that the total annual income will be equal to 6% of her entire investment?",
+    "question": "Barbata invests \\$2600 in the National Bank at 5%. How much additional money must she invest at 8% so that the total annual income will be equal to 6% of her entire investment?",
     "options": [
       "1200",
       "3000",
@@ -524,12 +524,12 @@
   {
     "id": "aqua-perc-0077",
     "grade": 8,
-    "question": "Martins made a part payment of $650 toward buying a brand new washing machine, which represents 15% of the total cost of the washing machine, how much remains to be paid?",
+    "question": "Martins made a part payment of \\$650 toward buying a brand new washing machine, which represents 15% of the total cost of the washing machine, how much remains to be paid?",
     "options": [
-      "$1116.3",
-      "$3583.3",
-      "$3283.3",
-      "$3683.3"
+      "\\$1116.3",
+      "\\$3583.3",
+      "\\$3283.3",
+      "\\$3683.3"
     ],
     "correct": 3,
     "tags": [
@@ -553,7 +553,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Right Answer Explanation:\nx : 6\ny : 100\n90\n10 : 90 \u2013 y\n(90-y)/6 = 10/x = \u2026\u2026\u2026..(1)\nIn the second case,\nx 4\ny 90\n84\n6 84-y\nTherefore (84-y)/4 = 6/x \u2026\u2026\u2026..(2)\nDividing (1) and (2)\n=\n540 \u2013 6y = 1260 \u2013 15y\n9y = 720\ny = 80\nx = 60/(90-80) = 60/10 = 6 kg\nQuantity of zinc in x = 80% of x\n= 0.8 6\n= 4.8 kg\nWeight and percentage of zinc is 4.8 kg or 80%\nB",
+    "explanation": "Right Answer Explanation:\nx : 6\ny : 100\n90\n10 : 90 – y\n(90-y)/6 = 10/x = ………..(1)\nIn the second case,\nx 4\ny 90\n84\n6 84-y\nTherefore (84-y)/4 = 6/x ………..(2)\nDividing (1) and (2)\n=\n540 – 6y = 1260 – 15y\n9y = 720\ny = 80\nx = 60/(90-80) = 60/10 = 6 kg\nQuantity of zinc in x = 80% of x\n= 0.8 6\n= 4.8 kg\nWeight and percentage of zinc is 4.8 kg or 80%\nB",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -578,7 +578,7 @@
   {
     "id": "aqua-perc-0081",
     "grade": 8,
-    "question": "From the beginning to the end of 2007, the price of a stock rose 20 percent. In 2008, it dropped 25 percent. In 2009, it rose 35 percent. What percent of the stock\u00e2\u20ac\u2122s 2007 starting price was the price of the stock at the end of 2009?",
+    "question": "From the beginning to the end of 2007, the price of a stock rose 20 percent. In 2008, it dropped 25 percent. In 2009, it rose 35 percent. What percent of the stockâ€™s 2007 starting price was the price of the stock at the end of 2009?",
     "options": [
       "80",
       "90",
@@ -760,16 +760,16 @@
     "grade": 8,
     "question": "When a merchant imported a certain item, he paid a 9 percent import tax on the portion of the total value of the item in excess of $1,000. If the amount of the import tax that the merchant paid was $85.50, what was the total value of the item?",
     "options": [
-      "$1,150",
-      "$1,350",
-      "$1,550",
-      "$1,950"
+      "\\$1,150",
+      "\\$1,350",
+      "\\$1,550",
+      "\\$1,950"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Let x be the value in excess of $1,000.\n0.09x = 85.5\nx = $950\nThe total value was $950 + $1,000 = $1,950.\nThe answer is E.",
+    "explanation": "Let x be the value in excess of \\$1,000.\n0.09x = 85.5\nx = \\$950\nThe total value was \\$950 + \\$1,000 = \\$1,950.\nThe answer is E.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -812,12 +812,12 @@
   {
     "id": "aqua-perc-0107",
     "grade": 8,
-    "question": "Jill invests $10000 in an account that pays an annual rate of 3.96%, compounding semi-annually. Approximately how much W does she have in her account after two years?",
+    "question": "Jill invests \\$10000 in an account that pays an annual rate of 3.96%, compounding semi-annually. Approximately how much W does she have in her account after two years?",
     "options": [
-      "$10079.44",
-      "W=$10815.83",
-      "$12652.61",
-      "$14232.14"
+      "\\$10079.44",
+      "W=\\$10815.83",
+      "\\$12652.61",
+      "\\$14232.14"
     ],
     "correct": 1,
     "tags": [
@@ -895,16 +895,16 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nLet the CP of the article = Rs.100.\nThen labeled price = Rs.120.\nSP = Rs.120- 5% of 120 = Rs.120-6 = Rs.124.\nGain = Rs.124 \u00e2\u20ac\u201c Rs.100 = Rs.24\nTherefore, gain/profit percent = 24%.\nAnswer: Option A",
+    "explanation": "Explanation:\nLet the CP of the article = Rs.100.\nThen labeled price = Rs.120.\nSP = Rs.120- 5% of 120 = Rs.120-6 = Rs.124.\nGain = Rs.124 â€“ Rs.100 = Rs.24\nTherefore, gain/profit percent = 24%.\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0117",
     "grade": 8,
-    "question": "A five-year promissory note with a face value of $3500, bearing interest at 11% compounded semiannually, was sold 21 months after its issue date to yield the buyer 10% compounded quarterly.What amount was paid for the note",
+    "question": "A five-year promissory note with a face value of \\$3500, bearing interest at 11% compounded semiannually, was sold 21 months after its issue date to yield the buyer 10% compounded quarterly.What amount was paid for the note",
     "options": [
-      "$4336.93",
+      "\\$4336.93",
       "4336.99",
       "4336.96",
       "4336.92"
@@ -940,10 +940,10 @@
     "grade": 8,
     "question": "A family pays $800 per year for an insurance plan that pays 70 percent of the first $1,000 in expenses and 100 percent of all medical expenses thereafter. In any given year, the total amount paid by the family will equal the amount paid by the plan when the family's medical expenses total how much?",
     "options": [
-      "$1,000",
-      "$1,200",
-      "$1,400",
-      "$1,800"
+      "\\$1,000",
+      "\\$1,200",
+      "\\$1,400",
+      "\\$1,800"
     ],
     "correct": 2,
     "tags": [
@@ -976,10 +976,10 @@
     "grade": 8,
     "question": "Mr. John invested in Fund A and Fund B. The total amount he invested, in both funds combined, was $100,000. In one year, Fund A paid 23% and Fund B paid 17%. The interest earned in Fund B was exactly $200 greater than the interest earned in Fund A. How much did Mr. John invest in Fund A?",
     "options": [
-      "$32,000",
-      "$36,000",
-      "$40,000",
-      "$42,000"
+      "\\$32,000",
+      "\\$36,000",
+      "\\$40,000",
+      "\\$42,000"
     ],
     "correct": 3,
     "tags": [
@@ -1021,7 +1021,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "(x*5*3)/100 = ((2665 - x)*3*5)/100\n15x/100 = 39975/100 - 15x/100\n30x = 39975 => x = 1332.5\nSecond sum = 2665 \u2013 1025 = 1332.5\nANSWER:C",
+    "explanation": "(x*5*3)/100 = ((2665 - x)*3*5)/100\n15x/100 = 39975/100 - 15x/100\n30x = 39975 => x = 1332.5\nSecond sum = 2665 – 1025 = 1332.5\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1039,7 +1039,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nS.I. on Rs. (260-20) for a given time =Rs. 7.34.\nS.I. on Rs. 240 for half the time = Rs.10.\nT.D. on Rs. 250 = Rs. 10.\n\u2234 T.D. on Rs. 260 = Rs. ( 10/250x 260 ) = Rs. 10.40.\nAnswer B",
+    "explanation": "Solution\nS.I. on Rs. (260-20) for a given time =Rs. 7.34.\nS.I. on Rs. 240 for half the time = Rs.10.\nT.D. on Rs. 250 = Rs. 10.\n∴ T.D. on Rs. 260 = Rs. ( 10/250x 260 ) = Rs. 10.40.\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1057,7 +1057,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "150 ml solution contains 45 ml sulphuric acid\n400 ml solution contains 48 ml sulphuric acid\nAdding\n550 ml solution contains 93 ml sulphuric acid\n93/550\u224890/540=1/6\nAnswer is D",
+    "explanation": "150 ml solution contains 45 ml sulphuric acid\n400 ml solution contains 48 ml sulphuric acid\nAdding\n550 ml solution contains 93 ml sulphuric acid\n93/550≈90/540=1/6\nAnswer is D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1100,12 +1100,12 @@
   {
     "id": "aqua-perc-0138",
     "grade": 8,
-    "question": "Mr. Hernandez, who was a resident of State X for only 8 months last year, had a taxable income of $22,500 for the year. If the state tax rate were 10 percent of the year\u2019s taxable income prorated for the proportion of the year during which the taxpayer was a resident, what would be the amount of Mr. Hernandez\u2019s State X tax for last year?",
+    "question": "Mr. Hernandez, who was a resident of State X for only 8 months last year, had a taxable income of \\$22,500 for the year. If the state tax rate were 10 percent of the year’s taxable income prorated for the proportion of the year during which the taxpayer was a resident, what would be the amount of Mr. Hernandez’s State X tax for last year?",
     "options": [
-      "$1500",
-      "$1720",
-      "$1600",
-      "$1300"
+      "\\$1500",
+      "\\$1720",
+      "\\$1600",
+      "\\$1300"
     ],
     "correct": 0,
     "tags": [
@@ -1120,10 +1120,10 @@
     "grade": 8,
     "question": "A certain car's price decreased by 2.5% (from the original price) each year from 1996 to 2002, during that time the owner of the car invested in a new carburetor and a new audio system for the car, which increased car's price by $1,500. If the price of the car in 1996 was $22,000, what is the car's price in 2002?",
     "options": [
-      "$18,400",
-      "$19,500",
-      "$20,200",
-      "$20,400"
+      "\\$18,400",
+      "\\$19,500",
+      "\\$20,200",
+      "\\$20,400"
     ],
     "correct": 2,
     "tags": [
@@ -1183,7 +1183,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nLet the original price of the article be Rs. 100. Hence the purchase price for the trader would be Rs. 80 and his selling price would be Rs. 125. Thus, he would earn a profit of Rs. 45 (125 \u2013 80). Therefore,\nProfit is Rs. 45 if the original price is Rs. 100\nHence, if profit is Rs. 200, then original price will be..\n= 100x 200/45\n= Rs. 444.44\nANSWER A",
+    "explanation": "Explanation:\nLet the original price of the article be Rs. 100. Hence the purchase price for the trader would be Rs. 80 and his selling price would be Rs. 125. Thus, he would earn a profit of Rs. 45 (125 – 80). Therefore,\nProfit is Rs. 45 if the original price is Rs. 100\nHence, if profit is Rs. 200, then original price will be..\n= 100x 200/45\n= Rs. 444.44\nANSWER A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1226,7 +1226,7 @@
   {
     "id": "aqua-perc-0156",
     "grade": 8,
-    "question": "Calculate the amount that an investor needs to be invest to earn $441 in interest in 12 months if the investor plans to invest x dollars in a savings account that pays interest at an annual rate of 7% compounded semi-annually?",
+    "question": "Calculate the amount that an investor needs to be invest to earn \\$441 in interest in 12 months if the investor plans to invest x dollars in a savings account that pays interest at an annual rate of 7% compounded semi-annually?",
     "options": [
       "6209",
       "6200",
@@ -1237,7 +1237,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "the approach is substitution,\nour interest requirement is $441 after 12 months, 2 compounding period.\ncalculate the compound interest on each option and find out the one that yields $441 in 12 months\n6200 yielded $441\nusing the formula\nA = P(1 + r/n)nt\nhence answer is B",
+    "explanation": "the approach is substitution,\nour interest requirement is \\$441 after 12 months, 2 compounding period.\ncalculate the compound interest on each option and find out the one that yields \\$441 in 12 months\n6200 yielded \\$441\nusing the formula\nA = P(1 + r/n)nt\nhence answer is B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1327,7 +1327,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nF = Rs. 2360\nTD = Rs. 360\nPW = F - TD = 2360 - 360 = Rs. 2000\nTrue Discount is the Simple Interest on the present value for unexpired time\n=>Simple Interest on Rs. 2000 for unexpired time = Rs. 360\nBanker's Discount is the Simple Interest on the face value of the bill for unexpired time\n= Simple Interest on Rs. 2360 for unexpired time\n=360/2000 \u00d7 2360 = 0.18 \u00d7 2160 = Rs. 425 Answer : Option B",
+    "explanation": "Explanation :\nF = Rs. 2360\nTD = Rs. 360\nPW = F - TD = 2360 - 360 = Rs. 2000\nTrue Discount is the Simple Interest on the present value for unexpired time\n=>Simple Interest on Rs. 2000 for unexpired time = Rs. 360\nBanker's Discount is the Simple Interest on the face value of the bill for unexpired time\n= Simple Interest on Rs. 2360 for unexpired time\n=360/2000 × 2360 = 0.18 × 2160 = Rs. 425 Answer : Option B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1345,7 +1345,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nLet Cost price of 1 article be Re.1.\nTherefore, Cost price of 17 articles = Rs. 17.\nSelling price of 16 articles = Rs. 17\nTherefore, Selling price of 17 articles is :-\n=>17/16\u00c3\u201417\n=>18.06\nTherefore, Profit = Selling price - Cost price.\n=>18.06\u00e2\u02c6\u201917=1.06\nHence, the percentage of profit = profit x 100/C.P.\n=>1.06/17\u00c3\u2014100.\n=>6.25% Profit.\nAnswer : B",
+    "explanation": "Explanation :\nLet Cost price of 1 article be Re.1.\nTherefore, Cost price of 17 articles = Rs. 17.\nSelling price of 16 articles = Rs. 17\nTherefore, Selling price of 17 articles is :-\n=>17/16Ã—17\n=>18.06\nTherefore, Profit = Selling price - Cost price.\n=>18.06âˆ’17=1.06\nHence, the percentage of profit = profit x 100/C.P.\n=>1.06/17Ã—100.\n=>6.25% Profit.\nAnswer : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1424,7 +1424,7 @@
   {
     "id": "aqua-perc-0178",
     "grade": 8,
-    "question": "Jerome anticipated that the WebWeb.com stock price would fall and sold all his WebWeb.com stocks for $5 per stock. He paid $10,000 tax on the revenue. A week later, Jerome became convinced that the WebWeb.com stock price would rise, and he used the money that he had gotten from selling the WebWeb.com stocks to purchase them again, this time at $6 per stock. If Jerome ended up having 2000 WebWeb.com stocks fewer than the number he had before selling them, how many WebWeb.com stocks did he have originally?",
+    "question": "Jerome anticipated that the WebWeb.com stock price would fall and sold all his WebWeb.com stocks for \\$5 per stock. He paid \\$10,000 tax on the revenue. A week later, Jerome became convinced that the WebWeb.com stock price would rise, and he used the money that he had gotten from selling the WebWeb.com stocks to purchase them again, this time at \\$6 per stock. If Jerome ended up having 2000 WebWeb.com stocks fewer than the number he had before selling them, how many WebWeb.com stocks did he have originally?",
     "options": [
       "10,000",
       "11,600",
@@ -1586,7 +1586,7 @@
   {
     "id": "aqua-perc-0196",
     "grade": 8,
-    "question": "Felix earned 70% more per month than Oscar. If Felix\u2019s salary is decreased 10% and Oscar\u2019s salary is increased by 10%, then Felix would be earning what percent more than Oscar?",
+    "question": "Felix earned 70% more per month than Oscar. If Felix’s salary is decreased 10% and Oscar’s salary is increased by 10%, then Felix would be earning what percent more than Oscar?",
     "options": [
       "10%",
       "9.09%",
@@ -1633,7 +1633,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nIn the special case of profit and loss percentages are equal and Selling price is same, then the transaction always results in Loss. This loss percentage is given by a simple formula \u2212(x/10)2\nSo in this case, Profit% = Loss% = 20. So x = 20\nLoss percentage = \u2212(20/10)2=\u22124\nTotal S.P = Rs.24000\nCost price = 24000\u00d7100/96 = 25000\nLoss = Rs.1000\nCorrect Option : B",
+    "explanation": "Explanation:\nIn the special case of profit and loss percentages are equal and Selling price is same, then the transaction always results in Loss. This loss percentage is given by a simple formula −(x/10)2\nSo in this case, Profit% = Loss% = 20. So x = 20\nLoss percentage = −(20/10)2=−4\nTotal S.P = Rs.24000\nCost price = 24000×100/96 = 25000\nLoss = Rs.1000\nCorrect Option : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1849,7 +1849,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Total number of fruits shopkeeper bought = 600 + 400 = 1000\nNumber of rotten oranges = 15% of 600\n= 15/100 \u00d7 600\n= 9000/100\n= 90\nNumber of rotten bananas = 7% of 400\n= 28\nTherefore, total number of rotten fruits = 90 + 28= 118\nTherefore Number of fruits in good condition = 1000 - 118 = 882\nTherefore Percentage of fruits in good condition = (882/1000 \u00d7 100)%\n= (88200/1000)%\n= 88.2%\nAnswer:B",
+    "explanation": "Total number of fruits shopkeeper bought = 600 + 400 = 1000\nNumber of rotten oranges = 15% of 600\n= 15/100 × 600\n= 9000/100\n= 90\nNumber of rotten bananas = 7% of 400\n= 28\nTherefore, total number of rotten fruits = 90 + 28= 118\nTherefore Number of fruits in good condition = 1000 - 118 = 882\nTherefore Percentage of fruits in good condition = (882/1000 × 100)%\n= (88200/1000)%\n= 88.2%\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1858,16 +1858,16 @@
     "grade": 8,
     "question": "A couple spent $198 in total while dining out and paid this amount using a credit card. The $198 figure included a 20 percent tip which was paid on top of the price which already included a sales tax of 10 percent on top of the price of the food. What was the actual price of the food before tax and tip?",
     "options": [
-      "$130",
-      "$140",
-      "$150",
-      "$160"
+      "\\$130",
+      "\\$140",
+      "\\$150",
+      "\\$160"
     ],
     "correct": 2,
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the price of the meal be x.\nAfter a 10% sales tax addition, the price is 1.1*x\nAfter a 20% tip on this amount, the total is 1.2*1.1*x = 1.32x\n1.32x = 198\nx = $150\nThe correct answer is C.",
+    "explanation": "Let the price of the meal be x.\nAfter a 10% sales tax addition, the price is 1.1*x\nAfter a 20% tip on this amount, the total is 1.2*1.1*x = 1.32x\n1.32x = 198\nx = \\$150\nThe correct answer is C.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1894,10 +1894,10 @@
     "grade": 8,
     "question": "If taxi fares were $1.00 for the first 1/5 mile and $0.40 for each 1/5 mile there after, then the taxi fare for a 3-mile ride was",
     "options": [
-      "$1.56",
-      "$2.40",
-      "$3.80",
-      "$6.60"
+      "\\$1.56",
+      "\\$2.40",
+      "\\$3.80",
+      "\\$6.60"
     ],
     "correct": 3,
     "tags": [
@@ -1921,14 +1921,14 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Here, selling price of 10 m cloth is obtained as profit.\nProfit of 10 m cloth = (S.P. of 30 m cloth) \u2013 (C.P. of 30 m cloth)\nSelling price of 20 m cloth = Selling Price of 30 m of cloth\nLet cost of each metre be Rs. 100.\nTherefore, cost price of 20 m cloth = Rs. 2000 and S.P. of 20 m cloth = Rs. Rs. 3000\nProfit% =\t10\t\u00d7 100 = 50%\n20\nProfit of 50 % was made by the merchant.\nC",
+    "explanation": "Here, selling price of 10 m cloth is obtained as profit.\nProfit of 10 m cloth = (S.P. of 30 m cloth) – (C.P. of 30 m cloth)\nSelling price of 20 m cloth = Selling Price of 30 m of cloth\nLet cost of each metre be Rs. 100.\nTherefore, cost price of 20 m cloth = Rs. 2000 and S.P. of 20 m cloth = Rs. Rs. 3000\nProfit% =\t10\t× 100 = 50%\n20\nProfit of 50 % was made by the merchant.\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0244",
     "grade": 8,
-    "question": "A salesman\u2019s terms were changed from a flat commission of 5% on all his sales to a fixed salary of Rs.1000 plus 2.5% commission on all sales exceeding Rs. 4,000. If his remuneration as per new scheme was Rs. 600 more than that by the previous schema, his sales were worth?",
+    "question": "A salesman’s terms were changed from a flat commission of 5% on all his sales to a fixed salary of Rs.1000 plus 2.5% commission on all sales exceeding Rs. 4,000. If his remuneration as per new scheme was Rs. 600 more than that by the previous schema, his sales were worth?",
     "options": [
       "12003",
       "12000",
@@ -1957,7 +1957,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Denote xx as the required number of correct answers. xx must satisfy the equation 0.64\u2217M\u221750+x/50M+50=7/10 or 350M+350=320M+10x or x=3M+35\nAnswer: B",
+    "explanation": "Denote xx as the required number of correct answers. xx must satisfy the equation 0.64∗M∗50+x/50M+50=7/10 or 350M+350=320M+10x or x=3M+35\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1982,18 +1982,18 @@
   {
     "id": "aqua-perc-0251",
     "grade": 8,
-    "question": "After allowing a discount of 15% on the marked price, the selling price is $6800 for an article. If it was sold at marked price, there would have been a profit of 60%. The cost price of the article is?",
+    "question": "After allowing a discount of 15% on the marked price, the selling price is \\$6800 for an article. If it was sold at marked price, there would have been a profit of 60%. The cost price of the article is?",
     "options": [
-      "$5400",
-      "$5750",
-      "$5000",
-      "$7000"
+      "\\$5400",
+      "\\$5750",
+      "\\$5000",
+      "\\$7000"
     ],
     "correct": 2,
     "tags": [
       "percentages"
     ],
-    "explanation": "C\n$5000\nGiven SP = $6800\nMarked price = [SP(100)]/(100 - d%) = (6800 * 100)/(100 - 15) = $8000\nIf SP = $8000, profit = 60%\nCP = [SP(100)]/(100 + 60) = (8000 * 100)/160 = $5000",
+    "explanation": "C\n\\$5000\nGiven SP = \\$6800\nMarked price = [SP(100)]/(100 - d%) = (6800 * 100)/(100 - 15) = \\$8000\nIf SP = \\$8000, profit = 60%\nCP = [SP(100)]/(100 + 60) = (8000 * 100)/160 = \\$5000",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2036,18 +2036,18 @@
   {
     "id": "aqua-perc-0255",
     "grade": 8,
-    "question": "John bought 2 shares and sold them for $84 each. If he had a profit of 20% on the sale of one of the shares but a loss of 20% on the sale of the other share, then on the sale of both shares John had",
+    "question": "John bought 2 shares and sold them for \\$84 each. If he had a profit of 20% on the sale of one of the shares but a loss of 20% on the sale of the other share, then on the sale of both shares John had",
     "options": [
-      "a profit of $10",
-      "a profit of $7",
-      "a loss of $7",
-      "a loss of $10"
+      "a profit of \\$10",
+      "a profit of \\$7",
+      "a loss of \\$7",
+      "a loss of \\$10"
     ],
     "correct": 2,
     "tags": [
       "percentages"
     ],
-    "explanation": "Loss% = (%age Profit or loss / 10)^2 = (20/10)^2 = 4% loss\nTotal Selling Price = 84*2 = $168\nTotal Cost Price = 168/(0.96) = $175\nLoss = 175-168 = $7\nAnswer: Option C",
+    "explanation": "Loss% = (%age Profit or loss / 10)^2 = (20/10)^2 = 4% loss\nTotal Selling Price = 84*2 = \\$168\nTotal Cost Price = 168/(0.96) = \\$175\nLoss = 175-168 = \\$7\nAnswer: Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2108,12 +2108,12 @@
   {
     "id": "aqua-perc-0265",
     "grade": 8,
-    "question": "A business executive and his client are charging their dinner tab on the executive's expense account.The company will only allow them to spend a total of 50$ for the meal.Assuming that they will pay 10% in sales tax for the meal and leave a 15% tip,what is the most their food can cost?",
+    "question": "A business executive and his client are charging their dinner tab on the executive's expense account.The company will only allow them to spend a total of 50\\$ for the meal.Assuming that they will pay 10% in sales tax for the meal and leave a 15% tip,what is the most their food can cost?",
     "options": [
-      "39.52$",
-      "40.63$",
-      "41.63$",
-      "42.15$"
+      "39.52\\$",
+      "40.63\\$",
+      "41.63\\$",
+      "42.15\\$"
     ],
     "correct": 0,
     "tags": [
@@ -2126,7 +2126,7 @@
   {
     "id": "aqua-perc-0267",
     "grade": 8,
-    "question": "B @ K I 9 D \u00c2\u00a9 5 2 T $ M 4 E J # U R 1 A \u00ce\u00b4 K 5 W 6 % F Q 7 H P 8 Z How many such consonants are there in the above arrangement, each of which is immediately preceded by number and immediately followed by a symbol?",
+    "question": "B @ K I 9 D Â© 5 2 T \\$ M 4 E J # U R 1 A Î´ K 5 W 6 % F Q 7 H P 8 Z How many such consonants are there in the above arrangement, each of which is immediately preceded by number and immediately followed by a symbol?",
     "options": [
       "None",
       "One",
@@ -2137,7 +2137,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nNumber Consonant Symbol\nSuch combinations are:\n9 D \u00c2\u00a9 : 2 T $\nANSWER IS C",
+    "explanation": "Explanation:\nNumber Consonant Symbol\nSuch combinations are:\n9 D Â© : 2 T \\$\nANSWER IS C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2164,10 +2164,10 @@
     "grade": 8,
     "question": "If taxi fares were $1.00 for the first 1/5 mile and $0.30 for each 1/5 mile there after, then the taxi fare for a 3-mile ride was",
     "options": [
-      "$1.56",
-      "$2.40",
-      "$3.80",
-      "$5.20"
+      "\\$1.56",
+      "\\$2.40",
+      "\\$3.80",
+      "\\$5.20"
     ],
     "correct": 3,
     "tags": [
@@ -2324,11 +2324,11 @@
   {
     "id": "aqua-perc-0293",
     "grade": 8,
-    "question": "A restaurant meal cost $40 and there was no tax. If the tip was more than 5 percent but less than 15 percent of the cost of the meal, then total amount paid must have been between:",
+    "question": "A restaurant meal cost \\$40 and there was no tax. If the tip was more than 5 percent but less than 15 percent of the cost of the meal, then total amount paid must have been between:",
     "options": [
       "$40 and $42",
       "$41 and $46",
-      "$41 and 45",
+      "\\$41 and 45",
       "$41 and $47"
     ],
     "correct": 3,
@@ -2396,7 +2396,7 @@
   {
     "id": "aqua-perc-0311",
     "grade": 8,
-    "question": "A furniture dealer purchased a desk for $150 and then set the selling price equal to the purchase price plus a markup that was 25% of the selling price. If the dealer sold the desk at the selling price, what was the amount of the dealer's gross profit from the purchase and the sale of the desk?",
+    "question": "A furniture dealer purchased a desk for \\$150 and then set the selling price equal to the purchase price plus a markup that was 25% of the selling price. If the dealer sold the desk at the selling price, what was the amount of the dealer's gross profit from the purchase and the sale of the desk?",
     "options": [
       "40%",
       "38%",
@@ -2452,7 +2452,7 @@
     "grade": 8,
     "question": "After taking N tests, each containing 100 questions, John had an average of 70% of correct answers. How much does John need to score on the next test to make his average equal 75%?\nM13-03.",
     "options": [
-      "N\u221235",
+      "N−35",
       "N+72",
       "2N+78",
       "2N+72"
@@ -2515,7 +2515,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nAt 5% more rate, the increase in S.I for 10 years = Rs.600 (given)\nSo, at 5% more rate, the increase in SI for 1 year = 600/10 = Rs.60/-\ni.e. Rs.60 is 5% of the invested sum\nSo, 1% of the invested sum = 60/5\nTherefore, the invested sum = 60 \u00d7 100/5 = Rs.1200\nAnswer: A) Rs.1200",
+    "explanation": "Explanation:\nAt 5% more rate, the increase in S.I for 10 years = Rs.600 (given)\nSo, at 5% more rate, the increase in SI for 1 year = 600/10 = Rs.60/-\ni.e. Rs.60 is 5% of the invested sum\nSo, 1% of the invested sum = 60/5\nTherefore, the invested sum = 60 × 100/5 = Rs.1200\nAnswer: A) Rs.1200",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2540,7 +2540,7 @@
   {
     "id": "aqua-perc-0323",
     "grade": 8,
-    "question": "At the end of the month, a certain ocean desalination plant\u2019s reservoir contained 40 million gallons of water. This amount is one fifth of the normal level. If this amount represents 80% of the reservoir\u2019s total capacity, how many million gallons short of total capacity is the normal level?",
+    "question": "At the end of the month, a certain ocean desalination plant’s reservoir contained 40 million gallons of water. This amount is one fifth of the normal level. If this amount represents 80% of the reservoir’s total capacity, how many million gallons short of total capacity is the normal level?",
     "options": [
       "20",
       "30",
@@ -2615,7 +2615,7 @@
     "question": "Before January, the price of a dress was D and the price of a matching pair of shoes was H. In January, the price of the dress increased by 40% and the price of the shoes increased by 50%. In March, Roberta bought both items with a 30% discount. If D = 5H, which of the following represents the amount that Roberta paid?",
     "options": [
       "D + 40",
-      "D + H \u2013 1",
+      "D + H – 1",
       "D + 2H",
       "5.95H"
     ],
@@ -2695,7 +2695,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the interest be i. Then,\n(50000\u00d73\u00d75/100)+(50000\u00d75\u00d78/100)+(50000\u00d73\u00d710/100)=i\n\u21d2 7500+20000+15000= i\n\u21d2 i = 42500\nTotal money = 42500+50000 = 92500\nEach son will get = 92500/4 = 23125\nAnswer :E",
+    "explanation": "Let the interest be i. Then,\n(50000×3×5/100)+(50000×5×8/100)+(50000×3×10/100)=i\n⇒ 7500+20000+15000= i\n⇒ i = 42500\nTotal money = 42500+50000 = 92500\nEach son will get = 92500/4 = 23125\nAnswer :E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2792,7 +2792,7 @@
   {
     "id": "aqua-perc-0363",
     "grade": 8,
-    "question": "The difference in compound interest earned on a deposit (compounded annually) in year 1 and year 2 is $ 40. Had the interest rate been three times its present value, the difference w would have been how much?",
+    "question": "The difference in compound interest earned on a deposit (compounded annually) in year 1 and year 2 is \\$ 40. Had the interest rate been three times its present value, the difference w would have been how much?",
     "options": [
       "40/3",
       "40",
@@ -2857,7 +2857,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nSI in 2 years = Rs. 20, SI in 1 year = Rs. 10\nCI in 2 years = Rs. 24\n% rate per annum = [(CI \u2013 SI) / (SI in 1 year)] *100\n= [(24 \u2013 20) / 20] * 100\n= 20 % p.a.\nLet the principal be Rs. X\nTime = T = 2 years\n% rate = 20% p.a.\nSI = (PRT/100)\n20 = (X*20*2) / 100\nX = Rs. 50\nANSWER: A",
+    "explanation": "Explanation:\nSI in 2 years = Rs. 20, SI in 1 year = Rs. 10\nCI in 2 years = Rs. 24\n% rate per annum = [(CI – SI) / (SI in 1 year)] *100\n= [(24 – 20) / 20] * 100\n= 20 % p.a.\nLet the principal be Rs. X\nTime = T = 2 years\n% rate = 20% p.a.\nSI = (PRT/100)\n20 = (X*20*2) / 100\nX = Rs. 50\nANSWER: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2882,7 +2882,7 @@
   {
     "id": "aqua-perc-0372",
     "grade": 8,
-    "question": "Alex takes a loan of $6,000 to buy a used truck at the rate of 8 % simple Interest.Calculate the annual interest to be paid for the loan amount.",
+    "question": "Alex takes a loan of \\$6,000 to buy a used truck at the rate of 8 % simple Interest.Calculate the annual interest to be paid for the loan amount.",
     "options": [
       "680",
       "700",
@@ -2947,7 +2947,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nlength =115% of breadth.\nlength\u00d7breadth =460 m2\n\u21d2 115% of breadth\u00d7breadth =460 m2\n\u21d2 115/100\u00d7 breadth\u00d7breadth =460 m2\n\u21d2 breadth\u00d7breadth =400 m2\n\u21d2 breadth =20 m\nAnswer: Option B",
+    "explanation": "Explanation:\nlength =115% of breadth.\nlength×breadth =460 m2\n⇒ 115% of breadth×breadth =460 m2\n⇒ 115/100× breadth×breadth =460 m2\n⇒ breadth×breadth =400 m2\n⇒ breadth =20 m\nAnswer: Option B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2983,7 +2983,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nLet P.W. be Rs.x.\nThen, S.I. on Rs. x at 16% for 9 months = Rs. 270.\nx \u00c3\u2014 16 \u00c3\u2014 (9/12) \u00c3\u2014 (1/100) = 270 or x = 2250.\nP.W. = Rs. 2250\nSum due = P.W. + T.D. = Rs.(2250\n270) = Rs. 2520\nAnswer: B",
+    "explanation": "Explanation:\nLet P.W. be Rs.x.\nThen, S.I. on Rs. x at 16% for 9 months = Rs. 270.\nx Ã— 16 Ã— (9/12) Ã— (1/100) = 270 or x = 2250.\nP.W. = Rs. 2250\nSum due = P.W. + T.D. = Rs.(2250\n270) = Rs. 2520\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3019,7 +3019,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Quantity X Rate = Price\n1 X 1 = 1\n0.8 X 1.20 = 0.960\nDecrease in price = (0.040/1) \u00c3\u2014 100 = 4.0%\nAnswer = Option A",
+    "explanation": "Quantity X Rate = Price\n1 X 1 = 1\n0.8 X 1.20 = 0.960\nDecrease in price = (0.040/1) Ã— 100 = 4.0%\nAnswer = Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3044,7 +3044,7 @@
   {
     "id": "aqua-perc-0389",
     "grade": 8,
-    "question": "Because he\u2019s taxed by his home planet, Mork pays a tax rate of 45% on his income, while Mindy pays a rate of only 20% on hers. If Mindy earned 4 times as much as Mork did, what was their combined tax rate?",
+    "question": "Because he’s taxed by his home planet, Mork pays a tax rate of 45% on his income, while Mindy pays a rate of only 20% on hers. If Mindy earned 4 times as much as Mork did, what was their combined tax rate?",
     "options": [
       "22%",
       "25%",
@@ -3127,19 +3127,19 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let's use actual numbers. Starting in 1992, let's say company C had $100 in assets.\nIn 1993, the total assets were 400% GREATER, which means 1992 PLUS 400% of 1992:\n$100 + 4x$100 = $100 + $400 = $500\nIn 1994, the total assets were 400% GREATER than they were in 1993, which means 1993 PLUS 400% of 1993:\n$500 + 4x$500 = $500 + $2000 = $2500\nThis is 25 times the 1992 number, so the correct answer is 25N.\nE",
+    "explanation": "Let's use actual numbers. Starting in 1992, let's say company C had \\$100 in assets.\nIn 1993, the total assets were 400% GREATER, which means 1992 PLUS 400% of 1992:\n\\$100 + 4x\\$100 = \\$100 + \\$400 = \\$500\nIn 1994, the total assets were 400% GREATER than they were in 1993, which means 1993 PLUS 400% of 1993:\n\\$500 + 4x\\$500 = \\$500 + \\$2000 = \\$2500\nThis is 25 times the 1992 number, so the correct answer is 25N.\nE",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0403",
     "grade": 8,
-    "question": "Health insurance Plan W requires the insured to pay $1000 or 50% of total cost, whichever is lower. Plan B requires the insured to pay the initial $300, but then pays 80% of the cost over $300. Which of the following is a cost level for which both insurance plans pay out the same amount?",
+    "question": "Health insurance Plan W requires the insured to pay \\$1000 or 50% of total cost, whichever is lower. Plan B requires the insured to pay the initial \\$300, but then pays 80% of the cost over \\$300. Which of the following is a cost level for which both insurance plans pay out the same amount?",
     "options": [
-      "$600",
-      "$1000",
-      "$3800",
-      "$5300"
+      "\\$600",
+      "\\$1000",
+      "\\$3800",
+      "\\$5300"
     ],
     "correct": 1,
     "tags": [
@@ -3163,7 +3163,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Total cost of the items he purchased = Rs.24\nGiven that out of this Rs.24, 30 Paise is given as tax\n=> Total tax incurred = 30 Paise = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n\u2234 (24\u221230/100\u2212x)6/100 = 30/100\n\u21d2 6(24 \u22120.3 \u2212x) = 30\n\u21d2 (24 \u2212 0.3 \u2212 x) = 5\n\u21d2 x = 24 \u2212 0.3 \u2212 5 = 18.7\nA",
+    "explanation": "Total cost of the items he purchased = Rs.24\nGiven that out of this Rs.24, 30 Paise is given as tax\n=> Total tax incurred = 30 Paise = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n∴ (24−30/100−x)6/100 = 30/100\n⇒ 6(24 −0.3 −x) = 30\n⇒ (24 − 0.3 − x) = 5\n⇒ x = 24 − 0.3 − 5 = 18.7\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3217,7 +3217,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution:-\nGiven\nratio of change in book price/ new price = 1 /5\n=>(new price\u2212old price)/new price=1/5\n=> old price/new price=4/5 ---- equation 1\n% increase is always with respect in the initial or old price.\n=> % increase = (( new price - old price)/old price)*100---equation 2\nsubstituting 1 in 2 we have\n% increase = ((new\u2212(4/5)new)/((4/5)new))\u2217100\n= 25%\nANSWER:A",
+    "explanation": "Solution:-\nGiven\nratio of change in book price/ new price = 1 /5\n=>(new price−old price)/new price=1/5\n=> old price/new price=4/5 ---- equation 1\n% increase is always with respect in the initial or old price.\n=> % increase = (( new price - old price)/old price)*100---equation 2\nsubstituting 1 in 2 we have\n% increase = ((new−(4/5)new)/((4/5)new))∗100\n= 25%\nANSWER:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3242,18 +3242,18 @@
   {
     "id": "aqua-perc-0415",
     "grade": 8,
-    "question": "John bought 2 shares and sold them for $98 each. If he had a profit of 20% on the sale of one of the shares but a loss of 20% on the sale of the other share, then on the sale of both shares John had",
+    "question": "John bought 2 shares and sold them for \\$98 each. If he had a profit of 20% on the sale of one of the shares but a loss of 20% on the sale of the other share, then on the sale of both shares John had",
     "options": [
-      "a profit of $10",
-      "a profit of $8",
-      "a loss of $4",
-      "a loss of $10"
+      "a profit of \\$10",
+      "a profit of \\$8",
+      "a loss of \\$4",
+      "a loss of \\$10"
     ],
     "correct": 2,
     "tags": [
       "percentages"
     ],
-    "explanation": "$ Profit of the share sold at 20% profit =\n120-98\n20-?\n$18 profit on the sale of 1 share.\n$ Loss of the share sold at 20% loss=\n80-98\n20-?\n$22 loss on the sale of 1 share.\n18-22=Loss of $4\nAnswer: C",
+    "explanation": "\\$ Profit of the share sold at 20% profit =\n120-98\n20-?\n\\$18 profit on the sale of 1 share.\n\\$ Loss of the share sold at 20% loss=\n80-98\n20-?\n\\$22 loss on the sale of 1 share.\n18-22=Loss of \\$4\nAnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3307,7 +3307,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 1800 ( 18 \u00d7 100 = 1800)\n100% -------> 10000 votes (100 \u00d7 100 = 10000)\nB)",
+    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 1800 ( 18 × 100 = 1800)\n100% -------> 10000 votes (100 × 100 = 10000)\nB)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3325,7 +3325,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the sum borrowed be x. Then,\n(x\u00d76\u00d721/00)+(x\u00d79\u00d73/100)+(x\u00d714\u00d74/100)= 11600\n\u21d2 (3\u204425x + 27\u2044100x + 14\u204425x) = 11400 \u21d2 95\u2044100x = 11600\n\u21d2 x = (11600\u00d7100/95)= 12210\nHence, sum borrowed = 12,210\nAnswer B",
+    "explanation": "Let the sum borrowed be x. Then,\n(x×6×21/00)+(x×9×3/100)+(x×14×4/100)= 11600\n⇒ (3⁄25x + 27⁄100x + 14⁄25x) = 11400 ⇒ 95⁄100x = 11600\n⇒ x = (11600×100/95)= 12210\nHence, sum borrowed = 12,210\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3361,7 +3361,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Face value of each share = Rs.10\nTotal dividend received by John = 100\u00c3\u201410\u00c3\u201412/100 = Rs.120\nLet market value of 100 shares = Rs.x\nx\u00c3\u201410/100=120\nx = 1200\nie, Market value of 100 shares = Rs.1200\nHence, Market value of each share = Rs.12\nAnswer is A",
+    "explanation": "Face value of each share = Rs.10\nTotal dividend received by John = 100Ã—10Ã—12/100 = Rs.120\nLet market value of 100 shares = Rs.x\nxÃ—10/100=120\nx = 1200\nie, Market value of 100 shares = Rs.1200\nHence, Market value of each share = Rs.12\nAnswer is A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3379,7 +3379,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let old diameter be 4 , so radius is 2\nOld area = 4\u03c0\nNew diameter is 6.24 , so radius is 3.12\nNew area = 9.7344\u03c0\nIncrease in area is 5.7344\u03c0\n% increase in area = 5.7344/4*100\nSo, % increase is 143.36%\nAnswer will be (D)",
+    "explanation": "Let old diameter be 4 , so radius is 2\nOld area = 4π\nNew diameter is 6.24 , so radius is 3.12\nNew area = 9.7344π\nIncrease in area is 5.7344π\n% increase in area = 5.7344/4*100\nSo, % increase is 143.36%\nAnswer will be (D)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3451,14 +3451,14 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution: There is no need of the number of goats given i.e. 34,398.\nInitially, let there be 100 goats. Then\n100 == 40% \u2191==> 140 ==30%\u2193(declined to 70%)==> 98 ==30%\u2191 ==> 127.4 ==10%\u2193(sold)==> 114.66\nHence, % increase = 14.66% [As 100 becomes 114.66].\nAnswer: Option B",
+    "explanation": "Solution: There is no need of the number of goats given i.e. 34,398.\nInitially, let there be 100 goats. Then\n100 == 40% ↑==> 140 ==30%↓(declined to 70%)==> 98 ==30%↑ ==> 127.4 ==10%↓(sold)==> 114.66\nHence, % increase = 14.66% [As 100 becomes 114.66].\nAnswer: Option B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0433",
     "grade": 8,
-    "question": "The simple interest on a certain sum of money for 2 l/2 years at 12% per\nannum is Rs. 40 less tban the simple interest on the same sum for 3 \u00bd years at 10% per annum. Find the sum.",
+    "question": "The simple interest on a certain sum of money for 2 l/2 years at 12% per\nannum is Rs. 40 less tban the simple interest on the same sum for 3 ½ years at 10% per annum. Find the sum.",
     "options": [
       "Rs. 700.",
       "Rs. 200.",
@@ -3469,7 +3469,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the sum be Rs. x\nThen, ((x*10*7)/(100*2)) \u2013 ( (x*12*5)/(100*2)) = 40\n(7x/20)-(3x/10)=40\nx = (40 * 20) = 800.\nHence, the sum is Rs. 800.\nAnswer is D.",
+    "explanation": "Let the sum be Rs. x\nThen, ((x*10*7)/(100*2)) – ( (x*12*5)/(100*2)) = 40\n(7x/20)-(3x/10)=40\nx = (40 * 20) = 800.\nHence, the sum is Rs. 800.\nAnswer is D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3478,10 +3478,10 @@
     "grade": 8,
     "question": "The percentage profit earned by selling an article for $1920 is equal to the percentage loss incurred by selling the same article for $1280. At what price should the article be sold to make 25% profit?",
     "options": [
-      "$3000",
-      "$1000",
-      "$2000",
-      "$5000"
+      "\\$3000",
+      "\\$1000",
+      "\\$2000",
+      "\\$5000"
     ],
     "correct": 2,
     "tags": [
@@ -3523,7 +3523,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "New Value \u2013 Old Value)/Old Value x 100\nWe are given:\nFebruary sales this year = 400 million\nFebruary sales last year = 320 million\nWe need to determine the percent increase between sales from last year to sales this year.\nThus, the new value = 400 million and the old value = 320 million. Let\u2019s plug them into our percent change formula.\n(New Value \u2013 Old Value)/Old Value x 100\n[(400 \u2013 320)/320] x 100\n= 25%.\nThe answer is C.",
+    "explanation": "New Value – Old Value)/Old Value x 100\nWe are given:\nFebruary sales this year = 400 million\nFebruary sales last year = 320 million\nWe need to determine the percent increase between sales from last year to sales this year.\nThus, the new value = 400 million and the old value = 320 million. Let’s plug them into our percent change formula.\n(New Value – Old Value)/Old Value x 100\n[(400 – 320)/320] x 100\n= 25%.\nThe answer is C.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3577,7 +3577,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "I\u2019m adding water, so we have\nWATER + WATER = WATER\nStarting off with 30 quarts and adding x quarts, we should end up with (30 + x) quarts\n30 + x = (30 + x)\nThe problem describes the solution in terms of acid, we have set it up in terms of water. So, we\nhave to change the percentages and put them in the problem.\n.25(30) + x = .85(30 + x)\nAgain, we multiply both sides of the equation by 100 to get rid of the decimal point.\n25(30) + 100x = 85(30 + x)\n750 + 100x = 2550 + 85x\n15x = 1800\nx = 120 qts\ncorrect answer A",
+    "explanation": "I’m adding water, so we have\nWATER + WATER = WATER\nStarting off with 30 quarts and adding x quarts, we should end up with (30 + x) quarts\n30 + x = (30 + x)\nThe problem describes the solution in terms of acid, we have set it up in terms of water. So, we\nhave to change the percentages and put them in the problem.\n.25(30) + x = .85(30 + x)\nAgain, we multiply both sides of the equation by 100 to get rid of the decimal point.\n25(30) + 100x = 85(30 + x)\n750 + 100x = 2550 + 85x\n15x = 1800\nx = 120 qts\ncorrect answer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3595,7 +3595,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Lett. mixtures of the two containers be added together in the ratio of x\n= = [ixoox l00%\nSince the percentage quantity ofmilk in the new mixture is SO% \u2014 so% (45x + 42y) x 5 4 x 54(x y) 225x 210y 216.3E+216y\n9x=6y\nx:y=2:3\nA",
+    "explanation": "Lett. mixtures of the two containers be added together in the ratio of x\n= = [ixoox l00%\nSince the percentage quantity ofmilk in the new mixture is SO% — so% (45x + 42y) x 5 4 x 54(x y) 225x 210y 216.3E+216y\n9x=6y\nx:y=2:3\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3667,7 +3667,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Actual increase in population=7%\nLet, earlier population=100 then the population after 3 years\n=100(1+7/100)^3=122.5043\n\u2234Required percentage=22.50%\nANSWER:C",
+    "explanation": "Actual increase in population=7%\nLet, earlier population=100 then the population after 3 years\n=100(1+7/100)^3=122.5043\n∴Required percentage=22.50%\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3818,7 +3818,7 @@
   {
     "id": "aqua-perc-0468",
     "grade": 8,
-    "question": "Bob wants to run a mile in the same time as his sister. If Bob\u2019s time for a mile is currently 10 minutes and his sister\u2019s time is currently 8 minutes 30 seconds, by what percent does Bob need to improve his time in order run a mile in the same time as his sister?",
+    "question": "Bob wants to run a mile in the same time as his sister. If Bob’s time for a mile is currently 10 minutes and his sister’s time is currently 8 minutes 30 seconds, by what percent does Bob need to improve his time in order run a mile in the same time as his sister?",
     "options": [
       "3%",
       "15%",
@@ -3847,7 +3847,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Quantity X Rate = Price\n1 x 1 = 1\n0.7 x 1.20 = 0.84\nDecrease in price = (0.12/1) \u00d7 100 = 12%\nD)",
+    "explanation": "Quantity X Rate = Price\n1 x 1 = 1\n0.7 x 1.20 = 0.84\nDecrease in price = (0.12/1) × 100 = 12%\nD)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3908,7 +3908,7 @@
   {
     "id": "aqua-perc-0481",
     "grade": 8,
-    "question": "A dress on sale in a shop is marked at $D. During the discount sale its price is reduced by 15%. Staff are allowed a further 10% reduction on the discounted price. If a staff member buys the dress what will she have to pay in terms of D ?",
+    "question": "A dress on sale in a shop is marked at \\$D. During the discount sale its price is reduced by 15%. Staff are allowed a further 10% reduction on the discounted price. If a staff member buys the dress what will she have to pay in terms of D ?",
     "options": [
       "A)0.75D",
       "B)0.76D",
@@ -3928,10 +3928,10 @@
     "grade": 8,
     "question": "The original price of a camera was displayed as a whole dollar amount. After adding sales tax of 10 percent, the final price was also a whole dollar amount. Which of the following could be the final price of the camera?",
     "options": [
-      "$207",
-      "$209",
-      "$211",
-      "$213"
+      "\\$207",
+      "\\$209",
+      "\\$211",
+      "\\$213"
     ],
     "correct": 1,
     "tags": [
@@ -3944,7 +3944,7 @@
   {
     "id": "aqua-perc-0483",
     "grade": 8,
-    "question": "Given that a \u201c12-inch pizza\u201d means circular pizza with a diameter of 12 inches, changing from an 4-inch pizza to a 12-inch pizza gives you approximately what percent increase in the total amount of pizza?",
+    "question": "Given that a “12-inch pizza” means circular pizza with a diameter of 12 inches, changing from an 4-inch pizza to a 12-inch pizza gives you approximately what percent increase in the total amount of pizza?",
     "options": [
       "330",
       "500",
@@ -3973,7 +3973,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Loses 8 minutes each day.\nso total loss = 4\u00d78 = 32min\nsubsequent 6 days = 6\u00d724\u00d760 minutes\n1% gain = ( 6\u00d724\u00d760)/100 = 86.4 minutes\nso, total gain = 86.4 - 32 = 54.4 min = 54 + 0.4 min = 54 minutes + 0.4 \u00d7 60 seconds = 54min + 24seconds\n10 days later the clock should be 54 min and 24seconds fast.\nso time , 10:54:24 am (Answer A)",
+    "explanation": "Loses 8 minutes each day.\nso total loss = 4×8 = 32min\nsubsequent 6 days = 6×24×60 minutes\n1% gain = ( 6×24×60)/100 = 86.4 minutes\nso, total gain = 86.4 - 32 = 54.4 min = 54 + 0.4 min = 54 minutes + 0.4 × 60 seconds = 54min + 24seconds\n10 days later the clock should be 54 min and 24seconds fast.\nso time , 10:54:24 am (Answer A)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4027,7 +4027,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nLength is halved.\ni.e., length is decreased by 50%50%\nBreadth is tripled\ni.e., breadth is increased by 200%200%\nChange in area\n=(\u221250+200\u221250\u00d7200/100)%=50%\ni.e., area is increased by 50%\nAnswer: Option D",
+    "explanation": "Explanation:\nLength is halved.\ni.e., length is decreased by 50%50%\nBreadth is tripled\ni.e., breadth is increased by 200%200%\nChange in area\n=(−50+200−50×200/100)%=50%\ni.e., area is increased by 50%\nAnswer: Option D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4045,7 +4045,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nMarket Value = Rs.64\nFace Value is not given and hence take it as Rs.100\n16 2/3% of the face value = 50/3\nie, to earn 50/3, investment = Rs.64\nHence, to earn Rs.1700, investment needed = 64\u00d73\u00d71700/50= 6528\nAnswer : Option D",
+    "explanation": "Explanation :\nMarket Value = Rs.64\nFace Value is not given and hence take it as Rs.100\n16 2/3% of the face value = 50/3\nie, to earn 50/3, investment = Rs.64\nHence, to earn Rs.1700, investment needed = 64×3×1700/50= 6528\nAnswer : Option D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4135,7 +4135,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Ratio of times taken by Alice and Mike = 100 : 150 = 2 : 3.\nSuppose Mike takes x days to do the work.\nThen, 2 : 3 : : 15 : x \u00e2\u2021\u2019 x = (15\u00c3\u20143)/2 \u00e2\u2021\u2019 x = 45\u00e2\u0081\u201e2\nAlice\u00e2\u20ac\u2122s 1 day\u00e2\u20ac\u2122s work = 1\u00e2\u0081\u201e15; Mike\u00e2\u20ac\u2122s 1 days work = 2\u00e2\u0081\u201e45\n(Alice + Mike)\u00e2\u20ac\u2122s 1 day\u00e2\u20ac\u2122s work = (1\u00e2\u0081\u201e15 + 2\u00e2\u0081\u201e45) = 1\u00e2\u0081\u201e9\n\u00e2\u02c6\u00b4 Alice and Mike together can complete the job in 9 days.\nAnswer C",
+    "explanation": "Ratio of times taken by Alice and Mike = 100 : 150 = 2 : 3.\nSuppose Mike takes x days to do the work.\nThen, 2 : 3 : : 15 : x â‡’ x = (15Ã—3)/2 â‡’ x = 45â„2\nAliceâ€™s 1 dayâ€™s work = 1â„15; Mikeâ€™s 1 days work = 2â„45\n(Alice + Mike)â€™s 1 dayâ€™s work = (1â„15 + 2â„45) = 1â„9\nâˆ´ Alice and Mike together can complete the job in 9 days.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4171,7 +4171,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "The weight of non-water in 20 kg of fresh grapes (which is 100-90=10% of whole weight) will be the same as the weight of non-water in x kg of dried grapes (which is 100-20=80% of whole weight), so 40\u00e2\u02c6\u20140.1=x\u00e2\u02c6\u20140.8--> x=5\nAnswer: A",
+    "explanation": "The weight of non-water in 20 kg of fresh grapes (which is 100-90=10% of whole weight) will be the same as the weight of non-water in x kg of dried grapes (which is 100-20=80% of whole weight), so 40âˆ—0.1=xâˆ—0.8--> x=5\nAnswer: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4189,7 +4189,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nMarket Value = Rs. 96.\nRequired Income = Rs. 650.\nHere face value is not given. Take face value as Rs.100 if it is not given in the question\nTo obtain Rs.10 (ie,10% of the face value 100), investment = Rs.96\nTo obtain Rs.650, investment = 96/10\u00d7650=6240\nAnswer : Option C",
+    "explanation": "Explanation :\nMarket Value = Rs. 96.\nRequired Income = Rs. 650.\nHere face value is not given. Take face value as Rs.100 if it is not given in the question\nTo obtain Rs.10 (ie,10% of the face value 100), investment = Rs.96\nTo obtain Rs.650, investment = 96/10×650=6240\nAnswer : Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4214,7 +4214,7 @@
   {
     "id": "aqua-perc-0511",
     "grade": 8,
-    "question": "Machine\u2013A produces 40% of the total output and Machine-B produces 60% of the total output. An average of nine units out of a thousand goods manufactured by Machine-A and one unit of 300 units produced by Machine-B prove to be defective. What is the probability that a unit chosen at random from the total daily output of the factory is defective?",
+    "question": "Machine–A produces 40% of the total output and Machine-B produces 60% of the total output. An average of nine units out of a thousand goods manufactured by Machine-A and one unit of 300 units produced by Machine-B prove to be defective. What is the probability that a unit chosen at random from the total daily output of the factory is defective?",
     "options": [
       "a. 0.56",
       "b. 0.056",
@@ -4268,18 +4268,18 @@
   {
     "id": "aqua-perc-0520",
     "grade": 8,
-    "question": "Tough and Tricky questions: Word Problems.\nIf Bill's salary increased by 16 percent, he would earn $812 per month. If instead, his salary were to increase by only 10 percent, how much money T would he earn per month?",
+    "question": "Tough and Tricky questions: Word Problems.\nIf Bill's salary increased by 16 percent, he would earn \\$812 per month. If instead, his salary were to increase by only 10 percent, how much money T would he earn per month?",
     "options": [
-      "$700",
-      "$754",
-      "$770",
-      "$782"
+      "\\$700",
+      "\\$754",
+      "\\$770",
+      "\\$782"
     ],
     "correct": 2,
     "tags": [
       "percentages"
     ],
-    "explanation": "OFFICIAL SOLUTION:\n(C) If Bill\u2019s salary increased by 16% he would earn $812. Algebraically, this can be written as:\n$812 = 1.16S, where S is his current salary.\nThen S = $812/1.16 = $700.\nNow that we know his current salary is $700, we can calculate what his salary would be if it were increased by 10%. We know that 10% of $700 is $70, so his salary would be:\nT=$700 + $70 = $770.\nThe correct answer is choice (C).",
+    "explanation": "OFFICIAL SOLUTION:\n(C) If Bill’s salary increased by 16% he would earn $812. Algebraically, this can be written as:\n$812 = 1.16S, where S is his current salary.\nThen S = $812/1.16 = $700.\nNow that we know his current salary is $700, we can calculate what his salary would be if it were increased by 10%. We know that 10% of $700 is $70, so his salary would be:\nT=$700 + $70 = $770.\nThe correct answer is choice (C).",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4297,25 +4297,25 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "We're told that the total income of a state increases by 50% and the total population increases by 20%\nTo start:\nTotal Income = $100\nTotal Population = 100 people\n$100/100 = $1 per person\nAfter the increase:\nNew Total Income = $150\nNew Total Population = $120\n$150/120 = $5/4 per person\nThe question asks for the percent increase in per capita income, which means that we need to use the Percentage Change Formula:\nPercent Change = (New - Old)/Old\nNew = 5/4\nOld = 1\n(5/4 - 1)/1 = (1/4)/1 = 1/4 = 25% increase\nC",
+    "explanation": "We're told that the total income of a state increases by 50% and the total population increases by 20%\nTo start:\nTotal Income = \\$100\nTotal Population = 100 people\n\\$100/100 = \\$1 per person\nAfter the increase:\nNew Total Income = \\$150\nNew Total Population = \\$120\n\\$150/120 = \\$5/4 per person\nThe question asks for the percent increase in per capita income, which means that we need to use the Percentage Change Formula:\nPercent Change = (New - Old)/Old\nNew = 5/4\nOld = 1\n(5/4 - 1)/1 = (1/4)/1 = 1/4 = 25% increase\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0523",
     "grade": 8,
-    "question": "A car is purchased on hire-purchase. The cash price is $22 000 and the terms are a deposit of 10% of the price, then the balance to be paid off over 60 equal monthly installments. Interest is charged at 12% p.a. What is the monthly installment?",
+    "question": "A car is purchased on hire-purchase. The cash price is \\$22 000 and the terms are a deposit of 10% of the price, then the balance to be paid off over 60 equal monthly installments. Interest is charged at 12% p.a. What is the monthly installment?",
     "options": [
-      "$503",
-      "$504",
-      "$515",
-      "$528"
+      "\\$503",
+      "\\$504",
+      "\\$515",
+      "\\$528"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nCash price = $22 000\nDeposit = 10% \u00c3\u2014 $22 000 = $2200\nLoan amount = $22000 \u00e2\u02c6\u2019 $2200\nNumber of payments = 60\n= $19800\nI=p*r*t/100\nI=11880\nTotal amount = 19800 + 11880 = $31680\nRegular payment = total amount /number of payments = 528\nAnswer: D",
+    "explanation": "Explanation:\nCash price = \\$22 000\nDeposit = 10% Ã— \\$22 000 = \\$2200\nLoan amount = \\$22000 âˆ’ \\$2200\nNumber of payments = 60\n= \\$19800\nI=p*r*t/100\nI=11880\nTotal amount = 19800 + 11880 = \\$31680\nRegular payment = total amount /number of payments = 528\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4342,23 +4342,23 @@
     "grade": 8,
     "question": "If x dollars is invested at 10 percent for one year and y dollars is invested at 8 percent for one year, the annual income from the 10 percent investment will exceed the annual income from the 8 percent investment by $83. If $2,000 is the total amount invested, how much is invested at 8 percent?",
     "options": [
-      "$550",
-      "$650",
-      "$750",
-      "$850"
+      "\\$550",
+      "\\$650",
+      "\\$750",
+      "\\$850"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "0.1x = 0.08(2000-x)+83\n0.18x = 243\nx = 1350\nThen the amount invested at 8% is $2000 - $1350 = $650\nThe answer is B.",
+    "explanation": "0.1x = 0.08(2000-x)+83\n0.18x = 243\nx = 1350\nThen the amount invested at 8% is \\$2000 - \\$1350 = \\$650\nThe answer is B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0530",
     "grade": 8,
-    "question": "Two friends P & Q started a business investing amounts in the ratio of 5 : 6. R joined them after six months investing an amount equal to that of Q\u2019s amount. At the end of the year 20% profit was earned which was equal to 98,000. What was the amount invested by R?",
+    "question": "Two friends P & Q started a business investing amounts in the ratio of 5 : 6. R joined them after six months investing an amount equal to that of Q’s amount. At the end of the year 20% profit was earned which was equal to 98,000. What was the amount invested by R?",
     "options": [
       "2,10,000",
       "1,05,000",
@@ -4369,14 +4369,14 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Ratio for amount invested by P, Q & R\n= 5x \u00d7 12 : 6x \u00d7 12 : 6x \u00d7 6\n= 60x : 72x : 36x\n= 5x : 6x : 3x\nProfit = 98000 = 20% of T\nwhere, T = Total amount\nT = 490000\nAmount received by\nR = 3x /3x+6x+5x(490000)\n= 105000\nAnswer B",
+    "explanation": "Ratio for amount invested by P, Q & R\n= 5x × 12 : 6x × 12 : 6x × 6\n= 60x : 72x : 36x\n= 5x : 6x : 3x\nProfit = 98000 = 20% of T\nwhere, T = Total amount\nT = 490000\nAmount received by\nR = 3x /3x+6x+5x(490000)\n= 105000\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0532",
     "grade": 8,
-    "question": "Barbata invests $2800 in the National Bank at 5%. How much additional money must she invest at 8% so that the total annual income will be equal to 6% of her entire investment?",
+    "question": "Barbata invests \\$2800 in the National Bank at 5%. How much additional money must she invest at 8% so that the total annual income will be equal to 6% of her entire investment?",
     "options": [
       "1200",
       "3000",
@@ -4412,25 +4412,25 @@
   {
     "id": "aqua-perc-0535",
     "grade": 8,
-    "question": "Marcus deposited $8,000 to open a new savings account that earned five percent annual interest, compounded semi-annually. If there were no other transactions in the account, what the amount of money in Marcuss account one year after the account was opened?",
+    "question": "Marcus deposited \\$8,000 to open a new savings account that earned five percent annual interest, compounded semi-annually. If there were no other transactions in the account, what the amount of money in Marcuss account one year after the account was opened?",
     "options": [
-      "$8,200",
-      "$8,205",
-      "$8,400",
-      "$8,405"
+      "\\$8,200",
+      "\\$8,205",
+      "\\$8,400",
+      "\\$8,405"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Approach #1:\n5 percent annual interest compounded semi-annually --> 2.5% in 6 moths.\nFor the first 6 moths interest was 2.5% of $8,000, so $200;\nFor the next 6 moths interest was 2.5% of $8,000, plus 2.5% earned on previous interest of $200, so $200+$5=$205;\nTotal interest for one year was $200+$205=$405, hence balance after one year was $8,000+ $405=$8,405.\nAnswer: D.",
+    "explanation": "Approach #1:\n5 percent annual interest compounded semi-annually --> 2.5% in 6 moths.\nFor the first 6 moths interest was 2.5% of \\$8,000, so \\$200;\nFor the next 6 moths interest was 2.5% of \\$8,000, plus 2.5% earned on previous interest of \\$200, so \\$200+\\$5=\\$205;\nTotal interest for one year was \\$200+\\$205=\\$405, hence balance after one year was \\$8,000+ \\$405=\\$8,405.\nAnswer: D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0536",
     "grade": 8,
-    "question": "If a store owner increases a product\u2019s price by 20 percent and then increases this price by another 15 percent, what percent of the original price is the total price increase?",
+    "question": "If a store owner increases a product’s price by 20 percent and then increases this price by another 15 percent, what percent of the original price is the total price increase?",
     "options": [
       "20%",
       "35%",
@@ -4520,12 +4520,12 @@
   {
     "id": "aqua-perc-0545",
     "grade": 8,
-    "question": "The market value of a certain machine decreased by 25 percent of its purchase price each year. If the machine was purchased in 1982 for its market value of $8,000, what was its market value two years later?",
+    "question": "The market value of a certain machine decreased by 25 percent of its purchase price each year. If the machine was purchased in 1982 for its market value of \\$8,000, what was its market value two years later?",
     "options": [
-      "$8,000",
-      "$5,600",
-      "$3,200",
-      "$4,000"
+      "\\$8,000",
+      "\\$5,600",
+      "\\$3,200",
+      "\\$4,000"
     ],
     "correct": 3,
     "tags": [
@@ -4574,18 +4574,18 @@
   {
     "id": "aqua-perc-0552",
     "grade": 8,
-    "question": "A toy store regularly sells all stock at a discount of 20% to 40%. If an additional 25% were deducted from the discount price during a special sale, what would be the lowest possible price of a toy costing $16 before any discount?",
+    "question": "A toy store regularly sells all stock at a discount of 20% to 40%. If an additional 25% were deducted from the discount price during a special sale, what would be the lowest possible price of a toy costing \\$16 before any discount?",
     "options": [
-      "a) $5.60",
-      "b) $7.20",
-      "c) $8.80",
-      "d) $9.60"
+      "a) \\$5.60",
+      "b) \\$7.20",
+      "c) \\$8.80",
+      "d) \\$9.60"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "We will get Lowest price with maximum discount\nso the discount on 16 will be 40% - giving 9.6\nthen another discount of 25% on 9.6 to give 7.2\nso b - $7.2 B",
+    "explanation": "We will get Lowest price with maximum discount\nso the discount on 16 will be 40% - giving 9.6\nthen another discount of 25% on 9.6 to give 7.2\nso b - \\$7.2 B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4700,7 +4700,7 @@
   {
     "id": "aqua-perc-0563",
     "grade": 8,
-    "question": "The simple interest on a certain sum of money for 2 l/2 years at 12% per year is Rs. 40 less than the simple interest on the same sum for 3 \u00bd years at 10% per year. Find the sum.",
+    "question": "The simple interest on a certain sum of money for 2 l/2 years at 12% per year is Rs. 40 less than the simple interest on the same sum for 3 ½ years at 10% per year. Find the sum.",
     "options": [
       "800",
       "700",
@@ -4711,7 +4711,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the sum be Rs. x Then, ((x*10*7)/(100*2)) \u2013 ( (x*12*5)/(100*2)) = 40\n= (7x/20)-(3x/10)=40\nx = (40 * 20) = 800.\nHence, the sum is Rs. 800.\nAnswer is A.",
+    "explanation": "Let the sum be Rs. x Then, ((x*10*7)/(100*2)) – ( (x*12*5)/(100*2)) = 40\n= (7x/20)-(3x/10)=40\nx = (40 * 20) = 800.\nHence, the sum is Rs. 800.\nAnswer is A.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4720,10 +4720,10 @@
     "grade": 8,
     "question": "In a fuel station the service costs $1.05 per car, every liter of fuel costs 0.6$. Assuming that you fill up 3 mini-vans and 2 trucks, how much money will the fuel cost to all the cars owners total, if a mini- van's tank is 65 liters and a truck's tank is 120% bigger and they are all empty-?",
     "options": [
-      "122.6$",
-      "128.9$",
-      "243.7$",
-      "293.85$"
+      "122.6\\$",
+      "128.9\\$",
+      "243.7\\$",
+      "293.85\\$"
     ],
     "correct": 3,
     "tags": [
@@ -4783,14 +4783,14 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Total number of invalid votes = 15 % of 560000\n= 15/100 \u00d7 560000\n= 8400000/100\n= 84000\nTotal number of valid votes 560000 \u2013 84000 = 476000\nPercentage of votes polled in favour of candidate A = 75 %\nTherefore, the number of valid votes polled in favour of candidate A = 75 % of 476000\n= 75/100 \u00d7 476000\n= 35700000/100\n= 357000\nE)",
+    "explanation": "Total number of invalid votes = 15 % of 560000\n= 15/100 × 560000\n= 8400000/100\n= 84000\nTotal number of valid votes 560000 – 84000 = 476000\nPercentage of votes polled in favour of candidate A = 75 %\nTherefore, the number of valid votes polled in favour of candidate A = 75 % of 476000\n= 75/100 × 476000\n= 35700000/100\n= 357000\nE)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0572",
     "grade": 8,
-    "question": "A restaurant meal cost $30.5 and there was no tax. If the tip was more than 20 percent but less than 30 percent of the cost of the meal, then the total amount paid must have been between",
+    "question": "A restaurant meal cost \\$30.5 and there was no tax. If the tip was more than 20 percent but less than 30 percent of the cost of the meal, then the total amount paid must have been between",
     "options": [
       "$40 and $42",
       "$39 and $41",
@@ -4844,12 +4844,12 @@
   {
     "id": "aqua-perc-0580",
     "grade": 8,
-    "question": "Mary\u2019s annual income is $15,000 and John\u2019s annual income is $18,000. By how much must Mary\u2019s annual income increase so that it constitutes 70% of Mary and John\u2019s combined income?",
+    "question": "Mary’s annual income is $15,000 and John’s annual income is $18,000. By how much must Mary’s annual income increase so that it constitutes 70% of Mary and John’s combined income?",
     "options": [
-      "$3,000",
-      "$4,000",
-      "$7,000",
-      "$27,000"
+      "\\$3,000",
+      "\\$4,000",
+      "\\$7,000",
+      "\\$27,000"
     ],
     "correct": 3,
     "tags": [
@@ -4981,14 +4981,14 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Suppose the number of students studying Arts, Commerce and Science be 3x, 4x and 8x respectively.\nWhen their numbers are increased by 20%, 40% and 25% respectively the new ratio becomes\n3x \u00d7 120% : 4x \u00d7 140% :\n8x \u00d7 125% = 36 : 56 : 100\n= 9 : 14 : 25\nAnswer C",
+    "explanation": "Suppose the number of students studying Arts, Commerce and Science be 3x, 4x and 8x respectively.\nWhen their numbers are increased by 20%, 40% and 25% respectively the new ratio becomes\n3x × 120% : 4x × 140% :\n8x × 125% = 36 : 56 : 100\n= 9 : 14 : 25\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0594",
     "grade": 8,
-    "question": "A soccer store typically sells replica jerseys at a discount of 30 percent to 50 percent off list price. During the annual summer sale, everything in the store is an additional 40 percent off the original list price. If a replica jersey's list price is $80, approximately what percent of the list price is the lowest possible sale price?",
+    "question": "A soccer store typically sells replica jerseys at a discount of 30 percent to 50 percent off list price. During the annual summer sale, everything in the store is an additional 40 percent off the original list price. If a replica jersey's list price is \\$80, approximately what percent of the list price is the lowest possible sale price?",
     "options": [
       "20",
       "25",
@@ -4999,32 +4999,32 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the list price be 2x\nfor min sale price, the first discount given should be 50%, 2x becomes x here\nnow, during summer sale additional 20% off is given ie sale price becomes 0.8x\nit is given lise price is $80\n=> 2x = 80\n=> x = 20\nand 0.8x = 32\nso lowest sale price is 32, which is 40% of 80\nhence, A is the answer",
+    "explanation": "Let the list price be 2x\nfor min sale price, the first discount given should be 50%, 2x becomes x here\nnow, during summer sale additional 20% off is given ie sale price becomes 0.8x\nit is given lise price is \\$80\n=> 2x = 80\n=> x = 20\nand 0.8x = 32\nso lowest sale price is 32, which is 40% of 80\nhence, A is the answer",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0595",
     "grade": 8,
-    "question": "An investor bought two shares of stock, which he sold for $84 each. If he had a profit of 20% on one of the shares and a loss of 20% on the other share, then on the sale of both shares combined, the investor had:",
+    "question": "An investor bought two shares of stock, which he sold for \\$84 each. If he had a profit of 20% on one of the shares and a loss of 20% on the other share, then on the sale of both shares combined, the investor had:",
     "options": [
-      "a profit of $10",
-      "a profit of $7",
-      "a loss of $7",
-      "a loss of $10"
+      "a profit of \\$10",
+      "a profit of \\$7",
+      "a loss of \\$7",
+      "a loss of \\$10"
     ],
     "correct": 2,
     "tags": [
       "percentages"
     ],
-    "explanation": "The cost of the first stock was 84/1.2=70, so the profit from it is 14.\nThe cost of the second stock was 84/0.8=105, so loss from it is 21.\nOverall the loss is $7.\nThe answer is C.",
+    "explanation": "The cost of the first stock was 84/1.2=70, so the profit from it is 14.\nThe cost of the second stock was 84/0.8=105, so loss from it is 21.\nOverall the loss is \\$7.\nThe answer is C.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0601",
     "grade": 8,
-    "question": "Because he\u2019s taxed by his home planet, Mork pays a tax rate of 40% on his income, while Mindy pays a rate of only 25% on hers. If Mindy earned 4 times as much as Mork did, what was their combined tax rate?",
+    "question": "Because he’s taxed by his home planet, Mork pays a tax rate of 40% on his income, while Mindy pays a rate of only 25% on hers. If Mindy earned 4 times as much as Mork did, what was their combined tax rate?",
     "options": [
       "28%",
       "30%",
@@ -5125,19 +5125,19 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nError =2% while measuring the side of a square.\nLet correct value of the side of the square =100\nThen, measured value =100+2=102 (\u2235 2 is 2%of 100)\nCorrect area of the square =100\u00d7100=10000\nCalculated area of the square =102\u00d7102=10404\nError =10404\u221210000=404\nPercentage error =error /actual value\u00d7100\n=404/10000\u00d7100=4.04%\nAnswer: Option A",
+    "explanation": "Explanation:\nError =2% while measuring the side of a square.\nLet correct value of the side of the square =100\nThen, measured value =100+2=102 (∵ 2 is 2%of 100)\nCorrect area of the square =100×100=10000\nCalculated area of the square =102×102=10404\nError =10404−10000=404\nPercentage error =error /actual value×100\n=404/10000×100=4.04%\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0617",
     "grade": 8,
-    "question": "The price of a certain product increased by the same percent from 1960 to 1970 as from 1970 to 1980. If its price of $2.00 in 1970 was 150 percent of its price in 1960, what was its price in 1980?",
+    "question": "The price of a certain product increased by the same percent from 1960 to 1970 as from 1970 to 1980. If its price of \\$2.00 in 1970 was 150 percent of its price in 1960, what was its price in 1980?",
     "options": [
-      "a) $ 1.80",
-      "b) $ 2.00",
-      "c) $ 2.40",
-      "e) $ 3.00"
+      "a) \\$ 1.80",
+      "b) \\$ 2.00",
+      "c) \\$ 2.40",
+      "e) \\$ 3.00"
     ],
     "correct": 3,
     "tags": [
@@ -5305,7 +5305,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Total cost of the items he purchased = Rs.25\nGiven that out of this Rs.25, 30 Paise is given as tax\n=> Total ta x incurred = 30 Paise = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n\u2234 (25\u221230/100\u2212x)6/100 = 30/100\n\u21d2 6(25 \u22120.3 \u2212x) = 30\n\u21d2 (25 \u2212 0.3 \u2212 x) = 5\n\u21d2 x = 25 \u2212 0.3 \u2212 5 = 19.7\nA",
+    "explanation": "Total cost of the items he purchased = Rs.25\nGiven that out of this Rs.25, 30 Paise is given as tax\n=> Total ta x incurred = 30 Paise = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n∴ (25−30/100−x)6/100 = 30/100\n⇒ 6(25 −0.3 −x) = 30\n⇒ (25 − 0.3 − x) = 5\n⇒ x = 25 − 0.3 − 5 = 19.7\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5323,7 +5323,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "1986; 2/3\n1988; 1/2\n% decrease = change/ original*100\n2/3\u22121/2 / 2/3\u2217100\n1/6\u22173/2\u2217100=14\u2217100 =25\nAnswer: \"B\"",
+    "explanation": "1986; 2/3\n1988; 1/2\n% decrease = change/ original*100\n2/3−1/2 / 2/3∗100\n1/6∗3/2∗100=14∗100 =25\nAnswer: \"B\"",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5377,7 +5377,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nWork done by P in 1 day = 1/23\nLet work done by Q in 1 day = q\nq \u00d7 (130/100) = 1/23\n=> q = 100/(23\u00d7130) = 10/(23\u00d713)\nWork done by P and Q in 1 day = 1/23 + 10/(23\u00d713) = 23/(23\u00d713)= 1/13\n=> P and Q together can do the work in 13 days\nANSWER:C",
+    "explanation": "Explanation :\nWork done by P in 1 day = 1/23\nLet work done by Q in 1 day = q\nq × (130/100) = 1/23\n=> q = 100/(23×130) = 10/(23×13)\nWork done by P and Q in 1 day = 1/23 + 10/(23×13) = 23/(23×13)= 1/13\n=> P and Q together can do the work in 13 days\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5467,7 +5467,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nThe difference of two successive amounts must be the simple interest in 1 year on the lower amount of money.\nS.I = 20286/- - 17640/- = Rs. 2646/-\nRate of interest = (2646/17640) \u00d7 (100/1) => 15%\nAnswer: Option D",
+    "explanation": "Explanation:\nThe difference of two successive amounts must be the simple interest in 1 year on the lower amount of money.\nS.I = 20286/- - 17640/- = Rs. 2646/-\nRate of interest = (2646/17640) × (100/1) => 15%\nAnswer: Option D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5485,7 +5485,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution: Let the initial revenue be 100.\n100 ----- 50% \u2191 (Ticket up)-----> 150 ----- 20% \u2193 (Visitors down) -----> 120.\nThere is 20% increase in the revenue.\nAnswer: Option A",
+    "explanation": "Solution: Let the initial revenue be 100.\n100 ----- 50% ↑ (Ticket up)-----> 150 ----- 20% ↓ (Visitors down) -----> 120.\nThere is 20% increase in the revenue.\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5521,7 +5521,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nLet P.W. be Rs.x.\nThen, S.I. on Rs. x at 16% for 9 months = Rs. 210.\nx \u00c3\u2014 16 \u00c3\u2014 (9/12) \u00c3\u2014 (1/100) = 210 or x = 1750\nP.W. = Rs. 1750\nSum due = P.W. + T.D. = Rs.(1750\n210) = Rs. 1960.\nAnswer: B",
+    "explanation": "Explanation:\nLet P.W. be Rs.x.\nThen, S.I. on Rs. x at 16% for 9 months = Rs. 210.\nx Ã— 16 Ã— (9/12) Ã— (1/100) = 210 or x = 1750\nP.W. = Rs. 1750\nSum due = P.W. + T.D. = Rs.(1750\n210) = Rs. 1960.\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5683,7 +5683,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the amount paid to X per week = x\nand the amount paid to Y per week = y\nThen x + y = 650\nBut x = 120% of y = 120y/100 = 12y/10\n\u223412y/10 + y = 650\n\u21d2 y[12/10 + 1] = 650\n\u21d2 22y/10 = 650\n\u21d2 22y = 6500\n\u21d2 y = 6500/22 = Rs.295.45\nC)",
+    "explanation": "Let the amount paid to X per week = x\nand the amount paid to Y per week = y\nThen x + y = 650\nBut x = 120% of y = 120y/100 = 12y/10\n∴12y/10 + y = 650\n⇒ y[12/10 + 1] = 650\n⇒ 22y/10 = 650\n⇒ 22y = 6500\n⇒ y = 6500/22 = Rs.295.45\nC)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5708,7 +5708,7 @@
   {
     "id": "aqua-perc-0676",
     "grade": 8,
-    "question": "Inland revenue paid $300 on its first 1000 watts of electricity and then $5000 on the next 10000 watts. By approximately what percent did the ratio of monies due to watts increase from the first $1000 watts to the next 10000 watts?",
+    "question": "Inland revenue paid \\$300 on its first 1000 watts of electricity and then \\$5000 on the next 10000 watts. By approximately what percent did the ratio of monies due to watts increase from the first \\$1000 watts to the next 10000 watts?",
     "options": [
       "A) 80%",
       "B) 6%",
@@ -5726,7 +5726,7 @@
   {
     "id": "aqua-perc-0677",
     "grade": 8,
-    "question": "Marty's Pizza Shop guarantees that their pizzas all have at least 75% of the surface area covered with toppings, with a crust of uniform width surrounding them. If you order their best seller \u2013 a circular pizza with a diameter of 16 inches \u2013 what is the maximum width you can expect to see for the crust?",
+    "question": "Marty's Pizza Shop guarantees that their pizzas all have at least 75% of the surface area covered with toppings, with a crust of uniform width surrounding them. If you order their best seller – a circular pizza with a diameter of 16 inches – what is the maximum width you can expect to see for the crust?",
     "options": [
       "0.8 inches",
       "1.1 inches",
@@ -5809,7 +5809,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Total cost of the items he purchased = Rs.25\nGiven that out of this Rs.25, 30 Paise is given as tax\n=> Total tax incurred = 30 Paise = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n\u2234 (25\u221230/100\u2212x)6/100 = 30/100\n\u21d2 6(25 \u22120.3 \u2212x) = 30\n\u21d2 (25 \u2212 0.3 \u2212 x) = 5\n\u21d2 x = 25 \u2212 0.3 \u2212 5 = 19.7\nB",
+    "explanation": "Total cost of the items he purchased = Rs.25\nGiven that out of this Rs.25, 30 Paise is given as tax\n=> Total tax incurred = 30 Paise = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n∴ (25−30/100−x)6/100 = 30/100\n⇒ 6(25 −0.3 −x) = 30\n⇒ (25 − 0.3 − x) = 5\n⇒ x = 25 − 0.3 − 5 = 19.7\nB",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5888,7 +5888,7 @@
   {
     "id": "aqua-perc-0694",
     "grade": 8,
-    "question": "A shopkeeper sold an article for 720 after giving 10% discount on the labelled price and made 20% profit on the cost price. What would have been the percentage profit,had he not given the discount\u2019?",
+    "question": "A shopkeeper sold an article for 720 after giving 10% discount on the labelled price and made 20% profit on the cost price. What would have been the percentage profit,had he not given the discount’?",
     "options": [
       "25%",
       "30%",
@@ -5899,7 +5899,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Cost price = 720\u00d7100/120= 600\nS.P. at no discount = 720\u00d7100/90 = 800\n\u2234 % profit = 200\u00d7100/600 = 33 1\u20443 %\nAnswer E",
+    "explanation": "Cost price = 720×100/120= 600\nS.P. at no discount = 720×100/90 = 800\n∴ % profit = 200×100/600 = 33 1⁄3 %\nAnswer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5917,7 +5917,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "P (E) = 30 / 100 = 3 / 10 , P (H) = 20 / 100 = 1 / 5 and P (E \u2229 H) = 10 / 100 = 1 / 10\nP (E or H) = P (E U H)\n= P (E) + P (H) - P (E \u2229 H)\n= (3 / 10) + (1 / 5) - (1 / 10) = 4 / 10 = 2/5\nC",
+    "explanation": "P (E) = 30 / 100 = 3 / 10 , P (H) = 20 / 100 = 1 / 5 and P (E ∩ H) = 10 / 100 = 1 / 10\nP (E or H) = P (E U H)\n= P (E) + P (H) - P (E ∩ H)\n= (3 / 10) + (1 / 5) - (1 / 10) = 4 / 10 = 2/5\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5953,7 +5953,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Income = Rs. 100\nExpenditure = Rs. 70\nSavings = Rs. 30\nPresent Expenditure 70+70*(30/100) = Rs. 91\nPresent Savings = 100 \u2013 91 =Rs. 8\nIf savings is Rs. 8, salary = Rs. 100\nIf savings is Rs.300, salary = 100/8*300 = 3750\nAnswer : B",
+    "explanation": "Income = Rs. 100\nExpenditure = Rs. 70\nSavings = Rs. 30\nPresent Expenditure 70+70*(30/100) = Rs. 91\nPresent Savings = 100 – 91 =Rs. 8\nIf savings is Rs. 8, salary = Rs. 100\nIf savings is Rs.300, salary = 100/8*300 = 3750\nAnswer : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5971,7 +5971,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "As A is 20% more efficient than B, If B's per day work is 100 units then A's 120.\nBoth persons together completes (100 + 120) units = 220 units a day.\nThey took 60 days to complete the work. So total work = 60 x 220\nIf A alone set to complete the work, he takes = 60\u00d7220120=11060\u00d7220120=110 days\nAnswer:A",
+    "explanation": "As A is 20% more efficient than B, If B's per day work is 100 units then A's 120.\nBoth persons together completes (100 + 120) units = 220 units a day.\nThey took 60 days to complete the work. So total work = 60 x 220\nIf A alone set to complete the work, he takes = 60×220120=11060×220120=110 days\nAnswer:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6025,7 +6025,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nLet the initial height be 100 and the base be 200 units.\n\u00e2\u02c6\u00b4 Area = 1/2 x 100 x 200 = 10000sq units\nNow, height = 95 units and base = 220 units\n\u00e2\u02c6\u00b4 New area = 1/2 x 95 x 220= 10450\n\u00e2\u02c6\u00b4 Area is increased by (10450 - 10000)/10000 x 10\n= 4.5%\nAnswer : Option C",
+    "explanation": "Explanation :\nLet the initial height be 100 and the base be 200 units.\nâˆ´ Area = 1/2 x 100 x 200 = 10000sq units\nNow, height = 95 units and base = 220 units\nâˆ´ New area = 1/2 x 95 x 220= 10450\nâˆ´ Area is increased by (10450 - 10000)/10000 x 10\n= 4.5%\nAnswer : Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6086,18 +6086,18 @@
   {
     "id": "aqua-perc-0716",
     "grade": 8,
-    "question": "Laura took out a charge account at the General Store and agreed to pay 8% simple annual interest. If she charges $35 on her account in January, how much will she owe a year later, assuming she does not make any additional charges or payments?",
+    "question": "Laura took out a charge account at the General Store and agreed to pay 8% simple annual interest. If she charges \\$35 on her account in January, how much will she owe a year later, assuming she does not make any additional charges or payments?",
     "options": [
-      "$2.10",
-      "$37.10",
-      "$37.16",
-      "$37.8"
+      "\\$2.10",
+      "\\$37.10",
+      "\\$37.16",
+      "\\$37.8"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Principal that is amount taken by Laura at year beginning = 35$\nRate of interest = 8%\nInterest = (8/100)*35 = 2.8$\nTotal amount that Laura owes a year later = 35+2.8 = 37.8 $\nAnswer D",
+    "explanation": "Principal that is amount taken by Laura at year beginning = 35\\$\nRate of interest = 8%\nInterest = (8/100)*35 = 2.8\\$\nTotal amount that Laura owes a year later = 35+2.8 = 37.8 \\$\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6169,7 +6169,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the interest be i. Then,\n(10000\u00d73\u00d76/100)+(10000\u00d75\u00d79/100)+(10000\u00d73\u00d712/100)=i\n\u21d2 1800 + 4500 + 3600 = i\n\u21d2 i = 9900\nAnswer B",
+    "explanation": "Let the interest be i. Then,\n(10000×3×6/100)+(10000×5×9/100)+(10000×3×12/100)=i\n⇒ 1800 + 4500 + 3600 = i\n⇒ i = 9900\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6277,7 +6277,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Correct Answer: (D).\nSince this is a percent problem without concrete numbers, we can assign our own. If we assume that there are 100 people in the country, then 60 people like basketball, and 33 people like basketball and golf. We\u2019re looking for people who like both divided by people who like basketball, so 33/60 = 55%, or choice D.",
+    "explanation": "Correct Answer: (D).\nSince this is a percent problem without concrete numbers, we can assign our own. If we assume that there are 100 people in the country, then 60 people like basketball, and 33 people like basketball and golf. We’re looking for people who like both divided by people who like basketball, so 33/60 = 55%, or choice D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6320,7 +6320,7 @@
   {
     "id": "aqua-perc-0735",
     "grade": 8,
-    "question": "The retirement plan for a company allows employees to invest in 10 different mutual funds. Six of the 10 funds grew by at least 10% over the last year. If Sam randomly selected 4 of the 10 funds, what is the probability T that 3 of Sam\u2019s 4 funds grew by at least 10% over last year?",
+    "question": "The retirement plan for a company allows employees to invest in 10 different mutual funds. Six of the 10 funds grew by at least 10% over the last year. If Sam randomly selected 4 of the 10 funds, what is the probability T that 3 of Sam’s 4 funds grew by at least 10% over last year?",
     "options": [
       "6C3 / 10C4",
       "6C3 * 4C1 / 10C4",
@@ -6457,7 +6457,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Out of 400, some quantity gave 36% profit & remaining gave 24% loss\nNow, 24% loss means -24% profit\nFrom here, we got the 1st row of numbers i.e 36 & -24\nThe Resultant is again a loss of 12% , so profit of -12%; this will come up in the 2nd row\nUsing rules of alligation; -12 > -24; so subtracting:\n- 12 - (-24) = -12 + 24 = 12\n36 > -12; again subtracting:\n36 - (-12) = 48\nThis gives the 3rd row i.e 12 & 48\nSo, the total (12 + 48) = 60, 48 have given a loss of 24%\nSo, calculation will be\n48/(12+48)\u2217400=320 Answer = C",
+    "explanation": "Out of 400, some quantity gave 36% profit & remaining gave 24% loss\nNow, 24% loss means -24% profit\nFrom here, we got the 1st row of numbers i.e 36 & -24\nThe Resultant is again a loss of 12% , so profit of -12%; this will come up in the 2nd row\nUsing rules of alligation; -12 > -24; so subtracting:\n- 12 - (-24) = -12 + 24 = 12\n36 > -12; again subtracting:\n36 - (-12) = 48\nThis gives the 3rd row i.e 12 & 48\nSo, the total (12 + 48) = 60, 48 have given a loss of 24%\nSo, calculation will be\n48/(12+48)∗400=320 Answer = C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6493,7 +6493,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Lett. mixtures of the two containers be added together in the ratio of x\n= = [ixoox l00%\nSince the percentage quantity ofmilk in the new mixture is SO% \u2014 so% (45x + 42y) x 5 4 x 54(x y) 225x 210y 216.3E+216y\n9x=6y\nx:y=2:3\nA",
+    "explanation": "Lett. mixtures of the two containers be added together in the ratio of x\n= = [ixoox l00%\nSince the percentage quantity ofmilk in the new mixture is SO% — so% (45x + 42y) x 5 4 x 54(x y) 225x 210y 216.3E+216y\n9x=6y\nx:y=2:3\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6619,7 +6619,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nLet tax=Rs.100 and\nConsumption=100 units\nOriginal expenditure = Rs.(100\u00d7100)=Rs.10000(100\u00d7100)=Rs.10000\nNew expenditure = Rs.(120\u00d780)=Rs.9600(120\u00d780)=Rs.9600\nDecrease in expenditure\n= (400/10000\u00d7100)%=4%\nCorrect Option: D",
+    "explanation": "Explanation:\nLet tax=Rs.100 and\nConsumption=100 units\nOriginal expenditure = Rs.(100×100)=Rs.10000(100×100)=Rs.10000\nNew expenditure = Rs.(120×80)=Rs.9600(120×80)=Rs.9600\nDecrease in expenditure\n= (400/10000×100)%=4%\nCorrect Option: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6655,7 +6655,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the amount paid to A per week = x\nand the amount paid to B per week = y\nThen x + y = 550\nBut x = 120% of y = 120y/100 = 12y/10\n\u223412y/10 + y = 550\n\u21d2 y[12/10 + 1] = 550\n\u21d2 22y/10 = 550\n\u21d2 22y = 5500\n\u21d2 y = 5500/22 = 500/2 = Rs.250\nB",
+    "explanation": "Let the amount paid to A per week = x\nand the amount paid to B per week = y\nThen x + y = 550\nBut x = 120% of y = 120y/100 = 12y/10\n∴12y/10 + y = 550\n⇒ y[12/10 + 1] = 550\n⇒ 22y/10 = 550\n⇒ 22y = 5500\n⇒ y = 5500/22 = 500/2 = Rs.250\nB",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6691,7 +6691,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nBD = Rs.200\nTD = Rs.150\nR = 20%\nF = BD \u00d7TD/(BD \u2013 TD)=200\u00d7150/(200\u2013150)=200\u00d7150/50=Rs. 600\nBD = Simple Interest on the face value of the bill for unexpired time =FTR/100\n\u21d2200 = (600\u00d7T\u00d720)/100\n\u21d2200 = 6 \u00d7 T \u00d7 20 \u21d220 = 12 \u00d7 T\n\u21d2 T = 20/12 = 1.6 years Answer : Option A",
+    "explanation": "Explanation :\nBD = Rs.200\nTD = Rs.150\nR = 20%\nF = BD ×TD/(BD – TD)=200×150/(200–150)=200×150/50=Rs. 600\nBD = Simple Interest on the face value of the bill for unexpired time =FTR/100\n⇒200 = (600×T×20)/100\n⇒200 = 6 × T × 20 ⇒20 = 12 × T\n⇒ T = 20/12 = 1.6 years Answer : Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6763,19 +6763,19 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "In 10 days 10*0.04=0.4 ounces of water evaporated, which is 0.4/25\u00e2\u02c6\u2014100=1.6 of the original amount of water.\nAnswer: D.",
+    "explanation": "In 10 days 10*0.04=0.4 ounces of water evaporated, which is 0.4/25âˆ—100=1.6 of the original amount of water.\nAnswer: D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0792",
     "grade": 8,
-    "question": "A business executive and his client are charging their dinner tab on the executive's expense account.The company will only allow them to spend a total of 75$ for the meal.Assuming that they will pay 7% in sales tax for the meal and leave a 15% tip,what is the most their food can cost?",
+    "question": "A business executive and his client are charging their dinner tab on the executive's expense account.The company will only allow them to spend a total of 75\\$ for the meal.Assuming that they will pay 7% in sales tax for the meal and leave a 15% tip,what is the most their food can cost?",
     "options": [
-      "69.55$",
-      "50.63$",
-      "60.95$",
-      "52.15$"
+      "69.55\\$",
+      "50.63\\$",
+      "60.95\\$",
+      "52.15\\$"
     ],
     "correct": 2,
     "tags": [
@@ -6799,7 +6799,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nC.P. of 6 articles = Rs. 5\n=> C.P. of 1 article = Rs. 5/6\nS.P. of 5 articles = Rs. 6\n=> S.P. of 1 article = Rs. 6/5\nProfit earned per article = 6/5 - 5/6 = 11/30\n% Profit = 11/30\u22176/5\u2217100% = 44%\nAnswer : D",
+    "explanation": "Explanation :\nC.P. of 6 articles = Rs. 5\n=> C.P. of 1 article = Rs. 5/6\nS.P. of 5 articles = Rs. 6\n=> S.P. of 1 article = Rs. 6/5\nProfit earned per article = 6/5 - 5/6 = 11/30\n% Profit = 11/30∗6/5∗100% = 44%\nAnswer : D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6817,7 +6817,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Suppose the number of students studying Arts, Commerce and Science be 3x, 7x and 8x respectively.\nWhen their numbers are increased by 20%, 40% and 25% respectively the new ratio becomes\n3x \u00d7 120% : 7x \u00d7 140% :\n8x \u00d7 125% = 36 : 98 : 100\n= 18 : 49 : 50\nAnswer B",
+    "explanation": "Suppose the number of students studying Arts, Commerce and Science be 3x, 7x and 8x respectively.\nWhen their numbers are increased by 20%, 40% and 25% respectively the new ratio becomes\n3x × 120% : 7x × 140% :\n8x × 125% = 36 : 98 : 100\n= 18 : 49 : 50\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6997,7 +6997,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 1800 ( 18 \u00d7 100 = 1800)\n100% -------> 10000 votes (100 \u00d7 100 = 10000)\nC",
+    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 1800 ( 18 × 100 = 1800)\n100% -------> 10000 votes (100 × 100 = 10000)\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7069,7 +7069,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Income = Rs. 100\nExpenditure = Rs. 80\nSavings = Rs. 20\nPresent Expenditure 80*(20/100) = Rs. 96\nPresent Savings = 100 \u2013 96 =Rs. 4\n100 ------ 4\n? --------- 200 => 5000\nAnswer:a",
+    "explanation": "Income = Rs. 100\nExpenditure = Rs. 80\nSavings = Rs. 20\nPresent Expenditure 80*(20/100) = Rs. 96\nPresent Savings = 100 – 96 =Rs. 4\n100 ------ 4\n? --------- 200 => 5000\nAnswer:a",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7123,7 +7123,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nTwo liters were taken away So we have only 8 liters of mixture.\nAmount of milk in 8 liters of mixture = 8 \u00d7 70% = 5.6 liters\nAmount of water in 8 lit of mix = 8 - 5.6 = 2.4 liters.\nHalf of milk i.e half of 5.6 = 2.8 liters.\nWe need (2.8 - 2.4) liters water more = 0.4 lit\nAnswer: C",
+    "explanation": "Explanation:\nTwo liters were taken away So we have only 8 liters of mixture.\nAmount of milk in 8 liters of mixture = 8 × 70% = 5.6 liters\nAmount of water in 8 lit of mix = 8 - 5.6 = 2.4 liters.\nHalf of milk i.e half of 5.6 = 2.8 liters.\nWe need (2.8 - 2.4) liters water more = 0.4 lit\nAnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7202,18 +7202,18 @@
   {
     "id": "aqua-perc-0845",
     "grade": 8,
-    "question": "A grocer buys apples for 100\u00a2 per pound. If 20% of the apples goes bad and he still wants to make a 10% profit over his purchase price, what should be the sales price?",
+    "question": "A grocer buys apples for 100¢ per pound. If 20% of the apples goes bad and he still wants to make a 10% profit over his purchase price, what should be the sales price?",
     "options": [
-      "136\u00a2",
-      "130\u00a2",
-      "140\u00a2",
-      "137.5\u00a2"
+      "136¢",
+      "130¢",
+      "140¢",
+      "137.5¢"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "for making calculation simple let us consider he buys 10pounds @ 100/pound=1000\u00a2 in total .\n20% apples lost...means 8 pounds left.\nfurther he wants 10% profit on 1000 \u00a2\nmeans he wants to earn 1100\u00a2\nsales price should be 1100/8=\u00a2 137.5\nAns D",
+    "explanation": "for making calculation simple let us consider he buys 10pounds @ 100/pound=1000¢ in total .\n20% apples lost...means 8 pounds left.\nfurther he wants 10% profit on 1000 ¢\nmeans he wants to earn 1100¢\nsales price should be 1100/8=¢ 137.5\nAns D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7223,9 +7223,9 @@
     "question": "Last year the price per share of Stock X increased by k percent and the earnings per share of Stock X increased by m percent, where k is greater than m. By what percent did the ratio of price per share to earnings per share increase, in terms of k and m?",
     "options": [
       "k m %",
-      "(k \u2013 m) %",
-      "[100(k \u2013 m)] / (100 + k) %",
-      "[100(k \u2013 m)] / (100 + m) %"
+      "(k – m) %",
+      "[100(k – m)] / (100 + k) %",
+      "[100(k – m)] / (100 + m) %"
     ],
     "correct": 3,
     "tags": [
@@ -7249,25 +7249,25 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "General formula for percent increase or decrease, (percent change):\npercent=Change/Original\u2217100\nSo, the time between maintenance checks increased by 60\u221250/50\u2217100=20\nAnswer: E.",
+    "explanation": "General formula for percent increase or decrease, (percent change):\npercent=Change/Original∗100\nSo, the time between maintenance checks increased by 60−50/50∗100=20\nAnswer: E.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0849",
     "grade": 8,
-    "question": "A loan has a variable interest rate that fluctuates between 5% and 10% of the base payment per month. If base payments remain at $200 each month and an additional monthly surcharge of 1% is added to the combined (base + interest), what would be the greatest possible payment due in any given month?",
+    "question": "A loan has a variable interest rate that fluctuates between 5% and 10% of the base payment per month. If base payments remain at \\$200 each month and an additional monthly surcharge of 1% is added to the combined (base + interest), what would be the greatest possible payment due in any given month?",
     "options": [
-      "$220.00",
-      "$222.20",
-      "$224.20",
-      "$224.40"
+      "\\$220.00",
+      "\\$222.20",
+      "\\$224.20",
+      "\\$224.40"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "The maximum interest in one month is 10%*$200=$20.\nThe combined payment (base plus interest) is $200 + $20 = $220.\nThe greatest possible payment is: 1.01*$220=$222.20.\nThe answer is B.",
+    "explanation": "The maximum interest in one month is 10%*\\$200=\\$20.\nThe combined payment (base plus interest) is \\$200 + \\$20 = \\$220.\nThe greatest possible payment is: 1.01*\\$220=\\$222.20.\nThe answer is B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7321,7 +7321,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "M.P = C.P *1.4\nProfit = S.P - C.P = C.P ( 1.4 ) ( 0.9 ) ( 0.9 ) \u2013 C.P = 67\nC.P ( 1.134 \u2013 1 ) = 67,\nC.P = 500\nANSWER:D",
+    "explanation": "M.P = C.P *1.4\nProfit = S.P - C.P = C.P ( 1.4 ) ( 0.9 ) ( 0.9 ) – C.P = 67\nC.P ( 1.134 – 1 ) = 67,\nC.P = 500\nANSWER:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7429,14 +7429,14 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution: B. For 1 pizza 10$. For 2 pizza 10$ +9.6$(4% off)=19.6, For 3 pizza 19.6+9.2(8% off)=28.8, For 4 pizza 28.8+8.8(12% off)=37.6. so he have 37 so he cant eat 4th pizza.",
+    "explanation": "Solution: B. For 1 pizza 10\\$. For 2 pizza 10\\$ +9.6\\$(4% off)=19.6, For 3 pizza 19.6+9.2(8% off)=28.8, For 4 pizza 28.8+8.8(12% off)=37.6. so he have 37 so he cant eat 4th pizza.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0867",
     "grade": 8,
-    "question": "On what sum will the compound interest for 2 1\u20442 years at 10% amount to Rs. 31762.5?",
+    "question": "On what sum will the compound interest for 2 1⁄2 years at 10% amount to Rs. 31762.5?",
     "options": [
       "Rs.5000",
       "Rs.30000",
@@ -7447,7 +7447,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nP(1+10/100)2 \u00d7 (1+(1/2\u00d710)/100) = 31762.5\nP(11/10)2 \u00d7 (21/20) = 31762.5\nP = (31762.5 \u00d7 20 \u00d7 10 \u00d7 10)/(21 \u00d7 11 \u00d7 11)\n= (1512.5 \u00d7 20 \u00d7 10 \u00d7 10)/(11 \u00d7 11)\n= (137.5 \u00d7 20 \u00d7 10 \u00d7 10)/11\n= 12.5 \u00d7 20 \u00d7 10 \u00d7 10 = Rs. 25000\nAnswer: Option C",
+    "explanation": "Explanation:\nP(1+10/100)2 × (1+(1/2×10)/100) = 31762.5\nP(11/10)2 × (21/20) = 31762.5\nP = (31762.5 × 20 × 10 × 10)/(21 × 11 × 11)\n= (1512.5 × 20 × 10 × 10)/(11 × 11)\n= (137.5 × 20 × 10 × 10)/11\n= 12.5 × 20 × 10 × 10 = Rs. 25000\nAnswer: Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7490,7 +7490,7 @@
   {
     "id": "aqua-perc-0873",
     "grade": 8,
-    "question": "Jane makes toy bears. When she works with an assistant, she makes 53 percent more bears per week and works 10 percent fewer hours each week. Having an assistant increases Jane\u2019s output of toy bears per hour by what percent?",
+    "question": "Jane makes toy bears. When she works with an assistant, she makes 53 percent more bears per week and works 10 percent fewer hours each week. Having an assistant increases Jane’s output of toy bears per hour by what percent?",
     "options": [
       "20%",
       "70%",
@@ -7537,7 +7537,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Sol.\nLet the original price be Rs. 100 per kg.\nMoney required to buy 49 kg of rice = Rs. (100 x 49) = Rs. 4900.\nNew price = Rs. 98 per kg.\n\u2234 Quantity of rice bought = [4900 / 98] kg = 50 kg.\nAnswer C",
+    "explanation": "Sol.\nLet the original price be Rs. 100 per kg.\nMoney required to buy 49 kg of rice = Rs. (100 x 49) = Rs. 4900.\nNew price = Rs. 98 per kg.\n∴ Quantity of rice bought = [4900 / 98] kg = 50 kg.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7580,18 +7580,18 @@
   {
     "id": "aqua-perc-0886",
     "grade": 8,
-    "question": "Laura took out a charge account at the General Store and agreed to pay 9% simple annual interest. If she charges $35 on her account in January, how much will she owe a year later, assuming she does not make any additional charges or payments?",
+    "question": "Laura took out a charge account at the General Store and agreed to pay 9% simple annual interest. If she charges \\$35 on her account in January, how much will she owe a year later, assuming she does not make any additional charges or payments?",
     "options": [
-      "$2.10",
-      "$37.10",
-      "$37.16",
-      "$38.15"
+      "\\$2.10",
+      "\\$37.10",
+      "\\$37.16",
+      "\\$38.15"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Principal that is amount taken by Laura at year beginning = 35$\nRate of interest = 9%\nInterest = (9/100)*35 = 3.15$\nTotal amount that Laura owes a year later = 35+3.15 = 38.15 $\nAnswer E",
+    "explanation": "Principal that is amount taken by Laura at year beginning = 35\\$\nRate of interest = 9%\nInterest = (9/100)*35 = 3.15\\$\nTotal amount that Laura owes a year later = 35+3.15 = 38.15 \\$\nAnswer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7616,7 +7616,7 @@
   {
     "id": "aqua-perc-0888",
     "grade": 8,
-    "question": "A corporation seven times its annual bonus to 5 of its employees. What percent of the employees\u2019 new bonus is the increase?",
+    "question": "A corporation seven times its annual bonus to 5 of its employees. What percent of the employees’ new bonus is the increase?",
     "options": [
       "1.35%",
       "85.71%",
@@ -7627,19 +7627,19 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the annual bonus be X.\nA corporation triples its annual bonus.\nSo new bonus = 7X.\nIncrease = 7X-X =6X\nThe increase is what percent of the employees\u2019 new bonus\n= (6X/7X)*100\n= 85.71%\nHence B.",
+    "explanation": "Let the annual bonus be X.\nA corporation triples its annual bonus.\nSo new bonus = 7X.\nIncrease = 7X-X =6X\nThe increase is what percent of the employees’ new bonus\n= (6X/7X)*100\n= 85.71%\nHence B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0890",
     "grade": 8,
-    "question": "The apartment on King-Williams street is an asset that its value is tramping about. From the year 1973 to 1983 it's value decreased by 16% and from 1983 to 1993 it's value increased by 16%. What is the value of the asset in 1993 if in 1973 it was worth $30,000?",
+    "question": "The apartment on King-Williams street is an asset that its value is tramping about. From the year 1973 to 1983 it's value decreased by 16% and from 1983 to 1993 it's value increased by 16%. What is the value of the asset in 1993 if in 1973 it was worth \\$30,000?",
     "options": [
-      "$38,796.",
-      "$29,232.",
-      "$38,976.",
-      "$39,679."
+      "\\$38,796.",
+      "\\$29,232.",
+      "\\$38,976.",
+      "\\$39,679."
     ],
     "correct": 1,
     "tags": [
@@ -7652,7 +7652,7 @@
   {
     "id": "aqua-perc-0893",
     "grade": 8,
-    "question": "A corporation ten times its annual bonus to 25 of its employees. What percent of the employees\u2019 new bonus is the increase?",
+    "question": "A corporation ten times its annual bonus to 25 of its employees. What percent of the employees’ new bonus is the increase?",
     "options": [
       "25%",
       "44%",
@@ -7663,7 +7663,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the annual bonus be X.\nA corporation triples its annual bonus.\nSo new bonus = 10X.\nIncrease = 10X-X =9X\nThe increase is what percent of the employees\u2019 new bonus\n= (9X/10X)*100\n= 90%\nHence E.",
+    "explanation": "Let the annual bonus be X.\nA corporation triples its annual bonus.\nSo new bonus = 10X.\nIncrease = 10X-X =9X\nThe increase is what percent of the employees’ new bonus\n= (9X/10X)*100\n= 90%\nHence E.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7807,7 +7807,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "OFFICIAL SOLUTION:\nIf we start with 40 gallons of a mixture that is 10% grape juice, then we have:\n30 \u00d7 0.10 = 3 gallons of grape juice.\n30 \u00d7 0.90 = 27 gallons of other components.\nIf we add 10 gallons of grape juice, we will end up with 13 gallons of grape juice and 36 gallons of other components, and we will have a total of 40 gallons of the mixture.\nSo 13/40 of the new mixture is grape juice. Now we convert this to a percent:Percent Grape Juice = 32,5%.\nThe correct answer is choice (D)",
+    "explanation": "OFFICIAL SOLUTION:\nIf we start with 40 gallons of a mixture that is 10% grape juice, then we have:\n30 × 0.10 = 3 gallons of grape juice.\n30 × 0.90 = 27 gallons of other components.\nIf we add 10 gallons of grape juice, we will end up with 13 gallons of grape juice and 36 gallons of other components, and we will have a total of 40 gallons of the mixture.\nSo 13/40 of the new mixture is grape juice. Now we convert this to a percent:Percent Grape Juice = 32,5%.\nThe correct answer is choice (D)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7922,7 +7922,7 @@
   {
     "id": "aqua-perc-0921",
     "grade": 8,
-    "question": "Because he\u2019s taxed by his home planet, Mork pays a tax rate of 10% on his income, while Mindy pays a rate of 20% on hers. If Mindy earned 3 times as much as Mork did, what was their combined tax rate?",
+    "question": "Because he’s taxed by his home planet, Mork pays a tax rate of 10% on his income, while Mindy pays a rate of 20% on hers. If Mindy earned 3 times as much as Mork did, what was their combined tax rate?",
     "options": [
       "32.5%",
       "17.5%",
@@ -7951,7 +7951,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "The absolute decrease is\n20 - 15 = $5\nThe percent decrease is the absolute decrease divided by the the original price (part/whole).\npercent decease = 5 / 20 = 0.25\nMultiply and divide 0.25 to obtain percent.\npercent decease = 0.25 = 0.25 * 100 / 100 = 25 / 100 = 25%\nAnswer A",
+    "explanation": "The absolute decrease is\n20 - 15 = \\$5\nThe percent decrease is the absolute decrease divided by the the original price (part/whole).\npercent decease = 5 / 20 = 0.25\nMultiply and divide 0.25 to obtain percent.\npercent decease = 0.25 = 0.25 * 100 / 100 = 25 / 100 = 25%\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -8012,12 +8012,12 @@
   {
     "id": "aqua-perc-0932",
     "grade": 8,
-    "question": "Money invested at x%, compounded annually, triples in value in approximately every 112/x years. If $2500 is invested at a rate of 8%, compounded annually, what will be its approximate worth in 28 years?",
+    "question": "Money invested at x%, compounded annually, triples in value in approximately every 112/x years. If \\$2500 is invested at a rate of 8%, compounded annually, what will be its approximate worth in 28 years?",
     "options": [
-      "$3,750",
-      "$5,600",
-      "$8,100",
-      "$22,500"
+      "\\$3,750",
+      "\\$5,600",
+      "\\$8,100",
+      "\\$22,500"
     ],
     "correct": 3,
     "tags": [
@@ -8066,7 +8066,7 @@
   {
     "id": "aqua-perc-0936",
     "grade": 8,
-    "question": "Amy\u2019s retirement portfolio contains only stocks and bonds. At the beginning of 2016, her portfolio had an allocation of 60% stocks and 40% bonds. Over the course of 2016, the total value of her portfolio increased by 8%, with the value of her stock holdings increasing by 10%. By what percent did the value of her bond holdings increase?",
+    "question": "Amy’s retirement portfolio contains only stocks and bonds. At the beginning of 2016, her portfolio had an allocation of 60% stocks and 40% bonds. Over the course of 2016, the total value of her portfolio increased by 8%, with the value of her stock holdings increasing by 10%. By what percent did the value of her bond holdings increase?",
     "options": [
       "4%",
       "5%",
@@ -8077,7 +8077,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Thus total value of Bond at the end of 2016 is 420 ( ie, 1080 - 660 )\nSo, Per unit value of Bond at the end of 2016 is 420/40=10.50\nHence, percentage increase is 0.50/10\u2217100=5%, answer will be (B)",
+    "explanation": "Thus total value of Bond at the end of 2016 is 420 ( ie, 1080 - 660 )\nSo, Per unit value of Bond at the end of 2016 is 420/40=10.50\nHence, percentage increase is 0.50/10∗100=5%, answer will be (B)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -8102,12 +8102,12 @@
   {
     "id": "aqua-perc-0941",
     "grade": 8,
-    "question": "Money invested at x%, compounded annually, triples in value in approximately every 112/x years. If $1800 is invested at a rate of 8%, compounded annually, what will be its approximate worth in 28 years?",
+    "question": "Money invested at x%, compounded annually, triples in value in approximately every 112/x years. If \\$1800 is invested at a rate of 8%, compounded annually, what will be its approximate worth in 28 years?",
     "options": [
-      "$16,200",
-      "$5,600",
-      "$8,100",
-      "$15,000"
+      "\\$16,200",
+      "\\$5,600",
+      "\\$8,100",
+      "\\$15,000"
     ],
     "correct": 0,
     "tags": [
@@ -8257,7 +8257,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Total cost of the items he purchased = Rs.45\nGiven that out of this Rs.45, 30 % is given as tax\n=> Total tax incurred = 30 % = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n\u2234 (45\u221230/100\u2212x)6/100 = 30/100\n\u21d2 6(45 \u22120.3 \u2212x) = 30\n\u21d2 (45 \u2212 0.3 \u2212 x) = 5\n\u21d2 x = 45 \u2212 0.3 \u2212 5 = 39.7\nE)",
+    "explanation": "Total cost of the items he purchased = Rs.45\nGiven that out of this Rs.45, 30 % is given as tax\n=> Total tax incurred = 30 % = Rs.30/100\nLet the cost of the tax free items = x\nGiven that tax rate = 6%\n∴ (45−30/100−x)6/100 = 30/100\n⇒ 6(45 −0.3 −x) = 30\n⇒ (45 − 0.3 − x) = 5\n⇒ x = 45 − 0.3 − 5 = 39.7\nE)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -8318,18 +8318,18 @@
   {
     "id": "aqua-perc-0962",
     "grade": 8,
-    "question": "A woman put $580 into a savings account for one year. The rate of interest on the account was 6\u00bd%. How much was the interest for the year in dollars and cents? (Round to the nearest cent)",
+    "question": "A woman put \\$580 into a savings account for one year. The rate of interest on the account was 6½%. How much was the interest for the year in dollars and cents? (Round to the nearest cent)",
     "options": [
-      "$37.70",
-      "$47.70",
-      "$57.70",
-      "$67.70"
+      "\\$37.70",
+      "\\$47.70",
+      "\\$57.70",
+      "\\$67.70"
     ],
     "correct": 0,
     "tags": [
       "percentages"
     ],
-    "explanation": "we have\n6 1/2/100=x/580\nMultiply the opposites:\n6 \u00bd x 580 = 3770\nwe take\n37.70/3770 .00\n100\n$37.70\ncorrect answer A",
+    "explanation": "we have\n6 1/2/100=x/580\nMultiply the opposites:\n6 ½ x 580 = 3770\nwe take\n37.70/3770 .00\n100\n\\$37.70\ncorrect answer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -8516,7 +8516,7 @@
   {
     "id": "aqua-perc-0987",
     "grade": 8,
-    "question": "A retailer bought a shirt at wholesale and marked it up 80% to its initial price of $36. By how many more dollars does he need to increase the price to achieve a 100% markup?",
+    "question": "A retailer bought a shirt at wholesale and marked it up 80% to its initial price of \\$36. By how many more dollars does he need to increase the price to achieve a 100% markup?",
     "options": [
       "2",
       "4",
@@ -8545,7 +8545,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the investment in each case be $ (105*94).\nCase I : 7(1/2) 5 stock at 105:\nOn investing $ 105, income = $ (15/2).\nOn investing $ (105*94), income = $ [(15/2)*(1/105)*105*94]\n= $705.\nCase II : 6(1/2) % stock at 94:\nOn investing $ 94, income = $ (13/2).\nOn investing $ (105*94), income = $ [(13/2)*(1/94)*105*94]\n= $ 682.5.\nClearly, the income from 7(1/2) % stock at 105 is more.\nHence, the investment in 7(1/2) % stock at 105 is better.\nAnswer A.",
+    "explanation": "Let the investment in each case be \\$ (105*94).\nCase I : 7(1/2) 5 stock at 105:\nOn investing \\$ 105, income = \\$ (15/2).\nOn investing \\$ (105*94), income = \\$ [(15/2)*(1/105)*105*94]\n= \\$705.\nCase II : 6(1/2) % stock at 94:\nOn investing \\$ 94, income = \\$ (13/2).\nOn investing \\$ (105*94), income = \\$ [(13/2)*(1/94)*105*94]\n= \\$ 682.5.\nClearly, the income from 7(1/2) % stock at 105 is more.\nHence, the investment in 7(1/2) % stock at 105 is better.\nAnswer A.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -8593,7 +8593,7 @@
       "50%",
       "40%",
       "37.5%",
-      "331\u20443%"
+      "331⁄3%"
     ],
     "correct": 2,
     "tags": [
@@ -8617,7 +8617,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nInterest on Rs.7000 at 5% per annum = ( 7000 \u00d7 5 \u00d7 1) / 100 = Rs. 350\nLet his additional investment at 8% = x\nInterest on Rs.x at 8% per annum = ( x \u00d7 8 \u00d7 1 ) / 100 = 2x/25.\nTo earn 6% per annum for the total, interest = (7000 + x) \u00d7 6 \u00d7 1/100.\n=> 350 + 2x/25 = (7000 + x) \u00d7 6 \u00d7 1/100.\n=> 35000 + 8x = (7000 + x) \u00d7 6.\n=> 35000 + 8x = 42000 + 6x.\n=> 2x=7000.\n=> x=3500.\nAnswer : C",
+    "explanation": "Explanation :\nInterest on Rs.7000 at 5% per annum = ( 7000 × 5 × 1) / 100 = Rs. 350\nLet his additional investment at 8% = x\nInterest on Rs.x at 8% per annum = ( x × 8 × 1 ) / 100 = 2x/25.\nTo earn 6% per annum for the total, interest = (7000 + x) × 6 × 1/100.\n=> 350 + 2x/25 = (7000 + x) × 6 × 1/100.\n=> 35000 + 8x = (7000 + x) × 6.\n=> 35000 + 8x = 42000 + 6x.\n=> 2x=7000.\n=> x=3500.\nAnswer : C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   }

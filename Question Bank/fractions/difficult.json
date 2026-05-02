@@ -24,7 +24,7 @@
     "options": [
       "1/(3x)",
       "3x/(x-3)",
-      "(x \u2013 3)/(3x)",
+      "(x – 3)/(3x)",
       "x/(x-3)"
     ],
     "correct": 2,
@@ -49,7 +49,7 @@
     "tags": [
       "fractions"
     ],
-    "explanation": "This is a pure ratio question (we aren't given any numbers for anything), so you can just choose any starting number you like, and use it to solve the problem. The best number to pick is almost always the product of all the denominators of your fractions, so here we could start with 30 students. Then we have:\n\u2022 3/5 of these, or 18 students, board the first bus\n\u2022 there are 12 students left. 1/2 of these, or 6 students, board the second bus\n\u2022 this bus breaks down, and 1/2 of the 6 students, or 3 students, board the first bus\n\u2022 the first bus now contains 21 out of the original 30 students, so the answer is 21/30 = 7/10\nAnswer B",
+    "explanation": "This is a pure ratio question (we aren't given any numbers for anything), so you can just choose any starting number you like, and use it to solve the problem. The best number to pick is almost always the product of all the denominators of your fractions, so here we could start with 30 students. Then we have:\n• 3/5 of these, or 18 students, board the first bus\n• there are 12 students left. 1/2 of these, or 6 students, board the second bus\n• this bus breaks down, and 1/2 of the 6 students, or 3 students, board the first bus\n• the first bus now contains 21 out of the original 30 students, so the answer is 21/30 = 7/10\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -78,7 +78,7 @@
     "options": [
       "1/(3x)",
       "3x/(x-3)",
-      "(x \u2013 3)/(3x)",
+      "(x – 3)/(3x)",
       "x/(x-3)"
     ],
     "correct": 2,
@@ -92,18 +92,18 @@
   {
     "id": "aqua-frac-0703",
     "grade": 8,
-    "question": "Sam\u2019s car was fined when he gave Joe and Peter a ride, so they decided to help Sam pay the fine. Joe paid $6 more than 1/4 of the fine and Peter paid $6 less than 1/3 of the fine, leaving pay $10 less than 1/2 the fine to complete the payment. What fraction of the fine did Sam pay?",
+    "question": "Sam’s car was fined when he gave Joe and Peter a ride, so they decided to help Sam pay the fine. Joe paid \\$6 more than 1/4 of the fine and Peter paid \\$6 less than 1/3 of the fine, leaving pay \\$10 less than 1/2 the fine to complete the payment. What fraction of the fine did Sam pay?",
     "options": [
-      "$50",
-      "$40",
-      "$35",
-      "$44"
+      "\\$50",
+      "\\$40",
+      "\\$35",
+      "\\$44"
     ],
     "correct": 0,
     "tags": [
       "fractions"
     ],
-    "explanation": "Call the fine F. Joe paid (1/4)F + 4 and Peter paid (1/3)F \u2013 4, leaving (1/2)F \u2013 5 left. If we add those three up, they should add up to F.\nF = [(1/4)F + 6] + [(1/3)F \u2013 6] + [(1/2)F \u2013 10]\nF = (1/4)F + (1/3)F + (1/2)F \u2013 10\nMultiply all terms by 12 to clear the fractions.\n12F = 3F + 4F + 6F \u2013 120\n12F = 13 F \u2013 120\n\u2013F = \u2013 120\nF = 120\nWell, if the fine cost $120, then Sam paid the part not covered by Joe or Peter. Half the fine is $60, and Sam paid $10 less than this: $50.\nAnswer = A",
+    "explanation": "Call the fine F. Joe paid (1/4)F + 4 and Peter paid (1/3)F – 4, leaving (1/2)F – 5 left. If we add those three up, they should add up to F.\nF = [(1/4)F + 6] + [(1/3)F – 6] + [(1/2)F – 10]\nF = (1/4)F + (1/3)F + (1/2)F – 10\nMultiply all terms by 12 to clear the fractions.\n12F = 3F + 4F + 6F – 120\n12F = 13 F – 120\n–F = – 120\nF = 120\nWell, if the fine cost $120, then Sam paid the part not covered by Joe or Peter. Half the fine is $60, and Sam paid $10 less than this: $50.\nAnswer = A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

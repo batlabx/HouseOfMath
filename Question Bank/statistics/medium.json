@@ -20,12 +20,12 @@
   {
     "id": "aqua-stat-0027",
     "grade": 8,
-    "question": "A survey reveals that the average income of a company\u2019s customers is $45,000 per year. If 50 customers respond to the survey and the average income of the wealthiest 10 of those customers is $95,000, what is the average income of the other 40 customers?\nIs there a way to solve this using weighted average concept instead of doing tedious calculations?",
+    "question": "A survey reveals that the average income of a company’s customers is $45,000 per year. If 50 customers respond to the survey and the average income of the wealthiest 10 of those customers is $95,000, what is the average income of the other 40 customers?\nIs there a way to solve this using weighted average concept instead of doing tedious calculations?",
     "options": [
-      "$32,500",
-      "$35,000",
-      "$37,500",
-      "$42,500"
+      "\\$32,500",
+      "\\$35,000",
+      "\\$37,500",
+      "\\$42,500"
     ],
     "correct": 0,
     "tags": [
@@ -164,7 +164,7 @@
   {
     "id": "aqua-stat-0206",
     "grade": 8,
-    "question": "A miniature roulette wheel is divided into 10 equal sectors, each bearing a distinct integer from 1 to 10, inclusive. Each time the wheel is spun, a ball randomly determines the winning sector by settling in that sector. If the wheel is spun two times, approximately what is the probability that the product of the two winning sectors\u2019 integers will be even?",
+    "question": "A miniature roulette wheel is divided into 10 equal sectors, each bearing a distinct integer from 1 to 10, inclusive. Each time the wheel is spun, a ball randomly determines the winning sector by settling in that sector. If the wheel is spun two times, approximately what is the probability that the product of the two winning sectors’ integers will be even?",
     "options": [
       "88%",
       "75%",
@@ -319,7 +319,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Total age of 40 students = 40*8 = 320\nLet the age of the the teacher be x, Then (320+x)/41 = 8+1/2 =8 \u00bd.\n320+x =17/2*41 =697/2 = 348.5,\nx =348.5-320 = 28.5\nANSWER:C",
+    "explanation": "Total age of 40 students = 40*8 = 320\nLet the age of the the teacher be x, Then (320+x)/41 = 8+1/2 =8 ½.\n320+x =17/2*41 =697/2 = 348.5,\nx =348.5-320 = 28.5\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -355,7 +355,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Explanation:\n10 * 150 = 1500\n3 * 100 + 5 * 150 = 1050\n1500 \u2013 1050 = 450\nC",
+    "explanation": "Explanation:\n10 * 150 = 1500\n3 * 100 + 5 * 150 = 1050\n1500 – 1050 = 450\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -427,7 +427,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Explanation:\nAverage runs scored by Virat Kohli in 10 matches: Total runs scored/10\u2014(1)\nAverage runs scored by Virat Kohli in 6 matches: (Total runs in 6 matches)/6\n=> 42 = Runs/6\n=>252 runs\nUsing (1):\n=>38.9 = Runs/10\n=>389 runs\nRuns scored in rest 4 matches: 389 - 252 runs\n=> 137 runs\nAverage runs scored by Virat Kohli in 4 matches: 137/4 = 34.25 runs\nANSWER: A",
+    "explanation": "Explanation:\nAverage runs scored by Virat Kohli in 10 matches: Total runs scored/10—(1)\nAverage runs scored by Virat Kohli in 6 matches: (Total runs in 6 matches)/6\n=> 42 = Runs/6\n=>252 runs\nUsing (1):\n=>38.9 = Runs/10\n=>389 runs\nRuns scored in rest 4 matches: 389 - 252 runs\n=> 137 runs\nAverage runs scored by Virat Kohli in 4 matches: 137/4 = 34.25 runs\nANSWER: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -463,14 +463,14 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "The probability that first ball is white:\n=12C130C1=12C130C1\n=1230=1230\n=25=25\nSince, the ball is not replaced; hence the number of balls left in bag is 29.\nHence, the probability the second ball is black:\n=18C129C1=18C129C1\n=1829=1829\nRequired probability,\n=(25)\u00d7(1829)=(25)\u00d7(1829)\n=36/145\nB",
+    "explanation": "The probability that first ball is white:\n=12C130C1=12C130C1\n=1230=1230\n=25=25\nSince, the ball is not replaced; hence the number of balls left in bag is 29.\nHence, the probability the second ball is black:\n=18C129C1=18C129C1\n=1829=1829\nRequired probability,\n=(25)×(1829)=(25)×(1829)\n=36/145\nB",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-stat-0422",
     "grade": 8,
-    "question": "Three positive integers a, b, and c are such that their average is 24 and a \u2264 b \u2264 c. If the median is (a + 11), what is the least possible value of c?",
+    "question": "Three positive integers a, b, and c are such that their average is 24 and a ≤ b ≤ c. If the median is (a + 11), what is the least possible value of c?",
     "options": [
       "23",
       "25",
@@ -535,7 +535,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Two balls can be picked from nine balls in \u2079C\u2082 ways.\nWe select one white ball and one red ball from five white balls and four red balls. This can be done 5C1 . 4C1 ways.\nThe required probability\n= (5 * 4)/\u2079C\u2082 = 20/36\n= 5/9\nAnswer:B",
+    "explanation": "Two balls can be picked from nine balls in ⁹C₂ ways.\nWe select one white ball and one red ball from five white balls and four red balls. This can be done 5C1 . 4C1 ways.\nThe required probability\n= (5 * 4)/⁹C₂ = 20/36\n= 5/9\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -571,7 +571,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Total number of balls = 3 + 5 + 4 = 12\nLet S be the sample space.\nn(S) = Total number of ways of drawing 3 balls out of 12 = 12C3\nLet E = Event of drawing 3 different coloured balls\nTo get 3 different coloured balls,we need to select one black ball from 3 black balls,\none red ball from 5 red balls, one blue ball from 4 blue balls\nNumber of ways in which this can be done = 3C1 \u00d7 5C1 \u00d7 4C1\ni.e., n(E) = 3C1 \u00d7 5C1 \u00d7 4C1\nP(E) = n(E)/n(S)=3C1\u00d75C1\u00d74C1/12C3\n=3\u00d75\u00d74/(12\u00d711\u00d710/3\u00d72\u00d71)=3\u00d75\u00d74/2\u00d711\u00d710=3\u00d74/2\u00d711\u00d72=3/11\nANSWER:D",
+    "explanation": "Total number of balls = 3 + 5 + 4 = 12\nLet S be the sample space.\nn(S) = Total number of ways of drawing 3 balls out of 12 = 12C3\nLet E = Event of drawing 3 different coloured balls\nTo get 3 different coloured balls,we need to select one black ball from 3 black balls,\none red ball from 5 red balls, one blue ball from 4 blue balls\nNumber of ways in which this can be done = 3C1 × 5C1 × 4C1\ni.e., n(E) = 3C1 × 5C1 × 4C1\nP(E) = n(E)/n(S)=3C1×5C1×4C1/12C3\n=3×5×4/(12×11×10/3×2×1)=3×5×4/2×11×10=3×4/2×11×2=3/11\nANSWER:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -740,7 +740,7 @@
   {
     "id": "aqua-stat-0611",
     "grade": 8,
-    "question": "How many words with or without meaning, can be formed by using all the letters of the word, \u2018ORANGE\u2019, using each letter exactly once?",
+    "question": "How many words with or without meaning, can be formed by using all the letters of the word, ‘ORANGE’, using each letter exactly once?",
     "options": [
       "700",
       "720",
@@ -751,7 +751,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "The word \u2018ORANGE\u2019 contains 6 different letters.\nTherefore, Required number of words= Number of arrangement of 6 letters, taken all at a time\n=6P6\n= 6!\n= 6*5*4*3*2*1\n= 720\nANSWER:B",
+    "explanation": "The word ‘ORANGE’ contains 6 different letters.\nTherefore, Required number of words= Number of arrangement of 6 letters, taken all at a time\n=6P6\n= 6!\n= 6*5*4*3*2*1\n= 720\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -805,7 +805,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Correct average = 35x72+(86-36)/35\n\u2248 72 + 1.43 = 73.43\nAnswer D",
+    "explanation": "Correct average = 35x72+(86-36)/35\n≈ 72 + 1.43 = 73.43\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -859,7 +859,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Explanation:\nAs the month begin with sunday, so there will be five sundays in the month. So result will be:\n=(510\u00d75+240\u00d725/30)=(8550/25)=342\nAnswer: Option A",
+    "explanation": "Explanation:\nAs the month begin with sunday, so there will be five sundays in the month. So result will be:\n=(510×5+240×25/30)=(8550/25)=342\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -913,7 +913,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Here, S = [1, 2, 3, 4, \u2026., 19, 20]\nLet E = event of getting a multiple of 3 = [3, 6, 9, 12, 15, 18]\nP (E) = n (E) / n (S) = 6 / 20 = 3/10\nC",
+    "explanation": "Here, S = [1, 2, 3, 4, …., 19, 20]\nLet E = event of getting a multiple of 3 = [3, 6, 9, 12, 15, 18]\nP (E) = n (E) / n (S) = 6 / 20 = 3/10\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -974,7 +974,7 @@
   {
     "id": "aqua-stat-0784",
     "grade": 8,
-    "question": "Dave has no fashion sense, and will wear any combination of garments regardless of whether someone thinks they \u201cmatch.\u201d Every day Dave chooses an outfit consisting of one of each of the following garments: jacket, tie, shirt, pants, boxers, right sock, left sock, right shoe, left shoe. If Dave has more than one of each of the listed garments, and can make 2400 different outfits, then for how many garments does Dave have exactly five choices?",
+    "question": "Dave has no fashion sense, and will wear any combination of garments regardless of whether someone thinks they “match.” Every day Dave chooses an outfit consisting of one of each of the following garments: jacket, tie, shirt, pants, boxers, right sock, left sock, right shoe, left shoe. If Dave has more than one of each of the listed garments, and can make 2400 different outfits, then for how many garments does Dave have exactly five choices?",
     "options": [
       "0",
       "1",
@@ -1003,7 +1003,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "In Arun's company 60% of the employees earn less than $50,000 a year, 50 and 51 employee will be each 43K. hence median = (43K+43k)/2",
+    "explanation": "In Arun's company 60% of the employees earn less than \\$50,000 a year, 50 and 51 employee will be each 43K. hence median = (43K+43k)/2",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1012,10 +1012,10 @@
     "grade": 8,
     "question": "Seven people went to a restaurant for dinner. Six of them spent $11 each on their meals and the seventh person spent $6 more than the average expenditure of all seven people. What was the total amount of money that the seven people spent?",
     "options": [
-      "$80",
-      "$81",
-      "$82",
-      "$84"
+      "\\$80",
+      "\\$81",
+      "\\$82",
+      "\\$84"
     ],
     "correct": 3,
     "tags": [
@@ -1028,7 +1028,7 @@
   {
     "id": "aqua-stat-0799",
     "grade": 8,
-    "question": "3 friends A, B, C went for week end party to McDonald\u2019s restaurant and there they measure there weights in some order In 7 rounds. A, B, C, AB, BC, AC, ABC. Final round measure is 155kg then find the average weight of all the 7 rounds?",
+    "question": "3 friends A, B, C went for week end party to McDonald’s restaurant and there they measure there weights in some order In 7 rounds. A, B, C, AB, BC, AC, ABC. Final round measure is 155kg then find the average weight of all the 7 rounds?",
     "options": [
       "98.5 kgs",
       "88.5 kgs",
@@ -1129,7 +1129,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Solution\nAverage of 7 people after the last one enters = 151 .\n\u00e2\u02c6\u00b4 Required weight = (7x151)-(6x150)\n= 1057- 900\n= 157.\nAnswer A",
+    "explanation": "Solution\nAverage of 7 people after the last one enters = 151 .\nâˆ´ Required weight = (7x151)-(6x150)\n= 1057- 900\n= 157.\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1147,7 +1147,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Income of 3 months = (3 \u00d7 85) \u2013 debt\n= 255 \u2013 debt\nIncome of the man for next 4 months\n= 4 \u00d7 60 + debt + 30\n= 270 + debt\n\u2234 Income of 10 months = 525\nAverage monthly income = 525 \u00f7 10 = 52.5\nAnswer E",
+    "explanation": "Income of 3 months = (3 × 85) – debt\n= 255 – debt\nIncome of the man for next 4 months\n= 4 × 60 + debt + 30\n= 270 + debt\n∴ Income of 10 months = 525\nAverage monthly income = 525 ÷ 10 = 52.5\nAnswer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1172,7 +1172,7 @@
   {
     "id": "aqua-stat-0880",
     "grade": 8,
-    "question": "Last September the sales total for a certain car dealership was 400% greater than the average monthly sales total for the other 11 months. The sales total for September was approximately what percent of the year\u00b4s sales?",
+    "question": "Last September the sales total for a certain car dealership was 400% greater than the average monthly sales total for the other 11 months. The sales total for September was approximately what percent of the year´s sales?",
     "options": [
       "15 %",
       "27%",
@@ -1228,10 +1228,10 @@
     "grade": 8,
     "question": "The events A and B are independent. The probability that event A occurs is a and the probability that event B occurs is b. Which of the following is equal to the probability that exactly one of the events A and B occurs?",
     "options": [
-      "a \u2212 2ab",
-      "b \u2212 ab",
-      "a + b \u2212 2ab",
-      "a + b \u2212ab"
+      "a − 2ab",
+      "b − ab",
+      "a + b − 2ab",
+      "a + b −ab"
     ],
     "correct": 3,
     "tags": [
@@ -1255,7 +1255,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Given that there are three blue marbles, four red marbles, six green marbles and two yellow marbles. Probability that both marbles are blue = \u00b3C\u2082/\u00b9\u2075C\u2082 = (3 * 2)/(15 * 14) = 1/35\nProbability that both are yellow = \u00b2C\u2082/\u00b9\u2075C\u2082 = (2 * 1)/(15 * 14) = 1/105\nProbability that one blue and other is yellow = (\u00b3C\u2081 * \u00b2C\u2081)/\u00b9\u2075C\u2082 = (2 * 3 * 2)/(15 * 14) = 2/35\nRequired probability = 1/35 + 1/105 + 2/35\n= 3/35 + 1/105 = 1/35(3 + 1/3)\n= 10/(3 * 35) = 2/21\nAnswer: C",
+    "explanation": "Given that there are three blue marbles, four red marbles, six green marbles and two yellow marbles. Probability that both marbles are blue = ³C₂/¹⁵C₂ = (3 * 2)/(15 * 14) = 1/35\nProbability that both are yellow = ²C₂/¹⁵C₂ = (2 * 1)/(15 * 14) = 1/105\nProbability that one blue and other is yellow = (³C₁ * ²C₁)/¹⁵C₂ = (2 * 3 * 2)/(15 * 14) = 2/35\nRequired probability = 1/35 + 1/105 + 2/35\n= 3/35 + 1/105 = 1/35(3 + 1/3)\n= 10/(3 * 35) = 2/21\nAnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

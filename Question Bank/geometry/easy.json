@@ -13,7 +13,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "\u03c0 * 14 * 35= 1540\nAnswer:C",
+    "explanation": "π * 14 * 35= 1540\nAnswer:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -31,7 +31,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Solution\nSurface area\t= (34398 / 13)\n\u2039=\u203a2646cm3\n\u2039=\u203a6a2= 2646\n\u2039=\u203aa2= 441\n\u2039=\u203aa = 21.\nSo,volume =(21x21x21)cm3= 9261cm3.\nAnswer D",
+    "explanation": "Solution\nSurface area\t= (34398 / 13)\n‹=›2646cm3\n‹=›6a2= 2646\n‹=›a2= 441\n‹=›a = 21.\nSo,volume =(21x21x21)cm3= 9261cm3.\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -103,7 +103,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "(a + b + c)2 = a2 + b2 + c2 + 2(ab +bc + ca) = 351 + 2* 245\na + b + c = \u221a841 = 29\nE",
+    "explanation": "(a + b + c)2 = a2 + b2 + c2 + 2(ab +bc + ca) = 351 + 2* 245\na + b + c = √841 = 29\nE",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -112,16 +112,16 @@
     "grade": 8,
     "question": "What is the are of an equilateral triangle of side 16 cm?",
     "options": [
-      "64\u221a6 cm2",
-      "64\u221a3 cm2",
-      "64\u221a9 cm2",
-      "34\u221a3 cm2"
+      "64√6 cm2",
+      "64√3 cm2",
+      "64√9 cm2",
+      "34√3 cm2"
     ],
     "correct": 3,
     "tags": [
       "geometry"
     ],
-    "explanation": "Area of an equilateral triangle = \u221a3/4 S2\nIf S = 16, Area of triangle = \u221a3/4 * 16 * 16\n= 64\u221a3 cm2;\nAnswer: D",
+    "explanation": "Area of an equilateral triangle = √3/4 S2\nIf S = 16, Area of triangle = √3/4 * 16 * 16\n= 64√3 cm2;\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -139,7 +139,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Length of the train be \u2018X\u2019\nX + 120/15 = X + 180/18\n6X + 720 = 5X + 900\nX = 180m .Answer: B",
+    "explanation": "Length of the train be ‘X’\nX + 120/15 = X + 180/18\n6X + 720 = 5X + 900\nX = 180m .Answer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -301,7 +301,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "d = 3d d = d\na\u221a2 = 3d a\u221a2 = d\na = 3d/\u221a2 a = d/\u221a2 => 3: 1\nAnswer:D",
+    "explanation": "d = 3d d = d\na√2 = 3d a√2 = d\na = 3d/√2 a = d/√2 => 3: 1\nAnswer:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -391,7 +391,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Length of the train be \u2018X\u2019\nX + 120/15 = X + 180/18\n6X + 720 = 5X + 900\nX = 180m\nAnswer:B",
+    "explanation": "Length of the train be ‘X’\nX + 120/15 = X + 180/18\n6X + 720 = 5X + 900\nX = 180m\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -409,7 +409,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Circumference C is given by\nC = 2\u03c0r = 2\u03c0*5 = 10 \u03c0 cm\ncorrect answer E",
+    "explanation": "Circumference C is given by\nC = 2πr = 2π*5 = 10 π cm\ncorrect answer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -436,16 +436,16 @@
     "grade": 8,
     "question": "At 3.40, the hour hand and the minute hand of a clock form an angle of",
     "options": [
-      "120\u00b0",
-      "125\u00b0",
-      "130\u00b0",
-      "135\u00b0"
+      "120°",
+      "125°",
+      "130°",
+      "135°"
     ],
     "correct": 1,
     "tags": [
       "geometry"
     ],
-    "explanation": "Solution\nAngle traced by hour hand in 17/2 hrs\t= (360/12x17/2 )\u00b0\n= 255.\nAngle traced by min hand in 30 min\t= (360/60x30)\u00b0\n= 180.\nRequired angle\t= (255 - 180)\u00b0\n=75\u00b0\nAnswer B",
+    "explanation": "Solution\nAngle traced by hour hand in 17/2 hrs\t= (360/12x17/2 )°\n= 255.\nAngle traced by min hand in 30 min\t= (360/60x30)°\n= 180.\nRequired angle\t= (255 - 180)°\n=75°\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -481,7 +481,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Speed = [300 / 18] m/sec = 50/3 m/sec.\nLet the length of the platform be x meters.\nThen, x + 300 / 42\n= 50/3\n3(x + 300)\n= 2100 \u00e8 x\n= 400m.\nAnswer:C",
+    "explanation": "Speed = [300 / 18] m/sec = 50/3 m/sec.\nLet the length of the platform be x meters.\nThen, x + 300 / 42\n= 50/3\n3(x + 300)\n= 2100 è x\n= 400m.\nAnswer:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -510,7 +510,7 @@
     "options": [
       "250 meter",
       "100 meter",
-      "50\u221a 2 meter",
+      "50√ 2 meter",
       "50 meter"
     ],
     "correct": 1,
@@ -553,25 +553,25 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Distance covered in 26 seconds = 26\u00c3\u201472\u00c3\u20145/18=520 meter\nLength of the train = 520-250=270 meter\nANSWER: E",
+    "explanation": "Distance covered in 26 seconds = 26Ã—72Ã—5/18=520 meter\nLength of the train = 520-250=270 meter\nANSWER: E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-geom-0345",
     "grade": 8,
-    "question": "If paint costs $3.20 per quart, and a quart covers 1200 square feet, how much will it cost to paint the outside of a cube 10 feet on each edge?",
+    "question": "If paint costs \\$3.20 per quart, and a quart covers 1200 square feet, how much will it cost to paint the outside of a cube 10 feet on each edge?",
     "options": [
-      "$ 1.60",
-      "$ 16.00",
-      "$ 96.00",
-      "$108.00"
+      "\\$ 1.60",
+      "\\$ 16.00",
+      "\\$ 96.00",
+      "\\$108.00"
     ],
     "correct": 0,
     "tags": [
       "geometry"
     ],
-    "explanation": "total surface area = 6a^2 = 6*10*10 = 600\neach quart covers 20 sqr ft\nthus total number of quarts = 600/1200 = 0.5\ncost will be 0.5*3.2 = $1.6\nAns: A",
+    "explanation": "total surface area = 6a^2 = 6*10*10 = 600\neach quart covers 20 sqr ft\nthus total number of quarts = 600/1200 = 0.5\ncost will be 0.5*3.2 = \\$1.6\nAns: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -634,10 +634,10 @@
     "grade": 8,
     "question": "At what angle the hands of a clock are inclined at 15 minutes past 5?",
     "options": [
-      "117/2\u00c2\u00b0",
-      "64\u00c2\u00b0",
-      "135/2\u00c2\u00b0",
-      "145/2\u00c2\u00b0"
+      "117/2Â°",
+      "64Â°",
+      "135/2Â°",
+      "145/2Â°"
     ],
     "correct": 2,
     "tags": [
@@ -805,7 +805,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "RS = 40 \u2013 22 = 18 * 5/18 = 5 mps\nT = 60 sec\nD = 5 * 60 = 300 m\n125\n--------\n175 m\nAnswer: C",
+    "explanation": "RS = 40 – 22 = 18 * 5/18 = 5 mps\nT = 60 sec\nD = 5 * 60 = 300 m\n125\n--------\n175 m\nAnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -859,7 +859,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "d = 3d d = d\na\u221a2 = 3d a\u221a2 = d\na = 3d/\u221a2 a = d/\u221a2 => 3: 1\nAnswer: D",
+    "explanation": "d = 3d d = d\na√2 = 3d a√2 = d\na = 3d/√2 a = d/√2 => 3: 1\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1066,16 +1066,16 @@
     "grade": 8,
     "question": "The angle of elevation of the sun, when the length of the shadow of a tree 3 times the height of the tree, is:",
     "options": [
-      "30\u00ba",
-      "45\u00ba",
-      "60\u00ba",
-      "90\u00ba"
+      "30º",
+      "45º",
+      "60º",
+      "90º"
     ],
     "correct": 0,
     "tags": [
       "geometry"
     ],
-    "explanation": "shadow of the tree is \u221a3 times the height of the tree.\nshadow of a tree will be = \u221a3x.\ntan \u03b8 = AB/AC = x/\u221a3x.\ntan \u03b8 =1/\u221a3.\ntan \u03b8 = tan 1/\u221a3.\ntan \u03b8 = tan30\u00b0.\n\u03b8 = 30\u00b0 ANSWER : A",
+    "explanation": "shadow of the tree is √3 times the height of the tree.\nshadow of a tree will be = √3x.\ntan θ = AB/AC = x/√3x.\ntan θ =1/√3.\ntan θ = tan 1/√3.\ntan θ = tan30°.\nθ = 30° ANSWER : A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1138,16 +1138,16 @@
     "grade": 8,
     "question": "What is the are of an equilateral triangle of side 24 cm?",
     "options": [
-      "66\u00e2\u02c6\u01613 cm2",
-      "74\u00e2\u02c6\u01613 cm2",
-      "64\u00e2\u02c6\u01613 cm2",
-      "144\u00e2\u02c6\u01613 cm2"
+      "66âˆš3 cm2",
+      "74âˆš3 cm2",
+      "64âˆš3 cm2",
+      "144âˆš3 cm2"
     ],
     "correct": 3,
     "tags": [
       "geometry"
     ],
-    "explanation": "Area of an equilateral triangle = \u00e2\u02c6\u01613/4 S2\nIf S = 24, Area of triangle = \u00e2\u02c6\u01613/4 * 24 * 24 = 144\u00e2\u02c6\u01613 cm2;\nAnswer:E",
+    "explanation": "Area of an equilateral triangle = âˆš3/4 S2\nIf S = 24, Area of triangle = âˆš3/4 * 24 * 24 = 144âˆš3 cm2;\nAnswer:E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1183,7 +1183,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "percentage change in area\n=(\u221210\u221220+(10\u00d720)/100)%=\u221228%\ni.e., area is decreased by 28%\nANSWER:A",
+    "explanation": "percentage change in area\n=(−10−20+(10×20)/100)%=−28%\ni.e., area is decreased by 28%\nANSWER:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

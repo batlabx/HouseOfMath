@@ -49,7 +49,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "1 kg = 1000 gm\n320/1000 \u00c3\u2014 100 = 32000/1000\n=32 %\nAnswer is E",
+    "explanation": "1 kg = 1000 gm\n320/1000 Ã— 100 = 32000/1000\n=32 %\nAnswer is E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -283,7 +283,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nNet growth on 1000 = (32 - 11) = 21.\nNet growth on 100\n\u2039=\u203a [21 / 1000 x 100]%\n= 2.1%.\nAnswer C",
+    "explanation": "Solution\nNet growth on 1000 = (32 - 11) = 21.\nNet growth on 100\n‹=› [21 / 1000 x 100]%\n= 2.1%.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -344,12 +344,12 @@
   {
     "id": "aqua-perc-0036",
     "grade": 8,
-    "question": "if you put $1500 into the bank with a interest rate of 5% and left the money there for 4 years how much interest do you get at the end of the 4 years?",
+    "question": "if you put \\$1500 into the bank with a interest rate of 5% and left the money there for 4 years how much interest do you get at the end of the 4 years?",
     "options": [
-      "$15",
-      "$150",
-      "$300",
-      "$125"
+      "\\$15",
+      "\\$150",
+      "\\$300",
+      "\\$125"
     ],
     "correct": 3,
     "tags": [
@@ -445,7 +445,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let C.P. of the book be Rs. \u2019X\u2019\nGiven, 1.05 X - 0.95X = 13\n=> 0.1 X = 13 = 13/0.1 = Rs 130\nANSWER:C",
+    "explanation": "Let C.P. of the book be Rs. ’X’\nGiven, 1.05 X - 0.95X = 13\n=> 0.1 X = 13 = 13/0.1 = Rs 130\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -499,7 +499,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\n100 cm is read as 101 cm.\nA1 =(100 \u00d7 100)cm2 = 10000\nand A2= (101 \u00d7 101)cm2= 10609\n(A2 - A1) = 10201-10000 = 201\n=> 201/10000*100 =2.01\nAnswer : A",
+    "explanation": "Explanation:\n100 cm is read as 101 cm.\nA1 =(100 × 100)cm2 = 10000\nand A2= (101 × 101)cm2= 10609\n(A2 - A1) = 10201-10000 = 201\n=> 201/10000*100 =2.01\nAnswer : A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -571,7 +571,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nUse the formula,\nCP= 100 \u00e2\u20ac\u201c discount + brokerage%\nCP= 100-5+1/5\n95.2\nThus the CP is Rs 95.2.\nANSWER B",
+    "explanation": "Explanation:\nUse the formula,\nCP= 100 â€“ discount + brokerage%\nCP= 100-5+1/5\n95.2\nThus the CP is Rs 95.2.\nANSWER B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -668,7 +668,7 @@
   {
     "id": "aqua-perc-0073",
     "grade": 8,
-    "question": "Solve the quickfire maths brain teaser \u00e2\u02c6\u016125% = ?",
+    "question": "Solve the quickfire maths brain teaser âˆš25% = ?",
     "options": [
       "30%",
       "40%",
@@ -679,7 +679,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "\u00e2\u02c6\u016125%\n=> \u00e2\u02c6\u016125/\u00e2\u02c6\u0161100\n=> 5/10\n=> 50/100\n=> 50%\nC",
+    "explanation": "âˆš25%\n=> âˆš25/âˆš100\n=> 5/10\n=> 50/100\n=> 50%\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -769,7 +769,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nAmount=[7500\u00d7(1+4100)2]=(7500\u00d72625\u00d72625)=8112\nSo compound interest = (8112 - 7500) = 612\nAnswer: B",
+    "explanation": "Explanation:\nAmount=[7500×(1+4100)2]=(7500×2625×2625)=8112\nSo compound interest = (8112 - 7500) = 612\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -787,7 +787,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "In this case, Rs. 1000 has become Rs.5000.\nTherefore, the interest earned = 5000 \u2013 1000 =4000\nInterest for Rs 1000 @ 20% for 1 year = 200\n200 - 1\n4000 - ? => 20 years\nAnswer : B",
+    "explanation": "In this case, Rs. 1000 has become Rs.5000.\nTherefore, the interest earned = 5000 – 1000 =4000\nInterest for Rs 1000 @ 20% for 1 year = 200\n200 - 1\n4000 - ? => 20 years\nAnswer : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -859,7 +859,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nSuppose originally he had x apples.\nThen,(100-40)% of x = 420.\n\u2039=\u203a 60/100\u00d7x = 420\nx \u2039=\u203a (420 \u00d7100 / 60\n\u2039=\u203a 700.\nAnswer D",
+    "explanation": "Solution\nSuppose originally he had x apples.\nThen,(100-40)% of x = 420.\n‹=› 60/100×x = 420\nx ‹=› (420 ×100 / 60\n‹=› 700.\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -877,7 +877,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Before Price increase Price = d\nAfter 30% Price increase Price = d+(30/100)*D = 1.3d = 364 (Given)\ni.e. d = 364/1.3 = $280\ni.e. 2d = 2*280 = 560\nAnswer: option E",
+    "explanation": "Before Price increase Price = d\nAfter 30% Price increase Price = d+(30/100)*D = 1.3d = 364 (Given)\ni.e. d = 364/1.3 = \\$280\ni.e. 2d = 2*280 = 560\nAnswer: option E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -967,7 +967,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Sol.\nLet the sum be x. Then, S.I. = 40% of x = 2x/5; Rate = 5%.\n\u2234 Time = [100 * 2x/5 * 1/x*5] = 8 yea\nAnswer C",
+    "explanation": "Sol.\nLet the sum be x. Then, S.I. = 40% of x = 2x/5; Rate = 5%.\n∴ Time = [100 * 2x/5 * 1/x*5] = 8 yea\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1021,7 +1021,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n500 \u00c3\u2014 90/100 \u00c3\u2014 90/100 = 405\nC",
+    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n500 Ã— 90/100 Ã— 90/100 = 405\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1100,7 +1100,7 @@
   {
     "id": "aqua-perc-0127",
     "grade": 8,
-    "question": "Nobel buys an old car for $1000 and spends $1000 on its repairs. If he sells the scooter for $2500, his gain percent is?",
+    "question": "Nobel buys an old car for \\$1000 and spends \\$1000 on its repairs. If he sells the scooter for \\$2500, his gain percent is?",
     "options": [
       "10%",
       "15%",
@@ -1111,17 +1111,17 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "C.P. = 1000+1000 = $2000\nS.P. = $2500\nGain = 2500-2000 = $500\nGain% = 500/2000 * 100 =25%\nAnswer is C",
+    "explanation": "C.P. = 1000+1000 = \\$2000\nS.P. = \\$2500\nGain = 2500-2000 = \\$500\nGain% = 500/2000 * 100 =25%\nAnswer is C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0129",
     "grade": 8,
-    "question": "An employee\u2019s annual salary was increased $25,000. If her new annual salary now equals $90,000, what was the percent increase?",
+    "question": "An employee’s annual salary was increased $25,000. If her new annual salary now equals $90,000, what was the percent increase?",
     "options": [
       "15%",
-      "162\u20443%",
+      "162⁄3%",
       "20%",
       "38.46%"
     ],
@@ -1129,7 +1129,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "New annual salary = $90,000\nSalary increase = $25,000.\nOriginal salary = $90,000 - $25,000.\n= $75,000\n%Increase = ($25,000/ $65,000 )*100\n=38.46%\nHence D.",
+    "explanation": "New annual salary = \\$90,000\nSalary increase = \\$25,000.\nOriginal salary = \\$90,000 - \\$25,000.\n= \\$75,000\n%Increase = (\\$25,000/ \\$65,000 )*100\n=38.46%\nHence D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1201,7 +1201,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Answer\nLet A - 6% of A = AB.\n\u21d2 (94 x A) / 100 = AB\n\u2234 B = 0.94\nCorrect Option: A",
+    "explanation": "Answer\nLet A - 6% of A = AB.\n⇒ (94 x A) / 100 = AB\n∴ B = 0.94\nCorrect Option: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1543,7 +1543,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Answer\n\u2235 0.5/100 of A = 65/100\n\u2234 A = Rs. (65 / 0.5) = Rs. 130\nCorrect Option: A",
+    "explanation": "Answer\n∵ 0.5/100 of A = 65/100\n∴ A = Rs. (65 / 0.5) = Rs. 130\nCorrect Option: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1597,7 +1597,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Z share = Z,\nY = 1.2Z\nX = 1.25\u00d71.2Z,\nX+Y+Z =740\n(1.25\u00d7 1.2+1.2+1)Z=74\n3.7Z=740, Z=200\nAnswer: . B.",
+    "explanation": "Z share = Z,\nY = 1.2Z\nX = 1.25×1.2Z,\nX+Y+Z =740\n(1.25× 1.2+1.2+1)Z=74\n3.7Z=740, Z=200\nAnswer: . B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1622,12 +1622,12 @@
   {
     "id": "aqua-perc-0199",
     "grade": 8,
-    "question": "If Tim had lunch at $60.80 and he gave 20% tip, how much did he spend?",
+    "question": "If Tim had lunch at \\$60.80 and he gave 20% tip, how much did he spend?",
     "options": [
-      "$30.60",
-      "$60.60",
-      "$72.96",
-      "$40.60"
+      "\\$30.60",
+      "\\$60.60",
+      "\\$72.96",
+      "\\$40.60"
     ],
     "correct": 2,
     "tags": [
@@ -1669,7 +1669,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\n=[150(21/20\u00c3\u201421/20\u00c3\u201421/20)+150(21/20\u00c3\u201421/20)+150(21/20)]=496.52\nOption C",
+    "explanation": "Explanation:\n=[150(21/20Ã—21/20Ã—21/20)+150(21/20Ã—21/20)+150(21/20)]=496.52\nOption C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1802,12 +1802,12 @@
   {
     "id": "aqua-perc-0228",
     "grade": 8,
-    "question": "Find the simple interest on $6000 at 15% per annum for 9 months?",
+    "question": "Find the simple interest on \\$6000 at 15% per annum for 9 months?",
     "options": [
-      "$492",
-      "$512",
-      "$675",
-      "$745"
+      "\\$492",
+      "\\$512",
+      "\\$675",
+      "\\$745"
     ],
     "correct": 2,
     "tags": [
@@ -1856,12 +1856,12 @@
   {
     "id": "aqua-perc-0235",
     "grade": 8,
-    "question": "Last year a certain bond yielded 12 percent of its face value in interest. If that interest was approximately 4 percent of the bonds selling price of $7,500, what is the bonds face value?",
+    "question": "Last year a certain bond yielded 12 percent of its face value in interest. If that interest was approximately 4 percent of the bonds selling price of \\$7,500, what is the bonds face value?",
     "options": [
-      "$6,000",
-      "$6,750",
-      "$7,425",
-      "$2,500"
+      "\\$6,000",
+      "\\$6,750",
+      "\\$7,425",
+      "\\$2,500"
     ],
     "correct": 3,
     "tags": [
@@ -1939,7 +1939,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\n2 years = Rs.110/-\nyear = 110/2\nRate of Interest = 1%\n100/1% \u00d7 110/2 = Rs.5500/-\nP = Rs.5500/-\nAnswer: Option A",
+    "explanation": "Explanation:\n2 years = Rs.110/-\nyear = 110/2\nRate of Interest = 1%\n100/1% × 110/2 = Rs.5500/-\nP = Rs.5500/-\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2198,7 +2198,7 @@
   {
     "id": "aqua-perc-0277",
     "grade": 8,
-    "question": "A man two flats for $675958 each. On one he gains 15% while on the other he loses 15%. How much does he gain or lose in the whole transaction?",
+    "question": "A man two flats for \\$675958 each. On one he gains 15% while on the other he loses 15%. How much does he gain or lose in the whole transaction?",
     "options": [
       "2%",
       "2.25%",
@@ -2218,10 +2218,10 @@
     "grade": 8,
     "question": "The sale price at which a store sells an article is 25% more than its cost price. If the sale price is an integer, which of the following cannot be the cost price?",
     "options": [
-      "$20",
-      "$37",
-      "$48",
-      "$60"
+      "\\$20",
+      "\\$37",
+      "\\$48",
+      "\\$60"
     ],
     "correct": 1,
     "tags": [
@@ -2443,7 +2443,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nSuppose originally he had X mangoes.\nThen, (100 \u2013 30)% of X = 280\n70/100 * X = 280\nX = (280 * 100) / 70 = 400\nANSWER: B",
+    "explanation": "Explanation:\nSuppose originally he had X mangoes.\nThen, (100 – 30)% of X = 280\n70/100 * X = 280\nX = (280 * 100) / 70 = 400\nANSWER: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2623,7 +2623,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "X = 85 %\nY = 70 %\nZ = 100 %\nX-Y/X \u00d7 100 = 5/85\u00d7 100 = 17 11/17 % greater than X\nE",
+    "explanation": "X = 85 %\nY = 70 %\nZ = 100 %\nX-Y/X × 100 = 5/85× 100 = 17 11/17 % greater than X\nE",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2666,7 +2666,7 @@
   {
     "id": "aqua-perc-0328",
     "grade": 8,
-    "question": "Alfred buys an old scooter for $4700 and spends $800 on its repairs. If he sells the scooter for $6400, his gain percent is?",
+    "question": "Alfred buys an old scooter for \\$4700 and spends \\$800 on its repairs. If he sells the scooter for \\$6400, his gain percent is?",
     "options": [
       "5.45%",
       "16.36%",
@@ -2677,7 +2677,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "C.P. = 4700+800 = $5500\nS.P. = $6400\nGain = 6400-5500 = $900\nGain% = 900/5500 * 100 = 16.36%\nAnswer is B",
+    "explanation": "C.P. = 4700+800 = \\$5500\nS.P. = \\$6400\nGain = 6400-5500 = \\$900\nGain% = 900/5500 * 100 = 16.36%\nAnswer is B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2720,7 +2720,7 @@
   {
     "id": "aqua-perc-0333",
     "grade": 8,
-    "question": "A saleswoman makes a 5% commission on the selling price for each products she sells. If she sells 250 products and makes $750 in commission, what was the selling price of each product?",
+    "question": "A saleswoman makes a 5% commission on the selling price for each products she sells. If she sells 250 products and makes \\$750 in commission, what was the selling price of each product?",
     "options": [
       "30",
       "60",
@@ -3145,7 +3145,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "70/280 = 1/4\n1/4 \u00d7 100 = 25 %\nA)",
+    "explanation": "70/280 = 1/4\n1/4 × 100 = 25 %\nA)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3271,19 +3271,19 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "(75/100) * 40 \u2013 (4/5) * 25\n= 10\nAnswer: C",
+    "explanation": "(75/100) * 40 – (4/5) * 25\n= 10\nAnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0408",
     "grade": 8,
-    "question": "A man buys s cycle for $1400 and sells it at a loss of 15%. What is the selling price of the cycle?",
+    "question": "A man buys s cycle for \\$1400 and sells it at a loss of 15%. What is the selling price of the cycle?",
     "options": [
-      "$950",
-      "$1006",
-      "$1190",
-      "$1245"
+      "\\$950",
+      "\\$1006",
+      "\\$1190",
+      "\\$1245"
     ],
     "correct": 2,
     "tags": [
@@ -3379,7 +3379,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\n=[400(21/20\u00d721/20\u00d721/20)+400(21/20\u00d721/20)+400(21/20)]= 1324.05\nAnswer: C",
+    "explanation": "Explanation:\n=[400(21/20×21/20×21/20)+400(21/20×21/20)+400(21/20)]= 1324.05\nAnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3746,12 +3746,12 @@
   {
     "id": "aqua-perc-0471",
     "grade": 8,
-    "question": "Sam invested $1000 @20% per annum for one year. If the interest is compounded half yearly, then the amount received by Sam at the end of the year will be?",
+    "question": "Sam invested \\$1000 @20% per annum for one year. If the interest is compounded half yearly, then the amount received by Sam at the end of the year will be?",
     "options": [
-      "$1542",
-      "$1145",
-      "$1210",
-      "$1642"
+      "\\$1542",
+      "\\$1145",
+      "\\$1210",
+      "\\$1642"
     ],
     "correct": 2,
     "tags": [
@@ -3775,7 +3775,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n8000 \u00c3\u2014 100/90 \u00c3\u2014 100/90 = 9876\nA)",
+    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n8000 Ã— 100/90 Ã— 100/90 = 9876\nA)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3811,7 +3811,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "3/7 x \u2013 40/100 x = 12\nx = 35 * 12\n35 * 12 * 10/100 = 42/2 = 21\nANSWER:C",
+    "explanation": "3/7 x – 40/100 x = 12\nx = 35 * 12\n35 * 12 * 10/100 = 42/2 = 21\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3883,19 +3883,19 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Sol.\nLet the sum be x. Then, S.I. = 100% of x = x; Rate = 5%.\n\u00e2\u02c6\u00b4 Time = [100 * 2x/5 * 1/x*5] = 20 years.\nAnswer: D",
+    "explanation": "Sol.\nLet the sum be x. Then, S.I. = 100% of x = x; Rate = 5%.\nâˆ´ Time = [100 * 2x/5 * 1/x*5] = 20 years.\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-perc-0488",
     "grade": 8,
-    "question": "A worker's daily wage is increased by 50% and the new wage is $42 per day. What was the worker's daily wage before the increase?",
+    "question": "A worker's daily wage is increased by 50% and the new wage is \\$42 per day. What was the worker's daily wage before the increase?",
     "options": [
-      "$22",
-      "$24",
-      "$28",
-      "$32"
+      "\\$22",
+      "\\$24",
+      "\\$28",
+      "\\$32"
     ],
     "correct": 2,
     "tags": [
@@ -4016,7 +4016,7 @@
   {
     "id": "aqua-perc-0513",
     "grade": 8,
-    "question": "The salary of Mr. X is 30% more than that of Mr. Y . Find what percent of Mr. Y\u2019s salary is less than Mr. X\u2019s?",
+    "question": "The salary of Mr. X is 30% more than that of Mr. Y . Find what percent of Mr. Y’s salary is less than Mr. X’s?",
     "options": [
       "23 1/8%",
       "23 8/3%",
@@ -4070,12 +4070,12 @@
   {
     "id": "aqua-perc-0517",
     "grade": 8,
-    "question": "A watch was sold at a loss of 10%. If the watch was sold for $12 more, there would have been a gain of 6%. What is the cost price?",
+    "question": "A watch was sold at a loss of 10%. If the watch was sold for \\$12 more, there would have been a gain of 6%. What is the cost price?",
     "options": [
-      "$55",
-      "$65",
-      "$75",
-      "$85"
+      "\\$55",
+      "\\$65",
+      "\\$75",
+      "\\$85"
     ],
     "correct": 2,
     "tags": [
@@ -4135,7 +4135,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nQuantity of pure acid\t= 20% of 8 litres\n= (20/100\u00d78)litres\n= 1.6 litres.\nAnswer C",
+    "explanation": "Solution\nQuantity of pure acid\t= 20% of 8 litres\n= (20/100×8)litres\n= 1.6 litres.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4171,7 +4171,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "20000 \u00d7 80/100 \u00d7 80/100 = 12800\nAnswer : E",
+    "explanation": "20000 × 80/100 × 80/100 = 12800\nAnswer : E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4315,7 +4315,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Difference in S.I. = P\u00d7T/100(R1\u2212R2)\n\u21d2 1350 = P\u00d79x5/100(\u2235 R1 - R2 = 2)\n\u21d2 P = 1350\u00d7100/9x5=3000\nAnswer A",
+    "explanation": "Difference in S.I. = P×T/100(R1−R2)\n⇒ 1350 = P×9x5/100(∵ R1 - R2 = 2)\n⇒ P = 1350×100/9x5=3000\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4351,7 +4351,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the age before 10 years =x. Then,\n118x/100=x+10\n\u00e2\u2021\u2019118x=100x+1000\n\u00e2\u2021\u2019x=1000/18=55\nPresent age =x+10=55+10=65\nANSWER:B",
+    "explanation": "Let the age before 10 years =x. Then,\n118x/100=x+10\nâ‡’118x=100x+1000\nâ‡’x=1000/18=55\nPresent age =x+10=55+10=65\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4646,18 +4646,18 @@
   {
     "id": "aqua-perc-0610",
     "grade": 8,
-    "question": "The salaries of A and B together amount to $500. A spends 90% of his salary and B, 80% of his. If now, their savings are the same, what is A's salary?",
+    "question": "The salaries of A and B together amount to \\$500. A spends 90% of his salary and B, 80% of his. If now, their savings are the same, what is A's salary?",
     "options": [
-      "$50",
-      "$150",
-      "$69",
-      "$34"
+      "\\$50",
+      "\\$150",
+      "\\$69",
+      "\\$34"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "Let A's salary is x\nB's salary = 500-x\n(100-90)% of x = (100-80)% of (500-x)\nx = $34 (approximately)\nAnswer is D",
+    "explanation": "Let A's salary is x\nB's salary = 500-x\n(100-90)% of x = (100-80)% of (500-x)\nx = \\$34 (approximately)\nAnswer is D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4765,7 +4765,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "(P*5*15)/100 - (P*3.5*15)/100 = 144\n75P/100 \u2013 52.5P/100 = 144\n22.5P = 144 * 100\n=> P = Rs.640\nAnswer:B",
+    "explanation": "(P*5*15)/100 - (P*3.5*15)/100 = 144\n75P/100 – 52.5P/100 = 144\n22.5P = 144 * 100\n=> P = Rs.640\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4801,7 +4801,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\nS.I = Rs. (600\u00d710\u00d71/100) = Rs.60\nC.I = Rs. [600\u00d7(1+5/100)2\u2212600] = Rs.61.50\nDifference = Rs.(61.50-60) = Rs.1.50\nCorrect Option: D",
+    "explanation": "Explanation:\nS.I = Rs. (600×10×1/100) = Rs.60\nC.I = Rs. [600×(1+5/100)2−600] = Rs.61.50\nDifference = Rs.(61.50-60) = Rs.1.50\nCorrect Option: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4844,18 +4844,18 @@
   {
     "id": "aqua-perc-0646",
     "grade": 8,
-    "question": "If an investor puts $900 in a savings account that earns 10 percent annual interest compounded semiannually, how much money will be in the account after one year?",
+    "question": "If an investor puts \\$900 in a savings account that earns 10 percent annual interest compounded semiannually, how much money will be in the account after one year?",
     "options": [
-      "$986.25",
-      "$988.25",
-      "$990.25",
-      "$992.25"
+      "\\$986.25",
+      "\\$988.25",
+      "\\$990.25",
+      "\\$992.25"
     ],
     "correct": 3,
     "tags": [
       "percentages"
     ],
-    "explanation": "1.05*1.05*900=$992.25\nThe answer is D.",
+    "explanation": "1.05*1.05*900=\\$992.25\nThe answer is D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4927,7 +4927,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "C\n20%\nLet C.P. of each books be $ 1.\nThen, C.P. of 50 books= $50;\nS.P. of 50 books = $40.\nLoss % = 10/50 * 100 = 20%",
+    "explanation": "C\n20%\nLet C.P. of each books be \\$ 1.\nThen, C.P. of 50 books= \\$50;\nS.P. of 50 books = \\$40.\nLoss % = 10/50 * 100 = 20%",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4945,7 +4945,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nRequired % = [ \u03a0 x (5)2 / 2\u03a0 x 5 x 100]%\n\u2039=\u203a250%.\nAnswer D",
+    "explanation": "Solution\nRequired % = [ Π x (5)2 / 2Π x 5 x 100]%\n‹=›250%.\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4970,12 +4970,12 @@
   {
     "id": "aqua-perc-0664",
     "grade": 8,
-    "question": "If the personal income tax rate is lowered from 38% to 30%, what is the differential savings for a tax payer having an annual income before tax to the tune of $36500?",
+    "question": "If the personal income tax rate is lowered from 38% to 30%, what is the differential savings for a tax payer having an annual income before tax to the tune of \\$36500?",
     "options": [
-      "$1825",
-      "$5000",
-      "$3150",
-      "$7000"
+      "\\$1825",
+      "\\$5000",
+      "\\$3150",
+      "\\$7000"
     ],
     "correct": 0,
     "tags": [
@@ -5024,12 +5024,12 @@
   {
     "id": "aqua-perc-0675",
     "grade": 8,
-    "question": "What will $3000 amount to in three years if it is invested at 20% per year compound interest, with the interest being compounded annually?",
+    "question": "What will \\$3000 amount to in three years if it is invested at 20% per year compound interest, with the interest being compounded annually?",
     "options": [
-      "$4316",
-      "$4632",
-      "$4864",
-      "$5184"
+      "\\$4316",
+      "\\$4632",
+      "\\$4864",
+      "\\$5184"
     ],
     "correct": 3,
     "tags": [
@@ -5071,7 +5071,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation:\r5 years = Rs.250/-\ryear = 250/5\rRate of Interest = 1%\r100/1% \u00d7 250/5 = Rs.5000/-\rP = Rs.5000/- Answer: Option D",
+    "explanation": "Explanation:\r5 years = Rs.250/-\ryear = 250/5\rRate of Interest = 1%\r100/1% × 250/5 = Rs.5000/-\rP = Rs.5000/- Answer: Option D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5107,7 +5107,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "12 Rupees = 1200paisa's\n36/1200 \u00d7 100 = 3/12\n12/3 = 3 %\nA",
+    "explanation": "12 Rupees = 1200paisa's\n36/1200 × 100 = 3/12\n12/3 = 3 %\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5276,18 +5276,18 @@
   {
     "id": "aqua-perc-0714",
     "grade": 8,
-    "question": "A man took loan from a bank at the rate of 8% p.a. simple interest. After 4 years he had to pay $250 interest only for the period. The principal amount borrowed by him was:",
+    "question": "A man took loan from a bank at the rate of 8% p.a. simple interest. After 4 years he had to pay \\$250 interest only for the period. The principal amount borrowed by him was:",
     "options": [
-      "$881.25",
-      "$781.25",
-      "$761.35",
-      "$661.25"
+      "\\$881.25",
+      "\\$781.25",
+      "\\$761.35",
+      "\\$661.25"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "Principal(P) = ?\nTime(T) = 4 years\nSimple Interest(SI) = $250\nR = 8%\nP = 100\u00d7SI / RT=100\u00d7250 / 8\u00d74 = $781.25\nANSWER:B",
+    "explanation": "Principal(P) = ?\nTime(T) = 4 years\nSimple Interest(SI) = $250\nR = 8%\nP = 100×SI / RT=100×250 / 8×4 = $781.25\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5305,7 +5305,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the number be x.\nThen, 4*x/5 \u2013(65% of x) = 21\n4x/5 \u2013 65x/100 = 21\n5 x = 2100\nx = 140.\nso the answer is option B) 140.",
+    "explanation": "Let the number be x.\nThen, 4*x/5 –(65% of x) = 21\n4x/5 – 65x/100 = 21\n5 x = 2100\nx = 140.\nso the answer is option B) 140.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5359,7 +5359,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nB.G\nGiven,T.D = 160, P.w= 1600\t= (T.D)\u00b2 / P.W\n= Rs(160 x 160 / 1600)\n= Rs.16.\nAnswer A",
+    "explanation": "Solution\nB.G\nGiven,T.D = 160, P.w= 1600\t= (T.D)² / P.W\n= Rs(160 x 160 / 1600)\n= Rs.16.\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5456,12 +5456,12 @@
   {
     "id": "aqua-perc-0744",
     "grade": 8,
-    "question": "Two employees M and N are paid a total of $605 per week by their employer. If M is paid 120 percent of the salary paid to N, how much is N paid per week?",
+    "question": "Two employees M and N are paid a total of \\$605 per week by their employer. If M is paid 120 percent of the salary paid to N, how much is N paid per week?",
     "options": [
-      "$245",
-      "$255",
-      "$265",
-      "$275"
+      "\\$245",
+      "\\$255",
+      "\\$265",
+      "\\$275"
     ],
     "correct": 3,
     "tags": [
@@ -5485,7 +5485,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\n85 : 9 = 105 : x\nx= (9\u00d7105/80)\n= Rs.11.81\nHence, S.p per Kg\t= Rs.11.81\nAnswer A",
+    "explanation": "Solution\n85 : 9 = 105 : x\nx= (9×105/80)\n= Rs.11.81\nHence, S.p per Kg\t= Rs.11.81\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5593,7 +5593,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Actual price = 32.50+3.50 = $36\nSaving = 3.50/36 * 100 = 10% approximately\nAnswer is C",
+    "explanation": "Actual price = 32.50+3.50 = \\$36\nSaving = 3.50/36 * 100 = 10% approximately\nAnswer is C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5629,7 +5629,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Assume that face value = Rs.100 as it is not given\nTo earn Rs.8, money invested = Rs.100\nTo earn Rs.14, money invested = 100\u00d714/8 = Rs.175\nie, market value of the stock = Rs.175\nAnswer is C.",
+    "explanation": "Assume that face value = Rs.100 as it is not given\nTo earn Rs.8, money invested = Rs.100\nTo earn Rs.14, money invested = 100×14/8 = Rs.175\nie, market value of the stock = Rs.175\nAnswer is C.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5737,7 +5737,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Difference in S.I. = P\u00d7T/100(R1\u2212R2)\n\u21d2 144 = P\u00d76x4/100(\u2235 R1 - R2 = 2)\n\u21d2 P = 144\u00d7100/6\u00d74=600\nAnswer B",
+    "explanation": "Difference in S.I. = P×T/100(R1−R2)\n⇒ 144 = P×6x4/100(∵ R1 - R2 = 2)\n⇒ P = 144×100/6×4=600\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5755,7 +5755,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Explanation :\nT = 2 years\nR = 10%\nTD = (BG \u00d7100)/TR = (24 \u00d7 100)/(2\u00d710) = 12 \u00d7 10 = Rs. 120\nTD = (PW \u00d7 TR)/100\n\u21d2 120 = (PW \u00d7 2 \u00d7 10)/100\n\u21d2 1200 = PW \u00d7 2\nPW =1200/2 = Rs. 600 Answer : Option A",
+    "explanation": "Explanation :\nT = 2 years\nR = 10%\nTD = (BG ×100)/TR = (24 × 100)/(2×10) = 12 × 10 = Rs. 120\nTD = (PW × TR)/100\n⇒ 120 = (PW × 2 × 10)/100\n⇒ 1200 = PW × 2\nPW =1200/2 = Rs. 600 Answer : Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5780,18 +5780,18 @@
   {
     "id": "aqua-perc-0790",
     "grade": 8,
-    "question": "a merchant sold an article at a loss of 12%,. if the selling price had been increased by $50 the merchant would have made a profit of 8%. what is the cost price of the article?",
+    "question": "a merchant sold an article at a loss of 12%,. if the selling price had been increased by \\$50 the merchant would have made a profit of 8%. what is the cost price of the article?",
     "options": [
-      "$550",
-      "$500",
-      "$510",
-      "$565"
+      "\\$550",
+      "\\$500",
+      "\\$510",
+      "\\$565"
     ],
     "correct": 1,
     "tags": [
       "percentages"
     ],
-    "explanation": "Let C.P. be $x\nThen 108% of x - 88% of x = 100\n20% of x = 100\nx/5 = 100\nx = 500\nAnswer is B",
+    "explanation": "Let C.P. be \\$x\nThen 108% of x - 88% of x = 100\n20% of x = 100\nx/5 = 100\nx = 500\nAnswer is B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5953,7 +5953,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "If a trader professes to sell his goods at cost price, but uses false weights, then\nGain%=[Error(True Value\u2212Error)\u00d7100]%So here profit percentage=[200(1000\u2212200)\u00d7100]%=[200800\u00d7100]%=25%\nC",
+    "explanation": "If a trader professes to sell his goods at cost price, but uses false weights, then\nGain%=[Error(True Value−Error)×100]%So here profit percentage=[200(1000−200)×100]%=[200800×100]%=25%\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5971,7 +5971,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "120/90 = 4/3\n4/3 \u00d7 100 = 400/3 = 133 1/3 %\nA",
+    "explanation": "120/90 = 4/3\n4/3 × 100 = 400/3 = 133 1/3 %\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6097,7 +6097,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "(80/100) * 40 \u2013 (10/100) * 15\n32 - 15 = 17\nAnswer: E",
+    "explanation": "(80/100) * 40 – (10/100) * 15\n32 - 15 = 17\nAnswer: E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6133,7 +6133,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "(P*5*15)/100 - (P*3.5*15)/100 = 144\n75P/100 \u2013 52.5P/100 = 144\n22.5P = 144 * 100\n=> P = Rs.640\nAnswer:B",
+    "explanation": "(P*5*15)/100 - (P*3.5*15)/100 = 144\n75P/100 – 52.5P/100 = 144\n22.5P = 144 * 100\n=> P = Rs.640\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6376,10 +6376,10 @@
     "grade": 8,
     "question": "If an item that originally sold for o dollars was marked up by m percent and then discounted by n percent, which of the following expressions represents the final price of the item?",
     "options": [
-      "(10,000o + 100o(m \u2013 n) \u2013 mno)/10,000",
-      "(10,000o + 100o(n \u2013 m) \u2013 mno)/10,000",
-      "(100o(m \u2013 n) \u2013 mno)/10000",
-      "(100o(n \u2013 m) \u2013 mno)/10000"
+      "(10,000o + 100o(m – n) – mno)/10,000",
+      "(10,000o + 100o(n – m) – mno)/10,000",
+      "(100o(m – n) – mno)/10000",
+      "(100o(n – m) – mno)/10000"
     ],
     "correct": 0,
     "tags": [
@@ -6403,7 +6403,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "10/100 \u00d7 x = 15 \u21d2 x=150\nAs the loss and profit both are earned on the cost price.\nAnswer: B",
+    "explanation": "10/100 × x = 15 ⇒ x=150\nAs the loss and profit both are earned on the cost price.\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6493,7 +6493,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Sol.\nLet the sum be x. Then, S.I. = 60% of x = 3x/5; Rate = 6%.\n\u00e2\u02c6\u00b4 Time = [100 * 3x/5 * 1/x*6] = 10 years\nAnswer C",
+    "explanation": "Sol.\nLet the sum be x. Then, S.I. = 60% of x = 3x/5; Rate = 6%.\nâˆ´ Time = [100 * 3x/5 * 1/x*6] = 10 years\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6511,7 +6511,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n10000 \u00c3\u2014 115/100 \u00c3\u2014 115/100 = 13225\nC",
+    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n10000 Ã— 115/100 Ã— 115/100 = 13225\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6637,7 +6637,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "44 + 28 + 10 = 82%\n100 \u2013 82 = 18%\n800 * 18/100 = 144\nThe answer is C.",
+    "explanation": "44 + 28 + 10 = 82%\n100 – 82 = 18%\n800 * 18/100 = 144\nThe answer is C.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6662,12 +6662,12 @@
   {
     "id": "aqua-perc-0910",
     "grade": 8,
-    "question": "Jeff received a 10% raise each month for three consecutive months. What was his starting salary if after the three raises his salary is $1331?",
+    "question": "Jeff received a 10% raise each month for three consecutive months. What was his starting salary if after the three raises his salary is \\$1331?",
     "options": [
-      "$1,000",
-      "$1,100",
-      "$1,200",
-      "$1,300"
+      "\\$1,000",
+      "\\$1,100",
+      "\\$1,200",
+      "\\$1,300"
     ],
     "correct": 0,
     "tags": [
@@ -6799,7 +6799,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "SP = 120% of CP; :. CP = 270 \u00d7 100/120 = 225\nOption 'B'",
+    "explanation": "SP = 120% of CP; :. CP = 270 × 100/120 = 225\nOption 'B'",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6835,7 +6835,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Let the CP = 100 Rs.\nMark Price = 130\nDiscount = 10%\nSelling price 90/100 \u00c3\u2014 130\nHence profit = 17%\nAnswer: A.",
+    "explanation": "Let the CP = 100 Rs.\nMark Price = 130\nDiscount = 10%\nSelling price 90/100 Ã— 130\nHence profit = 17%\nAnswer: A.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -6907,7 +6907,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Solution\nS.I.\t=Rs(1000x10x4 / 100)\n= Rs.400.\nC.I.\t=Rs.[1000x(1x10/100)4-1000]\n= Rs. 464.10\n\u2234 Difference = Rs.(464.10 - 400)\n= Rs. 64.10\nAnswer D",
+    "explanation": "Solution\nS.I.\t=Rs(1000x10x4 / 100)\n= Rs.400.\nC.I.\t=Rs.[1000x(1x10/100)4-1000]\n= Rs. 464.10\n∴ Difference = Rs.(464.10 - 400)\n= Rs. 64.10\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7112,7 +7112,7 @@
   {
     "id": "aqua-perc-0982",
     "grade": 8,
-    "question": "If Sharon's weekly salary increased by 10 percent, she would earn $330 per week. If instead, her weekly salary were to increase by 8 percent, how much would she earn per week?",
+    "question": "If Sharon's weekly salary increased by 10 percent, she would earn \\$330 per week. If instead, her weekly salary were to increase by 8 percent, how much would she earn per week?",
     "options": [
       "Rs.424",
       "Rs.524",
@@ -7148,9 +7148,9 @@
   {
     "id": "aqua-perc-0985",
     "grade": 8,
-    "question": "Total dinning bill for 10 people was $211.00.If they add 15% tip and divided the bill evenly ,approximate.What was each persons find share",
+    "question": "Total dinning bill for 10 people was \\$211.00.If they add 15% tip and divided the bill evenly ,approximate.What was each persons find share",
     "options": [
-      "$30.14",
+      "\\$30.14",
       "45.14",
       "34.66",
       "24.26"
@@ -7166,7 +7166,7 @@
   {
     "id": "aqua-perc-0988",
     "grade": 8,
-    "question": "At what price must an Book costing $47.50 be marked in order that after deducting 12% from the list price. It may be sold at a profit of 25% on the cost price?",
+    "question": "At what price must an Book costing \\$47.50 be marked in order that after deducting 12% from the list price. It may be sold at a profit of 25% on the cost price?",
     "options": [
       "72.5",
       "55.5",
@@ -7177,7 +7177,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "C\n$62.50\nCP = 47.50\nSP = 47.50*(125/100) = 59.375\nMP*(88/100) = 59.375\nMP = 67.5\nC",
+    "explanation": "C\n\\$62.50\nCP = 47.50\nSP = 47.50*(125/100) = 59.375\nMP*(88/100) = 59.375\nMP = 67.5\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -7249,7 +7249,7 @@
     "tags": [
       "percentages"
     ],
-    "explanation": "Actual price = 25+2.50 = $27.50\nSaving = 2.50/27.50 * 100 = 100/11 = 9% approximately\nAnswer is B",
+    "explanation": "Actual price = 25+2.50 = \\$27.50\nSaving = 2.50/27.50 * 100 = 100/11 = 9% approximately\nAnswer is B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

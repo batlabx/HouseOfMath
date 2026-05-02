@@ -2,12 +2,12 @@
   {
     "id": "aqua-alge-0003",
     "grade": 8,
-    "question": "Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually?",
+    "question": "Carl is facing very difficult financial times and can only pay the interest on a \\$10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually?",
     "options": [
-      "$1600",
-      "$2000",
-      "$2150",
-      "$2500"
+      "\\$1600",
+      "\\$2000",
+      "\\$2150",
+      "\\$2500"
     ],
     "correct": 0,
     "tags": [
@@ -38,7 +38,7 @@
   {
     "id": "aqua-alge-0024",
     "grade": 8,
-    "question": "A debtor reached an agreement with his creditor to repay a loan by making a monthly payment which is double of the amount she paid the previous month. If the debtors first payment was $200, and he is expected to pay back 51200, how many months will it take to fully repay the loan?",
+    "question": "A debtor reached an agreement with his creditor to repay a loan by making a monthly payment which is double of the amount she paid the previous month. If the debtors first payment was \\$200, and he is expected to pay back 51200, how many months will it take to fully repay the loan?",
     "options": [
       "9",
       "10",
@@ -49,7 +49,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "First payment--$200\nTotal amount to be repaid--$25600\nFirst month payment--$200\nSecond month payment( double the previous month payment)--$200*2=$400\nThird month payment( double the previous month payment)--$400*2=$800\nFourth month payment( double the previous month payment)--$800*2=$1600\nFifth month payment( double the previous month payment)--$1600*2=$3200\nSixth month payment( double the previous month payment)--$3200*2=$6400\nSeventh month payment( double the previous month payment)--$6400*2=$12800\nEight month payment( double the previous month payment)--$12800*2=$25600\nNinth month payment( double the previous month payment)--$25600*2=$51200\nAnswer is A",
+    "explanation": "First payment--\\$200\nTotal amount to be repaid--\\$25600\nFirst month payment--\\$200\nSecond month payment( double the previous month payment)--\\$200*2=\\$400\nThird month payment( double the previous month payment)--\\$400*2=\\$800\nFourth month payment( double the previous month payment)--\\$800*2=\\$1600\nFifth month payment( double the previous month payment)--\\$1600*2=\\$3200\nSixth month payment( double the previous month payment)--\\$3200*2=\\$6400\nSeventh month payment( double the previous month payment)--\\$6400*2=\\$12800\nEight month payment( double the previous month payment)--\\$12800*2=\\$25600\nNinth month payment( double the previous month payment)--\\$25600*2=\\$51200\nAnswer is A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -121,7 +121,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Solution:\nAt least 1 question from each section is compulsory, so from the 1st section the candidate can attempt 1 or 2 or 3 or 4 questions.\nIn each section each question can be dealt with in 2 ways, i.e. either he attempts it or leaves it.\nSo far 4 question there are 2 *2 *2 *2 ways to attempt. As he has to attempt at least 1 question, the total number of ways in which he can attempt questions from 1st section is 24\u22121.\nSimilarly for the 2nd section there are 25\u22121 ways in which he can attempt and for the 3rd section there are 26\u22121 ways.\nThe ways in which the attempts one or more questions in any section is independent of the number of ways in which he attempts one or more questions from the other sections.\nThus, total number of ways\nAnswer: Option D",
+    "explanation": "Solution:\nAt least 1 question from each section is compulsory, so from the 1st section the candidate can attempt 1 or 2 or 3 or 4 questions.\nIn each section each question can be dealt with in 2 ways, i.e. either he attempts it or leaves it.\nSo far 4 question there are 2 *2 *2 *2 ways to attempt. As he has to attempt at least 1 question, the total number of ways in which he can attempt questions from 1st section is 24−1.\nSimilarly for the 2nd section there are 25−1 ways in which he can attempt and for the 3rd section there are 26−1 ways.\nThe ways in which the attempts one or more questions in any section is independent of the number of ways in which he attempts one or more questions from the other sections.\nThus, total number of ways\nAnswer: Option D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -130,10 +130,10 @@
     "grade": 8,
     "question": "Each of the following equations W has at least one solution EXCEPT",
     "options": [
-      "W=\u20132^n = (\u20132)^-n",
-      "2^-n = (\u20132)^n",
-      "2^n = (\u20132)^-n",
-      "(\u20132)^n = \u20132^n"
+      "W=–2^n = (–2)^-n",
+      "2^-n = (–2)^n",
+      "2^n = (–2)^-n",
+      "(–2)^n = –2^n"
     ],
     "correct": 0,
     "tags": [
@@ -157,7 +157,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "If two objects A and B start simultaneously from opposite points and, after meeting, reach their destinations in \u2018a\u2019 and \u2018b\u2019 hours respectively (i.e. A takes \u2018a hrs\u2019 to travel from the meeting point to his destination and B takes \u2018b hrs\u2019 to travel from the meeting point to his destination), then the ratio of their speeds is given by:\nSa/Sb = \u221a(b/a)\ni.e. Ratio of speeds is given by the square root of the inverse ratio of time taken.\nSa/Sb = \u221a(4/9) = 2/3\nThis gives us that the ratio of the speed of A : speed of B as 2:3.\nSince speed of A is 60 kmph, speed of B must be 60*(3/2) = 90 kmph\nAnswer B",
+    "explanation": "If two objects A and B start simultaneously from opposite points and, after meeting, reach their destinations in ‘a’ and ‘b’ hours respectively (i.e. A takes ‘a hrs’ to travel from the meeting point to his destination and B takes ‘b hrs’ to travel from the meeting point to his destination), then the ratio of their speeds is given by:\nSa/Sb = √(b/a)\ni.e. Ratio of speeds is given by the square root of the inverse ratio of time taken.\nSa/Sb = √(4/9) = 2/3\nThis gives us that the ratio of the speed of A : speed of B as 2:3.\nSince speed of A is 60 kmph, speed of B must be 60*(3/2) = 90 kmph\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -193,7 +193,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The final product is obtained by mixing 864 units of product M with water.\nIn 864 units of Product M, amount of B = 864\u00d777/108 = 616\nIn the final mixture, concentration of B is 50%.\nTherefore, the total quantity of final mixture = 616 \u00d7 2 = 1232\nWater added = 1232 \u2013 864 = 368\nThe correct answer is Choice B.",
+    "explanation": "The final product is obtained by mixing 864 units of product M with water.\nIn 864 units of Product M, amount of B = 864×77/108 = 616\nIn the final mixture, concentration of B is 50%.\nTherefore, the total quantity of final mixture = 616 × 2 = 1232\nWater added = 1232 – 864 = 368\nThe correct answer is Choice B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -236,7 +236,7 @@
   {
     "id": "aqua-alge-0188",
     "grade": 8,
-    "question": "A book store bought copies of a new book by a popular author, in anticipation of robust sales. The store bought 400 copies from their supplier, each copy at wholesale price W. The store sold the first 150 copies in the first week at 80% more than W, and then over the next month, sold a 100 more at 20% more than W. Finally, to clear shelf space, the store sold the remaining copies to a bargain retailer at 40% less than W. What was the bookstore\u2019s net percent profit or loss on the entire lot of 400 books?",
+    "question": "A book store bought copies of a new book by a popular author, in anticipation of robust sales. The store bought 400 copies from their supplier, each copy at wholesale price W. The store sold the first 150 copies in the first week at 80% more than W, and then over the next month, sold a 100 more at 20% more than W. Finally, to clear shelf space, the store sold the remaining copies to a bargain retailer at 40% less than W. What was the bookstore’s net percent profit or loss on the entire lot of 400 books?",
     "options": [
       "30% loss",
       "10% loss",
@@ -326,7 +326,7 @@
   {
     "id": "aqua-alge-0249",
     "grade": 8,
-    "question": "In a business school case competition, the top three teams receive cash prizes of $5,000, $3,000, and $2,000, respectively, while the remaining teams are not ranked and do not receive any prizes. There are 6 participating teams, named Team A, Team B, Team C, Team D, Team E, and Team F. If Team A wins one of the prizes, Team B will also win one of the prizes. How many outcomes W of the competition are possible?",
+    "question": "In a business school case competition, the top three teams receive cash prizes of \\$5,000, \\$3,000, and \\$2,000, respectively, while the remaining teams are not ranked and do not receive any prizes. There are 6 participating teams, named Team A, Team B, Team C, Team D, Team E, and Team F. If Team A wins one of the prizes, Team B will also win one of the prizes. How many outcomes W of the competition are possible?",
     "options": [
       "18",
       "20",
@@ -344,7 +344,7 @@
   {
     "id": "aqua-alge-0252",
     "grade": 8,
-    "question": "Bradley owns b video game cartridges. If Bradley\u2019s total is one-third the total owned by Andrew and twice the total owned by Charlie, how many video game cartridges do the three of them own altogether, in terms of b?",
+    "question": "Bradley owns b video game cartridges. If Bradley’s total is one-third the total owned by Andrew and twice the total owned by Charlie, how many video game cartridges do the three of them own altogether, in terms of b?",
     "options": [
       "(16/3)b",
       "(17/4)b",
@@ -355,19 +355,19 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Step 1: Categorize the problem\nThis problem is testing basic algebra and equations, with an extra layer of complexity by having variables in the answer choices.\nStep 2: Think like the test maker\nWhat is the key detail or key details in the problem? The key detail to immediately recognize is that the problem gives you Andrew and Charlie\u2019s totals in relation to Bradley\u2019s total rather than giving you Bradley\u2019s total in relation to the other two; and then the problem asks you to solve the problem in terms of b. This means that you have to relate Andrew and Charlie\u2019s values in relation to Bradley\u2019s total. The test maker is attempting to force you to structure the problem in the opposite way that most people are used to structuring information. By gaining this insight, it makes it easier to solve the problem.\nStep 3: Solve the problem\nb = Bradley\u2019s total\n3b = Andrew\u2019s total\n(1/2)b = Charlie\u2019s total\nAdd each total\nb + 3b+ (1/2)b = 4b + (1/2)b = (16/4)b + (1/2)b = (9/2)b\nTherefore,choose D.",
+    "explanation": "Step 1: Categorize the problem\nThis problem is testing basic algebra and equations, with an extra layer of complexity by having variables in the answer choices.\nStep 2: Think like the test maker\nWhat is the key detail or key details in the problem? The key detail to immediately recognize is that the problem gives you Andrew and Charlie’s totals in relation to Bradley’s total rather than giving you Bradley’s total in relation to the other two; and then the problem asks you to solve the problem in terms of b. This means that you have to relate Andrew and Charlie’s values in relation to Bradley’s total. The test maker is attempting to force you to structure the problem in the opposite way that most people are used to structuring information. By gaining this insight, it makes it easier to solve the problem.\nStep 3: Solve the problem\nb = Bradley’s total\n3b = Andrew’s total\n(1/2)b = Charlie’s total\nAdd each total\nb + 3b+ (1/2)b = 4b + (1/2)b = (16/4)b + (1/2)b = (9/2)b\nTherefore,choose D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-alge-0307",
     "grade": 8,
-    "question": "Crazy Eddie has a key chain factory. Eddie managed to decrease the cost of manufacturing his key chains while keeping the same selling price, and thus increased the profit from the sale of each key chain from 30% of the selling price to 50% of the selling price. If the manufacturing cost is now $50, what was it before the decrease?",
+    "question": "Crazy Eddie has a key chain factory. Eddie managed to decrease the cost of manufacturing his key chains while keeping the same selling price, and thus increased the profit from the sale of each key chain from 30% of the selling price to 50% of the selling price. If the manufacturing cost is now \\$50, what was it before the decrease?",
     "options": [
-      "$20",
-      "$40",
-      "$50",
-      "$70"
+      "\\$20",
+      "\\$40",
+      "\\$50",
+      "\\$70"
     ],
     "correct": 3,
     "tags": [
@@ -445,7 +445,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Pick a smart number for the total retirement savings James starts with\u2014say, $1,000. (If you pick $100, you\u2019ll wind up needing to track decimals, so give yourself more zeros to start with.)\nHere are the starting values:\nL = $800\nM = $100\nS = $100\nApply the first year\u2019s changes, so that you have these numbers on 1/1/2012:\nNewer L = $800 + 10% = $880\nNewer M = $100 + 10% = $110\nNewer S = $100 + 20% = $120\nNow apply the second year\u2019s changes to L and M:\nNewest L = $880 \u2013 5% = $880 \u2013 $44 = $836\nNewest M = $110 \u2013 10% = $110 \u2013 $11 = $99\nAdd these to get $935. So the newest S must be $1,000 (the target final total of James\u2019s retirement savings) minus $935, $65\nThe dollar change in S from 1/1/12 to 1/1/13 is $120 \u2013 $55 = $65. So the question is this: what percent change does $65 represent, from a starting point of $120? Since $120 is a nasty divisor, switch to benchmarks:\n20% of $120 = $24.\nSo 40% is just double that, or $48.\nAnd 50% is equal to or $60.\nFrom this $55 lies between $48 and $60\nThe correct answer is D.",
+    "explanation": "Pick a smart number for the total retirement savings James starts with—say, $1,000. (If you pick $100, you’ll wind up needing to track decimals, so give yourself more zeros to start with.)\nHere are the starting values:\nL = $800\nM = $100\nS = $100\nApply the first year’s changes, so that you have these numbers on 1/1/2012:\nNewer L = $800 + 10% = $880\nNewer M = $100 + 10% = $110\nNewer S = $100 + 20% = $120\nNow apply the second year’s changes to L and M:\nNewest L = $880 – 5% = $880 – $44 = $836\nNewest M = $110 – 10% = $110 – $11 = $99\nAdd these to get $935. So the newest S must be $1,000 (the target final total of James’s retirement savings) minus $935, $65\nThe dollar change in S from 1/1/12 to 1/1/13 is $120 – $55 = $65. So the question is this: what percent change does $65 represent, from a starting point of $120? Since $120 is a nasty divisor, switch to benchmarks:\n20% of $120 = $24.\nSo 40% is just double that, or $48.\nAnd 50% is equal to or $60.\nFrom this $55 lies between $48 and $60\nThe correct answer is D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -517,7 +517,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let xx be the number of days the company worked. Then 25x is the number of parts they planned to make. At the new production rate they made:\n3\u22c525+(x\u22123)\u22c530=75+30(x\u22123)3\u22c525+(x\u22123)\u22c530=75+30(x\u22123)\nTherefore: 25x=75+30(x\u22123)\u221210025x=75+30(x\u22123)\u2212100\n25x=75+30x\u221290\u221210025x=75+30x\u221290\u2212100\n190\u221275=30x\u221225190\u221275=30x\u221225\n115=5x115=5x\nx=23x=23\nSo the company worked 23 days and they made 23\u22c525+100=67523\u22c525+100=675 pieces.\nAnswer:D",
+    "explanation": "Let xx be the number of days the company worked. Then 25x is the number of parts they planned to make. At the new production rate they made:\n3⋅25+(x−3)⋅30=75+30(x−3)3⋅25+(x−3)⋅30=75+30(x−3)\nTherefore: 25x=75+30(x−3)−10025x=75+30(x−3)−100\n25x=75+30x−90−10025x=75+30x−90−100\n190−75=30x−25190−75=30x−25\n115=5x115=5x\nx=23x=23\nSo the company worked 23 days and they made 23⋅25+100=67523⋅25+100=675 pieces.\nAnswer:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -589,7 +589,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Income from $ 4000 at 5 % in one year = $ 4000 of 5 %.\n= $ 4000 \u00d7 5/100.\n= $ 4000 \u00d7 0.05.\n= $ 200.\nIncome from $ 3500 at 4 % in one year = $ 3500 of 4 %.\n= $ 3500 \u00d7 4/100.\n= $ 3500 \u00d7 0.04.\n= $ 140.\nTotal income from 4000 at 5 % and 3500 at 4 % = $ 200 + $ 140 = $ 340.\nRemaining income amount in order to have a yearly income of $ 500 = $ 500 - $ 340.\n= $ 160.\nTotal invested amount = $ 4000 + $ 3500 = $7500.\nRemaining invest amount = $ 10000 - $ 7500 = $ 2500.\nWe know that, Interest = Principal \u00d7 Rate \u00d7 Time\nInterest = $ 160,\nPrincipal = $ 2500,\nRate = r [we need to find the value of r],\nTime = 1 year.\n160 = 2500 \u00d7 r \u00d7 1.\n160 = 2500r\n160/2500 = 2500r/2500 [divide both sides by 2500]\n0.064 = r\nr = 0.064\nChange it to a percent by moving the decimal to the right two places r = 6.4 %\nTherefore, he invested the remaining amount $ 2500 at 6.4 % in order to get $ 500 income every year.\nCorrect Answer: E)6.4 %",
+    "explanation": "Income from \\$ 4000 at 5 % in one year = \\$ 4000 of 5 %.\n= \\$ 4000 × 5/100.\n= \\$ 4000 × 0.05.\n= \\$ 200.\nIncome from \\$ 3500 at 4 % in one year = \\$ 3500 of 4 %.\n= \\$ 3500 × 4/100.\n= \\$ 3500 × 0.04.\n= \\$ 140.\nTotal income from 4000 at 5 % and 3500 at 4 % = \\$ 200 + \\$ 140 = \\$ 340.\nRemaining income amount in order to have a yearly income of \\$ 500 = \\$ 500 - \\$ 340.\n= \\$ 160.\nTotal invested amount = \\$ 4000 + \\$ 3500 = \\$7500.\nRemaining invest amount = \\$ 10000 - \\$ 7500 = \\$ 2500.\nWe know that, Interest = Principal × Rate × Time\nInterest = \\$ 160,\nPrincipal = \\$ 2500,\nRate = r [we need to find the value of r],\nTime = 1 year.\n160 = 2500 × r × 1.\n160 = 2500r\n160/2500 = 2500r/2500 [divide both sides by 2500]\n0.064 = r\nr = 0.064\nChange it to a percent by moving the decimal to the right two places r = 6.4 %\nTherefore, he invested the remaining amount \\$ 2500 at 6.4 % in order to get \\$ 500 income every year.\nCorrect Answer: E)6.4 %",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -650,7 +650,7 @@
   {
     "id": "aqua-alge-0530",
     "grade": 8,
-    "question": "In a certain mathematical activity, we have five cards with five different prime numbers on them. We will distribute these five cards among three envelope: all could go in any envelope, or they could be broken up in any way among the envelopes. Then in each envelop, we find the product of all the cards in that envelope: that is the \u201cnumber\u201d of the envelope. An envelope containing no cards has the number 1. We then put the three envelope numbers in order, from lowest to highest, and that is our set. How many different K sets can be produced by this process?",
+    "question": "In a certain mathematical activity, we have five cards with five different prime numbers on them. We will distribute these five cards among three envelope: all could go in any envelope, or they could be broken up in any way among the envelopes. Then in each envelop, we find the product of all the cards in that envelope: that is the “number” of the envelope. An envelope containing no cards has the number 1. We then put the three envelope numbers in order, from lowest to highest, and that is our set. How many different K sets can be produced by this process?",
     "options": [
       "41",
       "89",
@@ -704,12 +704,12 @@
   {
     "id": "aqua-alge-0574",
     "grade": 8,
-    "question": "Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al\u2019s account were to increase by 10% and Eliot\u2019s account were to increase by 20%, then Al would have exactly $22 more than Eliot in his account. How much money does Eliot have in his account right now?",
+    "question": "Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al’s account were to increase by 10% and Eliot’s account were to increase by 20%, then Al would have exactly \\$22 more than Eliot in his account. How much money does Eliot have in his account right now?",
     "options": [
-      "$110",
-      "$152.3",
-      "$180",
-      "$220"
+      "\\$110",
+      "\\$152.3",
+      "\\$180",
+      "\\$220"
     ],
     "correct": 1,
     "tags": [
@@ -733,7 +733,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "In a group of 6 boys and 4 girls, four children are to be selected such that at least one boy should be there.\nHence we have 4 options as given below\nWe can select 4 boys ...(option 1)\nNumber of ways to this = 6C4\nWe can select 3 boys and 1 girl ...(option 2)\nNumber of ways to this = 6C3 \u00d7 4C1\nWe can select 2 boys and 2 girls ...(option 3)\nNumber of ways to this = 6C2 \u00d7 4C2\nWe can select 1 boy and 3 girls ...(option 4)\nNumber of ways to this = 6C1 \u00d7 4C3\nTotal number of ways\n= 6C4 + 6C3 \u00d7 4C1 + 6C2 \u00d7 4C2 + 6C1 \u00d7 4C3\n= 6C2 + 6C3 \u00d7 4C1 + 6C2 \u00d7 4C2 + 6C1 \u00d7 4C1[\u2235 nCr = nC(n-r)]\n=\n6\n\u00d7\n5\n2\n\u00d7\n1\n+\n6\n\u00d7\n5\n\u00d7\n4\n3\n\u00d7\n2\n\u00d7\n1\n\u00d7\n4\n=6\u00d752\u00d71+6\u00d75\u00d743\u00d72\u00d71\u00d74\n+\n6\n\u00d7\n5\n2\n\u00d7\n1\n\u00d7\n4\n\u00d7\n3\n2\n\u00d7\n1\n+\n6\n\u00d7\n4\n+6\u00d752\u00d71\u00d74\u00d732\u00d71+6\u00d74\n=\n15\n+\n80\n+\n90\n+\n24\n=\n209\nAnswer is A",
+    "explanation": "In a group of 6 boys and 4 girls, four children are to be selected such that at least one boy should be there.\nHence we have 4 options as given below\nWe can select 4 boys ...(option 1)\nNumber of ways to this = 6C4\nWe can select 3 boys and 1 girl ...(option 2)\nNumber of ways to this = 6C3 × 4C1\nWe can select 2 boys and 2 girls ...(option 3)\nNumber of ways to this = 6C2 × 4C2\nWe can select 1 boy and 3 girls ...(option 4)\nNumber of ways to this = 6C1 × 4C3\nTotal number of ways\n= 6C4 + 6C3 × 4C1 + 6C2 × 4C2 + 6C1 × 4C3\n= 6C2 + 6C3 × 4C1 + 6C2 × 4C2 + 6C1 × 4C1[∵ nCr = nC(n-r)]\n=\n6\n×\n5\n2\n×\n1\n+\n6\n×\n5\n×\n4\n3\n×\n2\n×\n1\n×\n4\n=6×52×1+6×5×43×2×1×4\n+\n6\n×\n5\n2\n×\n1\n×\n4\n×\n3\n2\n×\n1\n+\n6\n×\n4\n+6×52×1×4×32×1+6×4\n=\n15\n+\n80\n+\n90\n+\n24\n=\n209\nAnswer is A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -776,18 +776,18 @@
   {
     "id": "aqua-alge-0654",
     "grade": 8,
-    "question": "A company, Chauncy Co., has an annual travel budget of $59,000. The accounting department estimates that transportation expenses will increase 5 percent in the coming year, and nontransportation travel expenses will increase by 15 percent in the coming year. Last year, Chauncy Co. spent $19,500 on transportation-related expenses, and $35,000 on nontransportation travel expenses. If the annual travel budget does not increase this year, and if the accounting department\u2019s estimates are correct, how far over the annual travel budget will expenses be this year?",
+    "question": "A company, Chauncy Co., has an annual travel budget of \\$59,000. The accounting department estimates that transportation expenses will increase 5 percent in the coming year, and nontransportation travel expenses will increase by 15 percent in the coming year. Last year, Chauncy Co. spent \\$19,500 on transportation-related expenses, and \\$35,000 on nontransportation travel expenses. If the annual travel budget does not increase this year, and if the accounting department’s estimates are correct, how far over the annual travel budget will expenses be this year?",
     "options": [
       "Expenses will not go over the budget.",
-      "$500",
-      "$4,225",
-      "$1,725"
+      "\\$500",
+      "\\$4,225",
+      "\\$1,725"
     ],
     "correct": 3,
     "tags": [
       "algebra"
     ],
-    "explanation": "annual travel budget of $59,000\nLet, Transportation expenses = T = 19500\nand Non-Transportation expenses = N=35000\ni.e. Increased Transportation expenses = 1.05T = 20475\nand Increased Non-Transportation expenses = 1.15N = 40250\nTotal Expense = 20475+40250 = 60725\nExpense over Budget = Budget - expense = 59000-60725 = 1725\nAnswer: Option D",
+    "explanation": "annual travel budget of \\$59,000\nLet, Transportation expenses = T = 19500\nand Non-Transportation expenses = N=35000\ni.e. Increased Transportation expenses = 1.05T = 20475\nand Increased Non-Transportation expenses = 1.15N = 40250\nTotal Expense = 20475+40250 = 60725\nExpense over Budget = Budget - expense = 59000-60725 = 1725\nAnswer: Option D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -823,7 +823,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "First we will determine the speed of the bus following its increase. The speed is increased by 509509 m/sec =50\u22c560\u22c56091000=50\u22c560\u22c56091000 km/hr =20=20 km/hr. Therefore, the new speed is V=50+20=70V=50+20=70 km/hr. If xx is the number of hours according to the schedule, then at the speed of 50 km/hr the bus travels from A to B within (x+4260)(x+4260) hr. When the speed of the bus is V=70V=70 km/hr, the travel time is x\u22123060x\u22123060 hr. Then\n50(x+4260)=70(x\u22123060)50(x+4260)=70(x\u22123060)\n5(x+710)=7(x\u221212)5(x+710)=7(x\u221212)\n72+72=7x\u22125x72+72=7x\u22125x\n2x=72x=7\nx=72x=72 hr.\nSo, the bus is scheduled to make the trip in 33 hr 3030 min.\nThe distance between the two towns is 70(72\u221212)=70\u22c53=21070(72\u221212)=70\u22c53=210 km and the scheduled speed is 210/7/2=60 km/hr.\nAnswer:A",
+    "explanation": "First we will determine the speed of the bus following its increase. The speed is increased by 509509 m/sec =50⋅60⋅6091000=50⋅60⋅6091000 km/hr =20=20 km/hr. Therefore, the new speed is V=50+20=70V=50+20=70 km/hr. If xx is the number of hours according to the schedule, then at the speed of 50 km/hr the bus travels from A to B within (x+4260)(x+4260) hr. When the speed of the bus is V=70V=70 km/hr, the travel time is x−3060x−3060 hr. Then\n50(x+4260)=70(x−3060)50(x+4260)=70(x−3060)\n5(x+710)=7(x−12)5(x+710)=7(x−12)\n72+72=7x−5x72+72=7x−5x\n2x=72x=7\nx=72x=72 hr.\nSo, the bus is scheduled to make the trip in 33 hr 3030 min.\nThe distance between the two towns is 70(72−12)=70⋅3=21070(72−12)=70⋅3=210 km and the scheduled speed is 210/7/2=60 km/hr.\nAnswer:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -841,7 +841,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Answer copied from NOVA guide\nStatement I could be true because \u00b1 0 = \u2212(+0) = \u2212(0) = 0 .\nStatement II could be true because the right side of the equation is always negative [ \u00b1 x = (a positive number) = a negative number].\nNow, if one side of an equation is always negative, then the other side must always be negative,\notherwise the opposite sides of the equation would not be equal.\nSince Statement III is the opposite of Statement II, it must be false. But let\u2019s show this explicitly:\nSuppose x were positive. Then x = x, and the equation x = \u00b1 x becomes x = x. Dividing both sides of this equation by x yields 1 = 1. This is contradiction.\nHence, x cannot be positive. The answer is (D).",
+    "explanation": "Answer copied from NOVA guide\nStatement I could be true because ± 0 = −(+0) = −(0) = 0 .\nStatement II could be true because the right side of the equation is always negative [ ± x = (a positive number) = a negative number].\nNow, if one side of an equation is always negative, then the other side must always be negative,\notherwise the opposite sides of the equation would not be equal.\nSince Statement III is the opposite of Statement II, it must be false. But let’s show this explicitly:\nSuppose x were positive. Then x = x, and the equation x = ± x becomes x = x. Dividing both sides of this equation by x yields 1 = 1. This is contradiction.\nHence, x cannot be positive. The answer is (D).",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -866,7 +866,7 @@
   {
     "id": "aqua-alge-0744",
     "grade": 8,
-    "question": "A part-time employee\u2019s hourly wage was increased by 40%. She decided to decrease the number of hours worked per week so that her total income did not change. By approximately what percent should the number of hours worked be decreased?",
+    "question": "A part-time employee’s hourly wage was increased by 40%. She decided to decrease the number of hours worked per week so that her total income did not change. By approximately what percent should the number of hours worked be decreased?",
     "options": [
       "9%",
       "15%",
@@ -877,7 +877,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let's plug in somenicenumbers and see what's needed.\nLet's say the employee used to make $1/hour and worked 100 hours/week\nSo, the TOTAL weekly income was $100/week\nAfter the 40% wage increase, the employee makes $1.40/hour\nWe want the employee's income to remain at $100/week.\nSo, we want ($1.40/hour)(new # of hours) = $100\nDivide both sides by 1.40 to get:\nnew # of hours = 100/1.40\n\u2248 71 hours\nSo, the number of hours decreases from 100 hours to (approximately) 71 hours.\nThis represents a 29% decrease (approximately) .\nAnswer : C",
+    "explanation": "Let's plug in somenicenumbers and see what's needed.\nLet's say the employee used to make $1/hour and worked 100 hours/week\nSo, the TOTAL weekly income was $100/week\nAfter the 40% wage increase, the employee makes $1.40/hour\nWe want the employee's income to remain at $100/week.\nSo, we want ($1.40/hour)(new # of hours) = $100\nDivide both sides by 1.40 to get:\nnew # of hours = 100/1.40\n≈ 71 hours\nSo, the number of hours decreases from 100 hours to (approximately) 71 hours.\nThis represents a 29% decrease (approximately) .\nAnswer : C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -956,7 +956,7 @@
   {
     "id": "aqua-alge-0829",
     "grade": 8,
-    "question": "At the first meeting of the amputees\u2019 support group, there were\n93 fewer handshakes than there would have been if everyone\nhad at least one arm and shook hands once with everyone else.\nThe people with less than one arm made up 1/11 of the group.\nHow many of them were there?",
+    "question": "At the first meeting of the amputees’ support group, there were\n93 fewer handshakes than there would have been if everyone\nhad at least one arm and shook hands once with everyone else.\nThe people with less than one arm made up 1/11 of the group.\nHow many of them were there?",
     "options": [
       "2",
       "3",
@@ -1003,7 +1003,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let us say that P = 100 $ and x = 10 %\nNow if there are two successive discounts of 10 % and 20 % then the effective discount percentage will be -10 - 20 + (-10) (-20)/100 = -30 + 2 = 28 %\nHence the new price will be 100 - 28 = 72\nHence by plugging in P = 100 and x = 10 the answer should be 72\nA: P(1 - 0.03x + 0.02x^2) = 100 (1 - 0.3 + 2) = 100(2.7)\nB: P(1 - 0.03x + 0.0002x^2) = 100 (1 - 0.3 + 0.02) = 100 (1 - 0.28) = 72 (BINGO!) (Let's still eliminate all other answer options - what if another one gives me 72)\nC: P(1 - 0.03x + 0.002x^2) = 100 (1 - 0.3 + 0.2)\nD: P(1 - 2x^2) = 100 ( 1 - 200)\nE: P(1 - 3x + 2x^2) = 100 ( 1 - 0.2 + 200)\nHence the answer is B",
+    "explanation": "Let us say that P = 100 \\$ and x = 10 %\nNow if there are two successive discounts of 10 % and 20 % then the effective discount percentage will be -10 - 20 + (-10) (-20)/100 = -30 + 2 = 28 %\nHence the new price will be 100 - 28 = 72\nHence by plugging in P = 100 and x = 10 the answer should be 72\nA: P(1 - 0.03x + 0.02x^2) = 100 (1 - 0.3 + 2) = 100(2.7)\nB: P(1 - 0.03x + 0.0002x^2) = 100 (1 - 0.3 + 0.02) = 100 (1 - 0.28) = 72 (BINGO!) (Let's still eliminate all other answer options - what if another one gives me 72)\nC: P(1 - 0.03x + 0.002x^2) = 100 (1 - 0.3 + 0.2)\nD: P(1 - 2x^2) = 100 ( 1 - 200)\nE: P(1 - 3x + 2x^2) = 100 ( 1 - 0.2 + 200)\nHence the answer is B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

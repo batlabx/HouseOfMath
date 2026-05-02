@@ -22,10 +22,10 @@
     "grade": 8,
     "question": "If q is the square of a positive integer, which of the following must be equal to the square of the next positive integer?",
     "options": [
-      "\u221an + 1",
+      "√n + 1",
       "n + 1",
       "n^2 + 1",
-      "q + 2\u221aq + 1"
+      "q + 2√q + 1"
     ],
     "correct": 3,
     "tags": [
@@ -40,10 +40,10 @@
     "grade": 8,
     "question": "Square P is inscribed in circle Q. If the perimeter of P is 40, what is the circumference of Q?",
     "options": [
-      "11\u221a 2\u03c0",
-      "10\u221a 2\u03c0",
-      "9\u221a 2\u03c0",
-      "8\u221a 2\u03c0"
+      "11√ 2π",
+      "10√ 2π",
+      "9√ 2π",
+      "8√ 2π"
     ],
     "correct": 1,
     "tags": [
@@ -85,7 +85,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Consider the rhombus ABCD. Let the diagonals intersect at E. Since diagonals bisect at right angles in a rhombus.\nBE2 + AE2 = AB2\n252 = 152 + AE2 AE\n= \u221a(625 - 225)\n= \u221a400 = 20,\nAC = 20 + 20 = 40 cm.\nArea of a rhombus\n= 1/2 * d1d2\n= 1/2 * 40 * 30\n= 600 sq.cm.\nAnswer:E",
+    "explanation": "Consider the rhombus ABCD. Let the diagonals intersect at E. Since diagonals bisect at right angles in a rhombus.\nBE2 + AE2 = AB2\n252 = 152 + AE2 AE\n= √(625 - 225)\n= √400 = 20,\nAC = 20 + 20 = 40 cm.\nArea of a rhombus\n= 1/2 * d1d2\n= 1/2 * 40 * 30\n= 600 sq.cm.\nAnswer:E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -103,7 +103,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "60 kmph consumption is 1 lt/hr\nso 600 km will take 10 hrs and the consumption is 10 lt for entire distance.\n1 lt costs $60\nso 10 lt costs $600\nextra expenses for 1 hr - $60\n10 hrs - $600\ntotal expense - $600 + $600 = $1200\nAnswer : C",
+    "explanation": "60 kmph consumption is 1 lt/hr\nso 600 km will take 10 hrs and the consumption is 10 lt for entire distance.\n1 lt costs \\$60\nso 10 lt costs \\$600\nextra expenses for 1 hr - \\$60\n10 hrs - \\$600\ntotal expense - \\$600 + \\$600 = \\$1200\nAnswer : C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -139,7 +139,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "let each side of the square be a , then area = a x a\nNew side = 125a / 100 = 5a / 4\nNew area =(5a x 5a) / (4 x 4) = (25a\u00b2/16)\nincreased area== (25a\u00b2/16) - a\u00b2\nIncrease %= [(9a\u00b2/16 ) x (1/a\u00b2 ) x 100]% = 56.25%\nAnswer: B",
+    "explanation": "let each side of the square be a , then area = a x a\nNew side = 125a / 100 = 5a / 4\nNew area =(5a x 5a) / (4 x 4) = (25a²/16)\nincreased area== (25a²/16) - a²\nIncrease %= [(9a²/16 ) x (1/a² ) x 100]% = 56.25%\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -202,16 +202,16 @@
     "grade": 8,
     "question": "If the complement of a certain angle is two times the measure of that certain angle, then what is the measure of that certain angle?",
     "options": [
-      "45\u00b0",
-      "30\u00b0",
-      "22.5\u00b0",
-      "18\u00b0"
+      "45°",
+      "30°",
+      "22.5°",
+      "18°"
     ],
     "correct": 1,
     "tags": [
       "geometry"
     ],
-    "explanation": "Thecomplementof angle A is the angle which, when added to angle A, gives 90 degrees. The two acute angles of a right triangle are complements, for example.\nThe original angle is x, so the complement is 2x, and together, these add up to 90 degrees.\nx + 2x = 90\n3x = 90\nx = 30\u00b0\nAnswer = (B)",
+    "explanation": "Thecomplementof angle A is the angle which, when added to angle A, gives 90 degrees. The two acute angles of a right triangle are complements, for example.\nThe original angle is x, so the complement is 2x, and together, these add up to 90 degrees.\nx + 2x = 90\n3x = 90\nx = 30°\nAnswer = (B)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -301,7 +301,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "The volume of the cone = (1/3)\u03c0r2h\nOnly radius (r) and height (h) are varying.\nHence, (1/3)\u03c0 may be ignored.\nV1/V2 = r12h1/r22h2 => 1/10 = (1)2h1/(2)2h2\n=> h1/h2 = 2/5\ni.e. h1 : h2 = 2 : 5\nAnswer:A",
+    "explanation": "The volume of the cone = (1/3)πr2h\nOnly radius (r) and height (h) are varying.\nHence, (1/3)π may be ignored.\nV1/V2 = r12h1/r22h2 => 1/10 = (1)2h1/(2)2h2\n=> h1/h2 = 2/5\ni.e. h1 : h2 = 2 : 5\nAnswer:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -310,16 +310,16 @@
     "grade": 8,
     "question": "What is the measure of the acute angle between the hour and minute hands of a correctly\nworking clock at 4:18 ?",
     "options": [
-      "12\u25e6",
-      "15\u25e6",
-      "18\u25e6",
-      "21\u25e6"
+      "12◦",
+      "15◦",
+      "18◦",
+      "21◦"
     ],
     "correct": 3,
     "tags": [
       "geometry"
     ],
-    "explanation": "Consider an axis through the center of the clock with direction, the direction of the hands of the\nclock at 12:00. At 4:18 the angle between the axis and the hour hand is\n(4+18/60)*360\u25e6/12=129\u25e6\nThe angle between the axis and the minute hand is 18/60*360\u25e6=108\u25e6\ncorrect answer D",
+    "explanation": "Consider an axis through the center of the clock with direction, the direction of the hands of the\nclock at 12:00. At 4:18 the angle between the axis and the hour hand is\n(4+18/60)*360◦/12=129◦\nThe angle between the axis and the minute hand is 18/60*360◦=108◦\ncorrect answer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -445,7 +445,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Given that the area of the square = 1225 sq.units\n=> Side of square\n= \u221a1225 = 35 units\nThe radius of the circle\n= side of the square\n= 35 units Length of the rectangle\n= 2/5 * 35\n= 14 units\nGiven that breadth\n= 10 units\nArea of the rectangle\n= lb = 14 * 10\n= 140 sq.units\nAnswer:A",
+    "explanation": "Given that the area of the square = 1225 sq.units\n=> Side of square\n= √1225 = 35 units\nThe radius of the circle\n= side of the square\n= 35 units Length of the rectangle\n= 2/5 * 35\n= 14 units\nGiven that breadth\n= 10 units\nArea of the rectangle\n= lb = 14 * 10\n= 140 sq.units\nAnswer:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -481,7 +481,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Volume of the bucket = volume of the sand emptied\nVolume of sand = \u03c0(21)2 \u00d7 36\nLet r be the radius of the conical heap.\nThen, 1\u20443\u03c0r2 \u00d7 12 = \u03c0(21)2 \u00d7 36\nor r2 = (21)2 \u00d7 9 or r = 21 \u00d7 3 = 63\nAnswer A",
+    "explanation": "Volume of the bucket = volume of the sand emptied\nVolume of sand = π(21)2 × 36\nLet r be the radius of the conical heap.\nThen, 1⁄3πr2 × 12 = π(21)2 × 36\nor r2 = (21)2 × 9 or r = 21 × 3 = 63\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -524,7 +524,7 @@
   {
     "id": "aqua-geom-0540",
     "grade": 8,
-    "question": "A larger cube has 343 cubic inch as a volume and in the cube there are 343 smaller cubes such that their volume is 1 cubic inch. What is the difference between the surface areas\u2019 sum of the 343 smaller cubes and the surface area of the larger cube, in square inch?",
+    "question": "A larger cube has 343 cubic inch as a volume and in the cube there are 343 smaller cubes such that their volume is 1 cubic inch. What is the difference between the surface areas’ sum of the 343 smaller cubes and the surface area of the larger cube, in square inch?",
     "options": [
       "54",
       "64",
@@ -589,7 +589,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Solution\nExternal radius = 4 cm,\nInternal radius = 3 cm.\nVolume of iron\t=(22/7\u00d7(42)-(32)\u00d721)cm3\n= (22/7\u00d77 \u00d71\u00d721)cm3\n= 462 cm3.\nWeight of iron = (462 x 8) gm = 3696 gm = 3.696 kg.\nAnswer B",
+    "explanation": "Solution\nExternal radius = 4 cm,\nInternal radius = 3 cm.\nVolume of iron\t=(22/7×(42)-(32)×21)cm3\n= (22/7×7 ×1×21)cm3\n= 462 cm3.\nWeight of iron = (462 x 8) gm = 3696 gm = 3.696 kg.\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -751,7 +751,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Explanation:\nSpeed of the train, v = 40 km/hr = 40000/3600 m/s = 400/36 m/s\nTime taken to cross, t = 18 s\nDistance Covered, d = vt = (400/36)\u00d7 18 = 200 m\nDistance covered is equal to the length of the train = 200 m\nAnswer: Option C",
+    "explanation": "Explanation:\nSpeed of the train, v = 40 km/hr = 40000/3600 m/s = 400/36 m/s\nTime taken to cross, t = 18 s\nDistance Covered, d = vt = (400/36)× 18 = 200 m\nDistance covered is equal to the length of the train = 200 m\nAnswer: Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -787,7 +787,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Explanation:\na^2 = 3136 => a = 56\n56 * 4 * 3 = 672 \u2013 6 = 666 * 1.5 =Rs. 999\nAnswer : E",
+    "explanation": "Explanation:\na^2 = 3136 => a = 56\n56 * 4 * 3 = 672 – 6 = 666 * 1.5 =Rs. 999\nAnswer : E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -823,7 +823,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Explanation:\nThe relative speed of train is 46-36 = 10 Km/hr = (10 X 5) / 18 = 25/9 m/s10\u00d7518=259m/s\nIn 18 secs the total distance traveled is 18x25/9 = 50 m.\nTherefore the length of each train is = 50/2 = 25 m.\nAnswer A",
+    "explanation": "Explanation:\nThe relative speed of train is 46-36 = 10 Km/hr = (10 X 5) / 18 = 25/9 m/s10×518=259m/s\nIn 18 secs the total distance traveled is 18x25/9 = 50 m.\nTherefore the length of each train is = 50/2 = 25 m.\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -949,7 +949,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "Explanation:\nLet X be the length of the course\naccording to the question,\nA beats B by 15 metres and C by 29 metres\nApplying this,\nIf A runs X metres, B runs (X-15) and C runs ( X-29) metres.\nB and C together run, B runs X metres and C runs (X-15)\n=> If B runs 1 metre, C runs X-15/X\n=> B runs X-15 m, C runs (X-15/x) * (X-15)\nAPPLYING THIS,\nX-29 = (X-15)(X-15) / X\nSolving,\nX2 -29X= X2 \u2013 30 X + 225\nX = 225\nThus, length of the course is 225 metres.\nANSWER A",
+    "explanation": "Explanation:\nLet X be the length of the course\naccording to the question,\nA beats B by 15 metres and C by 29 metres\nApplying this,\nIf A runs X metres, B runs (X-15) and C runs ( X-29) metres.\nB and C together run, B runs X metres and C runs (X-15)\n=> If B runs 1 metre, C runs X-15/X\n=> B runs X-15 m, C runs (X-15/x) * (X-15)\nAPPLYING THIS,\nX-29 = (X-15)(X-15) / X\nSolving,\nX2 -29X= X2 – 30 X + 225\nX = 225\nThus, length of the course is 225 metres.\nANSWER A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -967,7 +967,7 @@
     "tags": [
       "geometry"
     ],
-    "explanation": "A strip of 4 meters is covering the inner rectangular rug for all 4 sides.\nLength of inner rug = 25-(2*4)\nbreadth of inner rug= 20-(2*4)\nArea of Rug= 17 * 12 = 204 sq. mt\n\u00c2nswer: C",
+    "explanation": "A strip of 4 meters is covering the inner rectangular rug for all 4 sides.\nLength of inner rug = 25-(2*4)\nbreadth of inner rug= 20-(2*4)\nArea of Rug= 17 * 12 = 204 sq. mt\nÂnswer: C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

@@ -31,25 +31,25 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Let's find the probability that a couple sits together (right next to each other) and subtract that value from 1.\nTotal # of ways 3 persons C1C1, C2C2 and SS to be seated in a row of 5 seats is 5!2!=605!2!=60. Consider this, we are interested in arrangement of C1, C2, S, E, EC1, C2, S, E, E, so in arrangement of 5 letters out of which 2 E's are identical (E denotes an empty seat);\n# of ways for a couple to sit together is 4!2!\u22172=244!2!\u22172=24. Consider a couple as a single unit: {C1,C2}, S, E, E{C1,C2}, S, E, E, so we have total of 4 units out of which 2 E's are identical, # of arrangement of these units is 4!2!4!2!, but C1C1, C2C2 within their unit can be arranged in 2 ways ({C1,C2}{C1,C2} or {C2,C1}{C2,C1}), so total # of arrangement for this case is 4!2!\u22172=244!2!\u22172=24;\nP=1\u22122460=35P=1\u22122460=35.\nAnswer: D.",
+    "explanation": "Let's find the probability that a couple sits together (right next to each other) and subtract that value from 1.\nTotal # of ways 3 persons C1C1, C2C2 and SS to be seated in a row of 5 seats is 5!2!=605!2!=60. Consider this, we are interested in arrangement of C1, C2, S, E, EC1, C2, S, E, E, so in arrangement of 5 letters out of which 2 E's are identical (E denotes an empty seat);\n# of ways for a couple to sit together is 4!2!∗2=244!2!∗2=24. Consider a couple as a single unit: {C1,C2}, S, E, E{C1,C2}, S, E, E, so we have total of 4 units out of which 2 E's are identical, # of arrangement of these units is 4!2!4!2!, but C1C1, C2C2 within their unit can be arranged in 2 ways ({C1,C2}{C1,C2} or {C2,C1}{C2,C1}), so total # of arrangement for this case is 4!2!∗2=244!2!∗2=24;\nP=1−2460=35P=1−2460=35.\nAnswer: D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-stat-0131",
     "grade": 8,
-    "question": "Revenues were recorded for Store A and Store B over a period of three months. In the first month, Store A's revenues were $40,000 higher than Store B's revenues. In the second month, Store A's revenues were $6,000 higher than Store B's revenues. If Store A's average (arithmetic mean) monthly revenue for the three months was $2,000 greater than Store B's average monthly revenue, then Store B's revenue in the third month was how much greater than Store A's revenue?",
+    "question": "Revenues were recorded for Store A and Store B over a period of three months. In the first month, Store A's revenues were \\$40,000 higher than Store B's revenues. In the second month, Store A's revenues were \\$6,000 higher than Store B's revenues. If Store A's average (arithmetic mean) monthly revenue for the three months was \\$2,000 greater than Store B's average monthly revenue, then Store B's revenue in the third month was how much greater than Store A's revenue?",
     "options": [
-      "$14,000",
-      "$40,000",
-      "$42,000",
-      "$46,000"
+      "\\$14,000",
+      "\\$40,000",
+      "\\$42,000",
+      "\\$46,000"
     ],
     "correct": 1,
     "tags": [
       "statistics"
     ],
-    "explanation": "Answer: CIt may be tempting to come up with a lot of variables, one each for each month's revenue for each company. However, focus on the differences. In the first month, the difference was +40 in favor of A. (Note that we can drop the thousands since every number in the question is in terms of thousands.) In the second, the difference was +6 in favor of A. The average was +2 in favor of A. With these numbers, use the average formula to find the third month (T):\n(40 + 6 + T)/3 = 2\n46 + T = 6\nT = -40\nSince positive numbers indicate a difference in favor of A, negative numbers are in favor of B. -40 represents a $40,000 advantage in favor of Store B. Choice (B) is correct.",
+    "explanation": "Answer: CIt may be tempting to come up with a lot of variables, one each for each month's revenue for each company. However, focus on the differences. In the first month, the difference was +40 in favor of A. (Note that we can drop the thousands since every number in the question is in terms of thousands.) In the second, the difference was +6 in favor of A. The average was +2 in favor of A. With these numbers, use the average formula to find the third month (T):\n(40 + 6 + T)/3 = 2\n46 + T = 6\nT = -40\nSince positive numbers indicate a difference in favor of A, negative numbers are in favor of B. -40 represents a \\$40,000 advantage in favor of Store B. Choice (B) is correct.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -74,7 +74,7 @@
   {
     "id": "aqua-stat-0243",
     "grade": 8,
-    "question": "A slot machine in a Las Vegas casino has an average profit of $600 for each 8-hour shift for the five days Sunday through Thursday, inclusive. If the average per-shift profit on Friday and Saturday is 25% greater than on the other days of the week and the slot machine is in operation every hour of every day, what is the total weekly profit that the casino makes from the slot machine?",
+    "question": "A slot machine in a Las Vegas casino has an average profit of \\$600 for each 8-hour shift for the five days Sunday through Thursday, inclusive. If the average per-shift profit on Friday and Saturday is 25% greater than on the other days of the week and the slot machine is in operation every hour of every day, what is the total weekly profit that the casino makes from the slot machine?",
     "options": [
       "a - 4500",
       "b - 9000",
@@ -85,7 +85,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Correct answer is C - 13500.\nTotal profit per weekday = $600 X 3 (shifts)= $1800\nTotal profit per week (apart from SaturdaySunday) = $1800 X 5 = $9000\nTotal profit per shift on weekends = $600 X 125/100 = $750\nTotal profit on weekends = $750 X 3 (shifts) X 2 (Saturday, Sunday) = $4500.\nHence the answer is - $4500 + $9000 = $13,500. (C)",
+    "explanation": "Correct answer is C - 13500.\nTotal profit per weekday = \\$600 X 3 (shifts)= \\$1800\nTotal profit per week (apart from SaturdaySunday) = \\$1800 X 5 = \\$9000\nTotal profit per shift on weekends = \\$600 X 125/100 = \\$750\nTotal profit on weekends = \\$750 X 3 (shifts) X 2 (Saturday, Sunday) = \\$4500.\nHence the answer is - \\$4500 + \\$9000 = \\$13,500. (C)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -103,7 +103,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Since Jake owns 3 of the boots, the subset from which the 4 boots should be chosen are the 12 boots not owned by Jake from the universe of 15.\nThe first boot can be one of the 12 from the 15 with probability 12/15.\nThe second boot can be one of the 11 from the 14 remaining with probability 11/14.\nThe third boot can be one of the 10 from the 13 remaining with probability 10/13.\nThe fourth boot can be one of the 9 from the 12 remaining with probability 9/12.\nThe total probability will be 12/15 \u00d7 11/14 \u00d7 10/13 \u00d7 9/12 . On cancellation, this comes to 33/91.\nThus, the answer is D - 33/91",
+    "explanation": "Since Jake owns 3 of the boots, the subset from which the 4 boots should be chosen are the 12 boots not owned by Jake from the universe of 15.\nThe first boot can be one of the 12 from the 15 with probability 12/15.\nThe second boot can be one of the 11 from the 14 remaining with probability 11/14.\nThe third boot can be one of the 10 from the 13 remaining with probability 10/13.\nThe fourth boot can be one of the 9 from the 12 remaining with probability 9/12.\nThe total probability will be 12/15 × 11/14 × 10/13 × 9/12 . On cancellation, this comes to 33/91.\nThus, the answer is D - 33/91",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -175,7 +175,7 @@
     "tags": [
       "statistics"
     ],
-    "explanation": "Let\u2019s first calculate the mean (arithmetic average).\nmean = sum/quantity\nmean = (n + n + 1 + n + 2 + n + 3 + n + 4)/5\nmean = (5n + 10)/5\nmean = n + 2\nNext, we determine the median. The median is the middle value when the terms are ordered from least to greatest. The terms ordered from least to greatest are as follows:\nn, n + 1, n + 2, n + 3, n + 4\nThe median is n + 2.\nFinally we are asked how much greater the mean is than the median. To determine the difference we can subtract the smaller value (the median) from the larger value (the mean) and we get:\nn + 2 \u2013 (n + 2) = n + 2 \u2013 n \u2013 2 = 0\nThe answer is A",
+    "explanation": "Let’s first calculate the mean (arithmetic average).\nmean = sum/quantity\nmean = (n + n + 1 + n + 2 + n + 3 + n + 4)/5\nmean = (5n + 10)/5\nmean = n + 2\nNext, we determine the median. The median is the middle value when the terms are ordered from least to greatest. The terms ordered from least to greatest are as follows:\nn, n + 1, n + 2, n + 3, n + 4\nThe median is n + 2.\nFinally we are asked how much greater the mean is than the median. To determine the difference we can subtract the smaller value (the median) from the larger value (the mean) and we get:\nn + 2 – (n + 2) = n + 2 – n – 2 = 0\nThe answer is A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

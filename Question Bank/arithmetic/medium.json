@@ -193,7 +193,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Let distance = x m\nUsual rate = y kmph\nx/y \u2013 x/y+3 = 40/60 hr\n2y(y+3) = 9x ---------------------------------(1)\nx/y-2 \u2013 x/y = 40/60 hr y(y-2) = 3x -----------(2)\ndivide 1 & 2 equations\nby solving we get x = 40 km\nAnswer : B",
+    "explanation": "Let distance = x m\nUsual rate = y kmph\nx/y – x/y+3 = 40/60 hr\n2y(y+3) = 9x ---------------------------------(1)\nx/y-2 – x/y = 40/60 hr y(y-2) = 3x -----------(2)\ndivide 1 & 2 equations\nby solving we get x = 40 km\nAnswer : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -229,14 +229,14 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 3600 ( 18 \u00d7 200 = 3600)\n100% -------> 20000 votes (100 \u00d7 200 = 20000)\nC",
+    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 3600 ( 18 × 200 = 3600)\n100% -------> 20000 votes (100 × 200 = 20000)\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-arit-0168",
     "grade": 8,
-    "question": "A boat covers a certain distance downstream in 1 hour, while it comes back in 11\u00e2\u0081\u201e2 hours. If the speed of the stream be 3 kmph, what is the speed of the boat in still water?",
+    "question": "A boat covers a certain distance downstream in 1 hour, while it comes back in 11â„2 hours. If the speed of the stream be 3 kmph, what is the speed of the boat in still water?",
     "options": [
       "31 kmph",
       "16 kmph",
@@ -247,7 +247,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Let the speed of the water in still water =x\nGiven that speed of the stream = 3 kmph\nSpeed downstream =(x+3) kmph\nSpeed upstream =(x\u00e2\u02c6\u20193) kmph\nHe travels a certain distance downstream in 1 hour and come back in 11\u00e2\u0081\u201e2 hour.\ni.e., distance travelled downstream in 1 hour = distance travelled upstream in 11\u00e2\u0081\u201e2 hour\nSince distance = speed \u00c3\u2014 time, we have\n(x+3)\u00c3\u20141=(x-3)3/2\n2(x+3)=3(x-3)\n2x+6=3x-9\nx=6+9=15 kmph\nAnswer: D",
+    "explanation": "Let the speed of the water in still water =x\nGiven that speed of the stream = 3 kmph\nSpeed downstream =(x+3) kmph\nSpeed upstream =(xâˆ’3) kmph\nHe travels a certain distance downstream in 1 hour and come back in 11â„2 hour.\ni.e., distance travelled downstream in 1 hour = distance travelled upstream in 11â„2 hour\nSince distance = speed Ã— time, we have\n(x+3)Ã—1=(x-3)3/2\n2(x+3)=3(x-3)\n2x+6=3x-9\nx=6+9=15 kmph\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -373,7 +373,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation :\nLet speed upstream = x\nThen, speed downstream = 2x\nSpeed in still water = (2x + x)/2 = 3x/2\nSpeed of the stream = (2x \u2212 x)/2 = x/2\nSpeed in still water : Speed of the stream = (3x/2) (2x/2) = 3 : 1. Answer : Option A",
+    "explanation": "Explanation :\nLet speed upstream = x\nThen, speed downstream = 2x\nSpeed in still water = (2x + x)/2 = 3x/2\nSpeed of the stream = (2x − x)/2 = x/2\nSpeed in still water : Speed of the stream = (3x/2) (2x/2) = 3 : 1. Answer : Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -445,7 +445,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation:\nLet X be speed of stream\nSpeed of boat downstream = (20 + X )\nSpeed of boat upstream = (20 \u2013 X)\nIt is given that boat takes same time to travel 26 km downstream and 14 km upstream\n[26/(20 +X)] = [14 / (20 \u2013 X)]\n520 \u2013 26 X = 280 + 14X\n40X = 240\nX = 6 km/hr\nANSWER: A",
+    "explanation": "Explanation:\nLet X be speed of stream\nSpeed of boat downstream = (20 + X )\nSpeed of boat upstream = (20 – X)\nIt is given that boat takes same time to travel 26 km downstream and 14 km upstream\n[26/(20 +X)] = [14 / (20 – X)]\n520 – 26 X = 280 + 14X\n40X = 240\nX = 6 km/hr\nANSWER: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -470,7 +470,7 @@
   {
     "id": "aqua-arit-0466",
     "grade": 8,
-    "question": "On a certain transatlantic crossing, 20 percent of a ship\u2019s passengers held round-trip tickets and also took their cars abroad the ship. If 80 percent of the passengers with round-trip tickets did not take their cars abroad the ship, what percent of the ship\u2019s passengers held round-trip tickets?",
+    "question": "On a certain transatlantic crossing, 20 percent of a ship’s passengers held round-trip tickets and also took their cars abroad the ship. If 80 percent of the passengers with round-trip tickets did not take their cars abroad the ship, what percent of the ship’s passengers held round-trip tickets?",
     "options": [
       "20%",
       "40%",
@@ -542,7 +542,7 @@
   {
     "id": "aqua-arit-0550",
     "grade": 8,
-    "question": "If a, b, and c are consecutive integers such that a < b < c and a is an even prime number, which of the following is true?\nI. a + b + c > a^3\nII. a \u00d7 b \u00d7 c < a^3\nIII. 5b > bc",
+    "question": "If a, b, and c are consecutive integers such that a < b < c and a is an even prime number, which of the following is true?\nI. a + b + c > a^3\nII. a × b × c < a^3\nIII. 5b > bc",
     "options": [
       "I only",
       "II only",
@@ -578,7 +578,7 @@
   {
     "id": "aqua-arit-0625",
     "grade": 8,
-    "question": "A sum of Rs. 1530 has been divided among A, B and C such that A gets of what B gets and B gets of what C gets. B\u2019s share is:",
+    "question": "A sum of Rs. 1530 has been divided among A, B and C such that A gets of what B gets and B gets of what C gets. B’s share is:",
     "options": [
       "Rs. 120",
       "Rs. 160",
@@ -589,7 +589,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "EXPLANATION\nLet C\u2019s share = Rs. x\nThen, B\u2019s share = Rs. x/4 , A\u2019s share = Rs. (2/3 x x/4 ) = Rs. x/6\n=x/6 + x/4 + x = 1530\n=> 17x/12 = 1530\n=> 1530 x 12/ 17 = Rs.1080\nHence, B\u2019s share = Rs. (1080/4) = Rs. 270.\nAnswer C",
+    "explanation": "EXPLANATION\nLet C’s share = Rs. x\nThen, B’s share = Rs. x/4 , A’s share = Rs. (2/3 x x/4 ) = Rs. x/6\n=x/6 + x/4 + x = 1530\n=> 17x/12 = 1530\n=> 1530 x 12/ 17 = Rs.1080\nHence, B’s share = Rs. (1080/4) = Rs. 270.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -715,7 +715,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Let distance = x m\nUsual rate = y kmph\nx/y \u2013 x/y+3 = 40/60 hr\n2y(y+3) = 9x ---------------------------------(1)\nx/y-2 \u2013 x/y = 40/60 hr y(y-2) = 3x -----------(2)\ndivide 1 & 2 equations\nby solving we get x = 40 km\nAnswer : B.",
+    "explanation": "Let distance = x m\nUsual rate = y kmph\nx/y – x/y+3 = 40/60 hr\n2y(y+3) = 9x ---------------------------------(1)\nx/y-2 – x/y = 40/60 hr y(y-2) = 3x -----------(2)\ndivide 1 & 2 equations\nby solving we get x = 40 km\nAnswer : B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -830,7 +830,7 @@
   {
     "id": "aqua-arit-0920",
     "grade": 8,
-    "question": "The cost of 10 kg of mangos is equal to the cost of 24 kg of rice. The cost of 6 kg of flour equals the cost of 2 kg of rice. The cost of each kg of flour is $22. Find the total cost of 4 kg of mangos, 3 kg of rice and 5 kg of flour?",
+    "question": "The cost of 10 kg of mangos is equal to the cost of 24 kg of rice. The cost of 6 kg of flour equals the cost of 2 kg of rice. The cost of each kg of flour is \\$22. Find the total cost of 4 kg of mangos, 3 kg of rice and 5 kg of flour?",
     "options": [
       "347.6",
       "987.6",
@@ -841,7 +841,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Let the costs of each kg of mangos and each kg of rice be $a and $r respectively.\n10a = 24r and 6 * 22 = 2r\na = 12/5 r and r = 66\na = 158.4\nRequired total cost = 4 * 158.4 + 3 * 66 + 5 * 22\n= 633.6 + 198 + 110 = $941.60\nC",
+    "explanation": "Let the costs of each kg of mangos and each kg of rice be \\$a and \\$r respectively.\n10a = 24r and 6 * 22 = 2r\na = 12/5 r and r = 66\na = 158.4\nRequired total cost = 4 * 158.4 + 3 * 66 + 5 * 22\n= 633.6 + 198 + 110 = \\$941.60\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -859,7 +859,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation:\nRelative speed of the trains = (92 - 56) km/hr = 36 km/hr\n= (36\u00c3\u2014 5/18) m/sec = 10 m/sec.\nTime taken by the trains to cross each other\n= Time taken to cover (140 + 160) m at 10 m /sec = (300/10) sec = 30 sec.\nAnswer: Option C",
+    "explanation": "Explanation:\nRelative speed of the trains = (92 - 56) km/hr = 36 km/hr\n= (36Ã— 5/18) m/sec = 10 m/sec.\nTime taken by the trains to cross each other\n= Time taken to cover (140 + 160) m at 10 m /sec = (300/10) sec = 30 sec.\nAnswer: Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

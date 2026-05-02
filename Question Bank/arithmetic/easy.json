@@ -2,18 +2,18 @@
   {
     "id": "aqua-arit-0010",
     "grade": 8,
-    "question": "If Tim had lunch at $50 and he gave 20% tip, how much did he spend?",
+    "question": "If Tim had lunch at \\$50 and he gave 20% tip, how much did he spend?",
     "options": [
-      "A)$60.00",
-      "B)$35.42",
-      "C)$60.60",
-      "D)$21.56"
+      "A)\\$60.00",
+      "B)\\$35.42",
+      "C)\\$60.60",
+      "D)\\$21.56"
     ],
     "correct": 0,
     "tags": [
       "arithmetic"
     ],
-    "explanation": "The tip is 20% of what he paid for lunch.\ntip = 20% of 50.00 = (20/100)*50.00 = = $10.00\nTotal spent\n50.00 + 10.00 = $60.00\ncorrect answer is A)$60.00",
+    "explanation": "The tip is 20% of what he paid for lunch.\ntip = 20% of 50.00 = (20/100)*50.00 = = \\$10.00\nTotal spent\n50.00 + 10.00 = \\$60.00\ncorrect answer is A)\\$60.00",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -49,7 +49,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "(a/b)=3/4 \uf0deb=(4/3) a.\nTherefore, 8a+5b=22 = 8a+5*(4/3) a=22 \uf0de 8a+(20/3) a=22\n=44a = 66 = a=(66/44)=3/2\nAnswer is B.",
+    "explanation": "(a/b)=3/4 b=(4/3) a.\nTherefore, 8a+5b=22 = 8a+5*(4/3) a=22  8a+(20/3) a=22\n=44a = 66 = a=(66/44)=3/2\nAnswer is B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -110,10 +110,10 @@
   {
     "id": "aqua-arit-0081",
     "grade": 8,
-    "question": "If |w|=\u2212w, which of the following must be true?",
+    "question": "If |w|=−w, which of the following must be true?",
     "options": [
-      "x\u22650",
-      "w\u22640",
+      "x≥0",
+      "w≤0",
       "x2>x",
       "x3<0"
     ],
@@ -283,7 +283,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Original price = 1120 \u00d7 100\u204470 \u00d7 100\u204480 = 2000\nAnswer D",
+    "explanation": "Original price = 1120 × 100⁄70 × 100⁄80 = 2000\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -308,7 +308,7 @@
   {
     "id": "aqua-arit-0179",
     "grade": 8,
-    "question": "If 2^(2w) = 8^(w\u22122), what is the value of w?",
+    "question": "If 2^(2w) = 8^(w−2), what is the value of w?",
     "options": [
       "3",
       "6",
@@ -319,7 +319,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "2^(2w) = 8^(w\u22122)\n2^(2w) = 2^(3*(w\u22122))\n2^(2w) = 2^(3w-6)\nLet's equate the exponents as the bases are equal.\n2w = 3w-6\nw = 6\nThe answer is B.",
+    "explanation": "2^(2w) = 8^(w−2)\n2^(2w) = 2^(3*(w−2))\n2^(2w) = 2^(3w-6)\nLet's equate the exponents as the bases are equal.\n2w = 3w-6\nw = 6\nThe answer is B.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -776,7 +776,7 @@
   {
     "id": "aqua-arit-0357",
     "grade": 8,
-    "question": "\u221a{(3.5)(10^9)} is closest to which of the following?",
+    "question": "√{(3.5)(10^9)} is closest to which of the following?",
     "options": [
       "60,000",
       "75,000",
@@ -787,7 +787,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "\u221a{(3.5)(10^9)} = \u221a{(35)(10^8)} = \u221a(35)\u221a(10^8) = (\u221a35) * 10,000 which is almost 60,000.\nThe answer is A.",
+    "explanation": "√{(3.5)(10^9)} = √{(35)(10^8)} = √(35)√(10^8) = (√35) * 10,000 which is almost 60,000.\nThe answer is A.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -895,7 +895,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "240/90 = 8/3\n8/3 \u00d7 100 = 800/3 = 266 2/3 %\nD",
+    "explanation": "240/90 = 8/3\n8/3 × 100 = 800/3 = 266 2/3 %\nD",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -931,7 +931,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation :\nTime = 80*8 / 40 = 16 hours\nAnswer \u00e2\u20ac\u201c C",
+    "explanation": "Explanation :\nTime = 80*8 / 40 = 16 hours\nAnswer â€“ C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1003,7 +1003,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation:\nDistance = 340\u00c3\u20144 = 1360km\nRequired speed = (1360\u00c3\u2014 4/11) = 495km/hr\nAnswer: Option A",
+    "explanation": "Explanation:\nDistance = 340Ã—4 = 1360km\nRequired speed = (1360Ã— 4/11) = 495km/hr\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1075,7 +1075,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation:\nUse the formula,\nCP= 100 \u00e2\u20ac\u201c discount + brokerage%\nCP= 100-2+1/5\n98.2\nThus the CP is Rs 98.2.\nANSWER D",
+    "explanation": "Explanation:\nUse the formula,\nCP= 100 â€“ discount + brokerage%\nCP= 100-2+1/5\n98.2\nThus the CP is Rs 98.2.\nANSWER D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1201,7 +1201,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Sol. A : B = 3 : 5, B : C = 5 : 4, C : D = 4 : 8\n\u2234A\u2236B\u2236C\u2236D= 3 : 5:4 : 8\nThus, A : D = 3 : 8\nE",
+    "explanation": "Sol. A : B = 3 : 5, B : C = 5 : 4, C : D = 4 : 8\n∴A∶B∶C∶D= 3 : 5:4 : 8\nThus, A : D = 3 : 8\nE",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1363,7 +1363,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Let the CP = 100 Rs.\nMark Price = 140\nDiscount = 20%\nSelling price 80/100 \u00d7 140\nHence profit = 12%\nAnswer: D.",
+    "explanation": "Let the CP = 100 Rs.\nMark Price = 140\nDiscount = 20%\nSelling price 80/100 × 140\nHence profit = 12%\nAnswer: D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1460,7 +1460,7 @@
   {
     "id": "aqua-arit-0670",
     "grade": 8,
-    "question": "If \u221a10 = 3.16, find the value of If \u221a5/2",
+    "question": "If √10 = 3.16, find the value of If √5/2",
     "options": [
       "1.3",
       "1.58",
@@ -1471,7 +1471,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation:\n\u221a(5/2) =\u221a(5\u00d72/2\u00d72)= \u221a(10)/2 =3.16/2 = 1.58\nANSWER: B",
+    "explanation": "Explanation:\n√(5/2) =√(5×2/2×2)= √(10)/2 =3.16/2 = 1.58\nANSWER: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1561,7 +1561,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "(60/100) * 50 \u2013 (40/100) * 30\n30 - 12 = 18ch 60% of 50 is greater than 40% of 30?\nAnswer:A",
+    "explanation": "(60/100) * 50 – (40/100) * 30\n30 - 12 = 18ch 60% of 50 is greater than 40% of 30?\nAnswer:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1696,16 +1696,16 @@
     "grade": 8,
     "question": "Jill bought items costing $3.45, $1.99, $6.59, and $12.98. She used a coupon worth $2.50.\nIf Jill had $50.00 when she went into the store, how much did she have when she left?",
     "options": [
-      "$17.49",
-      "$27.49",
-      "$37.49",
-      "$57.49"
+      "\\$17.49",
+      "\\$27.49",
+      "\\$37.49",
+      "\\$57.49"
     ],
     "correct": 1,
     "tags": [
       "arithmetic"
     ],
-    "explanation": "$3.45 + $1.99 + $6.59 + $12.98 = $25.01\n$25.01 - $2.50 = $22.51\n$50.00 - $22.51 = $27.49 is money left\ncorrect answer B",
+    "explanation": "\\$3.45 + \\$1.99 + \\$6.59 + \\$12.98 = \\$25.01\n\\$25.01 - \\$2.50 = \\$22.51\n\\$50.00 - \\$22.51 = \\$27.49 is money left\ncorrect answer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1766,7 +1766,7 @@
   {
     "id": "aqua-arit-0830",
     "grade": 8,
-    "question": "Find the value of (1-(1/3))(1-(1/4))(1-(1/5))\u2026.(1-(1/100)).",
+    "question": "Find the value of (1-(1/3))(1-(1/4))(1-(1/5))….(1-(1/100)).",
     "options": [
       "1/50",
       "3/50",
@@ -1867,14 +1867,14 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "Explanation :\nLet distance be D\n10 = D/4 + D/6\nAnswer \u2013 D",
+    "explanation": "Explanation :\nLet distance be D\n10 = D/4 + D/6\nAnswer – D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-arit-0878",
     "grade": 8,
-    "question": "Evaluate: 30 - 12\u00f73\u00d72 =",
+    "question": "Evaluate: 30 - 12÷3×2 =",
     "options": [
       "11",
       "22",
@@ -1885,7 +1885,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "According to order of operations, 12\u00f73\u00d72 (division and multiplication) is done first from left to right\n12\u00f73\u00d72 = 4 \u00d7 2 = 8\nHence\n30 - 12\u00f73\u00d72 = 30 - 8 = 22\ncorrect answer is B) 22",
+    "explanation": "According to order of operations, 12÷3×2 (division and multiplication) is done first from left to right\n12÷3×2 = 4 × 2 = 8\nHence\n30 - 12÷3×2 = 30 - 8 = 22\ncorrect answer is B) 22",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1946,7 +1946,7 @@
   {
     "id": "aqua-arit-0906",
     "grade": 8,
-    "question": "Which of the following is closer to \u221a0.8+\u221a0.05?",
+    "question": "Which of the following is closer to √0.8+√0.05?",
     "options": [
       "0.5",
       "0.7",
@@ -1957,7 +1957,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "\u221a0.8+\u221a0.05=approximately \u221a0.81+\u221a0.04=0.9+0.2=1.1. Hence, the correct answer is D.",
+    "explanation": "√0.8+√0.05=approximately √0.81+√0.04=0.9+0.2=1.1. Hence, the correct answer is D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2108,7 +2108,7 @@
   {
     "id": "aqua-arit-0964",
     "grade": 8,
-    "question": "Find the value of\n(10)150\u00f7(10)146",
+    "question": "Find the value of\n(10)150÷(10)146",
     "options": [
       "10",
       "100",
@@ -2137,7 +2137,7 @@
     "tags": [
       "arithmetic"
     ],
-    "explanation": "B\n23\nThe given sequence is +5, +7, +9, \u2014\u2014\nie. 2+ 5 = 7, 7 + 7 = 14, 14 + 9 = 23",
+    "explanation": "B\n23\nThe given sequence is +5, +7, +9, ——\nie. 2+ 5 = 7, 7 + 7 = 14, 14 + 9 = 23",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

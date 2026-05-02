@@ -2,12 +2,12 @@
   {
     "id": "aqua-alge-0006",
     "grade": 8,
-    "question": "If (x^2 + 4x - 11)/5 \u2264 x + 1, then x could be represented by which of the following?",
+    "question": "If (x^2 + 4x - 11)/5 ≤ x + 1, then x could be represented by which of the following?",
     "options": [
-      "\u2212 3 \u2264 x \u2264 4",
-      "\u2212 4 \u2264 x \u2264 3",
-      "\u2212 3 \u2264 x \u2264 3",
-      "\u2212 4 \u2264 x \u2264 \u2212 3"
+      "− 3 ≤ x ≤ 4",
+      "− 4 ≤ x ≤ 3",
+      "− 3 ≤ x ≤ 3",
+      "− 4 ≤ x ≤ − 3"
     ],
     "correct": 0,
     "tags": [
@@ -85,7 +85,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "For 3 years:\nDiff.=Sum\u00d7(rate)2(300+rate)/(100)3\n= 2000\u00d710\u00d710\u00d7310/100\u00d7100\u00d7100 = 62\nAnswer C",
+    "explanation": "For 3 years:\nDiff.=Sum×(rate)2(300+rate)/(100)3\n= 2000×10×10×310/100×100×100 = 62\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -416,7 +416,7 @@
   {
     "id": "aqua-alge-0120",
     "grade": 8,
-    "question": "In how many different ways can the letters of the word \u2018ARMOUM\u2019 be arranged?",
+    "question": "In how many different ways can the letters of the word ‘ARMOUM’ be arranged?",
     "options": [
       "200",
       "210",
@@ -463,7 +463,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Renu\u00e2\u20ac\u2122s one day\u00e2\u20ac\u2122s work = 1/8\nSuma\u00e2\u20ac\u2122s one day\u00e2\u20ac\u2122s work = 1/4 - 1/8 = 1/8\nSuma can do it alone in 8 days.\nANSWER:A",
+    "explanation": "Renuâ€™s one dayâ€™s work = 1/8\nSumaâ€™s one dayâ€™s work = 1/4 - 1/8 = 1/8\nSuma can do it alone in 8 days.\nANSWER:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -527,7 +527,7 @@
     "question": "Each of the following equations has at least one solution EXCEPT D. Is it true?",
     "options": [
       "-2*-a = 2a",
-      "2*a = (\u20132)*-a",
+      "2*a = (–2)*-a",
       "-4*a = -3-a",
       "-3*a = -3-a"
     ],
@@ -733,7 +733,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Solution\nLet the son's present age be x years .Then, man's present age\t= (x+30)years.\nThen\t\u00e2\u20ac\u00b9=\u00e2\u20ac\u00ba(x+30)+2= 2(x+2)\n\u00e2\u20ac\u00b9=\u00e2\u20ac\u00bax+32=2x+4\nx= 28.\nAnswer B",
+    "explanation": "Solution\nLet the son's present age be x years .Then, man's present age\t= (x+30)years.\nThen\tâ€¹=â€º(x+30)+2= 2(x+2)\nâ€¹=â€ºx+32=2x+4\nx= 28.\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -769,7 +769,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let age of R =x. Then,\nAge of Q =2x\nAge of P =2+2x\nTotal age of P,Q and R =25\n\u21d2(2+2x)+2x+x=25\n\u21d25x=23\n\u21d2x=23/5=4.6 years\nB's age =2x=2\u00d74.6=9.2 years\nANSWER:D",
+    "explanation": "Let age of R =x. Then,\nAge of Q =2x\nAge of P =2+2x\nTotal age of P,Q and R =25\n⇒(2+2x)+2x+x=25\n⇒5x=23\n⇒x=23/5=4.6 years\nB's age =2x=2×4.6=9.2 years\nANSWER:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -866,7 +866,7 @@
   {
     "id": "aqua-alge-0240",
     "grade": 8,
-    "question": "For any real number x, the operatoris defined as:\n(x) = x(2 \u2212 x)\nIf p + 2 =(p + 2), then p =",
+    "question": "For any real number x, the operatoris defined as:\n(x) = x(2 − x)\nIf p + 2 =(p + 2), then p =",
     "options": [
       "1",
       "0",
@@ -877,7 +877,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "(x) = x(2 \u2212 x)\n(p + 2) = (p + 2)(2 - p - 2) = -p(p+1)\nWe are given that p + 2 =(p + 2)\nTherefore -p(p+2) = (p + 2)\nOr (p + 2) + p(p+2) = 0\n(p + 2)(p+1) = 0\np = -1,p=-2\nOption D",
+    "explanation": "(x) = x(2 − x)\n(p + 2) = (p + 2)(2 - p - 2) = -p(p+1)\nWe are given that p + 2 =(p + 2)\nTherefore -p(p+2) = (p + 2)\nOr (p + 2) + p(p+2) = 0\n(p + 2)(p+1) = 0\np = -1,p=-2\nOption D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -931,7 +931,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The length of cloth painted by one man in one day = 48 / 4 \u00d7 2 = 6 m\nNo. of days required to paint 36 m cloth by 6 men = 36/ 6 \u00d7 6 = 1 day.\nB)",
+    "explanation": "The length of cloth painted by one man in one day = 48 / 4 × 2 = 6 m\nNo. of days required to paint 36 m cloth by 6 men = 36/ 6 × 6 = 1 day.\nB)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -958,10 +958,10 @@
     "grade": 8,
     "question": "If n is a positive integer, which of the following expressions must be even?",
     "options": [
-      "(n \u2212 1)( n + 1)",
-      "(n \u2212 4)( n + 1)",
-      "(n \u2212 2)( n + 6)",
-      "(n \u2212 5)( n + 1)"
+      "(n − 1)( n + 1)",
+      "(n − 4)( n + 1)",
+      "(n − 2)( n + 6)",
+      "(n − 5)( n + 1)"
     ],
     "correct": 1,
     "tags": [
@@ -992,12 +992,12 @@
   {
     "id": "aqua-alge-0274",
     "grade": 8,
-    "question": "The simple interest at z% for z years will be $z on a sum of",
+    "question": "The simple interest at z% for z years will be \\$z on a sum of",
     "options": [
-      "$ (1000)/z",
-      "$(100)z^2",
-      "$ z",
-      "$ (100)/z"
+      "\\$ (1000)/z",
+      "\\$(100)z^2",
+      "\\$ z",
+      "\\$ (100)/z"
     ],
     "correct": 3,
     "tags": [
@@ -1064,7 +1064,7 @@
   {
     "id": "aqua-alge-0293",
     "grade": 8,
-    "question": "Water boils at 212\u00b0F or 100\u00b0C and melts at 32\u00b0F or 0\u00b0C . If the temperature of the particular day is 35\u00b0C , it is equal to",
+    "question": "Water boils at 212°F or 100°C and melts at 32°F or 0°C . If the temperature of the particular day is 35°C , it is equal to",
     "options": [
       "40",
       "80",
@@ -1262,12 +1262,12 @@
   {
     "id": "aqua-alge-0340",
     "grade": 8,
-    "question": "A tour group of 25 people paid a total of $1050 for entrance to a museum. If this price included a 5% sales tax, and all the tickets cost the same amount, what was the face value of each ticket price without the sales tax?\nChoices",
+    "question": "A tour group of 25 people paid a total of \\$1050 for entrance to a museum. If this price included a 5% sales tax, and all the tickets cost the same amount, what was the face value of each ticket price without the sales tax?\nChoices",
     "options": [
-      "$22",
-      "$23.94",
-      "$40",
-      "$25.20"
+      "\\$22",
+      "\\$23.94",
+      "\\$40",
+      "\\$25.20"
     ],
     "correct": 2,
     "tags": [
@@ -1334,18 +1334,18 @@
   {
     "id": "aqua-alge-0355",
     "grade": 8,
-    "question": "A tradesman sold an article at a loss of 20%. If the selling price had been increased by $100, there would have been a gain of 5%. What was the cost price of the article ?",
+    "question": "A tradesman sold an article at a loss of 20%. If the selling price had been increased by \\$100, there would have been a gain of 5%. What was the cost price of the article ?",
     "options": [
-      "$400",
-      "$150",
-      "$300",
-      "$550"
+      "\\$400",
+      "\\$150",
+      "\\$300",
+      "\\$550"
     ],
     "correct": 0,
     "tags": [
       "algebra"
     ],
-    "explanation": "Let C.P. be $x\nThen 105% of x - 80% of x = 100\n25% of x = 100\nx/4 = 100\nx = 400\nAnswer is A",
+    "explanation": "Let C.P. be \\$x\nThen 105% of x - 80% of x = 100\n25% of x = 100\nx/4 = 100\nx = 400\nAnswer is A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1561,7 +1561,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "C = 1/5 \u2013 1/7 = 2/35 => 17.5 days\nANSWER:C",
+    "explanation": "C = 1/5 – 1/7 = 2/35 => 17.5 days\nANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1579,7 +1579,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Reqd ratio = 4\u00d713/55\u00d7120=9:10\nAnswer E",
+    "explanation": "Reqd ratio = 4×13/55×120=9:10\nAnswer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1651,7 +1651,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The number of ways to select two men and three women\n= 4C\u2082 * \u2076C\u2083\n= (4*3 )/(2 * 1) * (6 * 5 * 4)/(3 * 2)\n= 120\nAnswer: B",
+    "explanation": "The number of ways to select two men and three women\n= 4C₂ * ⁶C₃\n= (4*3 )/(2 * 1) * (6 * 5 * 4)/(3 * 2)\n= 120\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1676,7 +1676,7 @@
   {
     "id": "aqua-alge-0444",
     "grade": 8,
-    "question": "What should come in place of the question mark(?) in the following equation? 28\u2044? = ?\u2044112",
+    "question": "What should come in place of the question mark(?) in the following equation? 28⁄? = ?⁄112",
     "options": [
       "70",
       "56",
@@ -1687,7 +1687,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "28\u2044? = ?\u2044112\n\\ ? =\u221a28\u00d7112=56\nAnswer B",
+    "explanation": "28⁄? = ?⁄112\n\\ ? =√28×112=56\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1910,7 +1910,7 @@
   {
     "id": "aqua-alge-0494",
     "grade": 8,
-    "question": "If x > 1, which of the following decreases as x decreases?\nI. x + x^2\nII. 1/(2x^2 \u2212 x)\nIII. 1/(x + 1)",
+    "question": "If x > 1, which of the following decreases as x decreases?\nI. x + x^2\nII. 1/(2x^2 − x)\nIII. 1/(x + 1)",
     "options": [
       "I only",
       "II only",
@@ -1939,7 +1939,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "C.P. = $10\nS.P. = $30\nGain = $20\nGain% = 20/10 *100 = 300%\nAnswer is E",
+    "explanation": "C.P. = \\$10\nS.P. = \\$30\nGain = \\$20\nGain% = 20/10 *100 = 300%\nAnswer is E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2270,7 +2270,7 @@
   {
     "id": "aqua-alge-0564",
     "grade": 8,
-    "question": "Find the value of y from (12)^3 x 6^3 \u00f7 432 = y?",
+    "question": "Find the value of y from (12)^3 x 6^3 ÷ 432 = y?",
     "options": [
       "2134",
       "2234",
@@ -2425,7 +2425,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "D = 110 \u2013 20 = 90\nRS = 20 + 25 = 45\nT = 90/45 = 2 hours\n8 a.m. + 2 = 10 a.m.\nAnswer: B",
+    "explanation": "D = 110 – 20 = 90\nRS = 20 + 25 = 45\nT = 90/45 = 2 hours\n8 a.m. + 2 = 10 a.m.\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2486,18 +2486,18 @@
   {
     "id": "aqua-alge-0599",
     "grade": 8,
-    "question": "Charles\u2019s and Sarah\u2019s current ages are C years and S years, respectively. If 6 years from now, Charles will be at least as old as Sarah was 2 years ago, which of the following must be true?",
+    "question": "Charles’s and Sarah’s current ages are C years and S years, respectively. If 6 years from now, Charles will be at least as old as Sarah was 2 years ago, which of the following must be true?",
     "options": [
-      "C + 6 < S \u2212 2",
-      "C + 6 \u2264 S + 2",
-      ". C + 6 = S \u2212 2",
-      "C + 6 \u2265 S \u2212 2"
+      "C + 6 < S − 2",
+      "C + 6 ≤ S + 2",
+      ". C + 6 = S − 2",
+      "C + 6 ≥ S − 2"
     ],
     "correct": 3,
     "tags": [
       "algebra"
     ],
-    "explanation": "Now: Charles = C, Sarah = S\nin 6Y: C+6\u2265S\u22122,\nAnswer E",
+    "explanation": "Now: Charles = C, Sarah = S\nin 6Y: C+6≥S−2,\nAnswer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2515,7 +2515,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nNumber of bricks =Courtyard area /1 brick area\n=(1800\u00c3\u20141200 /12\u00c3\u20146)=30000\nOption D",
+    "explanation": "Explanation:\nNumber of bricks =Courtyard area /1 brick area\n=(1800Ã—1200 /12Ã—6)=30000\nOption D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2623,7 +2623,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\n(10x + y) \u00e2\u20ac\u201c (10y + x) = 54\nx \u00e2\u20ac\u201c y = 6\nAnswer: B",
+    "explanation": "Explanation:\n(10x + y) â€“ (10y + x) = 54\nx â€“ y = 6\nAnswer: B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2684,7 +2684,7 @@
   {
     "id": "aqua-alge-0651",
     "grade": 8,
-    "question": "Solve 8x \u2013 4 = 4x + 11",
+    "question": "Solve 8x – 4 = 4x + 11",
     "options": [
       "5(1/3)",
       "6(1/3)",
@@ -2695,7 +2695,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Sol.\n8x \u2013 4 = 4x + 11\n=> 8x \u2013 4x = 11 + 4\n=> 4x = 15 => x = 15/3 = 3(3/4).\nAnswer D",
+    "explanation": "Sol.\n8x – 4 = 4x + 11\n=> 8x – 4x = 11 + 4\n=> 4x = 15 => x = 15/3 = 3(3/4).\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2785,7 +2785,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "6000 + 500 = 870+ ?\n6000 + 500 \u2013 870= 5630\nAnswer C",
+    "explanation": "6000 + 500 = 870+ ?\n6000 + 500 – 870= 5630\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2929,7 +2929,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let xx be the number he chose, then\n2\u00e2\u2039\u2026x\u00e2\u02c6\u2019138=104 2\u00e2\u2039\u2026x\u00e2\u02c6\u2019138=104\nx=121\nAnswer:B",
+    "explanation": "Let xx be the number he chose, then\n2â‹…xâˆ’138=104 2â‹…xâˆ’138=104\nx=121\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2983,7 +2983,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let x be the total number of pages in the book, then she finished 23\u22c5x pages.\nThen she has x\u221223\u22c5x=13\u22c5x pages left.\n23\u22c5x\u221213\u22c5x=90\n13\u22c5x=90\nx=270.\nSo answer is D.",
+    "explanation": "Let x be the total number of pages in the book, then she finished 23⋅x pages.\nThen she has x−23⋅x=13⋅x pages left.\n23⋅x−13⋅x=90\n13⋅x=90\nx=270.\nSo answer is D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3091,7 +3091,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n8000 \u00d7 80/100 \u00d7 80/100 = 5120\nE",
+    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n8000 × 80/100 × 80/100 = 5120\nE",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3109,7 +3109,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nSo we have C.P. = 27.50\nS.P. = 28.60\nGain = 28.60 - 27.50 = Rs. 1.10\nGain%=(GainCost\u2217100)%=(1.1027.50\u2217100)%=4%\nANSWER IS D",
+    "explanation": "Explanation:\nSo we have C.P. = 27.50\nS.P. = 28.60\nGain = 28.60 - 27.50 = Rs. 1.10\nGain%=(GainCost∗100)%=(1.1027.50∗100)%=4%\nANSWER IS D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3278,7 +3278,7 @@
   {
     "id": "aqua-alge-0791",
     "grade": 8,
-    "question": "Find the value of a from (15)^2 x 8^3 \u00c3\u00b7 256 = a.",
+    "question": "Find the value of a from (15)^2 x 8^3 Ã· 256 = a.",
     "options": [
       "250",
       "420",
@@ -3289,7 +3289,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Given Exp. =(15)^2 x 8^3 \u00c3\u00b7 256 = a\n= 225 x 512 \u00c3\u00b7 256 =\n450\nE",
+    "explanation": "Given Exp. =(15)^2 x 8^3 Ã· 256 = a\n= 225 x 512 Ã· 256 =\n450\nE",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3307,7 +3307,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nThe number of ways to select two men and three women = \u2075C\u2082 * \u2076C\u2083\n= (5 *4 )/(2 * 1) * (6 * 5 * 4)/(3 * 2)\n= 200\nE)",
+    "explanation": "Explanation:\nThe number of ways to select two men and three women = ⁵C₂ * ⁶C₃\n= (5 *4 )/(2 * 1) * (6 * 5 * 4)/(3 * 2)\n= 200\nE)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3388,10 +3388,10 @@
     "grade": 8,
     "question": "When x is divided by y, the quotient is z with remainder f. Which of the following is equal to f?",
     "options": [
-      "yz \u2013 x",
-      "y/x\u2212z",
-      "x \u2013 y \u2013 z",
-      "x \u2013 yz"
+      "yz – x",
+      "y/x−z",
+      "x – y – z",
+      "x – yz"
     ],
     "correct": 3,
     "tags": [
@@ -3404,10 +3404,10 @@
   {
     "id": "aqua-alge-0833",
     "grade": 8,
-    "question": "Simplify: (7+2) \u2013 (5+3+1)-1.",
+    "question": "Simplify: (7+2) – (5+3+1)-1.",
     "options": [
       "-1",
-      "\u20132",
+      "–2",
       "1",
       "2"
     ],
@@ -3415,7 +3415,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Solution:\n(7+2) \u2013 (5+3+1)-1\n=9-5-3+1-1\n=9-8+1-1\n=2-1\n=1\nAnswer: (C)",
+    "explanation": "Solution:\n(7+2) – (5+3+1)-1\n=9-5-3+1-1\n=9-8+1-1\n=2-1\n=1\nAnswer: (C)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3613,7 +3613,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Sol.\nThe hands of a clock coincide 11 times in every 12 hours (Since between 11 and 1, they coincide only once, i.e. at 12 o\u2019clock).\n\u2234 The hands coincide 22 times in a day.\nAnswer C",
+    "explanation": "Sol.\nThe hands of a clock coincide 11 times in every 12 hours (Since between 11 and 1, they coincide only once, i.e. at 12 o’clock).\n∴ The hands coincide 22 times in a day.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3721,19 +3721,19 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "npn = n!\n6p6 = 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 720\nB",
+    "explanation": "npn = n!\n6p6 = 6 × 5 × 4 × 3 × 2 × 1 = 720\nB",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-alge-0954",
     "grade": 8,
-    "question": "A tour group of 25 people paid a total of $670 for entrance to a museum. If this price included a 5% sales tax, and all the tickets cost the same amount, what was the face value of each ticket price without the sales tax?\nChoices",
+    "question": "A tour group of 25 people paid a total of \\$670 for entrance to a museum. If this price included a 5% sales tax, and all the tickets cost the same amount, what was the face value of each ticket price without the sales tax?\nChoices",
     "options": [
-      "$22",
-      "$23.94",
-      "$24",
-      "$25.46"
+      "\\$22",
+      "\\$23.94",
+      "\\$24",
+      "\\$25.46"
     ],
     "correct": 3,
     "tags": [
@@ -3746,7 +3746,7 @@
   {
     "id": "aqua-alge-0963",
     "grade": 8,
-    "question": "Ten telegenic contestants with a variety of personality disorders are to be divided into two \u201ctribes\u201d of four members each, tribe A and tribe B, for a competition. How many distinct groupings of two tribes are possible?",
+    "question": "Ten telegenic contestants with a variety of personality disorders are to be divided into two “tribes” of four members each, tribe A and tribe B, for a competition. How many distinct groupings of two tribes are possible?",
     "options": [
       "120",
       "126",
@@ -3854,7 +3854,7 @@
   {
     "id": "aqua-alge-0978",
     "grade": 8,
-    "question": "With a uniform speed a car covers a distance in 8 hours. Were the speed increased by 4 km/hr the same distance could be covered in 7 1\u20442 hours. What is the distance covered?",
+    "question": "With a uniform speed a car covers a distance in 8 hours. Were the speed increased by 4 km/hr the same distance could be covered in 7 1⁄2 hours. What is the distance covered?",
     "options": [
       "640 km",
       "480 km",
@@ -3865,7 +3865,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Here D\u20447.5 - D\u20448 = 4\n(where D is the distance in km)\n\u21d2 0.5 D = 4 \u00d7 8 \u00d7 7.5\n\u21d2 D = 2 \u00d7 4 \u00d7 8 \u00d7 7.5 = 480 km\nAnswer B",
+    "explanation": "Here D⁄7.5 - D⁄8 = 4\n(where D is the distance in km)\n⇒ 0.5 D = 4 × 8 × 7.5\n⇒ D = 2 × 4 × 8 × 7.5 = 480 km\nAnswer B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3893,15 +3893,15 @@
     "question": "I. c3 - 988 = 343,\nII. d2 - 72 = 49 to solve both the equations to find the values of c and d?",
     "options": [
       "a > b",
-      "a \u2265 b",
+      "a ≥ b",
       "a < b",
-      "a \u2264 b"
+      "a ≤ b"
     ],
     "correct": 1,
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nc3 = 1331 => c= 11\nd2 = 121 => d= \u00b1 11\nc\u2265 d\nB)",
+    "explanation": "Explanation:\nc3 = 1331 => c= 11\nd2 = 121 => d= ± 11\nc≥ d\nB)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3919,7 +3919,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nWe know that,\nTime=Distance/Speed\nSpeed=20 km/hr=20\u22175/18m/sec=50/9m/sec\nTime =(400\u22179/50)=72sec=1 1/5min\nOption A",
+    "explanation": "Explanation:\nWe know that,\nTime=Distance/Speed\nSpeed=20 km/hr=20∗5/18m/sec=50/9m/sec\nTime =(400∗9/50)=72sec=1 1/5min\nOption A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },

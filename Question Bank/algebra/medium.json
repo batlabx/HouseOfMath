@@ -35,7 +35,7 @@
   },
   {
     "id": "algebra-medium-003",
-    "question": "A taxi charges a flat fee of $5.00 plus $2.50 per mile. If the total fare was $20.00, how many miles ($m$) did the taxi travel?",
+    "question": "A taxi charges a flat fee of \\$5.00 plus \\$2.50 per mile. If the total fare was \\$20.00, how many miles (\\$m\\$) did the taxi travel?",
     "options": [
       "10 miles",
       "4 miles",
@@ -332,7 +332,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Production cost per article: $60*(100%-20%) / 20 = $2.40\nRequired production costs for a loss of 20%: $50*(100% + 20%) = $60\nNumber of articles to be sold for $60 to incur a 20% loss: $60 / $2.40 = 25\nThus, solution A is correct.",
+    "explanation": "Production cost per article: \\$60*(100%-20%) / 20 = \\$2.40\nRequired production costs for a loss of 20%: \\$50*(100% + 20%) = \\$60\nNumber of articles to be sold for \\$60 to incur a 20% loss: \\$60 / \\$2.40 = 25\nThus, solution A is correct.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -411,7 +411,7 @@
   {
     "id": "aqua-alge-0065",
     "grade": 8,
-    "question": "The rental charge for a car is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. If a man paid $1.24 in rental charges, how many miles did he drive?",
+    "question": "The rental charge for a car is 34 cents for the first 1/4 mile driven and 6 cents for every 1/5 mile driven over the initial 1/4 mile. If a man paid \\$1.24 in rental charges, how many miles did he drive?",
     "options": [
       "2.5",
       "3.0",
@@ -422,7 +422,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Total Rent = Rent for the first 0.25 mile + Rent After 0.25 mile\nRent for the first 0.25 mile = 34 cents\nRent After 0.25 mile = [6 cent/(1/5 mile)]*(x - 0.25) = 30(x-0.25)\nTherefore, Total Rent = 35 + 30(x - 0.25)\n124 = 34 + 30(x - 0.25)\n90 = 30(x - 0.25)\n3 = x - 0.25\nx = 3 + 0.25 = $3.25 C",
+    "explanation": "Total Rent = Rent for the first 0.25 mile + Rent After 0.25 mile\nRent for the first 0.25 mile = 34 cents\nRent After 0.25 mile = [6 cent/(1/5 mile)]*(x - 0.25) = 30(x-0.25)\nTherefore, Total Rent = 35 + 30(x - 0.25)\n124 = 34 + 30(x - 0.25)\n90 = 30(x - 0.25)\n3 = x - 0.25\nx = 3 + 0.25 = \\$3.25 C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -555,12 +555,12 @@
   {
     "id": "aqua-alge-0098",
     "grade": 8,
-    "question": "If $500 is deposited into a savings account at an annual interest rate of 5% that compounds monthly, what is the value of the investment after 10 years?",
+    "question": "If \\$500 is deposited into a savings account at an annual interest rate of 5% that compounds monthly, what is the value of the investment after 10 years?",
     "options": [
-      "$750.00",
-      "$823.50",
-      "$973.25",
-      "$1000.25"
+      "\\$750.00",
+      "\\$823.50",
+      "\\$973.25",
+      "\\$1000.25"
     ],
     "correct": 1,
     "tags": [
@@ -773,10 +773,10 @@
     "grade": 8,
     "question": "In a fuel station the service costs $1.15 per car, every liter of fuel costs 0.4$. Assuming that you own 2 sports cars and 2 executive cars and all fuel tanks are empty. How much will it cost to fuel all cars together if a sports car tank is 32 liters and an executive car tank is 75% bigger?",
     "options": [
-      "37.5$",
-      "75$",
-      "87.5$",
-      "94.5$"
+      "37.5\\$",
+      "75\\$",
+      "87.5\\$",
+      "94.5\\$"
     ],
     "correct": 1,
     "tags": [
@@ -1311,12 +1311,12 @@
   {
     "id": "aqua-alge-0250",
     "grade": 8,
-    "question": "A man spends 1/5 of his salary on food, 1/10 of his salary on house rent and 3/5 of his salary on clothes. He still has $18000 left with him. Find his salary.",
+    "question": "A man spends 1/5 of his salary on food, 1/10 of his salary on house rent and 3/5 of his salary on clothes. He still has \\$18000 left with him. Find his salary.",
     "options": [
-      "$180000",
-      "$280000",
-      "$380000",
-      "$480000"
+      "\\$180000",
+      "\\$280000",
+      "\\$380000",
+      "\\$480000"
     ],
     "correct": 0,
     "tags": [
@@ -1437,12 +1437,12 @@
   {
     "id": "aqua-alge-0273",
     "grade": 8,
-    "question": "Having received his weekly allowance, John spent 3/5 of his allowance at the arcade. The next day he spent one third of his remaining allowance at the toy store, and then spent his last $1.28 at the candy store. What is John’s weekly allowance?",
+    "question": "Having received his weekly allowance, John spent 3/5 of his allowance at the arcade. The next day he spent one third of his remaining allowance at the toy store, and then spent his last \\$1.28 at the candy store. What is John’s weekly allowance?",
     "options": [
-      "$2.40",
-      "$3.00",
-      "$3.20",
-      "$4.80"
+      "\\$2.40",
+      "\\$3.00",
+      "\\$3.20",
+      "\\$4.80"
     ],
     "correct": 3,
     "tags": [
@@ -2283,18 +2283,18 @@
   {
     "id": "aqua-alge-0463",
     "grade": 8,
-    "question": "A car is purchased on hire-purchase. The cash price is $24 000 and the terms are a deposit of 10% of the price, then the balance to be paid off over 60 equal monthly installments. Interest is charged at 12% p.a. What is the monthly installment?",
+    "question": "A car is purchased on hire-purchase. The cash price is \\$24 000 and the terms are a deposit of 10% of the price, then the balance to be paid off over 60 equal monthly installments. Interest is charged at 12% p.a. What is the monthly installment?",
     "options": [
-      "$503",
-      "$504",
-      "$555",
-      "$576"
+      "\\$503",
+      "\\$504",
+      "\\$555",
+      "\\$576"
     ],
     "correct": 3,
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nCash price = $24 000\nDeposit = 10% Ã— $24 000 = $2400\nLoan amount = $24000 âˆ’ $2400\nNumber of payments = 60\n= $21600\nI=p*r*t/100\nI=12960\nTotal amount = 21600 + 12960 = $34560\nRegular payment = total amount /number of payments=576\nAnswer: D",
+    "explanation": "Explanation:\nCash price = \\$24 000\nDeposit = 10% Ã— \\$24 000 = \\$2400\nLoan amount = \\$24000 âˆ’ \\$2400\nNumber of payments = 60\n= \\$21600\nI=p*r*t/100\nI=12960\nTotal amount = 21600 + 12960 = \\$34560\nRegular payment = total amount /number of payments=576\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2528,7 +2528,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "1) Let the price of jacket initially be $100.\n2) Then it is decreased by 35% , therefore bringing down the price to $65.\n3) Again it is further discounted by 10%, therefore bringing down the price to $58.5\n4) Now 58.5 has to be added byX %in order to equal the original price.\n58.5 + ( X% ) 58.5 = 100.\nSolving this eq for X, we get X = 70.9\nAns is A.",
+    "explanation": "1) Let the price of jacket initially be \\$100.\n2) Then it is decreased by 35% , therefore bringing down the price to \\$65.\n3) Again it is further discounted by 10%, therefore bringing down the price to \\$58.5\n4) Now 58.5 has to be added byX %in order to equal the original price.\n58.5 + ( X% ) 58.5 = 100.\nSolving this eq for X, we get X = 70.9\nAns is A.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2553,7 +2553,7 @@
   {
     "id": "aqua-alge-0532",
     "grade": 8,
-    "question": "Louie takes out a three-month loan of $1000. The lender charges him 10% interest per month compunded monthly. The terms of the loan state that Louie must repay the loan in three equal monthly payments. To the nearest dollar, how much does Louie have to pay each month?",
+    "question": "Louie takes out a three-month loan of \\$1000. The lender charges him 10% interest per month compunded monthly. The terms of the loan state that Louie must repay the loan in three equal monthly payments. To the nearest dollar, how much does Louie have to pay each month?",
     "options": [
       "333",
       "383",
@@ -2789,10 +2789,10 @@
     "grade": 8,
     "question": "Danny spends $360 buying his favorite dolls. If he buys only small LemonHead dolls, which are $1 cheaper than the large LemonHead dolls, he could buy 5 more dolls than if he were to buy only large LemonHead dolls. How much does a large LemonHead doll cost?",
     "options": [
-      "$5",
-      "$6",
-      "$7.2",
-      "$9"
+      "\\$5",
+      "\\$6",
+      "\\$7.2",
+      "\\$9"
     ],
     "correct": 3,
     "tags": [
@@ -3345,7 +3345,7 @@
   {
     "id": "aqua-alge-0690",
     "grade": 8,
-    "question": "A total of $20,000 was invested in two certificates of deposit at simple annual interest rates of 6 percent and 10 percent, respectively. If the total interest on the two certificates was $1,440 at the end of one year, what fractional part of the $20.000 was invested at the higher rate?",
+    "question": "A total of \\$20,000 was invested in two certificates of deposit at simple annual interest rates of 6 percent and 10 percent, respectively. If the total interest on the two certificates was \\$1,440 at the end of one year, what fractional part of the \\$20.000 was invested at the higher rate?",
     "options": [
       "3/8",
       "9/10",
@@ -3687,7 +3687,7 @@
   {
     "id": "aqua-alge-0762",
     "grade": 8,
-    "question": "In 1995, the Jims spent $800 on the family’s water bills. Anticipating that water rates would increase in 1996 by 50%, the Jims cut back their water usage. By how much must the Jims have reduce their 1996 water usage to pay exactly the same amount in 1996 as they paid in 1995?",
+    "question": "In 1995, the Jims spent \\$800 on the family’s water bills. Anticipating that water rates would increase in 1996 by 50%, the Jims cut back their water usage. By how much must the Jims have reduce their 1996 water usage to pay exactly the same amount in 1996 as they paid in 1995?",
     "options": [
       "a)\t33 1/3 %",
       "b)\t40 %",
@@ -3885,7 +3885,7 @@
   {
     "id": "aqua-alge-0793",
     "grade": 8,
-    "question": "Sabrina is contemplating a job switch. She is thinking of leaving her job paying $85,000 per year to accept a sales job paying $40,000 per year plus 15 percent commission for each sale made. If each of her sales is for $1,500, what is the least number of sales she must make per year if she is not to lose money because of the job change?",
+    "question": "Sabrina is contemplating a job switch. She is thinking of leaving her job paying \\$85,000 per year to accept a sales job paying \\$40,000 per year plus 15 percent commission for each sale made. If each of her sales is for \\$1,500, what is the least number of sales she must make per year if she is not to lose money because of the job change?",
     "options": [
       "200",
       "177",
@@ -3914,7 +3914,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "We propose equations products\nA = 2B-C\n4B + 2C = 8 $\n2A + 2B = 6 $\nsubstituting\nC = 1.2 $\nAnswer: A",
+    "explanation": "We propose equations products\nA = 2B-C\n4B + 2C = 8 \\$\n2A + 2B = 6 \\$\nsubstituting\nC = 1.2 \\$\nAnswer: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4245,12 +4245,12 @@
   {
     "id": "aqua-alge-0854",
     "grade": 8,
-    "question": "In a certain growth fund, 3/5 of the investment capital is invested in stocks, and of that portion, 1/3 is invested in preferred stocks. If the mutual fund has $849,000 invested in preferred stocks, what is the total amount of money invested in the fund?",
+    "question": "In a certain growth fund, 3/5 of the investment capital is invested in stocks, and of that portion, 1/3 is invested in preferred stocks. If the mutual fund has \\$849,000 invested in preferred stocks, what is the total amount of money invested in the fund?",
     "options": [
-      "$1,974,000",
-      "$2,538,000",
-      "$3,264,000",
-      "$4,245,000"
+      "\\$1,974,000",
+      "\\$2,538,000",
+      "\\$3,264,000",
+      "\\$4,245,000"
     ],
     "correct": 3,
     "tags": [
@@ -4353,7 +4353,7 @@
   {
     "id": "aqua-alge-0871",
     "grade": 8,
-    "question": "A shopkeeper wants to make a minimum net profit of 5% on a pair of jeans she is selling, which she bought for $100. If originally, she was selling the pair at 20% gain, what is the largest discount she can allow?",
+    "question": "A shopkeeper wants to make a minimum net profit of 5% on a pair of jeans she is selling, which she bought for \\$100. If originally, she was selling the pair at 20% gain, what is the largest discount she can allow?",
     "options": [
       "12.5%",
       "8%",
@@ -4364,7 +4364,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "A\nIf she bought the jeans at $100, she is currently selling them at (120/100)*100 = $120.\nShe wants to make a profit of 5%, which means she needs to sell them at (105/100)*100 = $105\nThe max discount she can allow is thus ((120-105)/120)*100 = 12.5%",
+    "explanation": "A\nIf she bought the jeans at \\$100, she is currently selling them at (120/100)*100 = \\$120.\nShe wants to make a profit of 5%, which means she needs to sell them at (105/100)*100 = \\$105\nThe max discount she can allow is thus ((120-105)/120)*100 = 12.5%",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4713,7 +4713,7 @@
   {
     "id": "aqua-alge-0939",
     "grade": 8,
-    "question": "A snooker tournament charges $40.00 for VIP seats and $10.00 for general admission (“regular” seats). On a certain night, a total of 320 tickets were sold, for a total cost of $7,500. How many fewer tickets were sold that night for VIP seats than for general admission seats?",
+    "question": "A snooker tournament charges \\$40.00 for VIP seats and \\$10.00 for general admission (“regular” seats). On a certain night, a total of 320 tickets were sold, for a total cost of \\$7,500. How many fewer tickets were sold that night for VIP seats than for general admission seats?",
     "options": [
       "190",
       "180",
@@ -4769,16 +4769,16 @@
     "grade": 8,
     "question": "Salesperson A's compensation for any week is $280 plus 6 percent of the portion of A's total sales above $1,000 for that week. Salesperson B's compensation for any week is 8 percent of B's total sales for that week. For what amount of total weekly sales would both salespeople earn the same compensation?",
     "options": [
-      "$5000",
-      "$7000",
-      "$9000",
-      "$11,000"
+      "\\$5000",
+      "\\$7000",
+      "\\$9000",
+      "\\$11,000"
     ],
     "correct": 3,
     "tags": [
       "algebra"
     ],
-    "explanation": "280+0.06(x-1000) = 0.08x\n0.02x = 220\nx = $11,000\nThe answer is D.",
+    "explanation": "280+0.06(x-1000) = 0.08x\n0.02x = 220\nx = \\$11,000\nThe answer is D.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4821,7 +4821,7 @@
   {
     "id": "aqua-alge-0950",
     "grade": 8,
-    "question": "For every $20 that a billionaire spends, a millionaire spends the equivalent of 10 cents. For every $4 that a millionaire spends, a yuppie spends the equivalent of $1. The ratio of money spent by a yuppie, millionaire, and billionaire can be expressed as",
+    "question": "For every \\$20 that a billionaire spends, a millionaire spends the equivalent of 10 cents. For every \\$4 that a millionaire spends, a yuppie spends the equivalent of \\$1. The ratio of money spent by a yuppie, millionaire, and billionaire can be expressed as",
     "options": [
       "1 : 4 : 400",
       "1 : 4 : 100",
