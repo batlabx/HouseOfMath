@@ -1,184 +1,1136 @@
 [
   {
-    "id": "pct-difficult-001",
+    "id": "aqua-perc-0010",
     "grade": 8,
-    "question": "A $\\$200$ item increases by $20\\%$, then decreases by $20\\%$. Final price?",
+    "question": "Each light bulb at a hotel is either incandescent or fluorescent. At a certain moment, forty percent of the incandescent bulbs are switched on, and eighty percent of the fluorescent bulbs are switched on. If 72 percent of all the bulbs are switched on at this moment, what percent of the bulbs that are switched on are incandescent?",
     "options": [
-      "$\\$192$",
-      "$\\$200$",
-      "$\\$208$",
-      "$\\$240$"
+      "24%",
+      "16%",
+      "11%",
+      "7%"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let I be the number of incandescent bulbs.\nLet F be the number of fluorescent bulbs.\n0.4I + 0.8F = 0.72(I+F)\n0.08F = 0.32I\nF = 4I\nThis means that for every 1 incandescent bulb, there are 4 fluorescent bulbs.\nThe percent of bulbs that are switched on which are incandescent is:\n0.4I / (0.4I + 0.8F) = 0.4I / (0.4I + 0.8*4I) = 0.4I / 3.6I = 1/9 which is about 11%.\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0024",
+    "grade": 8,
+    "question": "Angelo and Isabella are both salespersons. In any given week, Angelo makes $550 in base salary plus 8 percent of the portion of his sales above $3,000 for that week. Isabella makes 10 percent of her total sales for any given week. For what amount of weekly sales would Angelo and Isabella earn the same amount of money?",
+    "options": [
+      "15,500",
+      "24,500",
+      "25,500",
+      "26,500"
     ],
     "correct": 0,
     "tags": [
-      "compound-percent"
+      "percentages"
     ],
-    "explanation": "After increase: $200 \\times 1.20 = 240$. After decrease: $240 \\times 0.80 = 192$. Note: percent increase then equal percent decrease does NOT return to original.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "OFFICIAL SOLUTION:\nThe problem asks for the amount of weekly sales it takes for Angelo and Isabella to earn the same amount of money. You can write an equation that sets Angelo\u2019s and Isabella\u2019s weekly earnings equal to each other, with x representing weekly sales. Weekly earnings for each salesperson equal base salary plus commission. So Angelo\u2019s earnings are 550 + (0.08)(x \u2013 3,000), and Isabella\u2019s are 0.10x. Set up the equation and solve:\n550 + (0.08)(x \u2013 3,000) = 0.10x\nDistribute the 0.08:\n550 + 0.08x \u2013 240 = 0.10x\nCombine terms and subtract 0.08x from both sides:\n310 = 0.02x\nDivide both sides by 0.02:\n15,500 = x\nYour answer is A.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "pct-difficult-002",
-    "grade": 9,
-    "question": "Simple interest on $\\$1000$ at $5\\%$ per year for 3 years?",
-    "options": [
-      "$\\$50$",
-      "$\\$100$",
-      "$\\$150$",
-      "$\\$300$"
-    ],
-    "correct": 2,
-    "tags": [
-      "simple-interest"
-    ],
-    "explanation": "$SI = \\frac{P \\times R \\times T}{100} = \\frac{1000 \\times 5 \\times 3}{100} = 150$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "pct-difficult-003",
-    "grade": 9,
-    "question": "Compound interest on $\\$1000$ at $10\\%$ for 2 years (compounded annually)?",
-    "options": [
-      "$\\$100$",
-      "$\\$200$",
-      "$\\$210$",
-      "$\\$220$"
-    ],
-    "correct": 2,
-    "tags": [
-      "compound-interest"
-    ],
-    "explanation": "$A = P(1+r)^t = 1000(1.10)^2 = 1210$. CI = $1210 - 1000 = \\$210$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "pct-difficult-004",
+    "id": "aqua-perc-0035",
     "grade": 8,
-    "question": "If the price increases from $\\$80$ to $\\$96$, what is the percent increase?",
+    "question": "The value of land increases by p% during June and decreases by q% during July. If the value of the land is the same at the end of July as at the beginning of June, what is q in terms of p?",
     "options": [
-      "16%",
-      "20%",
-      "25%",
-      "30%"
+      "100p/(100+p)",
+      "200p/(100+2p)",
+      "p(2+p)/(1+p)2",
+      "p(200+p)/10000"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "The simplest pairing is a 25% increase will be offset by a 20% decrease.\nHere's the proof:\nStarting value = 100\n25% increase = 100 + (.25)(100) = 125\n20% decrease = 125 - (.2)(125) = 100\nEnding value = 100\nSo we would be looking for an answer that equals 20 when A=25. While the answers might appear 'complex', you can actually avoid much of the 'math' if you just fill in the parts and take a good look at what you have...\nAnswer A: (100)(25)/125) = (100)(1/5) = 20 This is a MATCH.\nAnswer B: (200)(25)/(150) ... since 200>150, this answer will be greater than 25. ELIMINATE A.\nAnswer C: (25)(27)/(26)2 ... nothing 'cancels out', so this cannot = 20. ELIMINATE C.\nAnswer D: (25)(225)/10000... the 'units' digit of the numerator is a 5; when dividing by 10,000, this won't end in a 0. ELIMINATE D.\nAnswer E: (50/25) + 50 = 52. ELIMINATE E.\nA",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0057",
+    "grade": 8,
+    "question": "On a certain day, Tim invested $500 at 10 percent annual interest, compounded annually, and Lana invested 800 at 5 percent annual interest, compounded annually.The total amount of interest earned by Tim\u2019s investment in the first 2 years was how much greater than the total amount of interest earned by Lana\u2019s investment in the first 2 years?",
+    "options": [
+      "$5",
+      "$15",
+      "$23",
+      "$100"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Compounded annually means that the interest is applied once per year. One can have 10% annual interest compounded monthly - in this case 10%/12 would be applied each month, or 10% annual interest compounded daily etc.\nWith respect to the problem at hand, at the end of two years, Tim would have\n500(1.10)^2 = 500(1.21) = 605\nand Lana would have\n800(1.05)^2 = 800(1.1025) = 882\nThus, Tim earned 105 dollars, while Lana earned 82 dollars\nThe difference is $23 and the answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0093",
+    "grade": 8,
+    "question": "Last year the price per share of Stock X increased by k percent and the earnings per share of Stock X increased by m percent, where k is greater than m. By what percent did the ratio of price per share to earnings per share increase, in terms of k and m?",
+    "options": [
+      "k/m %",
+      "(k \u2013 m) %",
+      "[100(k \u2013 m)] / (100 + k) %",
+      "[100(k \u2013 m)] / (100 + m) %"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "One way of doing this is assuming some value for y. Say, y = 60. So x is greater than 20 but less than 30. Say x could be 25.\nNot put y = 60 and x = 25 in the options:\n(A) y < x < 2y -----> 60 < 25 < 2*120 ( does not hold)\n(B) 2y < 6x < 3y ------> 2*60 < 6*25 < 3*60 (holds so could be the answer)\nMind you, you need to check every option to ensure that the relation holds for only one option. If it holds for more than one options, you will need to check for some other values too.\nThe point is that we assume values and then plug them in the options to see which relation works.\nLast Year:\nPrice per share (PPS) increased by k%. Let's say k = 20. So if the price was 100, it increased by 20% to become 120 (New PPS).\nEarnings per share increased by m%. Let's say m = 10 (m must be less than k). So if earnings per share was also 100, it increased by 10% to become 110 (New EPS).\nBy what percent did the ratio of price per share to earnings per share increase?\nRatio of PPS/EPS was 100/100 = 1\nNew ratio = New PPS/ New EPS = 120/110 = 1.0909\n%Increase = [(1.0909 - 1)/1] * 100 = 9.09%\nNow, in the options, put k = 20, m = 10\nOnly (D) will give you 9.09%. Let me show you calculations of some of the options.\nB. (k \u2013 m) %\n(20 - 10)% = 10% (Not the answer)\nC. [100(k \u2013 m)] / (100 + k) %\n[100(20 - 10)]/(100 + 20) % = 1000/120 % = 8.3% (Not the answer)\nD. [100(k \u2013 m)] / (100 + m) %\n[100(20 \u2013 10)] / (100 + 10) % = 1000/11 % = 9.09% (Answer) answer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0116",
+    "grade": 8,
+    "question": "The average price of an antique car increases over the years. If from 1990 to 1996, the price of the car increased by 13% and from 1996 to 2001 it increased by 20%, what is the price of the car in 2001 if the price in 1990 was $11,500?",
+    "options": [
+      "$15,594.",
+      "$15,322.",
+      "$14,786.",
+      "$14,543."
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Whenever you have a question in which a value is increased by x% and then increased by y% then the overall effective increase = (x + y + xy/100 ) %\nThe effective increase = 13 + 20 + (13\u00d720/100) = 35.6%\nThis is a little more 33% or 1/3 the original value.\nTHE QUICKEST WAY TO SOLVE THIS QUESTION IS TO USE APPROXIMATION.\n11500 + 1/ 3 (12000) = 15500\nTherefore option A is the answer.\nI selected 12000 because it's value is a little more 11500 and it's easier to divide by 3 ( ie to calculate 1/3 or 33%).",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0139",
+    "grade": 8,
+    "question": "This year, MBB Consulting fired 8% of its employees and left remaining employee salaries unchanged. Sally, a first-year post-MBA consultant, noticed that that the average (arithmetic mean) of employee salaries at MBB was 10% more after the employee headcount reduction than before. The total salary pool allocated to employees after headcount reduction is what percent of that before the headcount reduction?",
+    "options": [
+      "98.5%",
+      "101.2%",
+      "102.8%",
+      "104.5%"
     ],
     "correct": 1,
     "tags": [
-      "percent-change"
+      "percentages"
     ],
-    "explanation": "Increase = 16. Percent = $\\frac{16}{80} = 0.20 = 20\\%$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "100 employees getting 1000$ avg, so total salary for 100 ppl = 100000\n8% reduction in employees lead to 92 employees and a salary increase of 10% of previous avg salary\nThus the new avg salary is = 10%(1000)+1000 = 1100\nso total salary of 92 employees is 92*1100 = 101200\nNow the new salary is more than previous salary by x%. x = (101200/100000)*100 = 101.2%\nSo the Answer is B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "pct-difficult-005",
+    "id": "aqua-perc-0152",
     "grade": 8,
-    "question": "$75$ is $60\\%$ of what number?",
+    "question": "A sum of money invested for a certain number of years at 8% p.a. simple interest grows to Rs.180. The same sum of money invested for the same number of years at 4% p.a. simple interest grows to Rs.120. For how many years was the sum invested?",
+    "options": [
+      "25 years",
+      "40 years",
+      "33 years and 4 months",
+      "Cannot be determined"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Solution:\nFrom the information provided we know that,\nPrincipal + 8% p.a. interest on principal for n years = 180 \u2026\u2026.. (1)\nPrincipal + 4% p.a. interest on principal for n years = 120 \u2026\u2026\u2026 (2)\nSubtracting equation (2) from equation (1), we get\n4% p.a. interest on principal for n years = Rs.60.\nNow, we can substitute this value in equation (2),\ni.e Principal + 60 = 120\n= Principal = Rs.60.\nWe know that SI = pnr/100, where p is the principal, n the number of years and r the rate percent of interest.\nIn equation (2), p = Rs.60, r = 4% p.a. and the simple interest = Rs.60.\nTherefore, 60 = (60 X n X 4)/100\n=> n = 100/4 = 25 years.\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0172",
+    "grade": 8,
+    "question": "A small, experimental plane has three engines, one of which is redundant. That is, as long as two of the engines are working, the plane will stay in the air. Over the course of a typical flight, there is a 1/3 chance that engine one will fail. There is a 79% probability that engine two will work. The third engine works only half the time. What is the probability that the plane will crash in any given flight?",
+    "options": [
+      "7/12",
+      "1/4",
+      "1/2",
+      "7/24"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "In probability questions the trap answer is just the multiple of the numbers in the question.\ni.e. if you multiply 1/3 * 1/4 * 1/2 = 1/24 is trap answer\nThe other trap answer could be 2/3 * 3/4 * 1/2 = 6/24 is trap answer\nSo lets say you have30 secsand you want to guess the answer then B, C are ruled out because they can be traps. You best guess is A, D, E. So you have 33% chances of being correct.\nA",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0175",
+    "grade": 8,
+    "question": "Crazy Eddie has a key chain factory. Eddie managed to decrease the cost of manufacturing his key chains while keeping the same selling price, and thus increased the profit from the sale of each key chain from 25% of the selling price to 50% of the selling price. If the manufacturing cost is now $50, what was it before the decrease?",
+    "options": [
+      "$75",
+      "$40",
+      "$50",
+      "$80"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Deargoodyear2013,\nI'm happy to help.This is a relatively straightforward problem, not very challenging. BTW,Crazy Eddiewas the actually name of an electronics chain on the East Coast of the USA back in the 1970s.\nManufacturing now is $50. They now are making a 50% profit, so the selling price must be $100.\nThey had this same selling price, $100, before they made the change, and had a profit of 25%, so the manufacturing must have been $75. Answer = (A).",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0182",
+    "grade": 8,
+    "question": "Bob invested $2000 in fund A and $2000 in fund B. Over the next two years, the money in Fund A earned an annual interest of 30 percent for the two years and the money in fund B earned 30 percent annual interest compounded annually. Two years after bob made these investments. Bob's investment in fund B was worth how much more than his investment in fund A?",
+    "options": [
+      "1. $180",
+      "2. $550",
+      "3. $300",
+      "4. $200"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "interest on fund A will be 1200. rate of interest will be 30% per annum simple interest as 60% is for 2 year. this will make investment A 3200 at the end of 2nd year.\ninterest on fund B will be 1380 on 30% interest compounded annually. This will make investment B 3380 at the end of 2nd year.\nDifference in investment A and investment B=3380-3200=180\nanswer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0187",
+    "grade": 8,
+    "question": "Joe's current weekly caloric intake is 20,000 calories. His physician has advised Joe to reduce the number of calories he consumes weekly to 14,000. By what percent does Joe need to reduce his weekly caloric intake?",
+    "options": [
+      "20%",
+      "30%",
+      "50%",
+      "60%"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "A certain percentage of questions in the Quant section of the GMAT are just 'math questions' - you'll use a formula, do some calculations and you'll have the answer. This is one of those types of questions. You still have to write everything down and stay organized, but the work involved is relatively straight-forward.\nHere, we're told that the original amount of calories is 20,000 and that the reduced amount of calories is 14,000. We're asked what PERCENT should the original amount of calories be REDUCED BY?\nOriginal Calories= 20,000\nReduced Calories = 14,000\nThe percent of reduced calories is relative to the original calories as shown:\n14,000/20,000 = 7/10 = 70%. So, 14,000 calories is 70% of 20,000 calories (100%). But the question is BY what PERCENT should the original amount of calories be REDUCED. 100% - 70% = 30%.\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0198",
+    "grade": 8,
+    "question": "B takes 12 more days than A to finish a task. B and A start this task and A leaves the task 12 days before the task is finished. B completes 60% of the overall task. How long would B have taken to finish the task if he had worked independently?",
+    "options": [
+      "48 days",
+      "36 days",
+      "28 days",
+      "32 days"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "DETAILED SOLUTION\nLet us say A and B split their share of the task and started doing their respective shares simultaneously.\nLet\u2019s say A takes A days to finish the task. Therefore, B takes A + 12 days to finish the entire task.\nA has to finish 40% of the task, since B is doing the rest. So A will only take 2A/5 number of days.\nB only has to finish 60% of the task, so B will take (3(A+12)/5) number of days.\nBut as we know, B starts working along with A and finishes 12 days after A stops working.\nSo, (3(A+12)/5) = ((2A)/5+12)\n3A + 36 = 2A + 60\nA = 24; B = 36 days.\nAnswer choice B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0208",
+    "grade": 8,
+    "question": "An automobile parts supplier charges $25 per package of gaskets. When a customer orders more than 10 packages of gaskets, the supplier charges 4/5 the price for each package in excess of 10. During a certain week, the supplier sold 50 packages of gaskets. If 20 percent of the gaskets went to Company X, 15 percent to Company Y, and the rest to Company Z, what was the total amount, in dollars, that the parts supplier received in payment for the gaskets?",
+    "options": [
+      "1105",
+      "1245",
+      "1275",
+      "1150"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "$25 per packet of gasket in case a customer orders less than 10\nin case a customer orders > 10 price per gasket = 25*4/5=20\na certain week the supplier sold 60 gasket\n1.he sold 20 % of the gaskets to X = 10 gaskets = 25*10 = 250\n2.he sold 30 % of the gaskets to Y = 15 gaskets = 25*10+20*5= 350\n3.he sold remaining 50% to z =25 gaskets = 25*10 =250 + 20*15=550\nthus ,total money earned\n250+350+550 = 1150\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0214",
+    "grade": 8,
+    "question": "During a certain season, a team won 70 percent of its first 100 games and 50 percent of its remaining games. If the team won 70 percent of its games for the entire season, what was the total number of games that the team played?",
+    "options": [
+      "180",
+      "170",
+      "156",
+      "100"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "We are first given that a team won 70 percent of its first 100 games. This means the team won 0.7 x 100 = 70 games out of its first 100 games.\nWe are next given that the team won 50 percent of its remaining games. If we use variable T to represent the total number of games in the season, then we can say T \u2013 100 equals the number of remaining games in the season. Thus we can say:\n0.5(T \u2013 100) = number of wins for remaining games\n0.5T \u2013 50 = number of wins for remaining games\nLastly, we are given that team won 70 percent of all games played in the season. That is, they won 0.7T games in the entire season. With this we can set up the equation:\nNumber of first 100 games won + Number of games won for remaining games = Total Number of games won in the entire season\n70 + 0.5T \u2013 50 = 0.7T\n20 = 0.2T\n200 = 2T\n100 = T\nAnswer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0215",
+    "grade": 8,
+    "question": "You have been given the task of transporting 3,000 apples 1,000 miles from Appleland to Bananaville. Your truck can carry 1,000 apples at a time. Every time you travel a mile towards Bananaville you must pay a tax of 1 apple but you pay nothing when going in the other direction (towards Appleland).\nWhat is highest number of apples you can get to Bananaville?",
+    "options": [
+      "767",
+      "833",
+      "916",
+      "1123"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Step one: First you want to make 3 trips of 1,000 apples 333 miles. You will be left with 2,001 apples and 667 miles to go.\nStep two: Next you want to take 2 trips of 1,000 apples 500 miles. You will be left with 1,000 apples and 167 miles to go (you have to leave an apple behind).\nStep three: Finally, you travel the last 167 miles with one load of 1,000 apples and are left with 833 apples in Bananaville.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0217",
+    "grade": 8,
+    "question": "The volume of the sphere QQ is (dfrac{37}{64}%)less than the volume of sphere PP and the volume of sphere RR is (dfrac{19}{27}%) less than that of sphere QQ. By what is the surface areaof sphere RR less than the surfacearea of sphere PP?",
+    "options": [
+      "56%",
+      "68%",
+      "75%",
+      "85%"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let the volume of sphere PP be 64 parts.\nTherefore volume of sphere QQ\n=64\u22123764%=64\u22123764% of 6464\n=64\u221237=27=64\u221237=27 parts.\nThe volume of RR\n=27\u22121927\u00d727=27\u22121927\u00d727\n=27\u221219=8=27\u221219=8 parts.\nVolume ratio:\n=P:Q:R=64:27:8=P:Q:R=64:27:8\nRadius ratio:\n=P:Q:R=4:3:2=P:Q:R=4:3:2\nThe surface area will be 16:9:516:9:5\nSurface area of RR is less than the surface area of sphere PP\n16k\u22124k=12k16k\u22124k=12k\nNow,\n=12k16k\u00d7100=12k16k\u00d7100\n=75%=75%\nThus surface area of sphere RR is less than the surface area of sphere P by 75%\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0219",
+    "grade": 8,
+    "question": "A bookstore has a shelf that contains biographies which normally sell for $20 each and mysteries that normally sell for $12 each. During a sale, the biographies and mysteries are discounted at different rates so that a customer saves a total of $19 from the normal price by buying 5 discounted biographies and 3 discounted mysteries. If the sum of the discount rates for the two types of books is 38 percent, what is the discount rate on mysteries?",
+    "options": [
+      "18%",
+      "29.68%",
+      "19.68%",
+      "29%"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let B be the discount on biographies and M be the discount on mysteries\nSo., B + M = 0.38 -----(1)\nAnd\n(20*5 + 12*3) - (20*5*(1-B) + 12*3*(1-M)) = 19\n--> 100(1-(1-B)) + 36(1-(1-M) = 19\n100B + 36M = 19 ------(2)\nSolving 12., we get M = 0.2968 = 29.68%\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0258",
+    "grade": 8,
+    "question": "Debanshu normally drives to work in 45 minutes at an average speed of 40 miles per hour. This week, however, she plans to bike to work along a route that decreases the total distance she usually travels when driving by 20% . If Debanshu averages between 12 and 16 miles per hour when biking, how many minutes earlier will she need to leave in the morning in order to ensure she arrives at work at the same time as when she drives?",
+    "options": [
+      "135",
+      "105",
+      "95",
+      "75"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Debanshu normally drives to work in 45 minutes at an average speed of 40 miles per hour.\nUse formula D = RT\nCar:\nT1: 45 min\nR1: 40 mph\nD1: [(40*45)/60] = 30 miles\nBike:\nT1:?\nR2: 12 - 16 mph\nD2: 08*D1 = 24 miles\nT1: [(24*60)/12] = 120 min (Only 12 mph speed yields an answer given in the choices)\nTherefore, Deb has to leave 120 min - 45 min = 75 min early\nANSWER: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0283",
+    "grade": 8,
+    "question": "Number of students in institutes A and B were in the ratio of 7 : 15 respectively in 2012. In 2013, the number of students in institute A increased by 25% and number of students in institutes B increased by 26%, then what was the respective ratio between number of students in institutes A and B?",
+    "options": [
+      "25 : 56",
+      "24 : 55",
+      "24 : 53",
+      "25 ratio 54"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Solution:\nRatio of students in 2012 in institutes A and B,\n= 7 : 15.\nLet number of students in institute A in 2012 = 700.\nAnd Number of students in institutes B in 2012 = 1500.\n25% increase in the number of students in 2013,\nNow, number of students in Institute A,\n= 700 + 25% of 700. = 875.\nNumber of students in B in 2013 as 26% students increased in B,\n= 1500 + 26% of 1500 = 1890.\nCurrent Ratio of the students,\n= 875 /1890 = 25 : 54.\nAnswer: Option E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0295",
+    "grade": 8,
+    "question": "If money is invested at r percent interest, compounded annually, the amount of the investment will double in approximately 70/r years. If Pat's parents invested $5,000 in a long-term bond that pays 8 percent interest, compounded annually, what will be the approximate total amount of the investment 18 years later, when Pat is ready for college?",
+    "options": [
+      "$20000",
+      "$15000",
+      "$12000",
+      "$10000"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Since investment doubles in 70/r years, then for r=8 it'll double in 70/8=~9 years (we are not asked about the exact amount so such an approximation will do). Thus in 18 years investment will double twice and become ($5,000*2)*2=$20,000 (after 9 years investment will become $5,000*2=$10,000 and in another 9 years it'll become $10,000*2=$20,000).\nAnswer: A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0344",
+    "grade": 8,
+    "question": "A part-time employee\u2019s hourly wage was increased by 10%. She decided to decrease the number of hours worked per week so that her total income did not change. By approximately what percent should the number of hours worked be decreased?",
+    "options": [
+      "9%",
+      "15%",
+      "25%",
+      "50%"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let's say the employee used to make $1/hour and worked 100 hours/week\nSo, the TOTAL weekly income was $100/week\nAfter the 10% wage increase, the employee makes $1.10/hour\nWe want the employee's income to remain at $100/week.\nSo, we want ($1.10/hour)(new # of hours) = $100\nDivide both sides by 1.10 to get:\nnew # of hours = 100/1.10\n\u2248 90 hours\nSo, the number of hours decreases from 100 hours to (approximately) 90 hours.\nThis represents a 10% decrease (approximately) .\nAnswer choice A is the closest answer.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0353",
+    "grade": 8,
+    "question": "P works 25% more efficiently than Q and Q works 50% more efficiently than R. To complete a certain project, P alone takes 50 days less than Q alone. If, in this project P alone works for 60 days and then Q alone works for 150 days, in how many days can R alone complete the remaining work?",
+    "options": [
+      "50 days",
+      "75 days",
+      "120 days",
+      "150 days"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "P works 25% more efficiently than Q: Something that takes Q 5 days, takes P 4 days\nQ works 50% more efficiently than R: Something that takes R 7.5 days, takes Q 5 days\nP alone takes 50 days less than Q: For every 4 days P works, Q has to work an extra day. Hence P alone can do it in 200 days and Q alone in 250 days and hence R alone in 400 days\nP works for 60 days--> 60/200 work done => 30%\nQ works for 150 days--> 150/250 work done => 60%\n30% work left ... R alone will take 30% * 400 = 120 days\nAnswer is (C)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0357",
+    "grade": 8,
+    "question": "A rectangular football field is fenced on all four sides. The length of the football field is twice the length of its breadth. The cost of fencing the field was $300. The football management has decided to change the dimensions of field by increasing the breadth by 5% of its original value and reducing the length by 20% of its original value and fence the field again.. What will be the cost of the new fencing?",
+    "options": [
+      "$360",
+      "$265",
+      "$425",
+      "$405"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let's take x to be the breadth. Then the length of the football field is 2x.\nThe perimeter of the old football field is x + 2x + x + 2x = 6x.\nNow, for the new football field:\nThe new breadth = 1.05 times old breadth = 1.05x\nThe new length is 0.8 times old length = (.8)2x = 1.6x\nSo the new perimeter is 1.6x + 1.6x + 1.05x + 1.05x =5.3x.\nfor old perimeter rate is $300\nFor new perimeter = (300 * 5.3)/6\n= 265\nAns - B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0368",
+    "grade": 8,
+    "question": "At a certain college, 40 percent of the total number of students are freshmen. If 50 percent of the fresh-men are enrolled in the school of liberal arts and, of these, 50 percent are psychology majors, what percent of the students at the college are freshmen psychology majors enrolled in the school of liberal arts?",
+    "options": [
+      "10%",
+      "12%",
+      "14%",
+      "16%"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let's say there is a TOTAL of 100students at this college.\n40 percent of the total number of students are freshmen.\n# of freshmen = 40% of 100 =40\n50 percent of the fresh-men are enrolled in the school of liberal arts...\nNumber of liberal arts freshmen = 50% of 40 = 20\n...and, of these, 50 percent are psychology majors...\nNumber of liberal arts freshmen who are psychology majors = 50% of 20=10\nWhat percent of the students at the college are freshmen psychology majors enrolled in the school of liberal arts?\n10/100= 10%\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0421",
+    "grade": 8,
+    "question": "A box contains either blue or red flags. The total number of flags in the box is an even number. A group of children are asked to pick up two flags each. If all the flags are used up in the process such that 60% of the children have blue flags, and 45% have red flags, what percentage of children have flags of both the colors?",
+    "options": [
+      "5%",
+      "10%",
+      "15%",
+      "20%"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Solution: let the total number of flags be 100(even number)\nlet the total number of 'blue' flags alone be 'a'\nlet the total number of 'red' flags alone be 'b'\nlet the total number of 'both' flags be 'c'\nWe have given,\ntotal number of blue flags = 60% = 60 = a+c\ntotal number of red flags=45%=45=b+c\ntotal number of flags = a+b+c=100 (since all the flag have been utilized)\nSo, substituting for c in the third equation, we have,\n60-c+c+45-c=100\nc=5\nOption A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0439",
+    "grade": 8,
+    "question": "A 5-year investment note offers a 10% return on purchase, and a compounding 5% for each year after the first. If there is a $500 penalty for early redemption, and the note is redeemed for $6430 after the second year, what was the original purchase price?",
+    "options": [
+      "$ 6,000",
+      "$ 6,048",
+      "$ 6,100",
+      "$ 6,150"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Since the note was redeemed after 2 years, so a penalty of $500 has to be submitted. So the amount that is redeemed after 6430 is after the deduction of $500.\nHence the amount after being compounded is 6930.\nLet the initial amount be P.\nAfter the return, the amount becomes 1.1P.\nNow use this 1.1P as the principle in the compound interest formula to get the amount 6930.\nA=1.1P(1+5/100)A=1.1P(1+5/100)\nwhere A=6930.\nTherefore, use\n6930=1.1P(1+5/100)6930=1.1P(1+5/100) to get P as $6000.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0470",
+    "grade": 8,
+    "question": "A small company is planning to rent either computer A or computer B to print customer mailing lists. Both computer A and computer B must be rented on an hourly basis. The rental fee is based only on the amount of time the computer is turned on. It will cost 40 percent more per hour to rent computer A than to rent computer B. Computer B would, however, require 20 hours more than computer A to do the job. If either computer A, or computer B were rented the total cost to rent the computer would be $550.00. What would be the approximate hourly charge to rent computer B?",
+    "options": [
+      "$7.85",
+      "$11.30",
+      "$13.20",
+      "$17.80"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Pa = price of A\nPb = price of B\nTa = time for A to complete the job\nTb = time for B to complete the job\nGiven\nPa = 1.4 Pb\nTa+20 = Tb\nPa*Ta = Pb*Tb=550\n1.4Pb * (Tb-20) = Pb*Tb\n1.4 Pb Tb - Pb Tb = 1.4 Pb * 20\n0.4PbTb = 28Pb\nTb = 28/0.4 = 70\nPb=550/70 ~ 7.85\nA",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0498",
+    "grade": 8,
+    "question": "The number of bacteria in a petri dish increased by 50 percent every 2 hours. If there were 108 million bacteria in the dish at 2: 00 p.m., at what time were there 32 million bacteria in the dish?",
+    "options": [
+      "6: 00 p.m.",
+      "8: 00 p.m.",
+      "6: 00 a.m.",
+      "8: 00 a.m."
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Given:\nThe number of bacteria in a petri dish increased by 50 percent every 2 hours\nThere were 108 million bacteria in the dish at 2: 00 p.m\nSince the bacteria is increasing by 50% every 2 hours, this means that the number is multiplied by 1.5 every 2 hours.\nRequired: At what time were there 32 million bacteria in the dish?\nAssume that there were n intervals of 2 hours between 32 million and 108 million.\n32 * (1.5)^n = 108\n(3/2)^n = 108/32 = 27/8 = (3/2)^3\nHence n = 3 intervals.\nEach interval was of 2 hours. Therefore, the number of hours = 6\nSubtracting 6 hours from 2 PM, we get 8 AM as the answer.\nOption D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0509",
+    "grade": 8,
+    "question": "In a certain state, gasoline stations compute the price per gallon p, in dollars, charged at the pump by adding a 7 percent sales tax to the dealer's price per gallon d, in dollars, and then adding a gasoline tax of $0.18 per gallon. Which of the following gives the dealer's price per gallon d in terms of the price per gallon p charged at the pump?",
+    "options": [
+      "d = p/1.07 - 0.18",
+      "d = p-0.25",
+      "d= (p-0.18)/1.07",
+      "d = p/1.25"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let dealers price (d) be 1. so adding 7% to dealers price is d+ 7% of d. i.e. 1 + 7% of 1 which is1 + 0.07. then add 0.18 to the value.\nNow 1.07 + 0.18. this is now 1.25. you have the gasoline stations price (p) as 1.25 dollars.\nNow sub 1.25 in the options to know which option gave you d = 1. d must equal 1 because you earlier picked 1 as the value of d in the question.\nPS: always remember to start from E upwards.\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0531",
+    "grade": 8,
+    "question": "A student took five papers in an examination, where the full marks were the same for each paper. His marks in these papers were in the proportion of 6:7:8:9:10. In all papers together, the candidate obtained 60% of the total marks then, the number of papers in which he got more than 50% marks is",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Solution: Let the marks obtained in five subjects be 6x, 7x, 8x, 9x and 10x.\nTotal marks obtained= 40x\nMax. Marks of the five subjects = 40x/0.6 [40x is 60% of total marks]\nMax. Marks in each subject = 40x/0.6*5 = 13.33x\nHence, % of each subject = 6x*100/13.33 = 45.01%\nOr, 7x*100/13.33 = 52.51\nIn same way other percentage are 60.01%, 67.52%, 75.01%.\nHence, number of subjects in which he gets more than 50% marks = 4.\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0533",
+    "grade": 8,
+    "question": "If the price of petrol increases by 25% and Benson intends to spend only an additional 15% on petrol, by how much % will he reduce the quantity of petrol purchased?",
+    "options": [
+      "A)8%",
+      "B)7%",
+      "C)10%",
+      "D)6%"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Explanation:\nAssume that the initia price of 1 Litre petrol = Rs.100 ,Benson spends Rs.100 for petrol,\nsuch that Benson buys 1 litre of petrol\nAfter the increase by 25%, price of 1 Litre petrol = 100 \u00d7 (100+25)/100 = Rs.125\nSince Benson spends additional 15% on petrol,\namount spent by Benson = 100\u00d7 (100+15)/100 = Rs.115\nHence Quantity of petrol that he can purchase = 115/125 Litre\nQuantity of petrol reduced = (1\u2212115/125) Litre\nPercentage Quantity of reduction = (1\u2212115125)/1 \u00d7 100 = 10/125 \u00d7 100 = 105 \u00d7 4 = 2 \u00d7 4 = 8%\nAnswer: Option A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0548",
+    "grade": 8,
+    "question": "A company, Chauncy Co., has an annual travel budget of $51,000. The accounting department estimates that transportation expenses will increase 5 percent in the coming year, and nontransportation travel expenses will increase by 15 percent in the coming year. Last year, Chauncy Co. spent $19,500 on transportation-related expenses, and $35,000 on nontransportation travel expenses. If the annual travel budget does not increase this year, and if the accounting department\u2019s estimates are correct, how far over the annual travel budget will expenses be this year?",
+    "options": [
+      "Expenses will not go over the budget.",
+      "$500",
+      "$4,225",
+      "$9,725"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "annual travel budget of $51,000\nLet, Transportation expenses = T = 19500\nand Non-Transportation expenses = N=35000\ni.e. Increased Transportation expenses = 1.05T = 20475\nand Increased Non-Transportation expenses = 1.15N = 40250\nTotal Expense = 20475+40250 = 60725\nExpense over Budget = Budget - expense = 51000-60725 = 9725\nAnswer: Option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0579",
+    "grade": 8,
+    "question": "Tom found a box of 220 baseball cards. Being a thoughtful older brother, he wanted to save at least 80 percent of the cards for himself and split the remaining cards evenly among his 4 younger brothers. What is the lowest possible number of cards that Tom can save for himself that will also allow each of his 4 younger brothers to get an equal number of cards?",
+    "options": [
+      "110",
+      "112",
+      "116",
+      "118"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "This question can be easily solved by looking at the options.\nAssuming number of cards to be x\nWe need to find the option for which (1/4)*(4x/5) is an integer\nOr x/5 is an integer.\nHence we need the lowest multiple of 5 from the given options.\nLet us start from the lowest value:\nOption A: 110. This is a multiple of 5 Hence the correct answer.\nCorrect Option: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0588",
+    "grade": 8,
+    "question": "A shipment of 1500 heads of cabbage, each of which was approximately the same size was purchased for $600.The day the shipment arrived 2/3 of the heads were sold, each at 25% above the cost per head.The following day the rest were sold at a price per head equal to 20% less than the price each head sold for the day before.what was the gross profit on this shipment?",
+    "options": [
+      "$100",
+      "$115",
+      "$125",
+      "$130"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Sol:\n1500 heads -> $600\n1 head -> $600/1500\n1 head -> $(2/5)\n25% more of (2/5) -> 125/100 * 2/5 = $(1/2)\nHe sold 2/3*1500 = 1000 heads for $(1/2) per head\nTotal revenue by selling 1000 heads = 1000 * 1/2 = $500\nHeads left: 500\nCost per head: 80% of the previous price: 80/100 * 1/2 = $(2/5)\nTotal revenue by selling 500 heads = 2/5 * 500 = 200\nTotal revenue after selling 1500 cabbage heads - 200+500 = $700\nMoney spent on the purchase: $600\nProfit = 700-600 = $100\nAns: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0592",
+    "grade": 8,
+    "question": "The amount of an investment will double in approximately 70/ p years, where p is the percent interest, compounded annually. If Thelma invests $ 40,000 in a long-term CD that pays 5 percent interest, compounded annually, what will be the approximate total value of the investment when Thelma is ready to retire 42 years later?",
+    "options": [
+      "$ 280,000",
+      "$ 320,000",
+      "$ 360,000",
+      "$ 450,000"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "The amount of an investment will double in approximately 70/ p years, where p is the percent interest, compounded annually. If Thelma invests $ 40,000 in a long-term CD that pays 5 percent interest, compounded annually, what will be the approximate total value of the investment when Thelma is ready to retire 42 years later?\nThe investment gets doubled in 70/p years. Therefore, the investment gets doubled in 70/5= every 14 years. After 42 years, the investment will get doubled 42/14= 3 times.\nSo the amount invested will get doubled thrice.\nSo, 40000 *2 = 80000\n80000*2 = 160000\n160000*2 = 320000\nHence, the answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0613",
+    "grade": 8,
+    "question": "There were P people in a room when a meeting started. Q people left the room during the first hour, while R people entered the room during the same time. What expression gives the number of people in the room after the first hour as a percentage of the number of people in the room who have been there since the meeting started?",
+    "options": [
+      "(P\u2212Q)/(P\u2212Q+R)",
+      "100 x (P\u2212Q+R)/(P\u2212Q)",
+      "(P+R)/(P\u2212Q)",
+      "100 x (P\u2212Q)/(P\u2212Q+R)"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Explanatory Answers\nThe meeting started with P people. Q left the room during the first hour.\nSo, (P - Q) people have been in the room since the meeting started.\nThis expression is obviously the denominator of the expression.\nTo start with there were P people, Q of whom left the room and another R joined the group.\nSo, the number of people in the room after the first hour = P - Q + R.\nThis expression is the numerator of the expression.\nRequired expression = 100 x (P - Q + R)/(P - Q)\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0614",
+    "grade": 8,
+    "question": "A store owner decided to raise the price of a particular item by exactly 10%. Of the following which is NOT the new price?",
+    "options": [
+      "$1.10",
+      "$8.80",
+      "$11.00",
+      "$57.30"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let price be $ 10\nThe store owner decided to raise the price of a particular item by exactly 10%, so the new price must be 110 *10 /100 =>11\nSo, The new price must be a multiple of 11\nFrom the given options check for all the multiples of 11\nTest of divisibility of 11 is\nif the difference of the sum of digits at odd places and the sum of its digits at even places, is either 0 or divisible by 11, then clearly the number is divisible by 11.\nA. $1.10\nB. $8.80\nC. $11.00\nBy a quick glance even a 2nd grader can eliminate options A,B and C , because they are all divisible by 11 , let with only 2 options check for the divisibility rule for options D and E\nD. $57.30\nSum of even digits is 5+3 = 8\nSum of odd digits is 7 +0 = 7\nDifference of the even and odd digits is 8 - 7 = 1 ; not divisible by 11\nHence this is our answer.\nE. $78.10\nFurther inspection is not required since we have already found out the answer at (D)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0623",
+    "grade": 8,
+    "question": "Approximately what percentage of the world\u2019s forested area is represented by Finland given that Finland has 53.42 million hectares of forested land of the world\u2019s 8.076 billion hectares of forested land.",
+    "options": [
+      "0.0066%",
+      "0.066%",
+      "0.66PERCENT",
+      "6.6%"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Approximation is a strategy that helps us arrive at less than an exact number and the inclusion in this problem of the word \u201capproximately\u201d is an obvious clue. First, 8.076 billion is 8,076 million. Next, 8,076 million rounds to 8,000 million and 53.42 million rounds to 53 million. Dividing 53 million by 8,000 million we arrive at 0.0066 (53M/8,000M). We convert this decimal figure to a percentage by multiplying by 100 (or moving the decimal point two places to the right) and adding a percent sign in order to obtain our answer of 0.66%. Note that the shortcut method involves comparing 53 million to 1% of 8,000 million or 80 million. Since 53 million is approximately two-thirds of 80 million then the answer is some two-thirds of 1% or 0.66%.\nAnswer: C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0639",
+    "grade": 8,
+    "question": "There are 30 socks in a drawer. Sixty percent of the socks are red, and the rest are blue. What`s the minimum number of socks that must be taken from the drawer without looking in order to be certain that at least 2 blue socks have been chosen?",
+    "options": [
+      "- 2",
+      "- 3",
+      "- 14",
+      "- 20"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "This is actually not a probability problem. Instead, it is an optimization problem, a minor type of question on GMAT.\nYour first step is to calculate 60% of 30, which yields 18. Now, you must be sure you picked at least 2 blue socks. The only way is to pick all the other socks plus 2 blue socks. In this case, you would have to pick 18 red socks plus the 2 blue ones. Hence, answer is 20. If you had 4 green, 6 yellow and 8 red socks, the answer would be the same. You would have to pick all of those pluse 2 blue ones.answer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0663",
+    "grade": 8,
+    "question": "A feed store sells two varieties of birdseed: Brand A, which is 40% millet and 60% sunflower, and Brand B, which is 65% millet and 35% safflower. If a customer purchases a mix of the two types of birdseed that is 50% millet, what percent of the mix is Brand A?",
+    "options": [
+      "40%",
+      "45%",
+      "50 %",
+      "60 %"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Another method to solve this question using equations:\n1 kg of Brand A will have 400g millet and 600g sunflower.\n1 kg of Brand B will gave 650g millet and 350g sunflower.\nSuppose,x kg of Brand A and y kg of Brand B are in the mixture.\nThen total weight of millet = 400x+650 y g\nTotal weight of mixture = 1000x + 1000 y g\nGiven that millet is 500% hence\n(400x+650y)/(1000x + 1000y) = 1/2\nor, 800x + 1300 y = 1000x+1000y\nor 300y=200x\nor, x/y = 3/2\n% of Brand A = (3/(3+2))*100 =60%\nHence answer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0692",
+    "grade": 8,
+    "question": "A small, experimental plane has three engines, one of which is redundant. That is, as long as two of the engines are working, the plane will stay in the air. Over the course of a typical flight, there is a 1/3 chance that engine one will fail. There is a 65% probability that engine two will work. The third engine works only half the time. What is the probability that the plane will crash in any given flight?",
+    "options": [
+      "7/12",
+      "1/4",
+      "1/2",
+      "17/24"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "In probability questions the trap answer is just the multiple of the numbers in the question.\ni.e. if you multiply 1/3 * 1/4 * 1/2 = 1/24 is trap answer\nThe other trap answer could be 2/3 * 3/4 * 1/2 = 6/24 is trap answer\nSo lets say you have30 secsand you want to guess the answer then B, C are ruled out because they can be traps. You best guess is A, D, E. So you have 33% chances of being correct.\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0745",
+    "grade": 8,
+    "question": "A sales representative receives a salary of $150 per week and earns a commission of 15% on all sales she makes. How many dollars\u2019 worth of sales does she need to make in order to bring her total weekly income to $1050?",
+    "options": [
+      "$3,000",
+      "$3,150",
+      "$4,000",
+      "$6,000"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "We're told that a sales representative receives a salary of $150 per week and earns a commission of 15% on all sales she makes. We're asked how many dollars\u2019 worth of sales will bring her total weekly income to $1050.\nSince the salesperson receives a $150 salary, the remaining $900 has to be accounted for by the 15% commission. Since those numbers are rather specific, we're likely dealing with a 'round number' for total sales.\nLet's TEST Answer C: $4,000\nSince 15% of $1,000 = $150\n15% of $4,000 = 4($150) = $600\nThis is TOO HIGH (it's supposed to be $900), so we need a LOWER total sales figure.\nLet's TEST Answer E: $6,000\nSince 15% of $1,000 = $150\n15% of $6,000 = 6($150) = $900\nThis is an exact MATCH for what we were told, so this MUST be the answer.\nFinal Answer:\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0755",
+    "grade": 8,
+    "question": "A car dealer has only red and yellow cars in his show room. He currently has 20% more yellow cars then red. IF he has 20 red cars, how many yellow cars does he have?",
+    "options": [
+      "25",
+      "30",
+      "35",
+      "40"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Since we know the dealer only has yellow and red cars in their showroom we can conclude that red and yellow cars make up 100% of the cars. Since we know the difference between the amount of cars is 20% we can assume that the red cars make up 40% of the cars.\n20/x=40/100 using cross multiplication we can find that 100x20=2000 and 2000/40=50\nSo now we know that there are 50 cars total. We can subtract the number of red cars from the total to find the number of yellow cars. 50-20=30\nthere are a total of 30 yellow cars. The answer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0757",
+    "grade": 8,
+    "question": "The number of cars present at a particular time was measured at 3,999 different locations on Tuesday and on Wednesday. The number of locations that had more cars on Wednesday was 10% higher than the number of locations that had more cars on Tuesday. How many of the locations had more cars on Tuesday?",
+    "options": [
+      "1,159",
+      "1,333",
+      "1,860",
+      "1,904"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "The question states that all these 3,999 locations were measured twice, once on each day.\nIt also breaks the 3,999 into two groups, the higher-on-Tuesday locations and the higher-on-Wednesday locations, which we can call T and W.\nTherefore, we can write two equations:\nFor each of the first and second day count of locations, T + W = 3999\nBut, for the second day count, W = 1.10 T\ni.e. for Second day count, T + 1.10T = 3999\ni.e. 2.10 T = 3999\ni.e. T = 1904\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0761",
+    "grade": 8,
+    "question": "Machine X takes 60 hours longer than machine Y to produce 1080 Widgets. Machine Y produces 20 percent more widgets in an hour than machine x does in an hour. How many widgets per hour does machine X produce",
     "options": [
       "100",
-      "115",
-      "125",
-      "150"
+      "65",
+      "25",
+      "3"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "finding-whole"
+      "percentages"
     ],
-    "explanation": "$0.60 \\times x = 75 \\Rightarrow x = \\frac{75}{0.60} = 125$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Machine Y produces 20 percent more widgets in an hour than machine x does in an hour.\nSo if machine X produces 100 widgets, then machine Y produces 120 widgets.\nRatio of 120/100 = 6/5.\nThis is their speed of work (Y:X).\ni.e. speed of their work (X:Y) = 5/6\nNow, time is inversely proportional to speed.\nHence the ratio of the time spent (X:Y)= 6/5\nLet us assume that they spend 6x and 5x hours.\nGiven that 6x-5x = 60\nSo, x = 60.\nHence 6x = 6*60 = 360 hours.\nHence X takes 120 hours to produce 1080 widgets.\nSo, in 1 hour, it can produce (1 * 1080)/360\n= 3\nHence option (E).",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "pct-difficult-006",
-    "grade": 9,
-    "question": "A jacket gets $25\\%$ off, then an additional $10\\%$ off. What is the total discount?",
+    "id": "aqua-perc-0762",
+    "grade": 8,
+    "question": "A certain quantity of 40% concentration solution is replaced with 25% concentration solution such that the concentration of the combined amount is 35%.\nWhat's the ratio of the amount of solution that was replaced to the amount of solution that was not replaced?",
     "options": [
-      "30%",
-      "32.5%",
-      "35%",
-      "40%"
+      "1:3",
+      "1:2",
+      "2:3",
+      "2:1"
     ],
     "correct": 1,
     "tags": [
-      "compound-percent"
+      "percentages"
     ],
-    "explanation": "After first discount: $0.75$. After second: $0.75 \\times 0.90 = 0.675$. Total discount = $1 - 0.675 = 32.5\\%$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "From the wording in the prompt, we're essentially mixing two liquids:\nLiquid X is 40% concentrate\nLiquid Y is 25% concentrate\nWe're supposed to mix some of each and end up with a solution that is 35% concentrate. The prompt doesn't give us specific amounts of liquids to work with and the question itself asks for the ratio of the two liquids, so we could even TEST VALUES if doing it that way made it easier for you. For now though, here's the Algebra:\nX = # of ounces of liquid X\nY = # of ounces of liquid Y\n(.4X + .25Y) / (X + Y) = .35\n.4X + .25Y = .35X + .35Y\n.05X = .1Y\n5X = 10Y\nFrom here, you have to be CAREFUL to answer the question that is ASKED.\n5X = 10Y\nY/X = 5/10 = 1/2\nANSWER:B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "pct-difficult-007",
+    "id": "aqua-perc-0772",
     "grade": 8,
-    "question": "Population grew from 5000 to 6500. Percent increase?",
+    "question": "A merchant mixes three varieties of rice costing Rs.20/kg, Rs.24/kg and Rs.30/kg and sells the mixture at a profit of 20% at Rs.30 / kg. How many kgs of the second variety will be in the mixture if 2 kgs of the third variety is there in the mixture?",
+    "options": [
+      "1 kgs",
+      "3 kgs",
+      "5 kgs",
+      "6 kgs"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Explanation :\nIf the selling price of mixture is Rs.30/kg and the merchant makes a profit of 20%, then the cost price of the mixture = 30/1.2 = Rs.25/kg.\nWe need to find out the ratio in which the three varieties are mixed to obtain a mixture costing Rs.25 /kg.\nLet variety A cost Rs.20/kg, variety B cost Rs.24 / kg and variety C cost Rs.30/kg. The mean desired price falls between B and C.\nStep 1:\nFind out the ratio Qa:Qc using alligation rule.\nQa/Qc=(30\u221225)/(25\u221220)=1/1.\nStep 2:\nFind out the ratio Qb:Qc using alligation rule.\nQb/Qc=30\u221225/(25\u221224)=5/1.\nStep 3:\nQc is found by adding the value of Qc in step 1 and step 2 =1+1=2.\nTherefore, the required ratio =1:5:2.\nIf there are 2 kgs of the third variety in the mixture, then there will be 5 kgs of the second variety in the mixture.\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0796",
+    "grade": 8,
+    "question": "Factor | Percent of Respondents |\nUser-friendly | 56% |\nFast response time | 48% |\nBargain prices | 42% |\nThe table gives three factors to be considered when choosing an Internet service provider and the percent of the 1,100 respondents to a survey who cited that factor as important. If 30 percent of the respondents cited both \u201cuser-friendly\u201d and \u201cfast response time,\u201d what is the maximum possible number of respondents who cited \u201cbargain prices,\u201d but neither \u201cuser-friendly\u201d nor \u201cfast response time?\u201d",
+    "options": [
+      "286",
+      "336",
+      "360",
+      "384"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "The way I looked at is is as follows:\nUserFriendly(UF) + FastResponse (FR) = 30%\nUF leftover = 56 - 30 = 26%\nFR leftover = 48 - 30 = 18%\nSum these = 74% (ie. 74% were either UF+FR, UF, FR)\n26% leftover is the maximum number for Bargain Price\n26/100 * 1100 = 26 * 11 = 286 (A).",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0806",
+    "grade": 8,
+    "question": "A solution of X pounds of water and sugar is boiled until 20% of the water content evaporates. Originally s% of sugar was present in the solution. After evaporation, what percentage of the solution is sugar?",
+    "options": [
+      "100s/(1-s)",
+      "80s/(1-s)",
+      "75s/(1-s)",
+      "100s/(80+0.2s)"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "We'll go for the ALTERNATIVE approach since there are variables in all the answers (which means that any number could work). Since the question deals with percents, the easiest number to use is X = 100. Now let's say that s = 10. Before the evaporation we had 10 pound of sugar and 90 pounds of water. Since only water evaporated, after the evaporation the 10 pounds of sugar remained the same, but the water reduced by 20% of 90 (18 pounds), so we have only 72 pounds of water. 10 out of 82 is the fraction of sugar, so if we multiply it by 100 we get the percents. The correct answer is E: 100s/(80+0.2s) >>> 100x10 / 82",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0815",
+    "grade": 8,
+    "question": "Robert invests $120,000 in an account that pays 12% annual interest: the interest is paid once, at the end of the year. Jody invests $120,000 in an account that pays 12% annual interest, compounding monthly at the end of each month. At the end of one full year, compared to Robert's account, approximately how much more does Jody\u2019s account have?",
+    "options": [
+      "Zero",
+      "$81.90",
+      "$819.00",
+      "$8190.03"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Robert's interest= $120,000*0.12 = $14400 or $1,200 each month.\nJody\u2019s interest, 12%/12 = 1% each month:\nFor the 1st month = $120,000*0.01 = $1,200;\nFor the 2nd month = $1,200 + 1% of 1,200 = $1,212, so we would have interest earned on interest (very small amount);\nFor the 3rd month = $1,212 + 1% of 1,212 = ~$1,224;\nFor the 4th month = $1,224 + 1% of 1,224 = ~$1,236;\n...\nFor the 12th month = $1,320 + 1% of 1,320 = ~$1,332.\nThe difference between Robert's interest and Jody's interest = ~(12 + 24 + ... + 132) = $792.\nAnswer: C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0828",
+    "grade": 8,
+    "question": "60 percent of movie theatres in Town X have 2 screens or less. 20% of those theatres sell an average of more than $300 worth of popcorn per showing. 56 percent of all the movie theatres in Town X sell $300 or less of popcorn per showing. What percent of all the stores on the street have 4 or more screens and sell an average of more than $300 worth of popcorn per day?",
+    "options": [
+      "12",
+      "18",
+      "32",
+      "40"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Lets take numbers here.\nAssume that the total number of movie theaters in the town = 100\nThen number of movie theaters with 3 screens or less = 60\n=> Number of movie theaters with 4 screens or more = 40\nMovie theaters with 3 screens or less selling popcorn at more than $300 = 20% of 60 = 12\nNumber of movie theaters selling popcorn at $300 or less = 56\n=> Number of movie theaters selling popcorn at more than $300 = 100-56 = 44\nOf these 44 theaters, 12 are those with 3 screens or less\nTherefore 40 (44-12) must be those with four screens or more\nD is the answer",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0829",
+    "grade": 8,
+    "question": "The value of land increases by x% during June and decreases by y% during July. If the value of the land is the same at the end of July as at the beginning of June, what is y in terms of x?",
+    "options": [
+      "200x/(100+2x)",
+      "100x/(100+x)",
+      "x(2+x)/(1+x)2",
+      "x(200+x)/10000"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "The simplest pairing is a 25% increase will be offset by a 20% decrease.\nHere's the proof:\nStarting value = 100\n25% increase = 100 + (.25)(100) = 125\n20% decrease = 125 - (.2)(125) = 100\nEnding value = 100\nSo we would be looking for an answer that equals 20 when A=25. While the answers might appear 'complex', you can actually avoid much of the 'math' if you just fill in the parts and take a good look at what you have...\nAnswer A: (200)(25)/(150) ... since 200>150, this answer will be greater than 25. ELIMINATE A.\nAnswer B: (100)(25)/125) = (100)(1/5) = 20 This is a MATCH.\nAnswer C: (25)(27)/(26)2 ... nothing 'cancels out', so this cannot = 20. ELIMINATE C.\nAnswer D: (25)(225)/10000... the 'units' digit of the numerator is a 5; when dividing by 10,000, this won't end in a 0. ELIMINATE D.\nAnswer E: (50/25) + 50 = 52. ELIMINATE E.\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0830",
+    "grade": 8,
+    "question": "power windows: 60%\nanti-lock brakes: 25%\nCD player: 45%\nThe table above shows the number of vehicles at Bill's car dealership that have certain features. No vehicle has all three features, but 10% have power windows and anti-lock brakes, 15% have anti-lock brakes and a CD player, and 22% have power windows and a CD player. What percent of the vehicles at Bill's car dealership have a CD player but no power windows or anti-lock brakes?",
+    "options": [
+      "25",
+      "8",
+      "11",
+      "3"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Answer: B\nWere looking for the number of cars with a CD player but no other features. We know that 40% of the cars have a CD player, 15% have a CD player and anti-lock brakes, while 22% have a CD player and power windows. Since no car has all three features, those account for all of the possibilities except for what were looking for.\nIf a car has a CD player, it must either have anti-lock brakes, power windows, or no other features. Since the total of cars with a CD player is 45%, we can set up the following equation:\n45=15+22+x\nx=8, choice B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0842",
+    "grade": 8,
+    "question": "A trail mix company keeps costs down by employing the peanuts:cashews:almonds ratio of 10:4:1 in each bag of up to 75 total nuts. What is the maximum percentage by which the company could decrease its number of peanuts per bag and still have peanuts constitute more than half the total amount of nuts?",
+    "options": [
+      "40%",
+      "48%",
+      "49%",
+      "50%"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Peanuts = 50\nCashews = 20\nAlmonds = 5\nWe want to remove as many peanuts as possible while still having peanuts represent MORE than half of the mixture...\nThe number of cashews and almonds will stay the same though, so we have 20 + 5 = 25 of those non-peanuts in total.\nIf we had 25 peanuts and 25 non-peanuts, then that would be 50% EXACTLY. We want MORE than 50% though, so we need to add in 1 more peanut. This gives us...\nPeanuts = 26\nCashews = 20\nAlmonds = 5\nThe question asked for the decrease in the number of peanuts as a percentage. We started with 50 peanuts and removed 24 = 24/50 = 48% ;ANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0899",
+    "grade": 8,
+    "question": "If 70 percent of the members of a certain organization are women and 7/8 of the members of the organization are married men, which of the following statements concerning the membership must be true? I. The number of women in the organization is greater than the number of married men in the organization. II. The number of women in the organization is greater than the number of unmarried men in the organization. III. The number of married men in the organization is greater than the number of unmarried men in the organization.",
+    "options": [
+      "I",
+      "I,II",
+      "III",
+      "II"
+    ],
+    "correct": 1,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "7/10 (70%) of the members are women and 7/8 of the members are married men. Let the total numbers of members is 80 (the LCM of 10 and 8). Then there are:\n7/10*80 = 56 women;\n80 - 56= 24 men;\n7/8*24 = 21 married men;\n24 - 21 = 3 unmarried men.\nSo, option I,II is true.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0924",
+    "grade": 8,
+    "question": "A full bottle contains 40% oil, 20% vinegar, and 40% water. The bottle is poured into a larger bottle, four times as big as original. The remaining space in the larger bottle is then filled with water. If there was 8 ml of oil in the original bottle, how much of water is in the final mixture?",
+    "options": [
+      "66",
+      "67",
+      "68",
+      "69"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let the total volume of original bottle be x\nThen question says 40% of x is oil.\nAlso question mentions that there is 8ml of oil in original bottle.\nSet up equation--> 40% of x = 8\n40 * x /100 = 8\nx=20.\nHence oil in original container is = 8mL (40 % of total volume)\nvinegar in original container is = 4mL (20 % of total volume)\nwater in original container is = 8mL. (40 % of total volume)\nNow we take a container which has 4 times volume of original container.\nSo, volume of new container = 4*20=80\nIn this new container we pour oil, vinegar and water from original container.\nVolume occupied in new container by oil, vinegar and water from original container = 8+4+8=20mL\nHence volume left in new container = 80 - 20 = 60mL\nAs per question, remaining space in the larger bottle is then filled with water. i.e 60mL is filled with water.\nHence total water in new container = 60 mL + 8mL(this one poured from old container)\n=68mL\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0942",
+    "grade": 8,
+    "question": "At a certain supplier, a machine of type A costs $22,000 and a machine of type B costs $50,000. Each machine can be purchased by making a 20 percent down payment and repaying the remainder of the cost and the finance charges over a period of time. If the finance charges are equal to 40 percent of the remainder of the cost, how much less would 2 machines of type A cost than 1 machine of type B under this arrangement?",
+    "options": [
+      "$7,920",
+      "$11,200",
+      "$12,000",
+      "$12,800"
+    ],
+    "correct": 0,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Total Cost of 2 Machines of Type A\n= 20% of (Cost of 2 machine A) + remainder + 40 % remainder\n= 20% of 44000 + (44000 - 20% of 44000) + 40% of (44000 - 20% of 44000)\n= 58080\nTotal Cost of 1 Machine of Type B\n= 20% of (Cost of 1 machine B) + remainder + 40 % remainder\n= 20% of 50000 + (50000 - 20% of 50000) + 40% of (50000 - 20% of 50000)\n= 66000\nDiff = 66000 - 58080 = 7900\nHence, A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0952",
+    "grade": 8,
+    "question": "If 18 is 15 percent of 30 percent of a certain number, what is the number?",
+    "options": [
+      "9",
+      "36",
+      "40",
+      "400"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "The math involved in this question can be 'set up' (and dealt with) in a variety of ways.\nHere, if you're going to take a calculation-based approach, converting the percents to fractions would likely help you speed up (and avoid the last bit of math).\nWe're told that 18 is 15 percent of 30 percent of a certain number. We're asked for that number.\n18 = (.15)(.3)(X)\n18 = (3/20)(3/10)(X)\n18 = (9/200)(X)\nSince 9/200 is a relatively small fraction (it's far less than 10%), we know that 18 is LESS than 10% of X. Based on the given answer choices, there's only one number that is LARGE enough to fit that description....\nFinal Answer:\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0959",
+    "grade": 8,
+    "question": "Jane makes toy bears. When she works with an assistant, she makes 90 percent more bears per week and works 10 percent fewer hours each week. Having an assistant increases Jane\u2019s output of toy bears per hour by what percent?",
     "options": [
       "20%",
+      "80%",
+      "100%",
+      "120%"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "We can use fractional equivalents here to solve the problem\n80% = 4/5; this means that in 1st case if she prepares 5 bears, in 2nd case she prepares 9 bears\n10% = 1/10; this means that in 1st case if she needs 10 hours, in 2nd case she needs 9 hours\nNow we come to productivity\nBased on above fractional values the productivity in 1st case is 0.5 bears / hour and in the 2nd case it is 1 bear / hour\nHence the productivity is double with the assistant i.e. the increase in productivity is 120%\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0967",
+    "grade": 8,
+    "question": "power windows: 60%\nanti-lock brakes: 25%\nCD player: 50%\nThe table above shows the number of vehicles at Bill's car dealership that have certain features. No vehicle has all three features, but 10% have power windows and anti-lock brakes, 15% have anti-lock brakes and a CD player, and 22% have power windows and a CD player. What percent of the vehicles at Bill's car dealership have a CD player but no power windows or anti-lock brakes?",
+    "options": [
+      "25",
+      "18",
+      "11",
+      "13"
+    ],
+    "correct": 3,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Answer: D\nWere looking for the number of cars with a CD player but no other features. We know that 40% of the cars have a CD player, 15% have a CD player and anti-lock brakes, while 22% have a CD player and power windows. Since no car has all three features, those account for all of the possibilities except for what were looking for.\nIf a car has a CD player, it must either have anti-lock brakes, power windows, or no other features. Since the total of cars with a CD player is 50%, we can set up the following equation:\n50=15+22+x\nx=13, choiceD.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0975",
+    "grade": 8,
+    "question": "A merchant sells an item at a 20% discount, but still makes a gross profit of 20 percent of the cost. What percent T of the cost would the gross profit on the item have been if it had been sold without the discount?",
+    "options": [
+      "20%",
+      "40%",
+      "50%",
+      "60%"
+    ],
+    "correct": 2,
+    "tags": [
+      "percentages"
+    ],
+    "explanation": "Let the Market Price of the product is MP.\nLet the Original Cost Price of the product is CP.\nSelling Price (Discounted Price) = 100%of MP - 20%MP\n= 80% of MP. ---------------- (1)\nProfit made by selling at discounted price = 20% of CP -------------- (2)\nApply the formula:\nProfit T= Selling Price - Original Cost Price\n=> 20% of CP = 80% of MP - 100% CP\n=> MP = 120CP/80 = 3/2 (CP)\nNow if Product is sold without any discount, then,\nProfit = Selling Price (without discount) - Original Cost Price\n= Market Price - Original Cost Price\n= MP - CP\n= 3/2 CP - CP\n= 1/2 CP\n=50%of CP\nThus, Answer should beC.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-perc-0978",
+    "grade": 8,
+    "question": "Darcy, Gina, Ray and Susan will be the only participants at a meeting. There will be three soft chairs in the room where the meeting will be held and one hard chair. No one can bring more chairs into the room. Darcy and Ray will arrive simultaneously, but Gina and Susan will arrive individually. The probability that Gina will arrive first is 1/3, and the probability that Susan will arrive first is 1/3. The probability that Gina will arrive last is 1/3, and the probability that Susan will arrive last is 1/3. Upon arriving at the meeting, each of the participants will select a soft chair, if one is available.\nIf Darcy and Ray arrive and see only one unoccupied soft chair, they will flip a fair coin to determine who will sit in that chair. By what percent is the probability that Darcy will sit in a soft chair greater than the probability that Gina will sit in a soft chair?",
+    "options": [
+      "50%",
       "25%",
-      "30%",
-      "65%"
+      "16 2/3%",
+      "12 1/2%"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "percent-change",
-      "word-problems"
+      "percentages"
     ],
-    "explanation": "Increase = 1500. Percent = $\\frac{1500}{5000} = 0.30 = 30\\%$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "pct-difficult-008",
-    "grade": 8,
-    "question": "A salary of $\\$50{,}000$ receives an $8\\%$ increase. New salary?",
-    "options": [
-      "$\\$52{,}000$",
-      "$\\$54{,}000$",
-      "$\\$58{,}000$",
-      "$\\$58{,}500$"
-    ],
-    "correct": 1,
-    "tags": [
-      "increase"
-    ],
-    "explanation": "$50000 \\times 1.08 = 54000$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "pct-difficult-009",
-    "grade": 9,
-    "question": "If $65\\%$ of students passed and 14 failed, how many students total?",
-    "options": [
-      "20",
-      "30",
-      "40",
-      "50"
-    ],
-    "correct": 2,
-    "tags": [
-      "word-problems",
-      "finding-whole"
-    ],
-    "explanation": "Failures are $35\\%$. $0.35 \\times x = 14 \\Rightarrow x = 40$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "pct-difficult-010",
-    "grade": 8,
-    "question": "Tax of $8\\%$ on $\\$250 = ?$",
-    "options": [
-      "$\\$15$",
-      "$\\$20$",
-      "$\\$25$",
-      "$\\$28$"
-    ],
-    "correct": 1,
-    "tags": [
-      "basic-percent"
-    ],
-    "explanation": "$0.08 \\times 250 = 20$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Location of D to access a soft Chair\nIf DR comes in first or second place both as R D they will access a soft Chair, this means that D in this situation has 1/3 + 1/3 to a soft Chair.\nIf DR comes third (last), D has a probability of (1/2) x (1/3) access to a soft Chair.\nThen in all cases D has a probability of 1/3 + 1/3 + (1/2) x (1/3) = 5/6 access to a soft Chair.\nLocation of G to access a soft Chair\nTo G enter a soft Chair, you can only get in first or second place, if it reaches third we have addressed three soft chairs DR two soft chairs and S a soft Chair.\nThe probability that G arrives in first or second place is 1/3 + 1/3 = 2/3 = 4/6\nFinally the highest percentage who D on G accesses a soft Chair is:\n100 x (5/6 - 4/6) /(4/6) = 25%\nANSWER:D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

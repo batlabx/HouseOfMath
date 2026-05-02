@@ -1,182 +1,200 @@
 [
   {
-    "id": "frac-easy-001",
-    "grade": 3,
-    "question": "$\\frac{1}{2} + \\frac{1}{2} = ?$",
+    "id": "aqua-frac-0085",
+    "grade": 8,
+    "question": "A fraction bears the same ratio to 1/27 as 3/7 does to 5/9. The fraction is?",
     "options": [
-      "$\\frac{1}{4}$",
-      "$\\frac{1}{2}$",
-      "$1$",
-      "$2$"
+      "1/31",
+      "1/35",
+      "1/37",
+      "2/35"
     ],
-    "correct": 2,
+    "correct": 1,
     "tags": [
-      "addition"
+      "fractions"
     ],
-    "explanation": "Same denominator: add numerators. $\\frac{1+1}{2} = \\frac{2}{2} = 1$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the fraction be x. Then,\nx:1/27 = 3/7 : 5/9\nx \u00d7 5/9 = 1/27 \u00d7 3/7\nx \u00d7 5/9 = 1/9 \u00d7 1/7\nx \u00d7 5/9 = 1/63\nx \u00d7 5 = 9/63\n5x = 1/7 = 1/35\nB)",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-easy-002",
-    "grade": 3,
-    "question": "If you eat $\\frac{3}{4}$ of a pizza, what fraction is left?",
+    "id": "aqua-frac-0134",
+    "grade": 8,
+    "question": "If two numbers are in the ratio 2:3 and the numerator and denominator are added and subtracted by1 and 2 respectively, then the ratio becomes 6:2, then find the smallest number?",
     "options": [
-      "$\\frac{1}{4}$",
-      "$\\frac{1}{3}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{2}{4}$"
+      "2",
+      "1",
+      "3",
+      "4"
     ],
     "correct": 0,
     "tags": [
-      "subtraction"
+      "fractions"
     ],
-    "explanation": "$1 - \\frac{3}{4} = \\frac{4}{4} - \\frac{3}{4} = \\frac{1}{4}$ left.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "2:3\n2x + 1 : 3x - 2 = 3 : 1\n[2x + 1] = 3[3x - 2]\n2x + 1= 9x -6\n9x - 2x = 7\nx = 1\nThen smallest number is = 2x\n2x = 2\nA",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-easy-003",
-    "grade": 3,
-    "question": "Which is larger: $\\frac{1}{2}$ or $\\frac{1}{3}$?",
+    "id": "aqua-frac-0203",
+    "grade": 8,
+    "question": "Which of the following fractions is the largest?",
     "options": [
-      "$\\frac{1}{3}$",
-      "$\\frac{1}{2}$",
-      "They are equal",
-      "Cannot tell"
+      "5/6",
+      "11/14",
+      "12/15",
+      "17/21"
     ],
-    "correct": 1,
+    "correct": 0,
     "tags": [
-      "comparison"
+      "fractions"
     ],
-    "explanation": "Same numerator: smaller denominator means larger value. $\\frac{1}{2} > \\frac{1}{3}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "another way is by taking LCM of denominators(2*3*5*7)\n(a) 175 (as lcm is 2*3*5*7 where 2*3 part is already in denominator just multiply 5*7 to numerator) ,similarly\n(b) 165\n(c)168\n(d)170\n(e)174\nclearly (a) is largest..\nAns A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-easy-004",
-    "grade": 4,
-    "question": "Convert $\\frac{1}{4}$ to a decimal.",
+    "id": "aqua-frac-0388",
+    "grade": 8,
+    "question": "What is the twenty-sixth decimal to the right in the fraction 21/22?",
     "options": [
-      "0.10",
-      "0.20",
-      "0.25",
-      "0.40"
-    ],
-    "correct": 2,
-    "tags": [
-      "decimals"
-    ],
-    "explanation": "$\\frac{1}{4} = 1 \\div 4 = 0.25$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-easy-005",
-    "grade": 3,
-    "question": "$\\frac{1}{3} + \\frac{1}{3} = ?$",
-    "options": [
-      "$\\frac{1}{6}$",
-      "$\\frac{2}{3}$",
-      "$\\frac{2}{6}$",
-      "$1$"
-    ],
-    "correct": 1,
-    "tags": [
-      "addition"
-    ],
-    "explanation": "Same denominator: $\\frac{1+1}{3} = \\frac{2}{3}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-easy-006",
-    "grade": 4,
-    "question": "$\\frac{2}{5} + \\frac{1}{5} = ?$",
-    "options": [
-      "$\\frac{1}{5}$",
-      "$\\frac{3}{5}$",
-      "$\\frac{3}{10}$",
-      "$\\frac{2}{5}$"
-    ],
-    "correct": 1,
-    "tags": [
-      "addition"
-    ],
-    "explanation": "Same denominator: $\\frac{2+1}{5} = \\frac{3}{5}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-easy-007",
-    "grade": 3,
-    "question": "What is half of 10?",
-    "options": [
+      "1",
       "3",
-      "4",
       "5",
-      "6"
+      "7"
     ],
     "correct": 2,
     "tags": [
-      "fractions-of-a-number"
+      "fractions"
     ],
-    "explanation": "$\\frac{1}{2} \\times 10 = 5$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "21/22 = 0.9545454545454545\nThe even-numbered decimal places are 5.\nThe answer is C.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-easy-008",
-    "grade": 3,
-    "question": "$\\frac{1}{2}$ of $8 = ?$",
+    "id": "aqua-frac-0565",
+    "grade": 8,
+    "question": "What will be the fraction of 30%",
     "options": [
-      "2",
-      "3",
-      "4",
-      "6"
+      "1/4",
+      "1/5",
+      "3/10",
+      "1/11"
     ],
     "correct": 2,
     "tags": [
-      "fractions-of-a-number"
+      "fractions"
     ],
-    "explanation": "$\\frac{1}{2} \\times 8 = 4$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Explanation:\nIt will 30*1/100 = 3/10\nOption C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-easy-009",
-    "grade": 4,
-    "question": "Which fraction is equivalent to $\\frac{1}{2}$?",
+    "id": "aqua-frac-0591",
+    "grade": 8,
+    "question": "A can complete the job in 2 hours and B can complete the same job in 4 hours. A works for 1 hour and then B joins and both complete the job. What fraction of the job did B complete",
     "options": [
-      "$\\frac{2}{3}$",
-      "$\\frac{2}{4}$",
-      "$\\frac{3}{5}$",
-      "$\\frac{3}{8}$"
+      "1/6",
+      "3/10",
+      "1/2",
+      "5/6"
     ],
-    "correct": 1,
+    "correct": 0,
     "tags": [
-      "equivalent-fractions"
+      "fractions"
     ],
-    "explanation": "$\\frac{2}{4} = \\frac{2 \\div 2}{4 \\div 2} = \\frac{1}{2}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "A=1/6",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-easy-010",
-    "grade": 4,
-    "question": "$\\frac{4}{8}$ in simplest form is?",
+    "id": "aqua-frac-0636",
+    "grade": 8,
+    "question": "Which of the following fractions is greater than 1/4 and less than 3/5?\n1. 3/4 2. 2/5 3. 1/2 4. 4/5 5. 1/5 6. 9/10",
     "options": [
-      "$\\frac{1}{4}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{2}{4}$",
-      "$\\frac{4}{8}$"
+      "4/7",
+      "1/5",
+      "2/3",
+      "1/8"
     ],
-    "correct": 1,
+    "correct": 0,
     "tags": [
-      "simplification"
+      "fractions"
     ],
-    "explanation": "Divide top and bottom by 4: $\\frac{4 \\div 4}{8 \\div 4} = \\frac{1}{2}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "1/4 = 0.25, 3/5 = 0.6, 1/5= 0.2, 2/3= 0.66, 4/7=0 .57,1/8= 0.125.\nClearly, 0.57 lies between 0.25 and 0.60\nTherefore, 4/7 lies between 1/4 and 3/5.\nAnswer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0698",
+    "grade": 8,
+    "question": "If a fraction is multiplied by itself and then divided by the reciprocal of the same fraction, the result is 18 26/27. Find the fraction.",
+    "options": [
+      "8/27",
+      "1 1/3",
+      "2 2/3",
+      "3 /3"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Answer\nIf the required fraction be P\nAccording to the question\n(P x P) / (1/P) = 1826/27\n\u21d2 P3 = 512/27\n\u2234 P = 8/3 = 2 2/3\nCorrect Option: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0719",
+    "grade": 8,
+    "question": "In a pair of fractions, fraction A is twice the fraction B and the product of two fractions is 2/25. What is the value of fraction A?",
+    "options": [
+      "2/9",
+      "2/2",
+      "2/5",
+      "2/1"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Explanation:\nA = 2B => B = 1/2 A, so, AB = 2/25\n1/2 A2 = 2/25\nA2 = 4/25\nA = 2/5\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0968",
+    "grade": 8,
+    "question": "What will be the fraction of 33.33%",
+    "options": [
+      "1/4",
+      "1/5",
+      "1/3",
+      "1/8"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Explanation:\nIt will 33.33*1/100 = 1/3\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0979",
+    "grade": 8,
+    "question": "Of all the homes on Gotham Street, 1/3 are termite-ridden, and 2/5 of these are collapsing. What fraction of the homes are termite-ridden, but NOT collapsing?",
+    "options": [
+      "2/15",
+      "3/15",
+      "4/5",
+      "1/5"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "The fraction of homes which are termite-infested but not collapsing is 3/5*1/3 = 1/5\nThe answer is E.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

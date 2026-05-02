@@ -1,190 +1,128 @@
 [
   {
-    "id": "frac-difficult-001",
-    "grade": 7,
-    "question": "$\\frac{5}{6} - \\frac{2}{3} + \\frac{1}{4} = ?$",
+    "id": "aqua-frac-0042",
+    "grade": 8,
+    "question": "On a partly cloudy day, milton decides to walk back from work. When it is sunny, he walks at a speed of s miles/hr (s is an integer) and when it gets cloudy, he increases his speed to (s + 1) miles/hr. If his average speed for the entire distance is 2.8 miles/hr, what fraction of the total distance did he cover while the sun was shining on him?",
     "options": [
-      "$\\frac{1}{4}$",
-      "$\\frac{5}{12}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{7}{12}$"
-    ],
-    "correct": 1,
-    "tags": [
-      "addition",
-      "subtraction",
-      "common-denominator"
-    ],
-    "explanation": "LCD is 12: $\\frac{10}{12} - \\frac{8}{12} + \\frac{3}{12} = \\frac{5}{12}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-difficult-002",
-    "grade": 7,
-    "question": "$\\frac{2}{3} \\div \\frac{4}{9} = ?$",
-    "options": [
-      "$\\frac{8}{27}$",
-      "$\\frac{3}{2}$",
-      "$\\frac{2}{3}$",
-      "$\\frac{1}{6}$"
-    ],
-    "correct": 1,
-    "tags": [
-      "division"
-    ],
-    "explanation": "Reciprocal of $\\frac{4}{9}$ is $\\frac{9}{4}$. $\\frac{2}{3} \\times \\frac{9}{4} = \\frac{18}{12} = \\frac{3}{2}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-difficult-003",
-    "grade": 7,
-    "question": "$\\left(\\frac{3}{5}\\right)^2 = ?$",
-    "options": [
-      "$\\frac{6}{10}$",
-      "$\\frac{6}{5}$",
-      "$\\frac{9}{10}$",
-      "$\\frac{9}{25}$"
+      "1/5",
+      "1/6",
+      "1/4",
+      "1/7"
     ],
     "correct": 3,
     "tags": [
-      "exponents"
+      "fractions"
     ],
-    "explanation": "Square top and bottom: $\\frac{3^2}{5^2} = \\frac{9}{25}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "If s is an integer and we know that the average speed is 2.8, s must be = 2. That meanss+1= 3. This implies that the ratio of time for s=2 is 1/4 of the total time. The formula for distance/rate is D=Rt...so the distance travelled when s=2 is 2t. The distance travelled for s+1=3 is 3*4t or 12t. Therefore, total distance covered while the sun was shining over him is 2/14 = 1/7. Answer: D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-difficult-004",
-    "grade": 7,
-    "question": "A recipe needs $\\frac{2}{3}$ cup of flour. For 1.5x the recipe, how much flour?",
+    "id": "aqua-frac-0226",
+    "grade": 8,
+    "question": "Laura can paint 1/x of a certain room in 20 minutes. What fraction C of the same room can Joseph paint in 20 minutes if the two of them can paint the room in an hour, working together at their respective rates?",
     "options": [
-      "$\\frac{1}{2}$ cup",
-      "$\\frac{5}{6}$ cup",
-      "$1$ cup",
-      "$\\frac{4}{3}$ cup"
+      "1/(3x)",
+      "3x/(x-3)",
+      "(x \u2013 3)/(3x)",
+      "x/(x-3)"
     ],
     "correct": 2,
     "tags": [
-      "word-problems",
-      "multiplication"
+      "fractions"
     ],
-    "explanation": "$\\frac{2}{3} \\times \\frac{3}{2} = \\frac{6}{6} = 1$ cup.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Options with variables are often done by plugging in numbers.\nBoth working together can paint the room in 1 hr so if their individual rates were equal, each would take 2 hours alone.\n2 hours is 120 mins so in 20 mins each would complete C=120/20 = 1/6th of the room alone.\nSo if x = 6 (Laura completes 1/6th of the room in 20 mins), the correct option will give 1/6. (Joseph will also paint 1/6th of the room if their rates are same)\nIf you put x = 6 in the options, only option (C) will give 1/6\nAnswer (C)",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-difficult-005",
-    "grade": 7,
-    "question": "Convert $0.375$ to a fraction in simplest form.",
+    "id": "aqua-frac-0559",
+    "grade": 8,
+    "question": "Two buses and a van were employed to transport a class of students on a field trip. 3/5 of the class boarded the first bus. 1/2 of the remaining students boarded the second bus, and the rest of the students boarded the van. When the second bus broke down, 1/2 of the students on the second bus boarded the first bus. What fraction of the class was on board the first bus?",
     "options": [
-      "$\\frac{3}{8}$",
-      "$\\frac{3}{10}$",
-      "$\\frac{5}{8}$",
-      "$\\frac{375}{1000}$"
-    ],
-    "correct": 0,
-    "tags": [
-      "decimals"
-    ],
-    "explanation": "$0.375 = \\frac{375}{1000} = \\frac{3}{8}$ (divide by 125).",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-difficult-006",
-    "grade": 7,
-    "question": "$\\frac{7}{12} + \\frac{5}{8} = ?$",
-    "options": [
-      "$\\frac{12}{20}$",
-      "$\\frac{29}{24}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{35}{96}$"
+      "a) 1/2",
+      "b) 7/10",
+      "c) 11/15",
+      "d) 23/30"
     ],
     "correct": 1,
     "tags": [
-      "addition",
-      "common-denominator"
+      "fractions"
     ],
-    "explanation": "LCD is 24: $\\frac{14}{24} + \\frac{15}{24} = \\frac{29}{24}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "This is a pure ratio question (we aren't given any numbers for anything), so you can just choose any starting number you like, and use it to solve the problem. The best number to pick is almost always the product of all the denominators of your fractions, so here we could start with 30 students. Then we have:\n\u2022 3/5 of these, or 18 students, board the first bus\n\u2022 there are 12 students left. 1/2 of these, or 6 students, board the second bus\n\u2022 this bus breaks down, and 1/2 of the 6 students, or 3 students, board the first bus\n\u2022 the first bus now contains 21 out of the original 30 students, so the answer is 21/30 = 7/10\nAnswer B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-difficult-007",
+    "id": "aqua-frac-0629",
     "grade": 8,
-    "question": "$1\\frac{1}{2} \\times 2\\frac{2}{3} = ?$",
+    "question": "Tom, working alone, can paint a room in 8 hours. Peter and John, working independently, can paint the same room in 4 hours and 2 hours, respectively. Tom starts painting the room and works on his own for two hour. He is then joined by Peter and they work together for two hour. Finally, John joins them and the three of them work together to finish the room, each one working at his respective rate. What fraction of the whole job was done by Peter?",
     "options": [
-      "$2\\frac{2}{6}$",
-      "$3$",
-      "$4$",
-      "$5\\frac{1}{6}$"
-    ],
-    "correct": 2,
-    "tags": [
-      "mixed-numbers",
-      "multiplication"
-    ],
-    "explanation": "Convert: $\\frac{3}{2} \\times \\frac{8}{3} = \\frac{24}{6} = 4$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-difficult-008",
-    "grade": 7,
-    "question": "If $\\frac{3}{5}$ of $x$ equals 18, what is $x$?",
-    "options": [
-      "10",
-      "15",
-      "30",
-      "60"
-    ],
-    "correct": 2,
-    "tags": [
-      "equations",
-      "fractions-of-a-number"
-    ],
-    "explanation": "$\\frac{3}{5}x = 18 \\Rightarrow x = 18 \\times \\frac{5}{3} = 30$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-difficult-009",
-    "grade": 7,
-    "question": "$\\frac{5}{6} - \\frac{1}{4} - \\frac{1}{3} = ?$",
-    "options": [
-      "$\\frac{1}{4}$",
-      "$\\frac{1}{3}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{1}{12}$"
+      "4/7",
+      "5/7",
+      "6/7",
+      "1/7"
     ],
     "correct": 0,
     "tags": [
-      "subtraction",
-      "common-denominator"
+      "fractions"
     ],
-    "explanation": "LCD is 12: $\\frac{10}{12} - \\frac{3}{12} - \\frac{4}{12} = \\frac{3}{12} = \\frac{1}{4}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the time when all three were working together be t hours. Then:\nTom worked for t+4 hour and has done 1/8*(t+4) part of the job;\nPeter worked for t+2 hour and has done 1/4*(t+2) part of the job;\nJohn worked for t hours and has done 1/2*t part of the job:\n1/8*(t+4)+1/4*(t+2)+1/2*t=1 --> multiply by 8 --> (t+4)+(2t+2)+4t=8 --> t=2/7;\nHence Peter has done 1/4*(2/7+2)=1/4 *16/7=16/28 =8/14 =4/7\nAnswer: A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-difficult-010",
-    "grade": 7,
-    "question": "The reciprocal of $2\\frac{3}{4}$ is?",
+    "id": "aqua-frac-0685",
+    "grade": 8,
+    "question": "Laura can paint 1/x of a certain room in 20 minutes. What fraction Z of the same room can Joseph paint in 20 minutes if the two of them can paint the room in an hour, working together at their respective rates?",
     "options": [
-      "$\\frac{4}{11}$",
-      "$\\frac{4}{3}$",
-      "$\\frac{3}{4}$",
-      "$\\frac{11}{4}$"
+      "1/(3x)",
+      "3x/(x-3)",
+      "(x \u2013 3)/(3x)",
+      "x/(x-3)"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Options with variables are often done by plugging in numbers.\nBoth working together can paint the room in 1 hr so if their individual rates were equal, each would take 2 hours alone.\n2 hours is 120 mins so in 20 mins each would complete Z=120/20 = 1/6th of the room alone.\nSo if x = 6 (Laura completes 1/6th of the room in 20 mins), the correct option will give 1/6. (Joseph will also paint 1/6th of the room if their rates are same)\nIf you put x = 6 in the options, only option (C) will give 1/6\nAnswer (C)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0703",
+    "grade": 8,
+    "question": "Sam\u2019s car was fined when he gave Joe and Peter a ride, so they decided to help Sam pay the fine. Joe paid $6 more than 1/4 of the fine and Peter paid $6 less than 1/3 of the fine, leaving pay $10 less than 1/2 the fine to complete the payment. What fraction of the fine did Sam pay?",
+    "options": [
+      "$50",
+      "$40",
+      "$35",
+      "$44"
     ],
     "correct": 0,
     "tags": [
-      "reciprocals",
-      "mixed-numbers"
+      "fractions"
     ],
-    "explanation": "$2\\frac{3}{4} = \\frac{11}{4}$. Reciprocal is $\\frac{4}{11}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Call the fine F. Joe paid (1/4)F + 4 and Peter paid (1/3)F \u2013 4, leaving (1/2)F \u2013 5 left. If we add those three up, they should add up to F.\nF = [(1/4)F + 6] + [(1/3)F \u2013 6] + [(1/2)F \u2013 10]\nF = (1/4)F + (1/3)F + (1/2)F \u2013 10\nMultiply all terms by 12 to clear the fractions.\n12F = 3F + 4F + 6F \u2013 120\n12F = 13 F \u2013 120\n\u2013F = \u2013 120\nF = 120\nWell, if the fine cost $120, then Sam paid the part not covered by Joe or Peter. Half the fine is $60, and Sam paid $10 less than this: $50.\nAnswer = A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0712",
+    "grade": 8,
+    "question": "raghu, working alone, can paint a room in 6 hours. Peter and John, working independently, can paint the same room in 3 hours and 2 hours, respectively. Tom starts painting the room and works on his own for one hour. He is then joined by Peter and they work together for an hour. Finally, John joins them and the three of them work together to finish the room, each one working at his respective rate. What fraction of the whole job was done by Peter?",
+    "options": [
+      "4/9",
+      "1/6",
+      "1/3",
+      "7/18"
+    ],
+    "correct": 0,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Let's use smart numbers here -->Work=18\nRate * Time = Work\nTom: 3 x 6 = 18\nPeter: 6 x 3 = 18\nJohn: 9 x 2 = 18\nBefore John joined Tom and Peter: Tom worked 2 Hours -> 2*3=6 and Peter 1*6=6 gives us 12. So we are left with 18-12=6 for all three of them --> (3+6+9)*t=6, thus t=1/3 this means that Peter worked 2+1/3 Hours = 6+2=8 --> 8/18=4/9\nAt least this approach helps me... Don't like dealind with fractions when you're tired.\nAnswer:a",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

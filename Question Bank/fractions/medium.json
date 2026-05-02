@@ -1,185 +1,632 @@
 [
   {
-    "id": "frac-medium-001",
-    "grade": 5,
-    "question": "$\\frac{1}{2} + \\frac{1}{3} = ?$",
+    "id": "aqua-frac-0000",
+    "grade": 8,
+    "question": "The denominator of a fraction is 8 greater than the numerator. If the numerator and the denominator are increased by 5, the resulting fraction is equal to 6\u00e2\u0081\u201e7. What is the value of the original fraction?",
     "options": [
-      "$\\frac{2}{5}$",
-      "$\\frac{2}{6}$",
-      "$\\frac{5}{6}$",
-      "$\\frac{1}{6}$"
-    ],
-    "correct": 2,
-    "tags": [
-      "addition",
-      "common-denominator"
-    ],
-    "explanation": "LCD is 6: $\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-medium-002",
-    "grade": 5,
-    "question": "$\\frac{3}{4} - \\frac{1}{2} = ?$",
-    "options": [
-      "$\\frac{1}{2}$",
-      "$\\frac{1}{4}$",
-      "$\\frac{2}{4}$",
-      "$\\frac{1}{8}$"
-    ],
-    "correct": 1,
-    "tags": [
-      "subtraction"
-    ],
-    "explanation": "Convert: $\\frac{1}{2} = \\frac{2}{4}$. Then $\\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-medium-003",
-    "grade": 6,
-    "question": "$\\frac{2}{3} \\times \\frac{3}{4} = ?$",
-    "options": [
-      "$\\frac{5}{12}$",
-      "$\\frac{1}{2}$",
-      "$\\frac{6}{7}$",
-      "$\\frac{1}{6}$"
-    ],
-    "correct": 1,
-    "tags": [
-      "multiplication"
-    ],
-    "explanation": "Multiply across: $\\frac{2 \\times 3}{3 \\times 4} = \\frac{6}{12} = \\frac{1}{2}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-medium-004",
-    "grade": 6,
-    "question": "$\\frac{1}{2} \\div \\frac{1}{4} = ?$",
-    "options": [
-      "$\\frac{1}{8}$",
-      "$\\frac{1}{2}$",
-      "$1$",
-      "$2$"
+      "25/33",
+      "31/39",
+      "37/45",
+      "43/51"
     ],
     "correct": 3,
     "tags": [
-      "division"
+      "fractions"
     ],
-    "explanation": "Multiply by reciprocal: $\\frac{1}{2} \\times \\frac{4}{1} = \\frac{4}{2} = 2$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the numerator be x.\nThen the denominator is x+8.\nx+5 / x+13 = 6/7.\n7x+35=6x+78.\nx=43.\nThe original fraction is 43/51.\nThe answer is D.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-medium-005",
-    "grade": 5,
-    "question": "Convert $\\frac{7}{4}$ to a mixed number.",
+    "id": "aqua-frac-0056",
+    "grade": 8,
+    "question": "Alice\u2019s take-home pay last year was the same each month, and she saved the same fraction of her take-home pay each month. The total amount of money that she had saved at the end of the year was 6 times the amount of that portion of her monthly take-home pay that she did NOT save. If all the money that she saved last year was from her take-home pay, what fraction of her take-home pay did she save each month?",
     "options": [
-      "$1\\frac{1}{4}$",
-      "$1\\frac{3}{4}$",
-      "$2\\frac{1}{4}$",
-      "$\\frac{4}{7}$"
+      "1/7",
+      "1/6",
+      "1/5",
+      "1/3"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Suppose the portion of her salary that she saved is X\nand the remaining portion is Y\nX+Y= total take home salary\ngiven, 12X = 6Y\nor 2X = Y\nTotal take-home salary= X+ 2X= 3X\nhence, she saved 1/3-rd portion of her take home salary\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0143",
+    "grade": 8,
+    "question": "Can you find the smallest non fractional number such that\nIf the number gets divided by 4 , we get the remainder of 1;\nIf the number gets divided by 5 , we get the remainder of 2\nIf the number gets divided by 6 , we get the remainder of 3;\nIf the number gets divided by 7, we get the remainder of 4.",
+    "options": [
+      "550",
+      "418",
+      "581",
+      "443"
     ],
     "correct": 1,
     "tags": [
-      "mixed-numbers"
+      "fractions"
     ],
-    "explanation": "$7 \\div 4 = 1$ remainder $3$, so $\\frac{7}{4} = 1\\frac{3}{4}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "B.\n418\nAs we know LCM of the numbers 4,5,6 & 7 is 420.\nSo if i divide 420 by any of the four number , it gives remainder as 0.\nNow to get reminder as desired, is should be 2 short of 418. (3-1,4-2,5-3,6-4 )\nANS:option B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-medium-006",
-    "grade": 5,
-    "question": "Convert $2\\frac{1}{2}$ to an improper fraction.",
+    "id": "aqua-frac-0221",
+    "grade": 8,
+    "question": "Some of 50%-intensity red paint is replaced with 25% solution of red paint such that the new paint intensity is 35%. What fraction of the original paint was replaced?",
     "options": [
-      "$\\frac{3}{2}$",
-      "$\\frac{4}{2}$",
-      "$\\frac{5}{2}$",
-      "$\\frac{6}{2}$"
+      "1/35",
+      "1/5",
+      "2/3",
+      "3/5"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "mixed-numbers"
+      "fractions"
     ],
-    "explanation": "$2\\frac{1}{2} = \\frac{2 \\times 2 + 1}{2} = \\frac{5}{2}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "35% is 10%-points above 25% and 15%-points below 50%.\nThus the ratio of 25%-solution to 50%-solution is 3:2.\n3/5 of the original paint was replaced.\nThe answer is D.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "frac-medium-007",
-    "grade": 6,
-    "question": "Which order is from smallest to largest: $\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\frac{5}{6}$?",
+    "id": "aqua-frac-0225",
+    "grade": 8,
+    "question": "Points A, B, and, C have xy-coordinates (2,0), (8,12), and (14,0), respectively. Points X, Y, and Z have xy-coordinates (6,0), (8,4), and (10,0), respectively. What fraction Q of the area of triangle ABC is the area of triangle XYZ?",
     "options": [
-      "$\\frac{5}{6}, \\frac{3}{4}, \\frac{2}{3}, \\frac{1}{2}$",
-      "$\\frac{1}{2}, \\frac{2}{3}, \\frac{3}{4}, \\frac{5}{6}$",
-      "$\\frac{1}{2}, \\frac{3}{4}, \\frac{2}{3}, \\frac{5}{6}$",
-      "$\\frac{2}{3}, \\frac{1}{2}, \\frac{3}{4}, \\frac{5}{6}$"
-    ],
-    "correct": 1,
-    "tags": [
-      "comparison",
-      "ordering"
-    ],
-    "explanation": "Decimal forms: 0.50, 0.67, 0.75, 0.83 — already in ascending order.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-medium-008",
-    "grade": 5,
-    "question": "$\\frac{2}{5}$ of $30 = ?$",
-    "options": [
-      "6",
-      "10",
-      "12",
-      "15"
-    ],
-    "correct": 2,
-    "tags": [
-      "fractions-of-a-number"
-    ],
-    "explanation": "$\\frac{2}{5} \\times 30 = \\frac{60}{5} = 12$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-medium-009",
-    "grade": 5,
-    "question": "$\\frac{3}{8} + \\frac{1}{4} = ?$",
-    "options": [
-      "$\\frac{4}{12}$",
-      "$\\frac{4}{8}$",
-      "$\\frac{5}{8}$",
-      "$\\frac{1}{2}$"
-    ],
-    "correct": 2,
-    "tags": [
-      "addition",
-      "common-denominator"
-    ],
-    "explanation": "LCD is 8: $\\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "frac-medium-010",
-    "grade": 6,
-    "question": "Simplify $\\frac{18}{24}$.",
-    "options": [
-      "$\\frac{3}{4}$",
-      "$\\frac{2}{3}$",
-      "$\\frac{9}{12}$",
-      "$\\frac{6}{8}$"
+      "1/9",
+      "1/8",
+      "1/6",
+      "1/5"
     ],
     "correct": 0,
     "tags": [
-      "simplification"
+      "fractions"
     ],
-    "explanation": "Divide by 6 (the GCD): $\\frac{18 \\div 6}{24 \\div 6} = \\frac{3}{4}$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "If you notice, both triangles ABC and XYZ have a side on X axis. we can take these sides as bases for each triangle, therefore\nArea of ABC is 1/2*12*12 (Height of ABC is the y coordinate of the third point (8,12))\nsimilarly Area of XYZ is 1/2*4*4\ndividing area of XYZ with that of ABC gives Q=1/9.A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0240",
+    "grade": 8,
+    "question": "The denominator of a fraction is 1 less than twice the numerator. If the numerator and denominator are both increased by 1, the fraction becomes 3/5. Find the fraction?",
+    "options": [
+      "5/7",
+      "5/1",
+      "5/9.",
+      "5/2"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Let the numerator and denominator of the fraction be 'n' and 'd' respectively.\nd = 2n - 1\n(n + 1)/(d + 1) = 3/5\n5n + 5 = 3d + 3\n5n + 5 = 3(2n - 1) + 3 => n = 5\nd = 2n - 1 => d = 9\nHence the fraction is : 5/9.\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0285",
+    "grade": 8,
+    "question": "Cream costs twice as much as skim milk. A certain brand of milk is 1/3 cream and 2/3 skim milk. What fraction of the cost of this brand is due to the cream?",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/5",
+      "3/5"
+    ],
+    "correct": 1,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Let x be the cost of the skim milk in the mixture.\nThe cost of the cream is (1/2)*x*2 = x.\nThe total cost is x+x = 2x and the fraction due to the cream is x/2x = 1/2\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0289",
+    "grade": 8,
+    "question": "Two equally sized jugs full of water are each emptied into two separate unequally sized empty jugs, X and Y. Now, jug X is 1/3 full, while jug Y is 2/3 full. If water is poured from jug X into jug Y until jug Y is filled, what fraction of jug X then contains water?",
+    "options": [
+      "0",
+      "1/15",
+      "2/15",
+      "1/6"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Suppose the water in each jug is L liters\nCX x (1/3) = L\nCX = 3L liters\nCX is capacity of X\nCY x (2/3) = L\nCY = 3L/2 liters\nCY is capacity of Y\nNow, Y is 3L/2 - L empty = L/2 empty\nSo, we can put only L/2 water in jug Y from Jug X\nJug X's remaining water = L - L/2 = L/2\nFraction of X which contains water = water / CX\n= (L/2)/ 3L\n= 1/6\nAnswer will be D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0308",
+    "grade": 8,
+    "question": "Chris mixed 3 pounds of raisins with 4 pounds of nuts. If a pound of nuts costs 4 times as much as a pound of raisins, then the total cost of the raisins was what fraction of the total cost of the mixture?",
+    "options": [
+      "1/7",
+      "1/5",
+      "1/4",
+      "3/19"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "1 lbs of raisin = $1\n3 lbs of raisin = $3\n1 lbs of nuts = $4\n4 lbs of nuts = $16\nTotal value of mixture = 16+3 = 19\nFraction of the value of raisin = 3/19\nAns:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0315",
+    "grade": 8,
+    "question": "Paul's income is 40% less than Rex's income, Quentin's income is 20% less than Paul's income, and Sam's income is 40% less than Paul's income. If Rex gave 60% of his income to Paul and 40% of his income to Quentin, Paul's new income would be what fraction of Quentin's new income?",
+    "options": [
+      "11/12",
+      "13/17",
+      "13/19",
+      "15/11"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "MAKE R = 10\nP = 0.6R = 6\nQ = 0.8P = 4.8\nS= 0.6P = 3.6\nFOR THAT WE GET P = 12\nAND Q 8.8\nSO 12/8.8 = 3/ 2.2\nAns:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0327",
+    "grade": 8,
+    "question": "Carol spends 1/4 of her savings on a stereo and 1/5 less than she spent on the stereo for a television. What fraction of her savings did she spend on the stereo and television?",
+    "options": [
+      "1/4",
+      "2/7",
+      "5/12",
+      "9/20"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Total Savings = S\nAmount spent on stereo = (1/4)S\nAmount spent on television = (1-1/5)(1/4)S = (4/5)*(1/4)*S = (1/5)S\n(Stereo + TV)/Total Savings = S(1/4 + 1/5)/S = 9/20\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0331",
+    "grade": 8,
+    "question": "In a tree, 2/5 of the birds are robins while the rest are bluejays. If 1/3 of the robins are female and 2/3 of the bluejays are female, what fraction of the birds in the tree are male?",
+    "options": [
+      "3/5",
+      "4/15",
+      "7/15",
+      "8/15"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "The fraction of birds that are male robins is (2/3)(2/5)=4/15.\nThe fraction of birds that are male bluejays is (1/3)(3/5)=1/5.\nThe total fraction of male birds is 4/15 + 1/5 = 7/15.\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0342",
+    "grade": 8,
+    "question": "Each of the products produced yesterday was checked by worker x or worker y. 0.5% of the products checked by worker x are defective and 0.8% of the products checked by worker y are defective. If the total defective rate of all the products checked by worker x and worker y is 0.74%, what fraction of the products was checked by worker y?",
+    "options": [
+      "1/2",
+      "2/3",
+      "3/5",
+      "4/5"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "x: 0.5% is 0.24%-points from 0.74%.\ny: 0.8% is 0.06%-points from 0.74%.\nTherefore the ratio of products checked by y:x is 4:1.\nThus, worker y checked 4/5 of the products.\nThe answer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0343",
+    "grade": 8,
+    "question": "In the circular region shown above, sections A and B represent 3/8 and 5/11, respectively, of the area of the circular region. Section C represents what fractional part of the area of the circular region?",
+    "options": [
+      "15/88",
+      "2/11",
+      "5/22",
+      "45/88"
+    ],
+    "correct": 0,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "A , B and C represent complete area of circle and c fraction be x.\n3/8+5/11+x = 1.\n=> x = 1- ( 3/8+5/11)\nx = 15/88.\nAnswer:option A is correct answer..",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0374",
+    "grade": 8,
+    "question": "A certain list consists of 21 different numbers. If n is in the list and n is 4 times the average(arithmetic mean) of the other 20 numbers in the list, then n is what fraction E of the sum of the 21 numbers in the list?",
+    "options": [
+      "1/20",
+      "1/6",
+      "1/5",
+      "4/21"
+    ],
+    "correct": 1,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "This is how I used to calculate which I think works pretty well:\nif you let the average of the 20 other numbers equal a, can you write this equation for sum of the list (S)\nn + 20a = S\nthe question tells us that\nn = 4a\nplug this back into the first equation and you get that the sum is 24a\n4a + 20a = 24a\ntherefore fraction E of n to the total would be\n4a/24a or 1/6\nanswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0386",
+    "grade": 8,
+    "question": "Last month, John rejected 0.5% of the products that he inspected and Jane rejected 0.6 percent of the products that she inspected. If total of 0.75 percent of the products produced last month were rejected, what fraction of the products did Jane inspect?",
+    "options": [
+      "1/4",
+      "1/2",
+      "5/8",
+      "5/6"
+    ],
+    "correct": 0,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "X - fraction of products Jane inspected\n(1 - X) - fraction of products John inspected\n0.6(X) + 0.5(1-X) = 0.75\n0.1X = 0.75 - 0.5\nX = 0.25/0.1\nX = 1/4\nTherefore the answer is A: 1/4.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0490",
+    "grade": 8,
+    "question": "A certain list consists of 21 different numbers. If n is in the list and n is 8 times the average (arithmetic mean) of the other 20 numbers in the list, then n is what fraction of the sum of the 21 numbers in the list?",
+    "options": [
+      "1/20",
+      "1/6",
+      "2/7",
+      "4/21"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "series : a1, a2....a20,n\nsum of a1+a2+...+a20 = 20*x (x = average)\nso, n = 8*x\nHence, a1+a2+..+a20+n = 28x\nSo, the fraction asked = 8x/28x = 2/7\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0508",
+    "grade": 8,
+    "question": "Beth received 1/10 of the votes cast in a certain election. What fraction of the other votes cast would she have needed in order to have received 1/2 of the votes cast?",
+    "options": [
+      "1/5",
+      "2/7",
+      "3/10",
+      "4/9"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Let the total votes be 100. Beth received 10 votes, other votes 100-10=90. In order to have received 1/2 of the votes she needed 50 votes so 40 more, which is 40/90=4/9 of the other votes.\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0510",
+    "grade": 8,
+    "question": "Each of the three people individually can complete a certain job in 3, 5, and 6 hours, respectively. What is the lowest fraction of the job that can be done in 1 hour by 2 of the people working together at their respective rates?",
+    "options": [
+      "4/15",
+      "7/30",
+      "11/30",
+      "7/18"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "The two slowest people work at rates of 1/5 and 1/6 of the job per hour.\nThe sum of these rates is 1/5 + 1/6 = 11/30 of the job per hour.\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0521",
+    "grade": 8,
+    "question": "Of all the homes on Gotham Street, 2/3 are termite-ridden, and 2/5 of these are collapsing. What fraction of the homes are termite-ridden, but NOT collapsing?",
+    "options": [
+      "a) 2/15",
+      "b) 3/15",
+      "c) 4/5",
+      "d) 2/5"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "let total homes be 15\ntermite ridden= 2/3(15)= 10\ntermite ridden and collapsing = 2/5(10)=4\nthus homes that are termite ridden, but not collapsing = 10-4=6\nthus required ratio = 6/15=2/5\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0540",
+    "grade": 8,
+    "question": "The denominator of a fraction is 1 less than twice the numerator. If the numerator and denominator are both increased by 1, the fraction becomes 3/5. Find the fraction?",
+    "options": [
+      "1/3",
+      "2/3",
+      "5/9",
+      "5/7"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Explanation:\nLet the numerator and denominator of the fraction be 'n' and 'd' respectively.\nd = 2n - 1\n(n + 1)/(d + 1) = 3/5\n5n + 5 = 3d + 3\n5n + 5 = 3(2n - 1) + 3 => n = 5\nd = 2n - 1 => d = 9\nHence the fraction is : 5/9\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0575",
+    "grade": 8,
+    "question": "A waitress's income consists of her salary and tips.During one week ,her tips were 7/4 of her salary.What fraction of her income for the week came from tips?",
+    "options": [
+      "1/9",
+      "1/6",
+      "2/3",
+      "7/11"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Her tips were 7/4 of her salary.\nLet's say her salary =$4\nThis mean her tips = (7/4)($4) =$7\nSo, her TOTAL INCOME =$4+$7=$11\nWhat fraction of her income for the week came from tips\n$7/$11= 7/11\n= E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0596",
+    "grade": 8,
+    "question": "Carol spends 1/4 of her savings on a stereo and 1/2 less than she spent on the stereo for a television. What fraction of her savings did she spend on the stereo and television?",
+    "options": [
+      "1/4",
+      "2/7",
+      "5/12",
+      "3/8"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Total Savings = S\nAmount spent on stereo = (1/4)S\nAmount spent on television = (1-1/2)(1/4)S = (1/2)*(1/4)*S = (1/8)S\n(Stereo + TV)/Total Savings = S(1/4 + 1/8)/S = 3/8\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0600",
+    "grade": 8,
+    "question": "Which of the following is the highest fraction?",
+    "options": [
+      "5\u20447",
+      "3\u20444",
+      "2\u20443",
+      "7\u20448"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Note : If the difference between the numerator and the denominator is constant, then the fraction which has larger value in the numerator is the larger fraction.\nUsing the above, among the options (a), (c), (d) and (e), (e) has the larger value. Now, compared to option(a), (e) has the larger value.\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0645",
+    "grade": 8,
+    "question": "Kim finds a 2-meter tree branch and marks it off in thirds and fifths. She then breaks the branch along all the markings and removes one piece of every distinct length. What fraction of the original branch remains?",
+    "options": [
+      "3/5",
+      "2/5",
+      "7/5",
+      "1/2"
+    ],
+    "correct": 0,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "3 pieces of 1/5 length and two piece each of 1/15 and 2/15 lengths. removing one piece each from pieces of each kind of lengths the all that will remain will be\n2 pieces of 1/5 i.e 2/5, 1 piece of 1/15, and 1 piece of 2/15\nWhich gives us 2/5 + 1/15 + 2/15 -----> 3/5\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0655",
+    "grade": 8,
+    "question": "Each of the three people individually can complete a certain job in 3, 4, and 6 hours, respectively. What is the lowest fraction of the job that can be done in 1 hour by 2 of the people working together at their respective rates?",
+    "options": [
+      "1/3",
+      "9/20",
+      "8/15",
+      "5/12"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "The two slowest people work at rates of 1/4 and 1/6 of the job per hour.\nThe sum of these rates is 1/4 + 1/6 = 5/12 of the job per hour.\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0657",
+    "grade": 8,
+    "question": "Four extra-large sandwiches of exactly the same size were ordered for m students, where m > 9. Three of the sandwiches were evenly divided among the students. Since 4 students did not want any of the fourth sandwich, it was evenly divided among the remaining students. If Carol ate one piece from each of the four sandwiches, the amount of sandwich that she ate would be what fraction of a whole extra-large sandwich?",
+    "options": [
+      "(4m-27)/[m(m-3)]",
+      "(4m-27)/[m(m-6)]",
+      "(4m-27)/[m(m-9)]",
+      "(4m-27)/[m(m-8)]"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Three of the sandwiches were evenly divided among the students\ni.e. Amount of Sandwiches with each students = 3/m\nAmount of 4th Sandwich with remaining (m-9) students = 1/(m-9)\nThe amount of Sandwich that carol ate = 3/m + 1/(m-9) = (3m-27+m)/[m(m-9)] = (4m-27)/[m(m-9)]\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0726",
+    "grade": 8,
+    "question": "Can you find the smallest non fractional number such that\nIf the number gets divided by 9 , we get the remainder of 1;\nIf the number gets divided by 10 , we get the remainder of 2\nIf the number gets divided by 11 , we get the remainder of 3;\nIf the number gets divided by 12 , we get the remainder of 4.",
+    "options": [
+      "1450",
+      "1300",
+      "1205",
+      "1978"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "E.option E\nAs we know LCM of the numbers 9 10 11 & 12 is 1980.\nSo if i divide 1980 by any of the four number , it gives remainder as 0.\nNow to get reminder as desired, is should be 2 short of 1978. (3-1,4-2,5-3,6-4 )\nAns:option E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0737",
+    "grade": 8,
+    "question": "A can do a work in 15 days and B in 20 days. If they work on it together for 4 days, then the fraction of the work that is left is?",
+    "options": [
+      "8",
+      "8/11",
+      "8/13",
+      "8/15"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "A's 1 day's work =\t1\t;\n15\nB's 1 day's work =\t1\t;\n20\n(A + B)'s 1 day's work =\t(\t1\t+\t1\t)\t=\t7\t.\n15\t20\t60\n(A + B)'s 4 day's work =\t(\t7\tx 4\t)\t=\t7\t.\n60\t15\nTherefore, Remaining work =\t(\t1 -\t7\t)\t=\t8\t.\n15\t15\nOption D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0788",
+    "grade": 8,
+    "question": "A circular mat with diameter 18 inches is placed on a square tabletop, each of whose sides is 24 inches long. Which of the following is closest to the fraction of the tabletop covered by the mat?",
+    "options": [
+      "5/12",
+      "3/5",
+      "1/2",
+      "3/8"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "SO we are looking for the area of the cloth over the area of the table\nArea of the Cloth = (pi)(r)^2 which is about (3)(9)(9)\nArea of the Table = (24)(24)\nSo the quick way to estimate is looking at the fraction like this: (3/24)(81/24)\nI hope this is easy to follow, so with some simplification i get (1/8)(3) = (3/8) Answer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0820",
+    "grade": 8,
+    "question": "A circular mat with diameter 20 inches is placed on a square tabletop, each of whose sides is 30 inches long. Which of the following is closest to the fraction of the tabletop covered by the mat?",
+    "options": [
+      "5/12",
+      "2/5",
+      "1/2",
+      "5/6"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "It is a circle inscribed in a square.\nSquare side=24---> square(table) area=24^2\nCircle diameter=20---> Circle area=PiR^2=100Pi (where Pi=~3.14)\ncovered fraction=100*3.14/9*100=3.14/9 = 0.3489\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0843",
+    "grade": 8,
+    "question": "In the list 3, 3, 4, 4, 5, 5, 5, 5, 7, 11, 21, what fraction of the data is less than the mode?",
+    "options": [
+      "2/9",
+      "1/3",
+      "4/11",
+      "2/3"
+    ],
+    "correct": 2,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Mode: The mode of any set is the term which has the highest frequency (Occurrence)\nHighest frequent term in the set is 5 (with frequency 4) hence\nMode = 5\ntwo terms (3, 3, 4, 4) out of a total of 11 terms are less than mode of the set.\nFraction of set that are less than Mode of set = 4/11\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0885",
+    "grade": 8,
+    "question": "Can you find the smallest non fractional number such that\nIf the number gets divided by 7 , we get the remainder of 1;\nIf the number gets divided by 8 , we get the remainder of 2\nIf the number gets divided by 9 , we get the remainder of 3;\nIf the number gets divided by 10 , we get the remainder of 4.",
+    "options": [
+      "1500",
+      "3210",
+      "2150",
+      "2518"
+    ],
+    "correct": 3,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "D.2518\nAs we know LCM of the numbers 7 8 9 & 10 is 2520.\nSo if i divide 2520 by any of the four number , it gives remainder as 0.\nNow to get reminder as desired, is should be 2 short of 2518. (3-1,4-2,5-3,6-4 )\nAns:option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0927",
+    "grade": 8,
+    "question": "The product of two fractions is 3/4 and their quotient is 6/18. If the denominator of one is 1/3 of the other's numerator, then find the pair of fractions?",
+    "options": [
+      "1/3, 9/5",
+      "1/2, 3/2",
+      "1/2, 6/5",
+      "Data inadequate"
+    ],
+    "correct": 1,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "Explanation:\nLet A = x/y, and B be two fractions\nIt is given that A*B = 3/4\nTherefore x/y * B = 3/4\nB = 3y/4x\nTherefore, A = x/y and B = 3y/4x\nIt is given that A/B = (x/y) / (3y/4x) = 6/18\nTherefore x/y * 4x/3y = 6 /18\nTherefore 4x2/3y2 = 6/18\nx2/y2 = 18/(4*18)\nTherefore, x2/y2 = \u00bc\nx/y = 1/2\nB = 3y/4x = 3/4 (1/(x/y)) = 3/4 [1/(1/2)] = 6/4\nTherefore A = 1/2 and B = 3/2\nANSWER B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-frac-0964",
+    "grade": 8,
+    "question": "Y can do a work in 2/3 the time it takes X. Z can do the same work in \u00be the time it takes Y.When all three are typing at the same time what fraction of their total work does Y do",
+    "options": [
+      "1/3",
+      "4/13",
+      "9/23",
+      "8/29"
+    ],
+    "correct": 0,
+    "tags": [
+      "fractions"
+    ],
+    "explanation": "given the ratio of the time of y and x is 2/3 : 1\ntherefore the ratio of speed of the x and y becomes 2 : 3.\nsimilarly the ratio of the speed of the z and y given as 4 : 3\ntherefore the speed of the y and z becomes 3 : 4.\nnow , comparing the ratio of the x,y and z\nit becomes 2: 3 :: 3 : 4\nhence the y is doing 3/9 hence it is doing 1/3 work.\nANSWER:A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]
