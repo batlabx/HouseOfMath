@@ -37,8 +37,13 @@ anthropic = ["anthropic>=0.40"]
 openai = ["openai>=1.0"]
 gemini = ["google-generativeai>=0.8"]
 dev = ["pytest>=7.0", "pytest-cov>=4.0"]
-all = ["houseofmath[anthropic,openai,gemini,dev]"]
-
+all = [
+  "anthropic>=0.40",
+  "openai>=1.0",
+  "google-generativeai>=0.8",
+  "pytest>=7.0",
+  "pytest-cov>=4.0",
+]
 [project.scripts]
 houseofmath = "houseofmath.cli:main"
 
