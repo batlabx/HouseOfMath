@@ -12,8 +12,8 @@
     "explanation": "1. Distribute the 3 into the parentheses: $3x + 12 = 21$.\n2. Subtract 12 from both sides to isolate the term with $x$: $3x = 9$.\n3. Divide by 3: $x = 3$.",
     "grade": 7,
     "tags": [
-      "linear equations",
-      "two-step equations"
+      "linear-equations",
+      "two-step-equations"
     ]
   },
   {
@@ -29,8 +29,8 @@
     "explanation": "1. Distribute the $-3$: $5x - 6x + 12 + 7$.\n2. Combine like terms ($5x$ and $-6x$): $-x$.\n3. Combine constants ($12$ and $7$): $19$.\n4. Final Result: $-x + 19$.",
     "grade": 7,
     "tags": [
-      "simplifying expressions",
-      "combining like terms"
+      "simplifying-expressions",
+      "combining-like-terms"
     ]
   },
   {
@@ -46,8 +46,8 @@
     "explanation": "1. Set up the equation: $2.50m + 5 = 20$.\n2. Subtract the flat fee (5) from the total: $2.50m = 15$.\n3. Divide by the cost per mile (2.50): $m = 15 / 2.5 = 6$.",
     "grade": 7,
     "tags": [
-      "word problems",
-      "linear equations"
+      "word-problems",
+      "linear-equations"
     ]
   },
   {
@@ -64,7 +64,7 @@
     "grade": 7,
     "tags": [
       "inequalities",
-      "linear inequalities"
+      "linear-inequalities"
     ]
   },
   {
@@ -80,8 +80,8 @@
     "explanation": "1. Substitute the values: $3(-3)^2 - 4(5 + 2)$.\n2. Parentheses first: $3(-3)^2 - 4(7)$.\n3. Exponents: $3(9) - 4(7)$.\n4. Multiplication: $27 - 28$.\n5. Subtraction: $27 - 28 = -1$.",
     "grade": 7,
     "tags": [
-      "evaluating expressions",
-      "order of operations"
+      "evaluating-expressions",
+      "order-of-operations"
     ]
   },
   {
@@ -105,7 +105,7 @@
   {
     "id": "aqua-alge-0002",
     "grade": 8,
-    "question": "For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy \u2260 0, then which of the following can be equal to zero?\nI. x@y\nII. (xy)@y\nIII. x@(x + y)",
+    "question": "For all numbers p and q, the operation @ is defined by p@q = p^2 - pq. If xy ≠ 0, then which of the following can be equal to zero?\nI. x@y\nII. (xy)@y\nIII. x@(x + y)",
     "options": [
       "II",
       "I and II",
@@ -134,7 +134,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Smallest number of five digits is 10000.\nRequired number must be divisible by L.C.M. of 22,33,66,44 i.e 132,\nOn dividing 10000 by 132,we get 32 as remainder.\nTherefore, Required number = 10000 +( 132 \u00e2\u20ac\u201c 32 ) = 10100.\nAnswer is E.",
+    "explanation": "Smallest number of five digits is 10000.\nRequired number must be divisible by L.C.M. of 22,33,66,44 i.e 132,\nOn dividing 10000 by 132,we get 32 as remainder.\nTherefore, Required number = 10000 +( 132 â€“ 32 ) = 10100.\nAnswer is E.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -188,7 +188,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Solution\nS.I. = Rs.(956-825 )=Rs.131\nRate = (100x131/825x3) = 524/99%\nNew rate = (524/99 +4)% = 920/99%\nNew S.I. = Rs.(825 x 920/99 x 3/100) Rs. 230.\n\u2234 New amount = Rs.(825+230)= Rs. 1055.\nAnswer C",
+    "explanation": "Solution\nS.I. = Rs.(956-825 )=Rs.131\nRate = (100x131/825x3) = 524/99%\nNew rate = (524/99 +4)% = 920/99%\nNew S.I. = Rs.(825 x 920/99 x 3/100) Rs. 230.\n∴ New amount = Rs.(825+230)= Rs. 1055.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -242,7 +242,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The equation we can form the question :\nReturn on Total Investment = Sum of individual Investments\n(500+1500)(19)=(500\u00e2\u02c6\u20147)+(1500x), where x is the return on investment of 1500.\nSolving the equation, we get x = 23% ( Option C )\tANSWER:C",
+    "explanation": "The equation we can form the question :\nReturn on Total Investment = Sum of individual Investments\n(500+1500)(19)=(500âˆ—7)+(1500x), where x is the return on investment of 1500.\nSolving the equation, we get x = 23% ( Option C )\tANSWER:C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -267,7 +267,7 @@
   {
     "id": "aqua-alge-0040",
     "grade": 8,
-    "question": "The age of man is three times the sum of the ages of his two sons.Four years hence,his age will be double of the sum of the ages of his sons.The father\u00e2\u20ac\u2122s present age is :",
+    "question": "The age of man is three times the sum of the ages of his two sons.Four years hence,his age will be double of the sum of the ages of his sons.The fatherâ€™s present age is :",
     "options": [
       "36 years",
       "45 years",
@@ -278,14 +278,14 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Solution\nLet the sum of present ages of the two sons be x years.\nThen,father's present age = 3x years.\n\u00e2\u02c6\u00b4 (3x + 4)=2 (x +8) \u00e2\u2021\u201d 3x + 4 = 2x + 16 \u00e2\u2021\u201d x =12.\nHence,father's present age = 36 years. Answer A",
+    "explanation": "Solution\nLet the sum of present ages of the two sons be x years.\nThen,father's present age = 3x years.\nâˆ´ (3x + 4)=2 (x +8) â‡” 3x + 4 = 2x + 16 â‡” x =12.\nHence,father's present age = 36 years. Answer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-alge-0046",
     "grade": 8,
-    "question": "|x+3| \u2013 |4-x| = |8+x| How many S solutions will this equation have?",
+    "question": "|x+3| – |4-x| = |8+x| How many S solutions will this equation have?",
     "options": [
       "0",
       "1",
@@ -386,7 +386,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "16490 = 2 \u00d7 5 \u00d7 17 \u00d7 97\nNow now chocolate price should be greater than 1 and less than 2. So 2 x 5 x 17 = 170\nSo Total chocolates sold = 97 and New chocolate price = Rs.1.7\nAnswer:\tB",
+    "explanation": "16490 = 2 × 5 × 17 × 97\nNow now chocolate price should be greater than 1 and less than 2. So 2 x 5 x 17 = 170\nSo Total chocolates sold = 97 and New chocolate price = Rs.1.7\nAnswer:\tB",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -512,14 +512,14 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\n1 man\u2019s 1 day\u2019s work = 1/3, \u00bc day\u2019s work = 1/3 \u00d7 \u00bc = 1/12\n1 woman\u2019s 1 day\u2019s work = \u00bc, \u00bc day\u2019s work = \u00bc \u00d7 \u00bc = 1/16\n1 boy\u2019s 1 day\u2019s work = 1/12, \u00bc day\u2019s work = 1/12 \u00d7 \u00bc = 1/48\nLet \u2018x\u2019 be the No. of boys required.\nThen, (1 man + 1 woman + x boy)\u2019s \u00bc day\u2019s work 1/12 + 1/16 + x/48 = 1\n= (4 + 3 + x)/48 = 1\ni.e. 7 + x= 48 and x = 41.\nAnswer: Option B",
+    "explanation": "Explanation:\n1 man’s 1 day’s work = 1/3, ¼ day’s work = 1/3 × ¼ = 1/12\n1 woman’s 1 day’s work = ¼, ¼ day’s work = ¼ × ¼ = 1/16\n1 boy’s 1 day’s work = 1/12, ¼ day’s work = 1/12 × ¼ = 1/48\nLet ‘x’ be the No. of boys required.\nThen, (1 man + 1 woman + x boy)’s ¼ day’s work 1/12 + 1/16 + x/48 = 1\n= (4 + 3 + x)/48 = 1\ni.e. 7 + x= 48 and x = 41.\nAnswer: Option B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-alge-0093",
     "grade": 8,
-    "question": "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit\u2019s age will be 26 years. What is the age of Dhiraj at present?",
+    "question": "At present, the ratio between the ages of Amit and Dhiraj is 5 : 4. After 6 years, Amit’s age will be 26 years. What is the age of Dhiraj at present?",
     "options": [
       "16",
       "77",
@@ -530,7 +530,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nLet the present ages of Amit and Dhiraj be 5x years and 4x years respectively. Then,\n5x + 6 = 26\n5x = 20\nx = 4\nDhiraj\u2019s age = 4x = 16 years\nANSWER: A",
+    "explanation": "Explanation:\nLet the present ages of Amit and Dhiraj be 5x years and 4x years respectively. Then,\n5x + 6 = 26\n5x = 20\nx = 4\nDhiraj’s age = 4x = 16 years\nANSWER: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -638,7 +638,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let the incomes of two companies A and B be 5x and 8x respectively.\nFrom the question,\n5x+25/8x=5/4 \u21d2 20x + 100 = 40x\n\u2234 x = 5\n\u2234 Income of company B = 8x = 40 lakh\nAnswer C",
+    "explanation": "Let the incomes of two companies A and B be 5x and 8x respectively.\nFrom the question,\n5x+25/8x=5/4 ⇒ 20x + 100 = 40x\n∴ x = 5\n∴ Income of company B = 8x = 40 lakh\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -692,7 +692,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Expl : Time taken to carry 2nd person = 300/50 = 6 hrs.\nTime taken to meet 3rd person =(300-6*10)/(50+10) = 4 hrs\nTime taken to carry 3rd person = 4 hours\nTime taken to meet 4th person = (300 \u2013140)/60 = 8/3\nTotal time = 6+4+4+8/3+8/3 = 58/3 hours\nAnswer :D",
+    "explanation": "Expl : Time taken to carry 2nd person = 300/50 = 6 hrs.\nTime taken to meet 3rd person =(300-6*10)/(50+10) = 4 hrs\nTime taken to carry 3rd person = 4 hours\nTime taken to meet 4th person = (300 –140)/60 = 8/3\nTotal time = 6+4+4+8/3+8/3 = 58/3 hours\nAnswer :D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -717,7 +717,7 @@
   {
     "id": "aqua-alge-0130",
     "grade": 8,
-    "question": "If a light flashes every 6 seconds, how many times will it flash in \u00be of an hour?",
+    "question": "If a light flashes every 6 seconds, how many times will it flash in ¾ of an hour?",
     "options": [
       "451 times",
       "638 times",
@@ -728,7 +728,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "There are 60 minutes in an hour.\nIn \u00be of an hour there are (60 * \u00be) minutes = 45 minutes.\nIn \u00be of an hour there are (60 * 45) seconds = 2700 seconds.\nLight flashed for every 6 seconds.\nIn 2700 seconds 2700/6 = 450 times.\nThe count start after the first flash, the light will flashes 451 times in \u00be of an hour.\nAnswer:A",
+    "explanation": "There are 60 minutes in an hour.\nIn ¾ of an hour there are (60 * ¾) minutes = 45 minutes.\nIn ¾ of an hour there are (60 * 45) seconds = 2700 seconds.\nLight flashed for every 6 seconds.\nIn 2700 seconds 2700/6 = 450 times.\nThe count start after the first flash, the light will flashes 451 times in ¾ of an hour.\nAnswer:A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -746,7 +746,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "If X can complete a work in x days and Y can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days\nTherefore, here, the required number of days = 20\u00c3\u2014 30/ 50 = 12 days.\nB)",
+    "explanation": "If X can complete a work in x days and Y can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days\nTherefore, here, the required number of days = 20Ã— 30/ 50 = 12 days.\nB)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -789,7 +789,7 @@
   {
     "id": "aqua-alge-0146",
     "grade": 8,
-    "question": "Company Z spent 1/4 of its revenues last year on marketing and 1/7 of the remainder on maintenance of its facilities. What fraction of last year\u2019s original revenues did company Z have left after its marketing and maintenance expenditures?",
+    "question": "Company Z spent 1/4 of its revenues last year on marketing and 1/7 of the remainder on maintenance of its facilities. What fraction of last year’s original revenues did company Z have left after its marketing and maintenance expenditures?",
     "options": [
       "5/14",
       "1/2",
@@ -890,7 +890,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Income = Rs. 100\nExpenditure = Rs. 80\nSavings = Rs. 20\nPresent Expenditure 80*(20/100) = Rs. 96\nPresent Savings = 100 \u2013 96 =Rs. 4\n100 ------ 4\n? --------- 200 => 5000\nAnswer: A",
+    "explanation": "Income = Rs. 100\nExpenditure = Rs. 80\nSavings = Rs. 20\nPresent Expenditure 80*(20/100) = Rs. 96\nPresent Savings = 100 – 96 =Rs. 4\n100 ------ 4\n? --------- 200 => 5000\nAnswer: A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -926,7 +926,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "15 W = 10 M\nNow, 5W + 4M = 5W + 4\u00d715/10W = 5W + 6W = = 11 W\nIf 15 women can complete the project in 55 days,\n11 women can complete the same project in\n55\u00d715/11=75days\nAnswer A",
+    "explanation": "15 W = 10 M\nNow, 5W + 4M = 5W + 4×15/10W = 5W + 6W = = 11 W\nIf 15 women can complete the project in 55 days,\n11 women can complete the same project in\n55×15/11=75days\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1196,7 +1196,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Here 2km is immaterial. The given problem can be written in a tabular form like below.\nWe can apply chain rule now.\nTotal men required to complete the remaining work = 100\u00d72525\u00d7810\u00d72313100\u00d72525\u00d7810\u00d72313 = 160\nSo additional men required = 160 - 100 = 60\nAnswer:B",
+    "explanation": "Here 2km is immaterial. The given problem can be written in a tabular form like below.\nWe can apply chain rule now.\nTotal men required to complete the remaining work = 100×2525×810×2313100×2525×810×2313 = 160\nSo additional men required = 160 - 100 = 60\nAnswer:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1232,7 +1232,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Sol.\nAt the time of meeting, let the distane travelled byb the second train be x km. Then,\ndistance covered by the first train is (x + 100) km\n\u2234 x/40 = (x+100)/50 \u21d4 50x = 40x 4000 \u21d4 x = 400.\nSo, distance between P and Q = (x+x+100) km = 900 km.\nAnswer C",
+    "explanation": "Sol.\nAt the time of meeting, let the distane travelled byb the second train be x km. Then,\ndistance covered by the first train is (x + 100) km\n∴ x/40 = (x+100)/50 ⇔ 50x = 40x 4000 ⇔ x = 400.\nSo, distance between P and Q = (x+x+100) km = 900 km.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1286,7 +1286,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nLet x is the length of the train in meter and y is its speed in kmph\nx/8.4 = (y-4.5)(10/36) ---(1)\nx/8.5 = (y-5.4)(10/36) ---(2)\nDividing 1 by 2\n8.5/8.4 = (y-4.5)/ (y-5.4)\n=> 8.4y - 8.4 \u00d7 4.5 = 8.5y - 8.5\u00d75.4\n.1y = 8.5\u00d75.4 - 8.4\u00d74.5\n=> .1y = 45.9-37.8 = 8.1\n=> y = 81 km/hr\nAnswer: Option A",
+    "explanation": "Explanation:\nLet x is the length of the train in meter and y is its speed in kmph\nx/8.4 = (y-4.5)(10/36) ---(1)\nx/8.5 = (y-5.4)(10/36) ---(2)\nDividing 1 by 2\n8.5/8.4 = (y-4.5)/ (y-5.4)\n=> 8.4y - 8.4 × 4.5 = 8.5y - 8.5×5.4\n.1y = 8.5×5.4 - 8.4×4.5\n=> .1y = 45.9-37.8 = 8.1\n=> y = 81 km/hr\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1322,7 +1322,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Solution:\nThe expenditure incurred on each item is expressed as part of the total amount (salary), so it is an independent activity.\nIn general for independent activities\n[1 \u2013 (x1/y1 + x2/y2 + x3/y3)] \u00d7 Total amount = Balance amount\n[1 \u2013 (1/5 + 1/10 + 3/5)] \u00d7 Total salary = $18000\n[1 \u2013 9/10] \u00d7 Total salary = $18000\nTherefore total salary = $18000 \u00d7 10 = $180000\nAnswer A",
+    "explanation": "Solution:\nThe expenditure incurred on each item is expressed as part of the total amount (salary), so it is an independent activity.\nIn general for independent activities\n[1 – (x1/y1 + x2/y2 + x3/y3)] × Total amount = Balance amount\n[1 – (1/5 + 1/10 + 3/5)] × Total salary = $18000\n[1 – 9/10] × Total salary = $18000\nTherefore total salary = $18000 × 10 = $180000\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1340,7 +1340,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "(x+1)^2 <= 16\nx <= 3\nx >= -5\n(y-1)^2< 64\ny < 9\ny > -7\nMax possible value of xy is -5 \u00d7 -6 = 30\nminimum possible value of xy is -5 \u00d7 8 = -40\n-40 + 30 = -10\nAnswer : B",
+    "explanation": "(x+1)^2 <= 16\nx <= 3\nx >= -5\n(y-1)^2< 64\ny < 9\ny > -7\nMax possible value of xy is -5 × -6 = 30\nminimum possible value of xy is -5 × 8 = -40\n-40 + 30 = -10\nAnswer : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1430,14 +1430,14 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The number of trailing zeros in the decimal representation of n!, the factorial of a non-negative integer n, can be determined with this formula:\nn5+n52+n53+...+n5k, where k must be chosen such that 5k\u2264n\nx = 1*2*3....*25 = 25!\nNo. of trailing zeros in 25! = 25/5 + 25/5^2 = 6\n100^k = 10^2k \u2192 k = 6/2 = 3\nC",
+    "explanation": "The number of trailing zeros in the decimal representation of n!, the factorial of a non-negative integer n, can be determined with this formula:\nn5+n52+n53+...+n5k, where k must be chosen such that 5k≤n\nx = 1*2*3....*25 = 25!\nNo. of trailing zeros in 25! = 25/5 + 25/5^2 = 6\n100^k = 10^2k → k = 6/2 = 3\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-alge-0273",
     "grade": 8,
-    "question": "Having received his weekly allowance, John spent 3/5 of his allowance at the arcade. The next day he spent one third of his remaining allowance at the toy store, and then spent his last $1.28 at the candy store. What is John\u2019s weekly allowance?",
+    "question": "Having received his weekly allowance, John spent 3/5 of his allowance at the arcade. The next day he spent one third of his remaining allowance at the toy store, and then spent his last $1.28 at the candy store. What is John’s weekly allowance?",
     "options": [
       "$2.40",
       "$3.00",
@@ -1520,7 +1520,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation :\nLet the time taken by car A to reach destination is T hours\nSo, the time taken by car B to reach destination is (T \u2013 2) hours.\nS1T1 = S2T2\n=> 40(T) = 55 (T \u2013 2)\n=> 40T = 55T -110\n=> 15T = 110\nT = 7 hours 20 minutes\nAnswer \u2013 C",
+    "explanation": "Explanation :\nLet the time taken by car A to reach destination is T hours\nSo, the time taken by car B to reach destination is (T – 2) hours.\nS1T1 = S2T2\n=> 40(T) = 55 (T – 2)\n=> 40T = 55T -110\n=> 15T = 110\nT = 7 hours 20 minutes\nAnswer – C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1556,7 +1556,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let x be the total grown quantity of wheat. According to the question\n(7%of x)+ 64 31 %of x)+3 7x 31x => 100+ 6 = 400 + 3 1200 x = \u2014 400 million tonnes rice grown\nC",
+    "explanation": "Let x be the total grown quantity of wheat. According to the question\n(7%of x)+ 64 31 %of x)+3 7x 31x => 100+ 6 = 400 + 3 1200 x = — 400 million tonnes rice grown\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1646,7 +1646,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "EXPLANATION\nSuppose their paths cross after x minutes.\nThen, 11 + 57x = 51 \u2013 63x <=> 120x = 40\nx= 1/3\nNumber of floors covered by david in (1/3) min = (1/3 x 57) = 19\nSo, their paths cross at (11 +19) i.e., 30th floor.\nAnswer C",
+    "explanation": "EXPLANATION\nSuppose their paths cross after x minutes.\nThen, 11 + 57x = 51 – 63x <=> 120x = 40\nx= 1/3\nNumber of floors covered by david in (1/3) min = (1/3 x 57) = 19\nSo, their paths cross at (11 +19) i.e., 30th floor.\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1700,7 +1700,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "-----------22--------------------|\n72 22\nD = 22\nRS = 72 \u00e2\u20ac\u201c 22 = 50\nT = 22/50 = 11/25 hours\nANSWER:B",
+    "explanation": "-----------22--------------------|\n72 22\nD = 22\nRS = 72 â€“ 22 = 50\nT = 22/50 = 11/25 hours\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1772,7 +1772,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "If A can complete a work in x days and B can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days.\nThat is, the required No. of days = 18 \u00c3\u2014 40/48 = 15 days.\nC",
+    "explanation": "If A can complete a work in x days and B can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days.\nThat is, the required No. of days = 18 Ã— 40/48 = 15 days.\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1862,7 +1862,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "C.P. of 1 litre of milk = Rs. 20\u00d72/3 = Rs. 40/3.\nC.P. of 1 litre of water =Rs 0.\nMean price = Rs. 32/3.\nBy the rule of alligation, we have :\nC.P of 1 litre C.P of 1 litre\nof water of milk\n(0) (Rs. 40/3)\n\\ /\nMean Price\n(Rs. 32/3)\n/ \\\n40/3\u221232/3 32/(3\u22120)\n8/3 32/3\nThe ratio of water and milk =8/3:32/3.\n=8:32=1:4.\nThus, Quantity of water to be added to 60 litres of milk:\n=(1/4)\u00d760 litres.\n=15 litres. ANSWER : C",
+    "explanation": "C.P. of 1 litre of milk = Rs. 20×2/3 = Rs. 40/3.\nC.P. of 1 litre of water =Rs 0.\nMean price = Rs. 32/3.\nBy the rule of alligation, we have :\nC.P of 1 litre C.P of 1 litre\nof water of milk\n(0) (Rs. 40/3)\n\\ /\nMean Price\n(Rs. 32/3)\n/ \\\n40/3−32/3 32/(3−0)\n8/3 32/3\nThe ratio of water and milk =8/3:32/3.\n=8:32=1:4.\nThus, Quantity of water to be added to 60 litres of milk:\n=(1/4)×60 litres.\n=15 litres. ANSWER : C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -1970,7 +1970,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "\u2235 Amount, he have spent in 1 month on clothes transport = Amount spent on saving per month\n\u2235 Amount, spent on clothes and transport\n= 46800\u204412 = 3900\nAnswer E",
+    "explanation": "∵ Amount, he have spent in 1 month on clothes transport = Amount spent on saving per month\n∵ Amount, spent on clothes and transport\n= 46800⁄12 = 3900\nAnswer E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2096,7 +2096,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Length of train = 12 \u00c3\u2014 15 = 180 m.\nThen, speed of train = 180\u00e2\u0081\u201e9 = 20 m/s\nNow, length of train = 9\u00c3\u2014 15 = 135m\n\u00e2\u02c6\u00b4 Required time = 135\u00e2\u0081\u201e20 = 6.75 sec.\nAnswer A",
+    "explanation": "Length of train = 12 Ã— 15 = 180 m.\nThen, speed of train = 180â„9 = 20 m/s\nNow, length of train = 9Ã— 15 = 135m\nâˆ´ Required time = 135â„20 = 6.75 sec.\nAnswer A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2114,7 +2114,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nLet the CP of the article = Rs.100.\nThen labeled price = Rs.140.\nSP = Rs.140- 10% of 140 = Rs.140-14 = Rs.126.\nGain = Rs.126 \u00e2\u20ac\u201c Rs.100 = Rs.26\nTherefore, gain/profit percent = 26%.\nAnswer: Option A",
+    "explanation": "Explanation:\nLet the CP of the article = Rs.100.\nThen labeled price = Rs.140.\nSP = Rs.140- 10% of 140 = Rs.140-14 = Rs.126.\nGain = Rs.126 â€“ Rs.100 = Rs.26\nTherefore, gain/profit percent = 26%.\nAnswer: Option A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2150,7 +2150,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let $let n$ be the smaller and 71 - n be the larger number. Now, since the larger number exceeds the smaller number by 7, we can form the equation\nlarger number \u2013 smaller number = 7\nwhich is equivalent to\nSimplifying, we have 71 - 2n = 7. This gives us 2n = 78 which implies that the larger number is . The smaller is 71-39=31.\nC",
+    "explanation": "Let $let n$ be the smaller and 71 - n be the larger number. Now, since the larger number exceeds the smaller number by 7, we can form the equation\nlarger number – smaller number = 7\nwhich is equivalent to\nSimplifying, we have 71 - 2n = 7. This gives us 2n = 78 which implies that the larger number is . The smaller is 71-39=31.\nC",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2222,7 +2222,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The equation we can form the question :\nReturn on Total Investment = Sum of individual Investments\n(500+1500)(10)=(500\u00e2\u02c6\u20147)+(1500x), where x is the return on investment of 1500.\nSolving the equation, we get x = 11% ( Option D )\tANSWER:D",
+    "explanation": "The equation we can form the question :\nReturn on Total Investment = Sum of individual Investments\n(500+1500)(10)=(500âˆ—7)+(1500x), where x is the return on investment of 1500.\nSolving the equation, we get x = 11% ( Option D )\tANSWER:D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2294,7 +2294,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nCash price = $24 000\nDeposit = 10% \u00c3\u2014 $24 000 = $2400\nLoan amount = $24000 \u00e2\u02c6\u2019 $2400\nNumber of payments = 60\n= $21600\nI=p*r*t/100\nI=12960\nTotal amount = 21600 + 12960 = $34560\nRegular payment = total amount /number of payments=576\nAnswer: D",
+    "explanation": "Explanation:\nCash price = $24 000\nDeposit = 10% Ã— $24 000 = $2400\nLoan amount = $24000 âˆ’ $2400\nNumber of payments = 60\n= $21600\nI=p*r*t/100\nI=12960\nTotal amount = 21600 + 12960 = $34560\nRegular payment = total amount /number of payments=576\nAnswer: D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2348,25 +2348,25 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "The ratio of their investments = 30000 \u00d7 12 : 15000 \u00d7 6 = 4 : 1.\n:. Narendra\u2019s share on profit of Rs.20000 = 20000 \u00d7 4/5 = Rs.16000.\nE)",
+    "explanation": "The ratio of their investments = 30000 × 12 : 15000 × 6 = 4 : 1.\n:. Narendra’s share on profit of Rs.20000 = 20000 × 4/5 = Rs.16000.\nE)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
     "id": "aqua-alge-0491",
     "grade": 8,
-    "question": "A man walks a certain distance and rides back in 6 1\u20444h. He can walk both ways in 7 3\u20444h. How long it would take to ride both ways ?",
+    "question": "A man walks a certain distance and rides back in 6 1⁄4h. He can walk both ways in 7 3⁄4h. How long it would take to ride both ways ?",
     "options": [
       "5 hours",
-      "4 1\u20442 hours",
-      "4 3\u20444 hours",
+      "4 1⁄2 hours",
+      "4 3⁄4 hours",
       "6 hours"
     ],
     "correct": 2,
     "tags": [
       "algebra"
     ],
-    "explanation": "We know that, the relation in time taken with two different modes of transport is\ntwalk both + tride both = 2 (twalk + tride)\n31\u20444 + tride both = 2 \u00d7 25\u20444\n\u21d2 tride both = 25\u20442 - 31\u20444 = 19\u20444 = 43\u20444 hours\nAnswer C",
+    "explanation": "We know that, the relation in time taken with two different modes of transport is\ntwalk both + tride both = 2 (twalk + tride)\n31⁄4 + tride both = 2 × 25⁄4\n⇒ tride both = 25⁄2 - 31⁄4 = 19⁄4 = 43⁄4 hours\nAnswer C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2420,7 +2420,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "a\u00b3 + b\u00b3 =(a+b)(a\u00b2 -ab +b\u00b2)\nNow, let (2^32 + 1) be (a+b)\na\u00b3 + b\u00b3 = (2^96 + 1)\nNow, as mentioned in formula above,\na\u00b3 + b\u00b3 is always divisible by (a+b)\nSo any factor of R=(a+b) is a factor of (a\u00b3 + b\u00b3)\nHenca A",
+    "explanation": "a³ + b³ =(a+b)(a² -ab +b²)\nNow, let (2^32 + 1) be (a+b)\na³ + b³ = (2^96 + 1)\nNow, as mentioned in formula above,\na³ + b³ is always divisible by (a+b)\nSo any factor of R=(a+b) is a factor of (a³ + b³)\nHenca A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2456,7 +2456,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nPart filled without leak in 1 hour = 1/9\nPart filled with leak in 1 hour = 1/10\nWork done by leak in 1 hour\n=1/9\u22121/10=1/90\nWe used subtraction as it is getting empty.\nSo total time to empty the cistern is 90 hours\nOption C",
+    "explanation": "Explanation:\nPart filled without leak in 1 hour = 1/9\nPart filled with leak in 1 hour = 1/10\nWork done by leak in 1 hour\n=1/9−1/10=1/90\nWe used subtraction as it is getting empty.\nSo total time to empty the cistern is 90 hours\nOption C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2492,7 +2492,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Straightaway use answer options ( Ignoring the decimal point ) -\n(A)\u00a0\u00a01,6\n1*5 + 6*7 => 47 ( Incorrect )\n(B)\u00a0\u00a02,7\n2*5 + 7*7 => 59 ( Incorrect )\n(C)\u00a0\u00a03,5\n3*5 + 5*7 => 50 ( Incorrect )\n(D)\u00a0\u00a04,3\n4*5 + 3*7 => 41 ( Incorrect )\n(E)\u00a0\u00a05,3\n5*5 + 3*7 => 46 ( Correct )\nHence answer will be (E)",
+    "explanation": "Straightaway use answer options ( Ignoring the decimal point ) -\n(A)  1,6\n1*5 + 6*7 => 47 ( Incorrect )\n(B)  2,7\n2*5 + 7*7 => 59 ( Incorrect )\n(C)  3,5\n3*5 + 5*7 => 50 ( Incorrect )\n(D)  4,3\n4*5 + 3*7 => 41 ( Incorrect )\n(E)  5,3\n5*5 + 3*7 => 46 ( Correct )\nHence answer will be (E)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2546,7 +2546,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "I choose A.\nPossible n\u00b0 of 1st digit: 8 (0 can't be the first number, or else it wouldn't have 4 digits. 3 is exlcuded)\nPossible n\u00b0 of 2nd digit: 9 (3 is excluded)\nPossible n\u00b0 of 3rd digit: 9 (3 is excluded)\nPossible n\u00b0 of 4th digit: 1 (a number is a multiple of 5 if it ends in 5 or 0, here we are asked for the odd numbers, hence the last digit can't be 0)\nSo, T=8*9*9*1=648 (A)",
+    "explanation": "I choose A.\nPossible n° of 1st digit: 8 (0 can't be the first number, or else it wouldn't have 4 digits. 3 is exlcuded)\nPossible n° of 2nd digit: 9 (3 is excluded)\nPossible n° of 3rd digit: 9 (3 is excluded)\nPossible n° of 4th digit: 1 (a number is a multiple of 5 if it ends in 5 or 0, here we are asked for the odd numbers, hence the last digit can't be 0)\nSo, T=8*9*9*1=648 (A)",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2564,7 +2564,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let the monthly payment be xx.\nAfter the 1st month there will be 1,000\u22171.1\u2212x dollars left to repay;\nAfter the 2nd month there will be (1,000\u22171.1\u2212x)\u22171.1\u2212x=1,210\u22122.1 x dollars left to repay;\nAfter the 3rd month there should be 0 dollars left to repay: (1,210\u22122.1x)\u22171.1\u2212x=0--> 1331=3.31x--> x\u2248402x\u2248402\nAnswer: C.",
+    "explanation": "Let the monthly payment be xx.\nAfter the 1st month there will be 1,000∗1.1−x dollars left to repay;\nAfter the 2nd month there will be (1,000∗1.1−x)∗1.1−x=1,210−2.1 x dollars left to repay;\nAfter the 3rd month there should be 0 dollars left to repay: (1,210−2.1x)∗1.1−x=0--> 1331=3.31x--> x≈402x≈402\nAnswer: C.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2744,7 +2744,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nA:B:CA:B:C =(40000\u00c3\u201436)=(40000\u00c3\u201436) :(80000\u00c3\u201412+40000\u00c3\u201424):(80000\u00c3\u201412+40000\u00c3\u201424) :(120000\u00c3\u201424+40000\u00c3\u201412):(120000\u00c3\u201424+40000\u00c3\u201412)\n=144:192:336=144:192:336 =3:4:7=3:4:7.\nANSWER IS C",
+    "explanation": "Explanation:\nA:B:CA:B:C =(40000Ã—36)=(40000Ã—36) :(80000Ã—12+40000Ã—24):(80000Ã—12+40000Ã—24) :(120000Ã—24+40000Ã—12):(120000Ã—24+40000Ã—12)\n=144:192:336=144:192:336 =3:4:7=3:4:7.\nANSWER IS C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2780,7 +2780,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let number of passengers = x, 2x, 7x\nand Rate = 5y, 4y, 2y\nNow, since income = Rate \u00d7 Number of passengers\n\u2234 Income = 5xy, 8xy, 14xy\n\u2234 Income in ratio = 5 : 8 : 14\n\u2234 Income from A.C. sleeper class = 5/5+8+14\u00d754,000\n= 10,000\nAnswer D",
+    "explanation": "Let number of passengers = x, 2x, 7x\nand Rate = 5y, 4y, 2y\nNow, since income = Rate × Number of passengers\n∴ Income = 5xy, 8xy, 14xy\n∴ Income in ratio = 5 : 8 : 14\n∴ Income from A.C. sleeper class = 5/5+8+14×54,000\n= 10,000\nAnswer D",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -2888,7 +2888,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "(Red / Total Coins)*(White / Total Coins) = (Blue / Total Coins)\n\u00ed.\u1eb9. Red*White = Blue*Total Coins\nLet, Red = 3a\nWhite = 3b\nBlue = 3c\nTotal Coins = 3(a+b+c)\n\u00ed.\u1eb9. 3a * 3b = 3c*3(a+b+c)\n\u00ed.\u1eb9. a*b = c*(a+b+c)\nFor smallest values of a, b and c\n2*3 = 1*(1+2+3)\n\u00ed.\u1eb9. Minimum Total Coins = 3*(1+2+3) = 15\nAnswer: Option C",
+    "explanation": "(Red / Total Coins)*(White / Total Coins) = (Blue / Total Coins)\ní.ẹ. Red*White = Blue*Total Coins\nLet, Red = 3a\nWhite = 3b\nBlue = 3c\nTotal Coins = 3(a+b+c)\ní.ẹ. 3a * 3b = 3c*3(a+b+c)\ní.ẹ. a*b = c*(a+b+c)\nFor smallest values of a, b and c\n2*3 = 1*(1+2+3)\ní.ẹ. Minimum Total Coins = 3*(1+2+3) = 15\nAnswer: Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3068,7 +3068,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nP\u2019s 1hr work = 1/12\nQ\u2019s 1 hr work = 1/x\n(A+B)\u2019s 1 hr work = 1/8 = 1/12+1/x\n=> x = 24 hrs\nAnswer: Option C",
+    "explanation": "Explanation:\nP’s 1hr work = 1/12\nQ’s 1 hr work = 1/x\n(A+B)’s 1 hr work = 1/8 = 1/12+1/x\n=> x = 24 hrs\nAnswer: Option C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3230,7 +3230,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation :\nAmount of work A can do in 1 day = 1/6\nAmount of work B can do in 1 day = 1/8\nAmount of work A + B can do in 1 day = 1/6 + 1/8 = 7/24\nAmount of work A + B + C can do = 1/3\nAmount of work C can do in 1 day = 1/3 - 7/24 = 1/24\nwork A can do in 1 day: work B can do in 1 day: work C can do in 1 day\n= 1/6 : 1/8 : 1/24 = 4 : 3 : 1\nAmount to be paid to C = 3200 \u00d7 (1/8) = 400\nANSWER:B",
+    "explanation": "Explanation :\nAmount of work A can do in 1 day = 1/6\nAmount of work B can do in 1 day = 1/8\nAmount of work A + B can do in 1 day = 1/6 + 1/8 = 7/24\nAmount of work A + B + C can do = 1/3\nAmount of work C can do in 1 day = 1/3 - 7/24 = 1/24\nwork A can do in 1 day: work B can do in 1 day: work C can do in 1 day\n= 1/6 : 1/8 : 1/24 = 4 : 3 : 1\nAmount to be paid to C = 3200 × (1/8) = 400\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3248,7 +3248,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation :\nWages of 1 woman for 1 day = 21600/40\u00c3\u201430\nWages of 1 man for 1 day = 21600\u00c3\u20142/40\u00c3\u201430\nWages of 1 man for 10 days = 21600\u00c3\u20142\u00c3\u201410/40\u00c3\u201430\nNumber of men = 14400/(21600\u00c3\u20142\u00c3\u201410/40\u00c3\u201430)=144/(216\u00c3\u201420/40\u00c3\u201430)=40\nAnswer : Option E",
+    "explanation": "Explanation :\nWages of 1 woman for 1 day = 21600/40Ã—30\nWages of 1 man for 1 day = 21600Ã—2/40Ã—30\nWages of 1 man for 10 days = 21600Ã—2Ã—10/40Ã—30\nNumber of men = 14400/(21600Ã—2Ã—10/40Ã—30)=144/(216Ã—20/40Ã—30)=40\nAnswer : Option E",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3266,7 +3266,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nThere are two important points to learn in this type of question,\nFirst, if both will open then tank will be empty first.\nSecond most important thing is,\nIf we are calculating filling of tank then we will subtract as (filling-empting)\nIf we are calculating empting of thank then we will subtract as (empting-filling)\nSo lets come on the question now,\nPart to emptied 2/5\nPart emptied in 1 minute = 1/6-1/10=1/15\n=>1/15:2/5::1:x\n=>2/5\u00e2\u02c6\u201415=6mins\nANSWER IS A",
+    "explanation": "Explanation:\nThere are two important points to learn in this type of question,\nFirst, if both will open then tank will be empty first.\nSecond most important thing is,\nIf we are calculating filling of tank then we will subtract as (filling-empting)\nIf we are calculating empting of thank then we will subtract as (empting-filling)\nSo lets come on the question now,\nPart to emptied 2/5\nPart emptied in 1 minute = 1/6-1/10=1/15\n=>1/15:2/5::1:x\n=>2/5âˆ—15=6mins\nANSWER IS A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3381,7 +3381,7 @@
   {
     "id": "aqua-alge-0701",
     "grade": 8,
-    "question": "If a, b, c are integers; a\u00b2 + b\u00b2 = 45 and b\u00b2 + c\u00b2 = 40, then the values of a, b and c respectively are :",
+    "question": "If a, b, c are integers; a² + b² = 45 and b² + c² = 40, then the values of a, b and c respectively are :",
     "options": [
       "2, 6, 3",
       "3, 2, 6",
@@ -3392,7 +3392,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "a\u00b2 + b\u00b2 = 45 \u2026.(1) and b\u00b2 + c\u00b2 = 40\nSubtracting, we get: a\u00b2 - c\u00b2 = 5 => (a + c) (a \u2013 c) = 5.\n(a + c) = 5 and (a \u2013 c) = 1.\nSolving we get: a = 3, c = 2. Putting c = 2 in (ii), we get b = 6.\nANSWER:B",
+    "explanation": "a² + b² = 45 ….(1) and b² + c² = 40\nSubtracting, we get: a² - c² = 5 => (a + c) (a – c) = 5.\n(a + c) = 5 and (a – c) = 1.\nSolving we get: a = 3, c = 2. Putting c = 2 in (ii), we get b = 6.\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3446,7 +3446,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "If A can complete a work in x days and B can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days.\nThat is, the required No. of days = 20 \u00d7 40/60 = 13.33 days.\nAnswer : C",
+    "explanation": "If A can complete a work in x days and B can complete the same work in y days, then, both\nof them together can complete the work in x y/ x+ y days.\nThat is, the required No. of days = 20 × 40/60 = 13.33 days.\nAnswer : C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3543,18 +3543,18 @@
   {
     "id": "aqua-alge-0724",
     "grade": 8,
-    "question": "Given that -1 \u2264 v \u2264 1, -2 \u2264 u \u2264 -0.5, and -2 \u2264 z \u2264 -0.5 and w = vz/u, then which of the following is necessarily true ?",
+    "question": "Given that -1 ≤ v ≤ 1, -2 ≤ u ≤ -0.5, and -2 ≤ z ≤ -0.5 and w = vz/u, then which of the following is necessarily true ?",
     "options": [
-      "-0.5 \u2264 w \u2264 -2",
-      "-4 \u2264 w \u2264 4",
-      "-4 \u2264 w \u2264 2",
-      "-2 \u2264 w \u2264 -0.5"
+      "-0.5 ≤ w ≤ -2",
+      "-4 ≤ w ≤ 4",
+      "-4 ≤ w ≤ 2",
+      "-2 ≤ w ≤ -0.5"
     ],
     "correct": 1,
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation :\nu is always negative. Hence, for us to have a minimum value of vz/u , vz should be positive.\nAlso for the least value, the numerator has to be the maximum positive value and the denominator has to be the smallest negative value. In other words, vz has to be 2 and u has to be \u20130.5.\nHence the minimum value of vz/u = 2\u22120.5 = \u20134.\nFor us to get the maximum value, vz has to be the smallest negative value and u has to be the highest negative value.\nThus, vz has to be \u20132 and u has to be \u20130.5. Hence the maximum value of vz/u = 2 / -0.5 = 4.\nAnswer : B",
+    "explanation": "Explanation :\nu is always negative. Hence, for us to have a minimum value of vz/u , vz should be positive.\nAlso for the least value, the numerator has to be the maximum positive value and the denominator has to be the smallest negative value. In other words, vz has to be 2 and u has to be –0.5.\nHence the minimum value of vz/u = 2−0.5 = –4.\nFor us to get the maximum value, vz has to be the smallest negative value and u has to be the highest negative value.\nThus, vz has to be –2 and u has to be –0.5. Hence the maximum value of vz/u = 2 / -0.5 = 4.\nAnswer : B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -3687,7 +3687,7 @@
   {
     "id": "aqua-alge-0762",
     "grade": 8,
-    "question": "In 1995, the Jims spent $800 on the family\u2019s water bills. Anticipating that water rates would increase in 1996 by 50%, the Jims cut back their water usage. By how much must the Jims have reduce their 1996 water usage to pay exactly the same amount in 1996 as they paid in 1995?",
+    "question": "In 1995, the Jims spent $800 on the family’s water bills. Anticipating that water rates would increase in 1996 by 50%, the Jims cut back their water usage. By how much must the Jims have reduce their 1996 water usage to pay exactly the same amount in 1996 as they paid in 1995?",
     "options": [
       "a)\t33 1/3 %",
       "b)\t40 %",
@@ -3723,7 +3723,7 @@
   {
     "id": "aqua-alge-0773",
     "grade": 8,
-    "question": "A salesman\u00e2\u20ac\u2122s terms were changed from a flat commission of 5% on all his sales to a fixed salary of Rs.1000 plus 2.5% commission on all sales exceeding Rs. 4,000. If his remuneration as per new scheme was Rs. 100 more than that by the previous schema, his sales were worth?",
+    "question": "A salesmanâ€™s terms were changed from a flat commission of 5% on all his sales to a fixed salary of Rs.1000 plus 2.5% commission on all sales exceeding Rs. 4,000. If his remuneration as per new scheme was Rs. 100 more than that by the previous schema, his sales were worth?",
     "options": [
       "s. 14,000",
       "s. 12,000",
@@ -4040,7 +4040,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Ratio of investment, as investments is for different time.\nInvestment x Number of units of time.\nRatio of investments X : Y : Z = 36000 : 42000 : 48000 => 6 : 7 : 8.\nX = 6 x 12 Months = 72, Y = 7 x 12 = 84, Z = 8 X 8 = 64 => 18 : 21 : 16.\nRatio of investments => X : Y : Z = 18 : 21 : 16.\nInvestment Ratio = Profit sharing Ratio.\nZ = 13750 \u00d7 16/55 = Rs.4000.\nShare of Z in the profit is Rs.4000.\nOption B",
+    "explanation": "Ratio of investment, as investments is for different time.\nInvestment x Number of units of time.\nRatio of investments X : Y : Z = 36000 : 42000 : 48000 => 6 : 7 : 8.\nX = 6 x 12 Months = 72, Y = 7 x 12 = 84, Z = 8 X 8 = 64 => 18 : 21 : 16.\nRatio of investments => X : Y : Z = 18 : 21 : 16.\nInvestment Ratio = Profit sharing Ratio.\nZ = 13750 × 16/55 = Rs.4000.\nShare of Z in the profit is Rs.4000.\nOption B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4112,7 +4112,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let capacity of 1 bucket = x\nCapacity of the tank = 25x\nNew capacity of the bucket = 1x/5\nHence, number of buckets needed = 25x/(1x/5)=(25\u00d75)/1=125\nAnswer is E.",
+    "explanation": "Let capacity of 1 bucket = x\nCapacity of the tank = 25x\nNew capacity of the bucket = 1x/5\nHence, number of buckets needed = 25x/(1x/5)=(25×5)/1=125\nAnswer is E.",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4544,7 +4544,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nWork done by the inlet in 1 hour =\n1/6\u22121/8=1/24\nWork done by inlet in 1 min=1/24\u22171/60=1/1440\n=>Volume of 1/1440 part = 4 liters\nVolume of whole = (1440 * 4) litres = 5760 litres.\nOption C",
+    "explanation": "Explanation:\nWork done by the inlet in 1 hour =\n1/6−1/8=1/24\nWork done by inlet in 1 min=1/24∗1/60=1/1440\n=>Volume of 1/1440 part = 4 liters\nVolume of whole = (1440 * 4) litres = 5760 litres.\nOption C",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4616,7 +4616,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Let the annual instalment be Rs. P.\nAmount of \u20b9 100 after 4 yr = 100 + (100 x 5 x 4)/100 = \u20b9 120\n\u2234 Present Value (PV) of \u20b9 120 due after 4 yr = \u20b9 100\nPresent Value (PV) of \u20b9 due after 4 yr = 100P/120 = 5P/6\nSimilary, PV of \u20b9 P due after 3 yr = 20P/23\nPV of \u20b9 P due after 2 yr = 10P/11\nPV of \u20b9 P due after 1 yr = 20P/21\n\u2234 5P/6 + 20P/23 + 10P/11 + 20P/11 = 6450\n\u21d2 P = \u20b9 1810\nANSWER:B",
+    "explanation": "Let the annual instalment be Rs. P.\nAmount of ₹ 100 after 4 yr = 100 + (100 x 5 x 4)/100 = ₹ 120\n∴ Present Value (PV) of ₹ 120 due after 4 yr = ₹ 100\nPresent Value (PV) of ₹ due after 4 yr = 100P/120 = 5P/6\nSimilary, PV of ₹ P due after 3 yr = 20P/23\nPV of ₹ P due after 2 yr = 10P/11\nPV of ₹ P due after 1 yr = 20P/21\n∴ 5P/6 + 20P/23 + 10P/11 + 20P/11 = 6450\n⇒ P = ₹ 1810\nANSWER:B",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -4641,7 +4641,7 @@
   {
     "id": "aqua-alge-0923",
     "grade": 8,
-    "question": "At Joel\u2019s bookstore, the current inventory is 30% historical fiction. Of the historical fiction books, 30% are new releases, while 40% of the other books are new releases. What fraction of all new releases are the historical fiction new releases?",
+    "question": "At Joel’s bookstore, the current inventory is 30% historical fiction. Of the historical fiction books, 30% are new releases, while 40% of the other books are new releases. What fraction of all new releases are the historical fiction new releases?",
     "options": [
       "4/25",
       "9/37",
@@ -4713,7 +4713,7 @@
   {
     "id": "aqua-alge-0939",
     "grade": 8,
-    "question": "A snooker tournament charges $40.00 for VIP seats and $10.00 for general admission (\u201cregular\u201d seats). On a certain night, a total of 320 tickets were sold, for a total cost of $7,500. How many fewer tickets were sold that night for VIP seats than for general admission seats?",
+    "question": "A snooker tournament charges $40.00 for VIP seats and $10.00 for general admission (“regular” seats). On a certain night, a total of 320 tickets were sold, for a total cost of $7,500. How many fewer tickets were sold that night for VIP seats than for general admission seats?",
     "options": [
       "190",
       "180",
@@ -4958,7 +4958,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Explanation:\nLet\u00e2\u20ac\u2122s say t = total current inventory of chairs. The first sentence states that 60 + t = (3/2)t. First solve for the current inventory:\n60 + t = (3/2)t\n60 = (3/2)t \u00e2\u02c6\u2019 t\n60 = (1/2)t\n120 = t\nThe manager wants to increase this by 50%.\n50% of 120 is 60, so the new inventory will be 180.\nAnswer: (D).",
+    "explanation": "Explanation:\nLetâ€™s say t = total current inventory of chairs. The first sentence states that 60 + t = (3/2)t. First solve for the current inventory:\n60 + t = (3/2)t\n60 = (3/2)t âˆ’ t\n60 = (1/2)t\n120 = t\nThe manager wants to increase this by 50%.\n50% of 120 is 60, so the new inventory will be 180.\nAnswer: (D).",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5073,9 +5073,9 @@
   {
     "id": "aqua-alge-0986",
     "grade": 8,
-    "question": "From given equation find the value of x: 2x\u00b2 + 9x \u2212 5",
+    "question": "From given equation find the value of x: 2x² + 9x − 5",
     "options": [
-      "\u22125",
+      "−5",
       "-4",
       "-6",
       "6"
@@ -5084,7 +5084,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "That quadratic is factored as follows:\n2x\u00b2 + 9x \u2212 5 = (2x \u2212 1)(x + 5).\nLesson 17.\nNow, it is easy to see that the second factor will be 0 when x = \u22125.\nAs for the value of x that will make\n2x \u2212 1 = 0,\nwe must solve that little equation. (Lesson 9.)\nWe have:\n2x = 1\nx = 1\n2\nThe solutions are:\nx = 1/2 or \u22125\nA",
+    "explanation": "That quadratic is factored as follows:\n2x² + 9x − 5 = (2x − 1)(x + 5).\nLesson 17.\nNow, it is easy to see that the second factor will be 0 when x = −5.\nAs for the value of x that will make\n2x − 1 = 0,\nwe must solve that little equation. (Lesson 9.)\nWe have:\n2x = 1\nx = 1\n2\nThe solutions are:\nx = 1/2 or −5\nA",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
@@ -5102,7 +5102,7 @@
     "tags": [
       "algebra"
     ],
-    "explanation": "Capacity of the tank = (13 \u00d7 51) litre\nNumber of buckets required of capacity of each bucket is 17 litre = 13\u00d751/17=13\u00d73=39\nAnswer is A",
+    "explanation": "Capacity of the tank = (13 × 51) litre\nNumber of buckets required of capacity of each bucket is 17 litre = 13×51/17=13×3=39\nAnswer is A",
     "source": "math-fetcher-agent",
     "license": "MIT"
   },
