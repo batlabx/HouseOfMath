@@ -186,5 +186,100 @@
     "explanation": "$3(4) - 4(2) + 1 = 12 - 8 + 1 = 5$.",
     "source": "houseofmath-seed-v1",
     "license": "MIT"
+  },
+  {
+    "id": "algebra-medium-011",
+    "question": "Solve for $x$: $3(x + 4) = 21$",
+    "options": [
+      "3",
+      "7",
+      "11",
+      "1"
+    ],
+    "correct": 0,
+    "explanation": "1. Distribute the 3 into the parentheses: $3x + 12 = 21$.\n2. Subtract 12 from both sides to isolate the term with $x$: $3x = 9$.\n3. Divide by 3: $x = 3$.",
+    "grade": 7,
+    "tags": [
+      "linear equations",
+      "two-step equations"
+    ],
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "algebra-medium-012",
+    "question": "Simplify the expression: $5x - 3(2x - 4) + 7$",
+    "options": [
+      "$11x + 19$",
+      "$-x + 19$",
+      "$-x + 3$",
+      "$x + 19$"
+    ],
+    "correct": 1,
+    "explanation": "1. Distribute the $-3$: $5x - 6x + 12 + 7$.\n2. Combine like terms ($5x$ and $-6x$): $-x$.\n3. Combine constants ($12$ and $7$): $19$.\n4. Final Result: $-x + 19$.",
+    "grade": 7,
+    "tags": [
+      "simplifying expressions",
+      "combining like terms"
+    ],
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "algebra-medium-013",
+    "question": "A taxi charges a flat fee of $5.00 plus $2.50 per mile. If the total fare was $20.00, how many miles ($m$) did the taxi travel?",
+    "options": [
+      "10 miles",
+      "4 miles",
+      "6 miles",
+      "8 miles"
+    ],
+    "correct": 2,
+    "explanation": "1. Set up the equation: $2.50m + 5 = 20$.\n2. Subtract the flat fee (5) from the total: $2.50m = 15$.\n3. Divide by the cost per mile (2.50): $m = 15 / 2.5 = 6$.",
+    "grade": 7,
+    "tags": [
+      "word problems",
+      "linear equations"
+    ],
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "algebra-medium-014",
+    "question": "Solve the inequality: $-2x + 5 < 11$",
+    "options": [
+      "$x < -3$",
+      "$x > -3$",
+      "$x < 3$",
+      "$x > 3$"
+    ],
+    "correct": 1,
+    "explanation": "1. Subtract 5 from both sides: $-2x < 6$.\n2. Divide by $-2$. When you divide an inequality by a negative number, you must flip the inequality sign.\n3. Result: $x > -3$.",
+    "grade": 7,
+    "tags": [
+      "inequalities",
+      "linear inequalities"
+    ],
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "algebra-medium-015",
+    "question": "Evaluate the expression $3x^2 - 4(y + 2)$ when $x = -3$ and $y = 5$.",
+    "options": [
+      "1",
+      "-1",
+      "55",
+      "-11"
+    ],
+    "correct": 1,
+    "explanation": "1. Substitute the values: $3(-3)^2 - 4(5 + 2)$.\n2. Parentheses first: $3(-3)^2 - 4(7)$.\n3. Exponents: $3(9) - 4(7)$.\n4. Multiplication: $27 - 28$.\n5. Subtraction: $27 - 28 = -1$.",
+    "grade": 7,
+    "tags": [
+      "evaluating expressions",
+      "order of operations"
+    ],
+    "source": "math-fetcher-agent",
+    "license": "MIT"
   }
 ]
