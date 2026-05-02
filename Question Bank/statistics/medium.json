@@ -1,0 +1,1316 @@
+[
+  {
+    "id": "aqua-stat-0005",
+    "grade": 8,
+    "question": "There are k-2 members in a certain band, including Jim and Ellen. Two members are to be selected to attend the Grammy awards ceremony. If there are 6 possible combinations in which Jim and Ellen are not selected, what is the value of k?",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "There are k-2 members in the band, and k-4 members without Jim and Ellen.\n(k-4)C2 = 6\n(k-4)(k-5)/2 = 6\n(k-4)(k-5) = 12 = 4*3\nk = 8\nThe answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0027",
+    "grade": 8,
+    "question": "A survey reveals that the average income of a company\u2019s customers is $45,000 per year. If 50 customers respond to the survey and the average income of the wealthiest 10 of those customers is $95,000, what is the average income of the other 40 customers?\nIs there a way to solve this using weighted average concept instead of doing tedious calculations?",
+    "options": [
+      "$32,500",
+      "$35,000",
+      "$37,500",
+      "$42,500"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "let x be the average of 40 customers\n40*x + 10* 95000 = 50*45000\nsolving this we have x= 32500\nAnswer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0078",
+    "grade": 8,
+    "question": "From a group of 7 men and 6 women, five persons are to be selected to form a committee so that at least 3 men are there on the committee. What is the probability of having 0 woman in committee ?",
+    "options": [
+      "7/36",
+      "9/144",
+      "1/36",
+      "1/18"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "We may have (3 men and 2 women) = (7C3 x 6C2) = 525\nor (4 men and 1 woman) = (7C4 x 6C1) = 210\nor (5 men only) = (7C5) = 21\nRequired ways = 756\nProbability of having 0 woman in committee = 21 / 756 =1/36\nans - C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0091",
+    "grade": 8,
+    "question": "I bought three toys for my triplet boys (one for each). I placed the toys in the dark store. One by one each boy went to the store and pick the toy. What is the probability that no boy will choose his own toy?",
+    "options": [
+      "1/3",
+      "2/3",
+      "3/3",
+      "4/3"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Solution:\n1/3\nAssuming T1 is the Toy for brother1, T2 is the toy for brother2 and T3 is the toy for brother3.\nFollowing are the possible cases for toys distribution:\nBoy1 Boy2 Boy3\nT1 T2 T3\nT1 T3 T2\nT2 T1 T3\nT2 T3 T1 .... (A)\nT3 T1 T2 .... (B)\nT3 T2 T1\nIn both steps (A) & (B), no one gets the correct toy.\nTherefore probability that none brother can get the own toy is 2/6 = 1/3\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0135",
+    "grade": 8,
+    "question": "10 people went to a hotel for combine dinner party 5 of them spent Rs. 20 each on their dinner and rest spent 4 more than the average expenditure of all the 10. What was the total money spent by them.",
+    "options": [
+      "1628.4",
+      "1534",
+      "1492",
+      "240"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Solution: Let average expenditure of 10 people be x.\nthen,\n10x = 20*5+5*(x+4);\nOr, 10x = 20*5+5x+20;\nOr, x = 24;\nSo, total money spent = 24*10 = Rs. 240.\nAnswer: Option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0155",
+    "grade": 8,
+    "question": "A number X equals 80% of the average of 5, 7, 14 and a number Y. If the average of X and Y is 26, the value of Y is?",
+    "options": [
+      "13",
+      "26",
+      "39",
+      "36"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Average of 5, 7, 14 and Y = ( 5 + 7 + 14 + Y )/ 4\nTherefore, X = 80% of ( 5 + 7 + 14 + y )/ 4\n= (80/100) x (26 + Y)/4\n=> X = (26 + Y)/5\n5X - Y = 26----- (i)\nAlso, (X + Y)/2 = 26 ----- (ii)\nFrom (i)and (ii)\nX = 13\nY = 39.\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0176",
+    "grade": 8,
+    "question": "A coed soccer team has W women and M men on the team. If 4 women and 2 men are added to the team roster, and if one person on the team is selected at random to serve as team captain, then the probability that the team captain will be a woman can be represented as",
+    "options": [
+      "(W + 4)/(W + M + 6)",
+      "(W + 4)/(W + M + 2)",
+      "(W + 4)/(M + 2)",
+      "(W + 4)/(W + M)"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "W women and M men..now 4 women and 2 men are added then total women = W+4 and total men = M+2.. if we club both as total one team (W + M + 6)\nWe need to find the probability that the team captain will be a woman => W+4 / (W + M + 6)..\nIMO option A is correct answer...",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0189",
+    "grade": 8,
+    "question": "A committee of 2 people is to be selected out of 3 teachers and 4 preachers. If the committee is selected at random, what is the probability that the committee will be composed of at least 1 preacher?",
+    "options": [
+      "1/4",
+      "1/3",
+      "2/3",
+      "6/7"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total no of ways in which you can select a committee of 2 people out of 7 people is 7C2 ways= 21 ways\nRequirement is at-least 1 preacher= 4C1*3C1+4C2 or 7C2-3C2=18 ways\nProbability= 18/21 = 6/7\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0196",
+    "grade": 8,
+    "question": "A theater box office sold an average (arithmetic mean) of 65 tickets per staff member to a particular movie. Among the daytime staff, the average number sold per member was 75, and among the evening staff, the average number sold was 60. If there are no other employees, what was the ratio of the number of daytime staff members to the number of evening staff members?",
+    "options": [
+      "1:2",
+      "1:4",
+      "5:11",
+      "1:3"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Deviation from the mean for the daytime staff = 75 - 65 = 10.\nDeviation from the mean for the evening staff = 65 - 60 = 5.\nThus, the ratio of the number of daytime staff members to the number of evening staff members is 5:10 = 1:2.\nThe answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0206",
+    "grade": 8,
+    "question": "A miniature roulette wheel is divided into 10 equal sectors, each bearing a distinct integer from 1 to 10, inclusive. Each time the wheel is spun, a ball randomly determines the winning sector by settling in that sector. If the wheel is spun two times, approximately what is the probability that the product of the two winning sectors\u2019 integers will be even?",
+    "options": [
+      "88%",
+      "75%",
+      "67%",
+      "63%"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The only way to have an odd product is if both integers are odd.\nP(odd product) = 1/2*1/2 = 1/4\nP(even product) = 1 - 1/4 = 3/4 = 75%\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0216",
+    "grade": 8,
+    "question": "To furnish a room in a model home an interior decorator is to select 4 chairs and 4 tables from the collection of chairs and tables in a warehouse that are all different from each other. If there are 5 chairs in the warehouse and if 75 different combinations are possible, how many tables are there in the warehouse?",
+    "options": [
+      "A)6",
+      "B)8",
+      "C)10",
+      "D)15"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total number of ways to choose 4 chairs from 5= 5C4=5\nTotal number of combination=75\nThat means we need get 15 combinations from the selection of tables....\nScreening through the answers.... 6C4=15..... 15*5=75\nAnswer is 6... A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0224",
+    "grade": 8,
+    "question": "A password of a computer used two digits where they are from 0 and 9. What is the probability that the password solely consists of prime numbers and zero?",
+    "options": [
+      "1/32",
+      "1/16",
+      "1/8",
+      "1/4"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "We have two digits can be used for password -0,2,3,5,7.\nAssuming that the numbers can be repeated any number of times in the password, probability of selecting any one of them is 5/10 (out of 10 digits from 0-9)\nSo, 5/10 * 5/10=1/4(E)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0258",
+    "grade": 8,
+    "question": "Three people are playing cards. What is the probability that a card drawn from a pack of 52 cards will be a diamond or a king?",
+    "options": [
+      "1/11",
+      "2/13",
+      "4/13",
+      "3/17"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Here, n(S) = 52\nThere are 13 cards of diamond (including one king) and there are 3 more kings.\nLet E = event of getting a diamond or a king.\nThen, n(E) = (13 + 3) = 16\nP (E) = 16 / 52 = 4/13\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0276",
+    "grade": 8,
+    "question": "A box contains 4 red chips and 4 blue chips. If two chips are selected at random without replacement, what is the probability that the chips are different colors?",
+    "options": [
+      "1/2",
+      "4/7",
+      "7/12",
+      "2/3"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total selection ways: 8C2=8!/4!4!=28\nSelecting one blue chip out of two: 4C1=4!/1!3!=4\nSelecting one red chip out of four: 4C1=4!/1!3!=4\nThus, (4C1*4C1)/8C2=(4*4)/28=16/28=4/7=B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0289",
+    "grade": 8,
+    "question": "For her customer feedback score, Jess wants to average at or above an 8.0 rating. For the month of June, she received the following scores: 7, 8, 8, 7, 9, 9, 6, 7, 8 and 7. By what percent did she fall short of her goal?",
+    "options": [
+      "4%",
+      "5%",
+      "8%",
+      "10%"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Expected minimum rating = 8\nDeviation from the expected minimum rating = (-1 + 0 + 0 - 1 + 1 + 1 - 2 - 1 + 0 - 1)/10 = -4/10 = -0.4\nCurrent rating is 0.4 less than 8.\nPercentage = (0.4/8)*100 = 5%\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0291",
+    "grade": 8,
+    "question": "The value of x is to be randomly selected from the integers from 1 to 11, inclusive, and then substituted into the equation y = x^2 - 4x + 3. What is the probability that the value of y will be negative?",
+    "options": [
+      "5/11",
+      "4/11",
+      "3/11",
+      "1/11"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "y will only be negative for x=2.\n(We can check the values from 1 to 11 to be certain.)\nP(y is negative) = 1/11\nThe answer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0297",
+    "grade": 8,
+    "question": "The total marks obtained by a student in Physics, Chemistry and Mathematics is 150 more than the marks obtained by him in Physics. What is the average mark obtained by him in Chemistry and Mathematics?",
+    "options": [
+      "48",
+      "12",
+      "75",
+      "28"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let the marks obtained by the student in Physics, Chemistry and Mathematics be P, C and M respectively.\nP + C + M = 150 + P\nC + M = 150\nAverage mark obtained by the student in Chemistry and Mathematics = (C + M)/2 = 150/2 = 75.\nOption C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0299",
+    "grade": 8,
+    "question": "The average age of 40 students is 8 years. If the age of teacher is also included , then their average age increases by half a year. What is the age of the teacher?",
+    "options": [
+      "45 years",
+      "48.5 years",
+      "28.5 years",
+      "26.5 years"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total age of 40 students = 40*8 = 320\nLet the age of the the teacher be x, Then (320+x)/41 = 8+1/2 =8 \u00bd.\n320+x =17/2*41 =697/2 = 348.5,\nx =348.5-320 = 28.5\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0315",
+    "grade": 8,
+    "question": "A box contains 9 apples, 8 of which are red. An apple is drawn from the box and its color is noted before it is eaten. This is done a total of n times, and the probability that a red apple is drawn each time is less than 0.5. What is the smallest possible value of n?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "P(choosing a red apple 5 times in a row) = 8/9*7/8*6/7*5/6*4/5 = 4/9 < 0.5\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0328",
+    "grade": 8,
+    "question": "A man purchased 3 blankets @ Rs.100 each, 5 blankets @ Rs.150 each and two blankets at a certain rate which is now slipped off from his memory. But he remembers that the average price of the blankets was Rs.150. Find the unknown rate of two blankets?",
+    "options": [
+      "300",
+      "350",
+      "450",
+      "470"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\n10 * 150 = 1500\n3 * 100 + 5 * 150 = 1050\n1500 \u2013 1050 = 450\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0349",
+    "grade": 8,
+    "question": "A person, who decided to go to weakened trip should not exceed 8 hours driving in a day. Average speed of forward journey is 40 m/h. Due to traffic in Sundays, the return journey average speed is 30 m/h. How far he can select a picnic spot?",
+    "options": [
+      "120 miles",
+      "between 120 and 140 miles",
+      "160 miles",
+      "180 miles"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "let dist travelled be 2x. hence destination is at dist x\nx/40+x/30=8\nx=137.14\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0350",
+    "grade": 8,
+    "question": "Taequan is playing a dice game where he rolls two, fair, six-sided dice twice. If he gets the same roll on his second try as his first, he wins. If he rolled an 8 on his first try, what is the probability that he will win with his second roll?",
+    "options": [
+      "1/18",
+      "1/12",
+      "1/9",
+      "5/36"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "There are 5 ways to roll an 8: 2 and 6, 6 and 2, 3 and 5, 5 and 3, 4 and 4 (4 and 4 is counted just once).\nThere are 6*6=36 ways to roll two six-sided dice.\nThe dice are fair, so the probability of rolling an 8 is 5/36.\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0367",
+    "grade": 8,
+    "question": "If the average (arithmetic mean) of 5 positive temperatures is x degrees Fahrenheit, then the sum Z of the 3 greatest of these temperatures, in degrees Fahrenheit, could be",
+    "options": [
+      "6x",
+      "Z=4x",
+      "5x/3",
+      "3x/2"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "OA please. Yeah so 5x is the sum of the 5, then I guess 4x could be the answer (B)\nBut what about C,D,E? Any ideas why these could be wrong?\nNote that we have 5positivetemperatures.\nNext, as the average is x then the sum of the temperatures is 5x and as all the temperatures are positive then the sum of the 3 greatest must be more than (or equal to) 3x (as the average of the 3 greatest must be at least x) and less than 5x: 3x<SUM<5x --> only option B fits.\nAnswer: B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0398",
+    "grade": 8,
+    "question": "Average score for Virat Kohli in a series of 10 matches is 38.9 runs. If the average for first six matches comes out to be 42 what is his average in the last 4 matches of the series?",
+    "options": [
+      "34.25",
+      "34.28",
+      "24.252",
+      "64.28"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nAverage runs scored by Virat Kohli in 10 matches: Total runs scored/10\u2014(1)\nAverage runs scored by Virat Kohli in 6 matches: (Total runs in 6 matches)/6\n=> 42 = Runs/6\n=>252 runs\nUsing (1):\n=>38.9 = Runs/10\n=>389 runs\nRuns scored in rest 4 matches: 389 - 252 runs\n=> 137 runs\nAverage runs scored by Virat Kohli in 4 matches: 137/4 = 34.25 runs\nANSWER: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0400",
+    "grade": 8,
+    "question": "Four barrels of water have an average capacity of 8 gallons. What is the maximum possible capacity of the smallest barrel Q if the median is 10 gallons?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Suppose 4 barrels are B1, B2, B3, B4 in ascending capacity.\n(B1+B2+B3+B4)/4 = 8\nB1+B2+B3+B4=32\nmedian is 10 ....... as the no. of terms are even i.e 4, median = (B2+B3)/2\n==> B2+B3 = 20\nnow we have B1+B4 = 32-20 =12\nOnly the following possible cases can be there :\n1,9,11,11\n1,10,10,11\n2,10,10,10\nMax value of smallest barrel Q= 2",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0406",
+    "grade": 8,
+    "question": "A bag contains 12 white and 18 black balls. 2balls are drawn in succession. What is the probability that first is white and second is black?",
+    "options": [
+      "13/213",
+      "36/145",
+      "25/113",
+      "27/137"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The probability that first ball is white:\n=12C130C1=12C130C1\n=1230=1230\n=25=25\nSince, the ball is not replaced; hence the number of balls left in bag is 29.\nHence, the probability the second ball is black:\n=18C129C1=18C129C1\n=1829=1829\nRequired probability,\n=(25)\u00d7(1829)=(25)\u00d7(1829)\n=36/145\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0422",
+    "grade": 8,
+    "question": "Three positive integers a, b, and c are such that their average is 24 and a \u2264 b \u2264 c. If the median is (a + 11), what is the least possible value of c?",
+    "options": [
+      "23",
+      "25",
+      "27",
+      "29"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Solution:\nWe know that the average value is 24 therefore (a+b+c)/3 = 24\nso a+b+c = 72\nand b = a + 11\ntherefore a + (a + 11) + c = 72\nThe least value of c is when c = b\nso take c = a + 11\nhence, a + (a + 11) + (a + 11) = 72\ni.e., a = 50/3 a non integer therefore c is not equal to b\nso take c = b+1 therefore c = a+12\na + (a + 11) + (a + 12) = 72\ni.e., a= 49/3 again a non integer therefore c is not equal to b+1\nnext take c= b+2 therefore c = a+13\na + (a + 11) + (a + 13) = 72\ni.e., a=48/3 = 16\nhence, a = 16, b = 27, and c = 29\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0440",
+    "grade": 8,
+    "question": "The average of the marks of 10 students in a class is 40. If the marks of each student are doubled, find the new average?",
+    "options": [
+      "78",
+      "56",
+      "80",
+      "27"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sum of the marks for the 10 students\n= 10 * 40 = 400. The marks of each student are doubled, the sum also will be doubled.\nThe new sum = 400 * 2 = 800. So, the new average\n= 800/10 = 80.\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0442",
+    "grade": 8,
+    "question": "The average mark of the students of a class in a particular exam is 80. If 5 students whose average mark in that exam is 20 are excluded, the average mark of the remaining will be 92. Find the number of students who wrote the exam.",
+    "options": [
+      "15",
+      "25",
+      "30",
+      "45"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let the number of students who wrote the exam be x.\nTotal marks of students = 80 x.\nTotal marks of (x - 5) students = 92(x - 5)\n80x - (5 * 20) = 92(x - 5)\n360 = 12x => x = 30\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0452",
+    "grade": 8,
+    "question": "A bag contains five white and four red balls. Two balls are picked at random from the bag. What is the probability that they both are different color?",
+    "options": [
+      "5/5",
+      "5/8",
+      "5/3",
+      "5/1"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Two balls can be picked from nine balls in \u2079C\u2082 ways.\nWe select one white ball and one red ball from five white balls and four red balls. This can be done 5C1 . 4C1 ways.\nThe required probability\n= (5 * 4)/\u2079C\u2082 = 20/36\n= 5/9\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0461",
+    "grade": 8,
+    "question": "In a certain lottery, the probability that a number between 12 and 20, inclusive, is drawn is 1/5 . If the probability that a number 12 or larger is drawn is 2/3 , what is the probability that a number less than or equal to 20 is drawn?",
+    "options": [
+      "8/15",
+      "1/6",
+      "1/3",
+      "1/2"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "You can simply use sets concept in this question. The formula\nTotal = n(A) + n(B) - n(A and B) is applicable here too.\nSet 1: Number 12 or larger\nSet 2: Number 20 or smaller\n1 = P(Set 1) + P(Set 2) - P(Set 1 and Set 2) (combined probability is 1 because every number will be either12 or moreOR20 or lessOR both)\n2/3 + P(Set 2) - 1/5 = 1\nP(Set 2) = 8/15\nAnswer (A)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0469",
+    "grade": 8,
+    "question": "3 balls are drawn randomly from a bag contains 3 black, 5 red and 4 blue balls. What is the probability that the balls drawn contain balls of different colors?",
+    "options": [
+      "1/3",
+      "1/2",
+      "2/11",
+      "3/11"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total number of balls = 3 + 5 + 4 = 12\nLet S be the sample space.\nn(S) = Total number of ways of drawing 3 balls out of 12 = 12C3\nLet E = Event of drawing 3 different coloured balls\nTo get 3 different coloured balls,we need to select one black ball from 3 black balls,\none red ball from 5 red balls, one blue ball from 4 blue balls\nNumber of ways in which this can be done = 3C1 \u00d7 5C1 \u00d7 4C1\ni.e., n(E) = 3C1 \u00d7 5C1 \u00d7 4C1\nP(E) = n(E)/n(S)=3C1\u00d75C1\u00d74C1/12C3\n=3\u00d75\u00d74/(12\u00d711\u00d710/3\u00d72\u00d71)=3\u00d75\u00d74/2\u00d711\u00d710=3\u00d74/2\u00d711\u00d72=3/11\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0502",
+    "grade": 8,
+    "question": "What is the probability of getting a sum of 12 when rolling 3 dice simultaneously?",
+    "options": [
+      "10/216",
+      "12/216",
+      "21/216",
+      "25/216"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sum of 12 can be achieved in following ways\n6,5,1---Total cases = 3! = 6\n6,4,2---Total cases = 3!= 6\n6,3,3---Total cases = 3!/2! = 3\n5,5,2---Total cases = 3!/2! = 3\n5,4,3---Total cases = 3! = 6\n4,4,4---Total cases = 3!/3! = 1\nTotal cases = 25\nProbability = 25 * (1/6 * 1/6 * 1/6) = 25/216\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0511",
+    "grade": 8,
+    "question": "A driver goes on a trip of 50 kilometers, the first 25 kilometers at 66 kilometers per hour and the remaining distance at 33 kilometers per hour. What is the average speed of the entire trip in kilometers per hour?",
+    "options": [
+      "38",
+      "40",
+      "44",
+      "45"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The time for the first part of the trip was 25/66 hours.\nThe time for the second part of the trip was 25/33 hours.\nThe total time fro the trip was 25/66 + 25/33 = 75/66 = 25/22 hours.\nThe average speed for the trip was 50 / (25/22) = 44 kph\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0518",
+    "grade": 8,
+    "question": "Of the 13 employees in a certain department, 1 has an annual salary of 38,000, 2 have an annual salary of 45,800 each, 2 have an annual salary of 42,500 each, 3 have an annual salary of 40,000 each and 5 have an annual salary of 48,500 each. What is the median annual salary for the 13 employees?",
+    "options": [
+      "38,000",
+      "40,000",
+      "42,500",
+      "45,800"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Median is just the value in the middle when you arrange all values in the ascending order\nIn this question, the 7th value would be the median (Since there are 13 employees)\n38, 40, 40, 40, 42.5, 42.5,45.8\nSo, answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0522",
+    "grade": 8,
+    "question": "Katie has 9 employees that she must assign to 3 different projects. If 3 employees are assigned to each project and no one is assigned to multiple projects, how many different combinations X of project assignments are possible?",
+    "options": [
+      "252",
+      "1,680",
+      "2,340",
+      "362,880"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The ways to select three employees out of 9 for first project = 9C3\nThe ways to select three employees out of Remaining 6 for Second project = 6C3\nThird Project already has the group of three to be assigned to it so need to select that\nSo total ways to assign 3 employees to each of 3 projects X= 9C3 * 6C3 * 1 = 1,680\nAnswer: Option B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0528",
+    "grade": 8,
+    "question": "Sripad has scored average of 65 marks in three objects. In no subjects has he secured less than 58 marks. He has secured more marks in Maths than other two subjects. What could be his maximum score in Maths ?",
+    "options": [
+      "79",
+      "28",
+      "38",
+      "27"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Assuming Sripad has scored the least marks in subject other than science,\nThen the marks he could secure in other two are 58 each.\nSince the average mark of all the 3 subject is 65.\ni.e (58+58+x)/3 = 65\n116 + x = 195\nx = 79 marks.\nTherefore, the maximum marks he can score in maths is 79.\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0572",
+    "grade": 8,
+    "question": "The average salary of a person for the months of January, February, March and April is Rs.8000 and that for the months February, March, April and May is Rs.8600. If his salary for the month of May is Rs.6500, find his salary for the month of January?",
+    "options": [
+      "s.4100",
+      "s.4270",
+      "s.4500",
+      "s.4550"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sum of the salaries of the person for the months of January, February, March and April\n= 4 * 8000 = 32000 ----(1)\nSum of the salaries of the person for the months of February, March, April and May\n= 4 * 8600\n= 34400 ----(2)\n(2)-(1) i.e. May - Jan = 2400\nSalary of May is Rs.6500\nSalary of January = Rs.4100\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0590",
+    "grade": 8,
+    "question": "What is the probability of flipping a fair coin five times and the coin landing on heads on at least two flips?",
+    "options": [
+      "5/8",
+      "7/8",
+      "11/16",
+      "13/16"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The number of possible outcomes is 2^5=32.\n0 heads: There is 1 way to have all tails.\n1 head: There are 5 ways to have one head.\nP(0 or 1 head)=6/32=3/16\nP(at least 2 heads)=1 - 3/16 = 13/16\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0597",
+    "grade": 8,
+    "question": "What is the probability Q of randomly selecting an arrangement of the letters of the wordMEDITERRANEANin which the first letter is E and the last letter is R?",
+    "options": [
+      "1/13",
+      "1/20",
+      "1/26",
+      "1/50"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Why do you calculate the total combinations and everything, it is much easier to calculate as follows:\n3/13 * 1 * 1 * 1 * 1 ..... * 2/12 = 6/156 = 1/26\nThis is because 3/13 = Probability that first letter will be E and 2/12 = probability that thefirstletter will be R. Between everything else cuts down to 1*1*1... e.g. probability Q of the second letter is 11/11 = 1, > we do not care what's in between.C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0600",
+    "grade": 8,
+    "question": "Real-estate salesman Z is selling a house at a 30 percent discount from its retail price. Real-estate salesman X vows to match this price, and then offers an additional 15 percent discount. Real-estate salesman Y decides to average the prices of salesmen Z and X, then offer an additional 40 percent discount. Salesman Y's final price is what fraction of salesman X's final price?",
+    "options": [
+      "39/6",
+      "62/11",
+      "11/61",
+      "21/61"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let the retail price be = x\nSelling price of Z = 0.7x\nSelling price of X = 0.85*0.7x = 0.60x\nSelling price of Y = ((0.7x + 0.6x)/2)*0.60 = 0.65x * 0.60 = 0.39x\n0.39x = k * 0.60x\nk = 0.39/0.6 = 39/6\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0611",
+    "grade": 8,
+    "question": "How many words with or without meaning, can be formed by using all the letters of the word, \u2018ORANGE\u2019, using each letter exactly once?",
+    "options": [
+      "700",
+      "720",
+      "750",
+      "800"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The word \u2018ORANGE\u2019 contains 6 different letters.\nTherefore, Required number of words= Number of arrangement of 6 letters, taken all at a time\n=6P6\n= 6!\n= 6*5*4*3*2*1\n= 720\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0626",
+    "grade": 8,
+    "question": "The average amount with a group of seven numbers is Rs. 30. If the newly joined member has Rs. 55 with him, what was the average amount with the group before his joining the group?",
+    "options": [
+      "s. 25.6",
+      "s. 155/6",
+      "s. 16.6",
+      "s. 260/6"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total members in the group = 7\nAverage amount = Rs. 30\nTotal amount with them = 7 * 30 = Rs. 210\nOne number has Rs. 55. So, the amount with remaining 6 people = 210 - 55= Rs. 155\nThe average amount with them = 155/6\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0628",
+    "grade": 8,
+    "question": "If a randomly selected positive single digit multiple of 3 is multiplied by a randomly selected prime number less than 20, what is the probability E that this product will be a multiple of 45?",
+    "options": [
+      "1/32",
+      "1/28",
+      "1/24",
+      "1/16"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "There are 3 single digit multiple of 3, that is, 3,6,9.\nThere are 8 prime nos less than 20 - 2,3,5,7,11,13,17,19\nTotal outcome - 8*3 = 24\nFavourable outcome = 1 (9*5)\nHence required probability E= 1/24. Answer C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0639",
+    "grade": 8,
+    "question": "A mathematics teacher tabulated the marks secured by 35 students of 8th class. The average of their marks was 72. If the marks secured by Reema was written as 36 instead of 86 then find the correct average marks up to two decimal places.",
+    "options": [
+      "73.41",
+      "74.31",
+      "72.43",
+      "73.43"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Correct average = 35x72+(86-36)/35\n\u2248 72 + 1.43 = 73.43\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0640",
+    "grade": 8,
+    "question": "A grocer has a sale of Rs. 6435, Rs. 6927, Rs. 6855, Rs. 7230 and Rs. 6562 for 5 consecutive months. How much sale must he have in the sixth month so that he gets an average sale of Rs. 6500?",
+    "options": [
+      "Rs. 4991",
+      "Rs. 5991",
+      "Rs. 6991",
+      "Rs. 6001"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nTotal sale for 5 months = Rs. (6435 + 6927 + 6855 + 7230 + 6562) = Rs. 34009.\nRequired sale = Rs. [ (6500 x 6) - 34009 ]\n= Rs. (39000 - 34009)\n= Rs. 4991.\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0665",
+    "grade": 8,
+    "question": "In a card game, a combination of three kings beats all others. If Jose is the first to draw from a standard deck of 52 cards, what is the probability that he wins the game with the best possible combination?",
+    "options": [
+      "1/5550",
+      "1/5600",
+      "1/5400",
+      "1/5525"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "he best possible combination is the case when he wins in his first two draws\nThere are 52 cards in a deck of cards with 4 kings in it.\nProbability of first card to be king = 4/52\nProbability of Second card to be king = 3/51\nProbability of third card to be king = 2/50\nProbability of Best possible case = (4/52)*(3/51)*(2/50) = 1/5525\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0679",
+    "grade": 8,
+    "question": "A library has an average of 510 visitors on Sundays and 240 on other day. The average number of visitors in a month of 25 days starting with sunday is",
+    "options": [
+      "342",
+      "285",
+      "290",
+      "295"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nAs the month begin with sunday, so there will be five sundays in the month. So result will be:\n=(510\u00d75+240\u00d725/30)=(8550/25)=342\nAnswer: Option A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0682",
+    "grade": 8,
+    "question": "What is the average (arithmetic mean) of all the multiples of ten from 10 to 170 inclusive?",
+    "options": [
+      "90",
+      "80",
+      "100",
+      "105"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "10 and 190 inclusive would mean there are 17 terms.\nNo need to add up all the terms and further divide by 17 since the terms are evenly spaced in ascending order from 10, 20, 30........170\nThe middle term is the average which is the tenth term = 80\nB is the answer.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0706",
+    "grade": 8,
+    "question": "From the set of numbers {p, t, u, v, w, x, y, z}, how many different combinations can we have without the t in them? Ex:. (x,y), (x), (w,z,y,x), etc... and note that (x,y)=(y,x)",
+    "options": [
+      "32",
+      "63",
+      "64",
+      "127"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Any letter (p, u, v, w, x, y, z) can be included or not.\nThus there are 2^7 combinations - 1 empty combination = 127 combinations\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0726",
+    "grade": 8,
+    "question": "Tickets numbered from 1 to 20 are mixed and then a ticket is selected randomly. What is the probability that the selected ticket bearsa number which is a multiple of 3?",
+    "options": [
+      "1/11",
+      "2/13",
+      "3/10",
+      "4/15"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Here, S = [1, 2, 3, 4, \u2026., 19, 20]\nLet E = event of getting a multiple of 3 = [3, 6, 9, 12, 15, 18]\nP (E) = n (E) / n (S) = 6 / 20 = 3/10\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0760",
+    "grade": 8,
+    "question": "From a Group of 8 People, Including George and Nina, 3 people are to be selected at random to work on a certain project. What is the probability that 3 people selected will include George but not Nina",
+    "options": [
+      "5/56",
+      "9/56",
+      "15/56",
+      "21/56"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Number of ways of selecting 3 people out of 8 people = 8C3\nIn the three members George will always be there in the team. At this step we have vacancy for 2 more members and 7 members are available. Lina cannot be there in the team. So 2 members have to be selected and the number of available members = 7 - Lina = 6\nNumber of ways to form a 3 member team that includes George and excludes Lina = 6C2\nProbability = 6C2/8C3 = 15/56\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0770",
+    "grade": 8,
+    "question": "Of the 300 employees of a certain company, 65 are accountants. Two employees of the company will be selected at random. Which of the following is closest to the probability that neither of the employees selected will be an accountant?",
+    "options": [
+      "0.3",
+      "0.4",
+      "0.5",
+      "0.6"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total = 300\nAccountants = 65\nNon Accountants = 300 - 65= 235\nTwo employees of the company will be selected at random so probability that neither of the employees selected will be an accountant is\n235 C 2 / 300 C 2 = 235 * 234 / 300 * 299 = 0.611 ~ 0.6\nHence D 0.6 is the correct answer",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0782",
+    "grade": 8,
+    "question": "Joe went on a diet 4 months ago when he weighed 222 pounds. If he now weighs 198 pounds and continues to lose at the same average monthly rate, in approximately how many months will he weigh 180 pounds?",
+    "options": [
+      "3",
+      "3.5",
+      "3",
+      "4.5"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "222 - 198 = 24 pounds lost in 4 months\n24/4 = 6, so Joe is losing weight at a rate of 6 pounds per month.\n...in approximately how many months will he weigh 180 pounds?\nA simple approach is to just list the weights.\nNow: 198 lbs\nIn 1 month: 192 lbs\nIn 2 months: 186 lbs\nIn 3 months: 180 lbs\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0784",
+    "grade": 8,
+    "question": "Dave has no fashion sense, and will wear any combination of garments regardless of whether someone thinks they \u201cmatch.\u201d Every day Dave chooses an outfit consisting of one of each of the following garments: jacket, tie, shirt, pants, boxers, right sock, left sock, right shoe, left shoe. If Dave has more than one of each of the listed garments, and can make 2400 different outfits, then for how many garments does Dave have exactly five choices?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "3"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "2400 = 24*100 = 24*5^2*2^2\nDave has exactly 5 choices for two garments.\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0786",
+    "grade": 8,
+    "question": "In Arun's company 60% of the employees earn less than $50,000 a year, 60% of the employees earn more than $40,000 a year, 11% of the employees earn $43,000 a year and 5% of the employees earn $49,000 a year. What is the median salary for the company?",
+    "options": [
+      "43.0",
+      "45.5",
+      "46.0",
+      "49.0"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "In Arun's company 60% of the employees earn less than $50,000 a year, 50 and 51 employee will be each 43K. hence median = (43K+43k)/2",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0797",
+    "grade": 8,
+    "question": "Seven people went to a restaurant for dinner. Six of them spent $11 each on their meals and the seventh person spent $6 more than the average expenditure of all seven people. What was the total amount of money that the seven people spent?",
+    "options": [
+      "$80",
+      "$81",
+      "$82",
+      "$84"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let T be the total amount of money spent.\n6*11 + (T/7 + 6) = T\n72 = 6T/7\nT = (7*72)/6 = 84\nThe answer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0799",
+    "grade": 8,
+    "question": "3 friends A, B, C went for week end party to McDonald\u2019s restaurant and there they measure there weights in some order In 7 rounds. A, B, C, AB, BC, AC, ABC. Final round measure is 155kg then find the average weight of all the 7 rounds?",
+    "options": [
+      "98.5 kgs",
+      "88.5 kgs",
+      "86.5 kgs",
+      "67.5 kgs"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Average weight = [(a + b + c + (a+b) + (b+c) + (c+a)+(a+b+c)] / 7 = 4 (a+b+c) /7 = 4 x 155/7 = 88.5 kgs\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0809",
+    "grade": 8,
+    "question": "A car travels the first 1/2 of certain distance with a speed of 15 km/hr the next 1/4 distance with a speed of 20 km/hr, and the last 1/4 distance with a speed of 60 km/hr. the average speed of the car for the whole journey is?",
+    "options": [
+      "12km/hr",
+      "20km/hr",
+      "89km/hr",
+      "52km/hr"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let the whole distance travelled be x km\nand the average speed of the car for he whole journey be y km/hr\nthen (x/2)/15+(x/4)/20+(x/4)/60=x/y\nx/30+x/80+x/240=x/y\n1/20y=1\ny=20km/hr\nAnswer(B)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0811",
+    "grade": 8,
+    "question": "A bag contains 4 white balls, 4 black balls, and 3 red balls. One by one, three balls are drawn out without replacement. What is the probability that the third ball is red?",
+    "options": [
+      "1/2",
+      "1/4",
+      "3/11",
+      "5/16"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The probability for each ball to be drawn third is equal.\nThen the probability a red ball is drawn third is 3/11.\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0822",
+    "grade": 8,
+    "question": "On a 20 mile course, Pat bicycled at an average rate of 30 miles per hour for the first 12 minutes and without a break, ran the rest of the distance at an average rate of 8 miles per hour. How many minutes did Pat take to cover the entire course?",
+    "options": [
+      "75",
+      "105",
+      "117",
+      "150"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "At an average rate of 30 miles per hour in 12 minute (1/5 hours) Pat covers (distance) = (time) * (rate) = 1/5*30 = 6 miles, thus she should cover the remaining distance of 20 - 6 = 14 miles at an average rate of 8 miles per hour.\nTo cover 14 miles at an average rate of 8 miles per hour Pat needs (time) = (distance)/(rate) = 14/8 = 1.75 hours = 105 minutes.\nTherefore Pat needs total of 12 + 105 = 117 minutes to cover the entire course.\nAnswer: C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0824",
+    "grade": 8,
+    "question": "Murali travelled from city A to city B at a speed of 40 kmph and from city B to city C at 60 kmph. What is the average speed of Murali from A to C given that the ratio of distances between A to B and B to C is 2 : 3?\nA. 48 kmph",
+    "options": [
+      "33",
+      "50",
+      "28",
+      "27"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let the distances between city A to B and B to C be 2x km and 3x km respectively.\nTotal time taken to cover from A to C\n= (2x)/40 + (3x)/60 = (6x + 6x)/120 = 12x/120 = x/10 Average speed = (2x + 3x)/(x/10) = 50 kmph.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0832",
+    "grade": 8,
+    "question": "There are 6 people in the elevator. Their average weight is 150 lbs. Another person enters the elevator, and increases the average weight to 151 lbs. What is the weight of the 7th person.",
+    "options": [
+      "157",
+      "168",
+      "189",
+      "190"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Solution\nAverage of 7 people after the last one enters = 151 .\n\u00e2\u02c6\u00b4 Required weight = (7x151)-(6x150)\n= 1057- 900\n= 157.\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0839",
+    "grade": 8,
+    "question": "The average expenditure of a labourer for 3 months was 85 and he fell into debt. In the next 4 months by reducing his monthly expenses to 60 he not only cleared off his debt but also saved 30. His monthly income is",
+    "options": [
+      "70.2",
+      "50.1",
+      "75.2",
+      "52.5"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Income of 3 months = (3 \u00d7 85) \u2013 debt\n= 255 \u2013 debt\nIncome of the man for next 4 months\n= 4 \u00d7 60 + debt + 30\n= 270 + debt\n\u2234 Income of 10 months = 525\nAverage monthly income = 525 \u00f7 10 = 52.5\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0863",
+    "grade": 8,
+    "question": "If A speaks the truth 30% of the times, B speaks the truth 40% of the times. What is the probability that at least one will tell the truth",
+    "options": [
+      "0.58",
+      "0.9",
+      "1.9",
+      "2.2"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "probability of A speaks truth p(A)=3/10;false=7/10\nprobability of B speaks truth p(B)=4/10;false=6/10.For given qtn\nAns=1-(neither of them tell truth).Because A & B are independent events\n=1-[(7/10)*(6/10)]=1-42/100=1-0.42=0.58\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0880",
+    "grade": 8,
+    "question": "Last September the sales total for a certain car dealership was 400% greater than the average monthly sales total for the other 11 months. The sales total for September was approximately what percent of the year\u00b4s sales?",
+    "options": [
+      "15 %",
+      "27%",
+      "31%",
+      "42%"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "11 moth avg = x\n11 month total = 11x\nsept = 400% of x + x = 5x\nsept/total = =5x/(11x+5x) = =31%\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0894",
+    "grade": 8,
+    "question": "60% of Ram's marks is equal to 20% of Rahim's marks which percent is equal to 30% of Robert's marks. If Robert's marks is 80, then find the average marks of Ram and Rahim?",
+    "options": [
+      "70",
+      "97",
+      "80",
+      "90"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Given, 60% of Ram's marks = 20% of Rahim's marks = 30% of Robert's marks.\nGiven, marks of Robert = 80\n30% of 80 = 30/100 * 8 = 24\nGiven, 60% of Ram's marks = 24.\n=> Ram's marks = (24 * 100)/60 = 40\nAlso, 20% of Rahim's marks = 24\n=> Rahim's marks = (24 * 100)/20 = 120\nAverage marks of Ram and Rahim = (40 + 120)/2 = 80.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0896",
+    "grade": 8,
+    "question": "amir has 3 desert every sunday...he stocked up 10 different chocolates and 12 diff icecreams,given that he never has same combination and doesn't 3 chocolates nor 3 icecreams,how many sundays it requires for his stock to be over?",
+    "options": [
+      "1045",
+      "1200",
+      "2400",
+      "7200"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "he either can have 2 chocolates and 1 icecream or 1 chocolate and 2 icecream.\nso the solution would be.\n10C2*12C1 + 10C1*12C2 = 1200\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0912",
+    "grade": 8,
+    "question": "The events A and B are independent. The probability that event A occurs is a and the probability that event B occurs is b. Which of the following is equal to the probability that exactly one of the events A and B occurs?",
+    "options": [
+      "a \u2212 2ab",
+      "b \u2212 ab",
+      "a + b \u2212 2ab",
+      "a + b \u2212ab"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Probability of A occuring = a , Probability of A NOT occuring = 1-a\nProbability of B occuring = b , Probability of B not occurring = 1-b\nProbability of atleast of one of A and B occuring = 1-(1-a)(1-b) =a+b -ab\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0917",
+    "grade": 8,
+    "question": "A box contains 3 blue marbles, 4 red, 6 green marbles and 2 yellow marbles. If two marbles are picked at random, what is the probability that they are either blue or yellow?",
+    "options": [
+      "2/29",
+      "2/28",
+      "2/21",
+      "2/22"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Given that there are three blue marbles, four red marbles, six green marbles and two yellow marbles. Probability that both marbles are blue = \u00b3C\u2082/\u00b9\u2075C\u2082 = (3 * 2)/(15 * 14) = 1/35\nProbability that both are yellow = \u00b2C\u2082/\u00b9\u2075C\u2082 = (2 * 1)/(15 * 14) = 1/105\nProbability that one blue and other is yellow = (\u00b3C\u2081 * \u00b2C\u2081)/\u00b9\u2075C\u2082 = (2 * 3 * 2)/(15 * 14) = 2/35\nRequired probability = 1/35 + 1/105 + 2/35\n= 3/35 + 1/105 = 1/35(3 + 1/3)\n= 10/(3 * 35) = 2/21\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0926",
+    "grade": 8,
+    "question": "The average marks of a class of 30 students is 40 and that of another class of 50 students is 60. Find the average marks of all the students?",
+    "options": [
+      "50",
+      "52.5",
+      "60",
+      "62.5"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sum of the marks for the class of 30 students = 30 * 40 = 1200\nSum of the marks for the class of 50 students = 50 * 60 = 3000\nSum of the marks for the class of 80 students =\n1200 + 3000 = 4200\nAverage marks of all the students = 4200/80 = 52.5\nANSWER B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0965",
+    "grade": 8,
+    "question": "The average salary per head of the entire staff of an office including the officers and clerks is Rs.90. The average salary of officers is Rs.600 and that of the clerks is Rs.84. If the number of officers is 2, find the number of officers in the office?",
+    "options": [
+      "3",
+      "1",
+      "8",
+      "9"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "6 * 22 = 132\n7 * 19 = 133\n--------------\n1\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0980",
+    "grade": 8,
+    "question": "Three boys are ages 4, 6 and 7 respectively. Three girls are ages 5, 8 and 9, respectively. If two of the boys and two of the girls are randomly selected and the sum of the selected children's ages is z, what is the difference between the probability that z is even and the probability that z is odd?",
+    "options": [
+      "1/9",
+      "1/6",
+      "2/9",
+      "1/4"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Age of Boys:4, 6, 7\nSum of ages taken 2 at a time: 10,13,11\nAges of Girls:5, 8, 9\nSum of ages taken 2 at a time: 13,17,14\n9 Combinations of sum between sets(10,12,11) & (13,17,14)\n=23,27,24- 16,30,17- 24,28,25\nProb(Even)= 5/9\nProb(Odd) =4/9\nAnswer=5/9 - 4/9 = 1/9\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  }
+]

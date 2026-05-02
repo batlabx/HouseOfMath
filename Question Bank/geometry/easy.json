@@ -1,182 +1,1226 @@
 [
   {
-    "id": "geo-easy-001",
-    "grade": 3,
-    "question": "How many sides does a triangle have?",
+    "id": "aqua-geom-0028",
+    "grade": 8,
+    "question": "The slant height of a cone is 35 cm and radius of the base is 14cm, find the curved surface of the cone.",
     "options": [
-      "2",
-      "3",
-      "4",
-      "5"
+      "4150",
+      "1780",
+      "1540",
+      "1500"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "\u03c0 * 14 * 35= 1540\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0049",
+    "grade": 8,
+    "question": "The cost of painting the whole surface area of a cube at the rate of 13 paise per Sq.cm is Rs. 343.98. Then the volume of the cube is",
+    "options": [
+      "8500 cm3",
+      "9000 cm3",
+      "9250 cm3",
+      "9261 cm3"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Solution\nSurface area\t= (34398 / 13)\n\u2039=\u203a2646cm3\n\u2039=\u203a6a2= 2646\n\u2039=\u203aa2= 441\n\u2039=\u203aa = 21.\nSo,volume =(21x21x21)cm3= 9261cm3.\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0059",
+    "grade": 8,
+    "question": "A board 7ft. 9 inches long is divided into 3 equal parts . What is the length of each part?",
+    "options": [
+      "31 inches",
+      "32 inches",
+      "33 inches",
+      "34 inches"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "7 ft 9 in is 84 + 9 = 93 inches. so 93/3 = 31 inches or 2 ft. 7 inch.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0061",
+    "grade": 8,
+    "question": "The diagonals of a rhombus are 18 cm and 22 cm. Find its area?",
+    "options": [
+      "277",
+      "266",
+      "198",
+      "288"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "1/2 * 18 * 22 = 198\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0064",
+    "grade": 8,
+    "question": "A train covers a distance of 10km in 10 min. If it takes 6 sec to pass a telegraph post, then the length of the train is?",
+    "options": [
+      "m",
+      "m",
+      "m",
+      "m"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = (10/10 * 60) km/hr\n= (60 * 5/18) m/sec = 50/3 m/sec.\nLength of the train = 50/3 * 6\n= 100 m.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0070",
+    "grade": 8,
+    "question": "Sum of the squares of three numbers is 351 and the sum of their products taken two at a time is 245. Find the sum?",
+    "options": [
+      "20",
+      "22",
+      "25",
+      "29"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "(a + b + c)2 = a2 + b2 + c2 + 2(ab +bc + ca) = 351 + 2* 245\na + b + c = \u221a841 = 29\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0071",
+    "grade": 8,
+    "question": "What is the are of an equilateral triangle of side 16 cm?",
+    "options": [
+      "64\u221a6 cm2",
+      "64\u221a3 cm2",
+      "64\u221a9 cm2",
+      "34\u221a3 cm2"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of an equilateral triangle = \u221a3/4 S2\nIf S = 16, Area of triangle = \u221a3/4 * 16 * 16\n= 64\u221a3 cm2;\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0074",
+    "grade": 8,
+    "question": "A train crosses a platform of 120 m in 15 sec, same train crosses another platform of length 180 m in 18 sec. then find the length of the train?",
+    "options": [
+      "288",
+      "180",
+      "288",
+      "277"
     ],
     "correct": 1,
     "tags": [
-      "polygons"
+      "geometry"
     ],
-    "explanation": "A triangle has 3 sides. The prefix 'tri-' means three.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Length of the train be \u2018X\u2019\nX + 120/15 = X + 180/18\n6X + 720 = 5X + 900\nX = 180m .Answer: B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-easy-002",
-    "grade": 4,
-    "question": "How many sides does a pentagon have?",
+    "id": "aqua-geom-0076",
+    "grade": 8,
+    "question": "How long does a train 110 m long running at the speed of 72 km/hr takes to cross a bridge 132 m length?",
     "options": [
-      "4",
-      "5",
-      "6",
-      "8"
+      "12.8 sec",
+      "12.1 sec",
+      "12.2 sec",
+      "12.6 sec"
     ],
     "correct": 1,
     "tags": [
-      "polygons"
+      "geometry"
     ],
-    "explanation": "A pentagon has 5 sides. The prefix 'penta-' means five.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Speed = 72 * 5/18 = 20 m/sec\nTotal distance covered = 110 + 132 = 242 m.\nRequired time = 242/20 = 12.1 sec.\nAnswer: B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-easy-003",
-    "grade": 5,
-    "question": "What is the sum of angles in a triangle?",
-    "options": [
-      "$90°$",
-      "$120°$",
-      "$180°$",
-      "$360°$"
-    ],
-    "correct": 2,
-    "tags": [
-      "angles"
-    ],
-    "explanation": "The angles of any triangle add up to $180°$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-easy-004",
-    "grade": 4,
-    "question": "A right angle measures?",
-    "options": [
-      "$45°$",
-      "$60°$",
-      "$90°$",
-      "$180°$"
-    ],
-    "correct": 2,
-    "tags": [
-      "angles"
-    ],
-    "explanation": "A right angle is exactly $90°$ — the corner of a square.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-easy-005",
-    "grade": 4,
-    "question": "What is the perimeter of a square with side length 5?",
-    "options": [
-      "10",
-      "15",
-      "20",
-      "25"
-    ],
-    "correct": 2,
-    "tags": [
-      "perimeter"
-    ],
-    "explanation": "Square has 4 equal sides: $4 \\times 5 = 20$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-easy-006",
-    "grade": 4,
-    "question": "What is the area of a rectangle 4 by 6?",
-    "options": [
-      "10",
-      "20",
-      "24",
-      "48"
-    ],
-    "correct": 2,
-    "tags": [
-      "area"
-    ],
-    "explanation": "Area = length $\\times$ width = $4 \\times 6 = 24$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-easy-007",
-    "grade": 4,
-    "question": "How many faces does a cube have?",
+    "id": "aqua-geom-0084",
+    "grade": 8,
+    "question": "It is found that the volume of a cube is numerically equal to its surface area. Then the measure of its edge in meters is:",
     "options": [
       "4",
       "6",
       "8",
-      "12"
+      "9"
     ],
     "correct": 1,
     "tags": [
-      "3d-shapes"
+      "geometry"
     ],
-    "explanation": "A cube has 6 square faces — top, bottom, and four sides.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "if edge of cube = a\nvolume of cube = a^3\nsurface area = 6(a^2)\nthen\na^3 = 6(a^2)\na = 6\nANSWER:B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-easy-008",
-    "grade": 4,
-    "question": "How many straight sides does a circle have?",
+    "id": "aqua-geom-0086",
+    "grade": 8,
+    "question": "How long does a train 165 meters long running at the rate of 72 kmph take to cross a bridge 660 meters in length?",
     "options": [
-      "0",
-      "1",
-      "Infinite",
-      "4"
+      "28",
+      "41.25",
+      "55",
+      "18"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "T = (660 + 165)/72 * 18/5\nT = 41.25\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0097",
+    "grade": 8,
+    "question": "If the sum and difference of two numbers are 20 and 8 respectively, then the difference of their square is:",
+    "options": [
+      "12",
+      "28",
+      "160",
+      "180"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let the numbers be x and y.\nThen, x + y = 20 and x - y = 8\nx2 - y2 = (x + y)(x - y) = 20 * 8 = 160.\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0103",
+    "grade": 8,
+    "question": "There are different 15 circles. What is the number of the greatest possible points with which the circles intersect?",
+    "options": [
+      "390",
+      "100",
+      "110",
+      "210"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Maximum points of intersection between n different circles = n*(n - 1) = 15*14 = 210\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0116",
+    "grade": 8,
+    "question": "The area of a triangle will be when a = 1m, b = 2m, c = 3m, a, b, c being lengths of respective sides.",
+    "options": [
+      "0 sq m",
+      "2 sq m",
+      "9 sq m",
+      "20 sq m"
     ],
     "correct": 0,
     "tags": [
-      "shapes"
+      "geometry"
     ],
-    "explanation": "A circle has no straight sides — its boundary is one continuous curve.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "S = (1 + 2 + 3)/2 = 3\n=> No triangle exists\nAnswer: A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-easy-009",
-    "grade": 4,
-    "question": "What is the perimeter of a triangle with sides 3, 4, and 5?",
+    "id": "aqua-geom-0141",
+    "grade": 8,
+    "question": "What is the least number to be subtracted from 696 to make it a perfect square?",
     "options": [
-      "7",
+      "1",
+      "16",
+      "20",
+      "71"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "The numbers less than 696 and are squares of certain numbers are 676, 625.\nThe least number that should be subtracted from 696 to make it perfect square = 696 - 676 = 20.\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0182",
+    "grade": 8,
+    "question": "The angle between two hands at 3.45 is",
+    "options": [
+      "110 degree",
+      "115 degree",
+      "112 1/2 degree",
+      "157 1/2 degree"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "theta degree=11/2m-30h\n=11/2(45)-30(3)\n=247.5-90\n=157.5 or 157 1/2 degree\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0201",
+    "grade": 8,
+    "question": "What is the ratio between perimeters of two squares one having 3 times the diagonal then the other?",
+    "options": [
+      "3: 8",
+      "3: 6",
+      "3: 7",
+      "3: 1"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "d = 3d d = d\na\u221a2 = 3d a\u221a2 = d\na = 3d/\u221a2 a = d/\u221a2 => 3: 1\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0203",
+    "grade": 8,
+    "question": "A train of length 150 metres takes 40.5 seconds to cross a tunnel of length 300 metres. What is the speed of the train in km/hr ?",
+    "options": [
+      "13.33",
+      "26.67",
+      "40",
+      "66.67"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Explanation:\nSpeed = 150+300/40.5m/sec\n=450/40.5=18/5km/hr = 40 km/hr.\nANSWER IS C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0220",
+    "grade": 8,
+    "question": "The length of a rectangle is reduced by 20%. By what % would the width have to be increased to maintainthe original area?",
+    "options": [
+      "10%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Sol. Required change = (20*100)/(100-20)=25%\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0227",
+    "grade": 8,
+    "question": "Two trains 111 meters and 165 meters in length respectively are running in opposite directions, one at the rate of 60 km and the other at the rate of 90 kmph. In what time will they be completely clear of each other from the moment they meet?",
+    "options": [
+      "4.85",
+      "7.85",
+      "6.85",
+      "6.62"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "T = (111 + 165)/ (60 + 90) * 18/5\nT = 6.62\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0228",
+    "grade": 8,
+    "question": "A train 500 m long is running at a speed of 78 km/hr. If it crosses a tunnel in 1 min, then the length of the tunnel is?",
+    "options": [
+      "277 m",
+      "700 m",
+      "800 m",
+      "187 m"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 78 * 5/18 = 65/3 m/sec.\nTime = 1 min = 60 sec.\nLet the length of the train be x meters.\nThen, (500 + x)/60 = 65/3\nx = 800 m.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0238",
+    "grade": 8,
+    "question": "A train crosses a platform of 120 m in 15 sec, same train crosses another platform of length 180 m in 18 sec. then find the length of the train?",
+    "options": [
+      "276m",
+      "180m",
+      "286m",
+      "288m"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Length of the train be \u2018X\u2019\nX + 120/15 = X + 180/18\n6X + 720 = 5X + 900\nX = 180m\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0241",
+    "grade": 8,
+    "question": "Calculate the circumference of a circular field whose radius is 5 centimeters.",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "10"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Circumference C is given by\nC = 2\u03c0r = 2\u03c0*5 = 10 \u03c0 cm\ncorrect answer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0267",
+    "grade": 8,
+    "question": "Consider a quarter of a circle of radius 20. Let r be the radius of the circle inscribed in this quarter of a circle. Find r.",
+    "options": [
+      "20*(sqr2 -1)",
+      "8*(sqr3 -1)",
+      "4*(sqr7 - 1)",
+      "12* (sqr7 -1)"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "I got 20/(sqr2 +1) and just forgot to multiply by (sqr2 -1).\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0279",
+    "grade": 8,
+    "question": "At 3.40, the hour hand and the minute hand of a clock form an angle of",
+    "options": [
+      "120\u00b0",
+      "125\u00b0",
+      "130\u00b0",
+      "135\u00b0"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Solution\nAngle traced by hour hand in 17/2 hrs\t= (360/12x17/2 )\u00b0\n= 255.\nAngle traced by min hand in 30 min\t= (360/60x30)\u00b0\n= 180.\nRequired angle\t= (255 - 180)\u00b0\n=75\u00b0\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0281",
+    "grade": 8,
+    "question": "A train is 320 meter long is running at a speed of 45 km/hour. In what time will it pass a bridge of 140 meter length?",
+    "options": [
+      "11 seconds",
+      "38 seconds",
+      "40 seconds",
+      "36.8 seconds"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 45 Km/hr = 45*(5/18) m/sec = 25/2 m/sec\nTotal distance = 320+140 = 460 meter\nTime = Distance/speed\n= 460 * (2/25) = 36.8 seconds\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0292",
+    "grade": 8,
+    "question": "A 300 meter long train crosses a platform in 42 seconds while it crosses a signal pole in 18 seconds. What is the length of the platform?",
+    "options": [
+      "287m",
+      "278m",
+      "400m",
+      "228m"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = [300 / 18] m/sec = 50/3 m/sec.\nLet the length of the platform be x meters.\nThen, x + 300 / 42\n= 50/3\n3(x + 300)\n= 2100 \u00e8 x\n= 400m.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0310",
+    "grade": 8,
+    "question": "Find the least square number which is exactly divisible by 10,12,15 and 18.",
+    "options": [
+      "900",
+      "120",
+      "103",
+      "104"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "L.C.M. of 10, 12, 15, 18 = 180. Now, 180 = 2 * 2 * 3 * 3 *5 = 22 * 32 * 5.\nTo make it a perfect square, it must be multiplied by 5.\nRequired number = (22 * 32 * 52) = 900.\nANSWER A 900",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0314",
+    "grade": 8,
+    "question": "Area of a square is 1/2 hectare. The diagonal of the square is?",
+    "options": [
+      "250 meter",
+      "100 meter",
+      "50\u221a 2 meter",
+      "50 meter"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area = 1/2 hectare = 10000 / 2 m2\n= 5000 m2\nAgain Area = 1/2 x (Diagonal)2\nSo 1/2 x (Diagonal)2 = 5000m2\nDiagonal2= 10000\nDiagonal = 100\nAnswer : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0321",
+    "grade": 8,
+    "question": "What is the square root of 3,969?",
+    "options": [
+      "A)18",
+      "B)9",
+      "C)45",
+      "D)63"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "A square root of a number is a number times itself equals the original number.\nEx) The square root of 81 is 9 because 9 times itself(9) equals the original number(81).\n63*63=3,969\n3969 divided by x = 63\nx=63\n(D)63",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0341",
+    "grade": 8,
+    "question": "A train runs at the speed of 72 kmph and crosses a 250 metre long platform in 26 seconds. What is the length of the train ?",
+    "options": [
+      "220 metre",
+      "230 metre",
+      "250 metre",
+      "270 metre"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Distance covered in 26 seconds = 26\u00c3\u201472\u00c3\u20145/18=520 meter\nLength of the train = 520-250=270 meter\nANSWER: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0345",
+    "grade": 8,
+    "question": "If paint costs $3.20 per quart, and a quart covers 1200 square feet, how much will it cost to paint the outside of a cube 10 feet on each edge?",
+    "options": [
+      "$ 1.60",
+      "$ 16.00",
+      "$ 96.00",
+      "$108.00"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "total surface area = 6a^2 = 6*10*10 = 600\neach quart covers 20 sqr ft\nthus total number of quarts = 600/1200 = 0.5\ncost will be 0.5*3.2 = $1.6\nAns: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0393",
+    "grade": 8,
+    "question": "How long does a train 125 m long running at the speed of 78 km/hr takes to cross a bridge 125 m length?",
+    "options": [
+      "12.7 sec",
+      "10.1 sec",
+      "11.5 sec",
+      "12.1 sec"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 78 * 5/18\n= 21.7 m/sec\nTotal distance covered\n= 125 + 125 = 250 m.\nRequired time = 250/21.7 '\n= 11.5 sec.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0449",
+    "grade": 8,
+    "question": "The ratio between the perimeter and the width of a rectangle is 5 : 1. If the area of the rectangle is 150 sq. cm, what is the length of the rectangle?",
+    "options": [
+      "12 cm",
+      "15 cm",
+      "18 cm",
+      "21 cm"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "2L+2W = 5W\nL = 3W/2\nW*L = 150\n3W^2/2 = 150\nW^2 = 100\nW = 10\nL = 3(10)/2 = 15\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0487",
+    "grade": 8,
+    "question": "A side of an equilateral triangle is tripled. If the previous parameter is 3x, what is the length of one of the sides before it was tripled?",
+    "options": [
+      "4x",
+      "3x",
+      "1x",
+      "2x"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "If the parameter before it was tripled 3x, one of the sides must have been 3x/3. This reduces to 1x. Answer option C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0490",
+    "grade": 8,
+    "question": "At what angle the hands of a clock are inclined at 15 minutes past 5?",
+    "options": [
+      "117/2\u00c2\u00b0",
+      "64\u00c2\u00b0",
+      "135/2\u00c2\u00b0",
+      "145/2\u00c2\u00b0"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Apply the formula:\n30h-11/2m=Angle\n30*5-11/2*15\n150-165/2=135/2\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0517",
+    "grade": 8,
+    "question": "If the perimeter of a rectangular garden is 600 m, its length when its breadth is 95 m is?",
+    "options": [
+      "286 m",
+      "899 m",
+      "200 m",
+      "205 m"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "2(l + 95) = 600 => l\n= 205 m\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0549",
+    "grade": 8,
+    "question": "A train 800 m long is running at a speed of 78 km/hr. If it crosses a tunnel in 1 min, then the length of the tunnel is?",
+    "options": [
+      "176 m",
+      "786 m",
+      "500 m",
+      "865 m"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 78 * 5/18 = 65/3 m/sec.\nTime = 1 min = 60 sec.\nLet the length of the train be x meters.\nThen, (800 + x)/60 = 65/3\nx = 500 m.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0555",
+    "grade": 8,
+    "question": "Difference between the length &breadth of a rectangle is 10 m. If its perimeter is 206 m, then its area is?",
+    "options": [
+      "2400 m^2",
+      "1500 m^2",
+      "2520 m^2",
+      "1200 m^2"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Solving the two equations, we get: l = 30 and b = 40.\nArea = (l x b) = (30 x 40) m2 = 1200 m^2\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0558",
+    "grade": 8,
+    "question": "A train 240 m in length crosses a telegraph post in 16 seconds. The speed of the train is?",
+    "options": [
+      "40",
+      "88",
+      "77",
+      "6"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 45 * 5/18 = 25/2 m/sec\nTotal distance covered = 360 + 140 = 500 m\nRequired time = 500 * 2/25 = 40 sec.Answer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0586",
+    "grade": 8,
+    "question": "The radius of a wheel is 22.4 cm. What is the distance covered by the wheel in making 320 resolutions?",
+    "options": [
+      "724 m",
+      "704 m",
+      "287 m",
+      "450.6 m"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "In one resolution, the distance covered by the wheel is its own circumference. Distance covered in 320 resolutions.\n= 320 * 2 * 22/7 * 22.4 = 45056 cm\n= 450.6 m\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0609",
+    "grade": 8,
+    "question": "A train 120 meter long passes an electric pole in 12 seconds and another train of same length traveling in opposite direction in 8 seconds. The speed of the second train is",
+    "options": [
+      "10m/s",
+      "20m/s",
+      "30m/s",
+      "40m/s"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "speed of 1st train=120/12=10m/s\nlet the speed of 2nd is v\nthen\n240/(v+10)=8\n8v=160\nv=20m/s\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0634",
+    "grade": 8,
+    "question": "How long does a train 110 m long traveling at 60 kmph takes to cross a bridge of 170 m in length?",
+    "options": [
+      "16.5",
+      "16.0",
+      "16.4",
+      "16.8"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "D = 110 + 170 = 280 m\nS = 60 * 5/18 = 50/3\nT = 280 * 3/50 = 16.8 sec\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0644",
+    "grade": 8,
+    "question": "If a 7 cm cube is cut into 1 cm cubes, then what is the percentage increase in the surface area of the resulting cubes?",
+    "options": [
+      "140%",
+      "350%",
+      "450%",
+      "600%"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "The area A of the large cube is 7*7*6 = 294 square cm.\nThe area of the 343 small cubes is 7*7*7*6 = 7A, an increase of 600%.\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0666",
+    "grade": 8,
+    "question": "Two trains travelling in the same direction at 40 and 22 kmph completely pass off another in 1 minute. If the length of the first train is 125 m, what is the length of the second train?",
+    "options": [
+      "228",
+      "266",
+      "175",
+      "99"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "RS = 40 \u2013 22 = 18 * 5/18 = 5 mps\nT = 60 sec\nD = 5 * 60 = 300 m\n125\n--------\n175 m\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0709",
+    "grade": 8,
+    "question": "How many triangles can be formed by joining vertices of a hexagon?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "60"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "One triangle is formed by selecting group of three vertices from 6 vertices of a hexagon.This can be done in 6C3 ways. ie) 6!/3!x3!=20 ways. Ans : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0731",
+    "grade": 8,
+    "question": "The diameter of the driving wheel of a bus in 140 cm. How many revolutions per minute must the wheel make in order to keep a speed of 33 kmph?",
+    "options": [
+      "210",
+      "220",
+      "125",
+      "240"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "distance covered in 1 min=(33*1000)/60=550m\ncircumference of the wheel=(2*(22/7)*.70)=4.4m\nno of revolution per min=550/4.4=125\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0743",
+    "grade": 8,
+    "question": "What is the ratio between perimeters of two squares one having 3 times the diagonal then the other?",
+    "options": [
+      "3: 5",
+      "3: 9",
+      "3: 4",
+      "3: 1"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "d = 3d d = d\na\u221a2 = 3d a\u221a2 = d\na = 3d/\u221a2 a = d/\u221a2 => 3: 1\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0750",
+    "grade": 8,
+    "question": "The length of the bridge, which a train 130 meters long and travelling at 45 km/hr can cross in 30 seconds, is?",
+    "options": [
+      "388",
+      "277",
+      "245",
+      "288"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = (45 * 5/18) m/sec = (25/2) m/sec. Time = 30 sec. Let the length of bridge be x meters. Then, (130 + X)/30 = 25/2 ==> 2(130 + X) = 750 ==> X = 245 m.Answer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0752",
+    "grade": 8,
+    "question": "A train running at the speed of 60 km/hr crosses a pole in 21 sec. What is the length of the train?",
+    "options": [
+      "535 m",
+      "178 m",
+      "186 m",
+      "350 m"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 60 * 5/18\n= 50/3 m/sec\nLength of the train\n= speed * time\n= 50/3 * 21\n= 350 m\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0779",
+    "grade": 8,
+    "question": "Which is the smallest no which divides 2880 and gives a perfect square?",
+    "options": [
+      "4",
       "9",
-      "12",
-      "15"
+      "3",
+      "5"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "perimeter"
+      "geometry"
     ],
-    "explanation": "Add all sides: $3 + 4 + 5 = 12$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Breaking 2880 into multiples:\n2880 = 5*9*64 = 5 * 3^2 * 8^2 = 5* 24^2\n5 being a prime number with only one multiple will divide 2880 & result in 9*64 which is a perfect square (9*64= 24^2 = 576)\nANSWER:D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-easy-010",
-    "grade": 4,
-    "question": "What shape has 4 equal sides and 4 right angles?",
+    "id": "aqua-geom-0794",
+    "grade": 8,
+    "question": "The perimeter of a semi circle is 144 cm then the radius is?",
     "options": [
-      "Rectangle",
-      "Rhombus",
-      "Square",
-      "Trapezium"
+      "87",
+      "28",
+      "26",
+      "27"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "36/7\nr = 144\n=> r = 28\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0796",
+    "grade": 8,
+    "question": "How long will a boy take to run round a square field of side 40 meters, if he runs at the rate of 12km/hr?",
+    "options": [
+      "52sec",
+      "48sec",
+      "60sec",
+      "25sec"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 12 km/hr = 12*5/18 = 10/3 m/sec\nDistance = 40*4 = 160m\nTime taken = 160*3/10 = 48sec\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0820",
+    "grade": 8,
+    "question": "If the radius of a circle is decreased 10%, what happens to the area?",
+    "options": [
+      "10% decrease",
+      "19% decrease",
+      "36% decrease",
+      "40% decrease"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of Square = Pi* radius^2\nNew Radius = 0.9 * old radius\nso new area = (0.9)^2 old area => 0.81 of old area =>81% old area\nAns : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0825",
+    "grade": 8,
+    "question": "A rectangular grass field is 75 m * 40 m, it has a path of 2.5 m wide all round it on the outside. Find the area of the path and the cost of constructing it at Rs.2 per sq m?",
+    "options": [
+      "s.1350",
+      "s.1327",
+      "s.1200",
+      "s.1397"
     ],
     "correct": 2,
     "tags": [
-      "polygons"
+      "geometry"
     ],
-    "explanation": "All four properties together (equal sides + right angles) define a square.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Area = (l + b +2d) 2d\n= (75 + 40 +2.5 * 2) 2*2.5 => 600\n600 * 2 = Rs.1200\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0841",
+    "grade": 8,
+    "question": "If the sum of a number and its square is 72, what is the number?",
+    "options": [
+      "15",
+      "26",
+      "8",
+      "91"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let the number be x. Then,\nx + x2 = 72\n(x + 9)(x - 8) = 0\nx = 8\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0879",
+    "grade": 8,
+    "question": "A train running at the speed of 72 km/hr crosses a pole in 8 seconds. Find the length of the train.",
+    "options": [
+      "150 meter",
+      "145 meter",
+      "160 meter",
+      "135 meter"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Explanation:\nSpeed = 72*(5/18) m/sec = 20 m/sec\nLength of Train(Distance) = Speed * Time\n=20*8=160 meter\nOption C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0882",
+    "grade": 8,
+    "question": "The supplementary of an angle is thrice its complimentary. Find the angle.",
+    "options": [
+      "60",
+      "45",
+      "90",
+      "180"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "let angle=x;\nby question--\n180-x=3(90-x)\nx=45\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0888",
+    "grade": 8,
+    "question": "Find the area of a parallelogram with base 20 cm and height 10 cm?",
+    "options": [
+      "287 cm2",
+      "887 cm2",
+      "200 cm2",
+      "250 cm2"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of a parallelogram = base * height\n= 20 * 10\n= 200 cm2\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0889",
+    "grade": 8,
+    "question": "The angle of elevation of the sun, when the length of the shadow of a tree 3 times the height of the tree, is:",
+    "options": [
+      "30\u00ba",
+      "45\u00ba",
+      "60\u00ba",
+      "90\u00ba"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "shadow of the tree is \u221a3 times the height of the tree.\nshadow of a tree will be = \u221a3x.\ntan \u03b8 = AB/AC = x/\u221a3x.\ntan \u03b8 =1/\u221a3.\ntan \u03b8 = tan 1/\u221a3.\ntan \u03b8 = tan30\u00b0.\n\u03b8 = 30\u00b0 ANSWER : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0903",
+    "grade": 8,
+    "question": "The length of a rectangle is increased by 20% and its breadth is decreased by 20%. What is the effect on its area?",
+    "options": [
+      "1288",
+      "9600",
+      "1000",
+      "10000"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "100 * 100 = 10000\n120 * 80 = 9600\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0913",
+    "grade": 8,
+    "question": "If 7/10 of a pencil is green, 4/5 of the remaining is gold and the remaining 1/2 is white, what is the total length of the pencil?",
+    "options": [
+      "5",
+      "3",
+      "1",
+      "2"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Green is 7/10 Gold is 4/5 which can also be written as 8/10\rWhite is 1/2 which can also be written as 5/10\r7/10 + 8/10 + 5/10= 2\rAnswer is E) 2",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0925",
+    "grade": 8,
+    "question": "A train running at the speed of 60 km/hr crosses a pole in 9 seconds. What is the length of the train?",
+    "options": [
+      "288",
+      "2667",
+      "288",
+      "150"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed=(60 * 5/18) m/sec = (50/3) m/sec Length of the train = (Speed x Time)\n= (50/3 * 9) m = 150 m.\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0929",
+    "grade": 8,
+    "question": "What is the are of an equilateral triangle of side 24 cm?",
+    "options": [
+      "66\u00e2\u02c6\u01613 cm2",
+      "74\u00e2\u02c6\u01613 cm2",
+      "64\u00e2\u02c6\u01613 cm2",
+      "144\u00e2\u02c6\u01613 cm2"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of an equilateral triangle = \u00e2\u02c6\u01613/4 S2\nIf S = 24, Area of triangle = \u00e2\u02c6\u01613/4 * 24 * 24 = 144\u00e2\u02c6\u01613 cm2;\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0932",
+    "grade": 8,
+    "question": "The diagonals of a rhombus are 11 cm and 20 cm. Find its area?",
+    "options": [
+      "329",
+      "288",
+      "150",
+      "110"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "1/2 * 11 * 20 = 110\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0938",
+    "grade": 8,
+    "question": "A towel, when bleached, lost 10% of its length and 20% of its breadth. What is the percentage decrease in area?",
+    "options": [
+      "28%",
+      "30 %",
+      "44%",
+      "54%"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "percentage change in area\n=(\u221210\u221220+(10\u00d720)/100)%=\u221228%\ni.e., area is decreased by 28%\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0949",
+    "grade": 8,
+    "question": "one train has crossing a bridge of length 340 m in 42 sec and same train has crossing a another bridge of 500 m in 50 sec. what is the approximate speed of the train in km/hr?",
+    "options": [
+      "60",
+      "64.8",
+      "72",
+      "76"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "length of train = l m\nspeed of train = v m/s then\n340+l = 42v\n500+l = 50v\nsubtract, 8v = 160\n=> v = 20m/s = 72 kmph\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0984",
+    "grade": 8,
+    "question": "A cube of edge 5 cm is cut into cubes each of edge 1 cm. The ratio of the total surface area of one of the small cubes to that of the large cube is equal to:",
+    "options": [
+      "1:25",
+      "1.225",
+      "1:52",
+      "1:522"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Sol.\nRequired ratio = 6 * 1 * 1 / 6 * 5 * 5 = 1/25 = 1:25.\nAnswer A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

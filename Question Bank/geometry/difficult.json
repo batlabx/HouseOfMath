@@ -1,190 +1,110 @@
 [
   {
-    "id": "geo-difficult-001",
+    "id": "aqua-geom-0030",
     "grade": 8,
-    "question": "In a right triangle, the legs are 6 and 8. What is the hypotenuse?",
+    "question": "In a new housing development, trees are to be planted along the sidewalk of a certain street. Each tree takes up one square foot of sidewalk space, and there are to be 20 feet between each tree. How many trees can be planted if the road is 148 feet long?",
     "options": [
+      "8",
+      "9",
       "10",
-      "12",
-      "14",
-      "$\\sqrt{14}$"
+      "11"
     ],
     "correct": 0,
     "tags": [
-      "pythagorean-theorem"
+      "geometry"
     ],
-    "explanation": "$c = \\sqrt{a^2 + b^2} = \\sqrt{36 + 64} = \\sqrt{100} = 10$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let T be the number of trees. Then the length required for trees on the sidewalk will be 1*T= T\nTo maximize the number of trees, the number of 20 feet spaces between trees should be 1 less than total number of trees.\nFor example, If there are 3 trees, then there should be 2 spaces between them.\nSo the number of 20 feet spaces will be T-1. Then, the length of sidewalk required for 20 feet spaces will be 20*(T-1)\nIt is given that total length of sidewalk is 148 feet.\nor 20(T-1)+T = 148\nor 20T-20+T = 148\nor 21T = 168\nor T=8\nAnswer:-A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-difficult-002",
+    "id": "aqua-geom-0138",
     "grade": 8,
-    "question": "Area of a circle with diameter 14 (use $\\pi = \\frac{22}{7}$)?",
+    "question": "In a 4 person race, medals are awarded to the fastest 3 runners. The first-place runner receives a gold medal, the second-place runner receives a silver medal, and the third-place runner receives a bronze medal. In the event of a tie, the tied runners receive the same color medal. (For example, if there is a two-way tie for first-place, the top two runners receive gold medals, the next-fastest runner receives a silver medal, and no bronze medal is awarded). Assuming that exactly three medals are awarded, and that the three medal winners stand together with their medals to form a victory circle, how many Z different victory circles are possible?",
     "options": [
-      "44",
-      "77",
-      "154",
-      "616"
-    ],
-    "correct": 2,
-    "tags": [
-      "circles",
-      "area"
-    ],
-    "explanation": "Radius = 7. $A = \\pi r^2 = \\frac{22}{7} \\times 49 = 154$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-difficult-003",
-    "grade": 9,
-    "question": "Volume of a cylinder with $r = 3$, $h = 10$ (use $\\pi = 3.14$)?",
-    "options": [
-      "94.2",
-      "188.4",
-      "282.6",
-      "565.2"
-    ],
-    "correct": 2,
-    "tags": [
-      "volume",
-      "cylinders"
-    ],
-    "explanation": "$V = \\pi r^2 h = 3.14 \\times 9 \\times 10 = 282.6$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-difficult-004",
-    "grade": 8,
-    "question": "Sum of interior angles of a hexagon?",
-    "options": [
-      "$540°$",
-      "$720°$",
-      "$900°$",
-      "$1080°$"
+      "24",
+      "52",
+      "96",
+      "144"
     ],
     "correct": 1,
     "tags": [
-      "polygons",
-      "angles"
+      "geometry"
     ],
-    "explanation": "$(n-2) \\times 180° = (6-2) \\times 180° = 720°$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Possible scenarios are:\n1. Gold/Silver/Bronze/No medal (no ties) - 4!=24;\n2. Gold/Gold/Silver/No medal - 4!/2!=12;\n3. Gold/Silver/Silver/No medal - 4!/2!=12;\n4. Gold/Gold/Gold/No medal - 4!/3!=4.\nTotal Z: 24+12+12+4=52\nAnswer: B.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-difficult-005",
+    "id": "aqua-geom-0232",
     "grade": 8,
-    "question": "The hypotenuse of a right triangle is 13 and one leg is 5. What is the other leg?",
+    "question": "The seating chart of an airplane shows 30 rows of seats. Each row has 3 seats on each side of the center aisle, and one of the seats on each side is a window saet. The view from the window seats in 25 of the rows is obscured by the wings of the airplane. If the first person to be assigned a seat is assigned a window seat and thw window seat is assigned randomly, what is the probability that the person will get a seat with an unobscured view?",
     "options": [
-      "6",
-      "8",
-      "12",
-      "18"
+      "1/6",
+      "1/3",
+      "2/3",
+      "5/6"
     ],
-    "correct": 2,
+    "correct": 0,
     "tags": [
-      "pythagorean-theorem"
+      "geometry"
     ],
-    "explanation": "$b = \\sqrt{13^2 - 5^2} = \\sqrt{169 - 25} = \\sqrt{144} = 12$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "priyalr\n6 seats per row, think of a boeing 737. We have 30 rows, therefore window 30 seats one one side and 30 window seats on the other, totaling 60 window seats on the whole plane.\nthe view of the window of 25 rows is blocked. two wings, therefore 50 window seats are blocked.\nTotal window seats = 60\nTotal blocked window seats = 50\nTotal unblocked seats = 10\nWe know that a window seat was given, therefore probability for not window seat is 10/60 =1/6\nANS A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-difficult-006",
+    "id": "aqua-geom-0260",
     "grade": 8,
-    "question": "Surface area of a cube with side 4?",
+    "question": "If points A and B are (10-5) units apart, which of the following can have only one possible value?\nI. The area of a square region with side AB\nII. The circumference of a circle passing through points A and B\nIII. The area of a rectangular region with diagonal AB",
     "options": [
-      "48",
-      "64",
-      "96",
-      "128"
+      "I only",
+      "II only",
+      "III only",
+      "I and II only"
     ],
-    "correct": 2,
+    "correct": 0,
     "tags": [
-      "surface-area",
-      "3d-shapes"
+      "geometry"
     ],
-    "explanation": "$SA = 6s^2 = 6 \\times 16 = 96$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "I. The area of a square region with side AB --> side=AB=(10-5) or 5 --> the area of a square is 5^2=25, so only one possible value;\nII. The circumference of a circle passing through points A and B --> circle is not defined by only two points, hence the circumference of a circle passing through points A and B can take infinitely many values. For example consider when AB=diameter and when points A and B are not the endpoints of the diameter;\nIII. The area of a rectangular region with diagonal AB --> consider the case when AB is the diagonal of a square (the area is 25/2) and the case when AB is the diagonal of a rectangle with the sides equal to 3 and 4 (the area 12).\nAnswer: A.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-difficult-007",
-    "grade": 9,
-    "question": "A right triangle has legs 9 and 12. What is its perimeter?",
-    "options": [
-      "21",
-      "30",
-      "36",
-      "42"
-    ],
-    "correct": 2,
-    "tags": [
-      "pythagorean-theorem",
-      "perimeter"
-    ],
-    "explanation": "Hypotenuse = $\\sqrt{81 + 144} = \\sqrt{225} = 15$. Perimeter = $9 + 12 + 15 = 36$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-difficult-008",
-    "grade": 9,
-    "question": "Volume of a sphere with radius 3 (use $V = \\frac{4}{3}\\pi r^3$, $\\pi = 3.14$)?",
-    "options": [
-      "28.26",
-      "56.52",
-      "113.04",
-      "339.12"
-    ],
-    "correct": 2,
-    "tags": [
-      "volume",
-      "spheres"
-    ],
-    "explanation": "$V = \\frac{4}{3} \\times 3.14 \\times 27 = 113.04$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-difficult-009",
+    "id": "aqua-geom-0446",
     "grade": 8,
-    "question": "Each interior angle of a regular pentagon?",
+    "question": "On the coordinate plane , points P and B are defined by the coordinates (-1,0) and (3,3), respectively, and are connected to form a chord of a circle which also lies on the plane. If the area of the circle is (25/4) \u03c0 , what are the coordinates of the center of the circle ?",
     "options": [
-      "$72°$",
-      "$90°$",
-      "$108°$",
-      "$120°$"
+      "(1.5,1)",
+      "(2,-5)",
+      "(0,0)",
+      "(1,1.5)"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "polygons",
-      "angles"
+      "geometry"
     ],
-    "explanation": "Sum = $(5-2) \\times 180° = 540°$. Each angle = $\\frac{540}{5} = 108°$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Although it took me 3 mins to solve this question using all those equations, later I thought this question can be solved easily using options.\nOne property to keep in mind - A line passing through the centre of the circle bisects the chord (or passes from the mid point of the chord).\nNow mid point of chord here is (-1+3)/2, (3+0)/2 i.e. (1,1.5) now luckily we have this in our Ans. choice. so definitely this is the ans. It also indictaes that PB is the diameter of the circle.\nThere can be a case when PB is not a diameter but in that case also the y-coordinate will remain same as it is the midpoint of the chord and we are moving up in the st. line to locate the centre of the circle.\nIf ans choices are all distinct (y cordinates) ONLY CHECK FOR Y CORDINATE and mark the ans=D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-difficult-010",
-    "grade": 9,
-    "question": "Distance between $(1, 2)$ and $(4, 6)$?",
+    "id": "aqua-geom-0780",
+    "grade": 8,
+    "question": "One morning is starts to snow at a constant rate. Later, at 6:00am, a snow plow sets out to clear a straight street. The plow can remove a fixed volume of snow per unit time, in other words its speed it inversely proportional to the depth of the snow. If the plow covered twice as much distance in the first hour as the second hour, what time did it start snowing?",
     "options": [
-      "3",
-      "4",
-      "5",
-      "7"
+      "2:22:55am",
+      "5:22:55am",
+      "1:22:55am",
+      "6:22:55am"
     ],
-    "correct": 2,
+    "correct": 1,
     "tags": [
-      "coordinate-geometry",
-      "distance"
+      "geometry"
     ],
-    "explanation": "$d = \\sqrt{(4-1)^2 + (6-2)^2} = \\sqrt{9 + 16} = \\sqrt{25} = 5$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the depth of snow at time t to be t units. The speed of the plow at time t will be 1/t. Define t=0 as the time it started snowing and t=x the time the plow started.\nThe distance covered in the first hour is the integral from x to x+1 of 1/t dt. The antiderivative of 1/t is ln(t) so the total distance covered in the first hour is ln((x+1)/x).\nBy the same reasoning the distance covered in the second hour in ln((x+2)/(x+1)).\nUsing the fact that it the plow traveled twice as far in the first hour as the second: ln((x+1)/x) = ln((x+2)/(x+1))2\nExp both sides and you have (x+1)/x = ((x+2)/(x+1))2.\nSolving for x you get x=(51/2-1)/2, which is the number of hours that elapsed between the time it started snowing and the snow plow left.\nIt started snowing at (51/2-1)/2 hours before 6:00am, or 5:22:55am.\ncorrect answer B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

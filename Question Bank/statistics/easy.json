@@ -1,0 +1,866 @@
+[
+  {
+    "id": "aqua-stat-0018",
+    "grade": 8,
+    "question": "John found that the average of 15 numbers is 40. If 10 is added to each number then the mean of number is?",
+    "options": [
+      "50",
+      "45",
+      "65",
+      "78"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "(x+x1+...x14)/15 = 40\n50\nOption A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0079",
+    "grade": 8,
+    "question": "A box contains nine bulbs out of which 4 are defective. If four bulbs are chosen at random, find the probability that exactly three bulbs are good.?",
+    "options": [
+      "20/69",
+      "20/63",
+      "20/65",
+      "20/61"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Required probability = (10 * 4)/126 = 20/63.Answer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0107",
+    "grade": 8,
+    "question": "The average of 6 observations is 11. A new observation is included and the new average is decreased by 1. The seventh observation is?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let seventh observation = X.\nThen, according to the question we have\n=> (66 + X) / 7 = 10\n=> X = 4.\nHence, the seventh observation is 4.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0108",
+    "grade": 8,
+    "question": "The population of a town increased from 1,75,000 to 2,62,500 in a decade. The average percent increase of population per year is :",
+    "options": [
+      "4.37%",
+      "5%",
+      "6%",
+      "8.75%"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Solution\nIncrease in 10 year= (262500 - 175000) = 87500.\nIncrease% =( f87500/175000x 100 )% = 50%\n\u2234 Required average = ( 50/10 )% = 5%\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0111",
+    "grade": 8,
+    "question": "A batsman in his 12th innings makes a score of 65 and thereby increases his average by 2 runs. What is his average after the 12th innings if he had never been \u2018not out\u2019?",
+    "options": [
+      "42",
+      "43",
+      "44",
+      "45"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Let \u2018x\u2019 be the average score after 12 th innings\n\u21d2 12x = 11 \u00d7 (x \u2013 2) + 65\n\u2234 x = 43\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0113",
+    "grade": 8,
+    "question": "The average weight of 8 person's increases by 2.5 kg when a new person comes in place of one of them weighing 55 kg. What might be the weight of the new person?",
+    "options": [
+      "70kg",
+      "75kg",
+      "80kg",
+      "85kg"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total weight increased = (8 x 2.5) kg = 20 kg.\nWeight of new person = (55 + 20) kg = 75 kg.\nB)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0149",
+    "grade": 8,
+    "question": "Company A has 13 employees, 9 of whom belong to the union. If 5 people work any one shift, and the union contract specifies that at least 4 union members work each shift, then how many different combinations of employees might work any given shift?",
+    "options": [
+      "56",
+      "231",
+      "336",
+      "756"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Looks easy: -- 9C4*5C1 + 9C5= 756 (E).",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0150",
+    "grade": 8,
+    "question": "A bag contains 5 red, 2 green balls. 3 balls are drawn randomly. What is the probability that balls drawn contain exactly two green balls?",
+    "options": [
+      "1/7",
+      "2/9",
+      "3/11",
+      "4/17"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total number of balls = 5+2 = 7\nn(S) = 7C3 = 7*6*5 / 3*2 = 35\nn(E) = 2C2* 5C1 = 5\nProbability = 5/35 = 1/7\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0199",
+    "grade": 8,
+    "question": "How many meaningful English words can be formed with the letters ESRO using each letter only once in each word?",
+    "options": [
+      "1",
+      "3",
+      "4",
+      "8"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nMeaningful words are ROSE, SORE and EROS.\nNote the meaning of the words SORE and EROS with the help of dictionary.\nAnswer: B) Three",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0221",
+    "grade": 8,
+    "question": "Find the average of first 20 natural numbers?",
+    "options": [
+      "5.5",
+      "7.2",
+      "10.5",
+      "12.3"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sum of first n natural numbers = n(n+1)/2\nsum of first 20 natural numbers = 20*21/2 =210\naverage = 210/20 = 10.5\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0242",
+    "grade": 8,
+    "question": "The average age of five persons is 40 years while the average age of some other 10 persons is 25 years. The average age of all the 15 persons is:",
+    "options": [
+      "27 Years",
+      "32 Years",
+      "37 Years",
+      "30 Years"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "x/5==40\nx==200\nafter 10 person\nx/10==25\nx==250\nso avg btwn 15 person is,,\n(250+200) / 15==30 ans\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0266",
+    "grade": 8,
+    "question": "If the average (arithmetic mean) of (2a+16) and (3a-8) is 84, what is the value of a?",
+    "options": [
+      "25",
+      "30",
+      "28",
+      "32"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "((2a+16) + (3a-8)) / 2 = (5a+8)/2 = 84\na= 32\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0280",
+    "grade": 8,
+    "question": "The average age of 15 students of a class is 14 years. Out of these, the average age of 5 students is 14 years and that of the other 9 students is 16 years. Tee age of the 15th student is?",
+    "options": [
+      "3years",
+      "4years",
+      "5years",
+      "6years"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Age of the 15th student\n=[15 * 14 - (14 * 5 + 16 * 9)]\n= (210 - 214) = 4 years.\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0282",
+    "grade": 8,
+    "question": "The average age of 15 students of a class is 15 years. Out of these, the average age of 5 students is 14 years and that of the other 9 students is 16 years. Tee age of the 15th student is?",
+    "options": [
+      "11 years",
+      "16 years",
+      "33 years",
+      "14 years"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Age of the 15th student\n=[15 * 15 - (14 * 5 + 16 * 9)]\n= (225 - 214) = 11 years.\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0290",
+    "grade": 8,
+    "question": "he average weight of 8 persons increases by 2.5 kg when a new person comes in place of one of them weighing 75 kg. What might be the weight of the new person ?",
+    "options": [
+      "75 kg",
+      "95 kg",
+      "45 kg",
+      "85 kg"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nTotal weight increased = (8 x 2.5) kg = 20 kg.\nWeight of new person = (75 + 20) kg = 95 kg.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0308",
+    "grade": 8,
+    "question": "A class has 6 boys and x girls. Average score of boys and girls is 50 and 60 respectively. the average of the whole class is 55, what is the value of x?",
+    "options": [
+      "5",
+      "6",
+      "10",
+      "12"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "After you have got : 6(50)+60x/6+x=55\n6*50 + 60x = 6*55 + 55x\nx=6\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0353",
+    "grade": 8,
+    "question": "The average weight of 8 person's increases by 5 kg when a new person comes in place of one of them weighing 35 kg. What might be the weight of the new person?",
+    "options": [
+      "80 kg",
+      "85 kg",
+      "75 kg",
+      "100 kg"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total weight increased = (8 x 5) kg = 40 kg.\nWeight of new person = (35 + 40) kg = 75 kg.\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0388",
+    "grade": 8,
+    "question": "In a simultaneous throw of pair of dice .find the probability of getting the total more than 7",
+    "options": [
+      "9/7",
+      "5/8",
+      "3/7",
+      "5/12"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Here n(S)=(6*6)=36\nlet E=event of getting a total more than 7\n={(2,6),(3,5),(3,6),(4,4),(4,5),(4,6),(5,3),(5,4),(5,5),(5,6),(6,2),(6,3),(6,4),(6,5),(6,6)}\nP(E)=n(E)/n(S)=15/36=5/12.\nAns: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0394",
+    "grade": 8,
+    "question": "The average of seven numbers is 18. The average of first three numbers is 14 and the average of last three numbers is 23. What is the middle number?",
+    "options": [
+      "25",
+      "27",
+      "15",
+      "32"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "The total of seven numbers = 7X18 = 126\nThe total of first 3 and last 3 numbers is = 3 X 14+3 X 23 = 111\nSo, the middle number is (126 - 111 ) = 15\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0413",
+    "grade": 8,
+    "question": "Nine men went to a hotel. Eight of them spent Rs.3 each over their meals and the ninth spent Rs.2 more than the average expenditure of all the nine. Determine the total money spent by them?",
+    "options": [
+      "29.25",
+      "29.28",
+      "79.28",
+      "29.22"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Average of 9 = x\n9x = 8 * 3 + x * 2 x = 3.25\nTotal = 9 * 3.25 = 29.25\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0419",
+    "grade": 8,
+    "question": "The average weight of 8 persons increases by 4 kg when a new person comes in place of one of them weighing 65 kg. What might be the weight of the new person ?",
+    "options": [
+      "75 kg",
+      "65 kg",
+      "55 kg",
+      "97 kg"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total weight increased = (8 x 4) kg = 32 kg.\nWeight of new person = (65 + 32) kg = 97 kg.\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0453",
+    "grade": 8,
+    "question": "Find the average of all prime numbers between 1 and 5.",
+    "options": [
+      "30",
+      "3.6",
+      "5.6",
+      "6.6"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sol.\nThere are five prime numbers between 1 and 5.\nThey are 2, 3, 5, 7, 11\n\u00e2\u02c6\u00b4 Required average = [2 + 3+ 5+ 7+ 11 / 5] = 28/ 5 = 5.6\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0462",
+    "grade": 8,
+    "question": "Find the average of first 6 multiples of 5?",
+    "options": [
+      "10",
+      "15",
+      "12.5",
+      "17.5"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "average = (5+10+15+20+25+30)/6 = 17.5\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0468",
+    "grade": 8,
+    "question": "consider the sequence 1,-2,3,-4,5,6.....what is the average of the first 200 terms of the sequence?",
+    "options": [
+      "-1/2",
+      "-3/2",
+      "0",
+      "1/2"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "suppose n=2 => avg is (1+-2)/2= -1/2, when n=4 => avg is -1/2 , similarly for n=200 avg will be -1/2.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0470",
+    "grade": 8,
+    "question": "Of the four numbers, whose average is 40, the first is one-fourth of the sum of the last three. The first number is ?",
+    "options": [
+      "28",
+      "29",
+      "11",
+      "32"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nLet the first number be x,\nThen, sum of the four numbers = x + 4x = 5x.\nso, 5x/4 = 40 or x = (40 * 4) / 5 = 32\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0473",
+    "grade": 8,
+    "question": "he average weight of 8 persons increases by 3.5 kg when a new person comes in place of one of them weighing 62 kg. What might be the weight of the new person ?",
+    "options": [
+      "75 kg",
+      "55 kg",
+      "45 kg",
+      "90 kg"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nTotal weight increased = (8 x 3.5) kg = 28 kg.\nWeight of new person = (62 + 28) kg = 90 kg.\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0476",
+    "grade": 8,
+    "question": "A box contains nine bulbs out of which 4 are defective. If four bulbs are chosen at random, find the probability that atleast one bulb is good",
+    "options": [
+      "125/126",
+      "125/129",
+      "125/128",
+      "125/124"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Required probability = 1 - 1/126 = 125/126.Answer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0480",
+    "grade": 8,
+    "question": "In a simultaneous throw of two coins, the probability of getting at least one head is",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/4"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Here S={HH, HT, TH, TT}\nLet E = event of getting at least one head = {HT, TH, HH}\nTherefore P(E) = n(E)/n(S) = 3/4\nAnswer D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0500",
+    "grade": 8,
+    "question": "The average age of 19 persons in a office is 15 years. Out of these, the average age of 5 of them is 14 years and that of the other 9 persons is 16 years. The age of the 15th person is?",
+    "options": [
+      "9",
+      "71",
+      "85",
+      "92"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Age of the 15th student = 19*15 - (14*5+16*9) = 285-214 = 71 years\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0551",
+    "grade": 8,
+    "question": "The average age of 8 men increases by 2 years when two women are included in place of two men of ages 20 and 10 years. Find the average age of the women?",
+    "options": [
+      "87",
+      "98",
+      "30",
+      "23"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "20 + 10 + 8 * 2\n= 46/2\n= 23\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0559",
+    "grade": 8,
+    "question": "Two brothers took the GMAT exam, the higher score is P and the lower one is Q. If the difference between the two scores is equal to their average, what is the value of Q/P ?",
+    "options": [
+      "3",
+      "2",
+      "1/2",
+      "1/3"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Answer is D : 1/3\nP - Q = (P + Q)/2\nSolving for Q/P = 1/3\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0612",
+    "grade": 8,
+    "question": "The average age of three boys is 12 years and their ages are in the proportion 2 : 6 : 8. The age of the youngest boy is:",
+    "options": [
+      "21 years",
+      "8.75 years",
+      "6.75 years",
+      "9 years"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total age of 3 boys = (12 \u00c3\u2014 3) years = 36 years. Ratio of their ages = 2 : 6 : 8.\nAge of the youngest = (36 \u00c3\u2014 3\u00e2\u0081\u201e16) years = 6.75 years.\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0622",
+    "grade": 8,
+    "question": "Rhoda tosses a coin 5 times. Find the probability of getting exactly 4 heads.",
+    "options": [
+      "5/32",
+      "6/32",
+      "5/16",
+      "4/32"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Exactly 4 heads out of 5 would be: HHHHT, HHTHH, or many other combinations.\ntherefore, no. of possible combinations are 5!/4!*1! = 5\nProbability = 5/2^5 = 5/32\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0630",
+    "grade": 8,
+    "question": "The average of 13 result is 60. Average of the first 7 of them is 57 and that of the last 7 is 61. Find the 8th result?",
+    "options": [
+      "35",
+      "37",
+      "46",
+      "48"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sum of all the 13 results = 13 * 60 = 780\nSum of the first 7 of them = 7 * 57 = 399\nSum of the last 7 of them = 7 * 61 = 427\nSo, the 8th number = 427 + 399 - 780 = 46.\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0677",
+    "grade": 8,
+    "question": "A man on tour travels first 160 km at 64 km/he and the next 160 km at 80 km/hr. The average speed for the first 320 km of the tour is?",
+    "options": [
+      "71.17 km/hr",
+      "71.21 km/hr",
+      "71.11 km/hr",
+      "81.11 km/hr"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total time taken = (160/64 + 160/8) = 9/2 hrs.\nAverage speed = 320 * 2/9 = 71.11 km/hr.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0681",
+    "grade": 8,
+    "question": "The probabilities of solving a question by 3students A, B & C are 1/2,1/3 &1/4, respectively. The probability that the problem will be solved is?",
+    "options": [
+      "1/2",
+      "3/4",
+      "3/5",
+      "3/7"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Sol. First, we find the probability of not solving the problem x PTO x = (1 \u2014 D x - D x - D\n1 2 3 1 =iXiX71=4;\n1 3 Required probability 3/4\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0733",
+    "grade": 8,
+    "question": "If four coins are tossed, the probability of getting two heads and two tails is",
+    "options": [
+      "3/8",
+      "3/9",
+      "3/6",
+      "3/1"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nSince four coins are tossed, sample space = 24\nGetting two heads and two tails can happen in six ways.\nn(E) = six ways\np(E) = 6/24 = 3/8\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0749",
+    "grade": 8,
+    "question": "The average of 2,7,6 and x is 5 and the average of 18,1,6,x and y is 10. What is the value of y?",
+    "options": [
+      "5",
+      "10",
+      "20",
+      "30"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "We have : ( 2+7+6+x)/4 = 5 or 15+x =20 or x = 5\nAlso (18+1+6+x+y)/5 = 10, 25+5+y = 50, y =20\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0800",
+    "grade": 8,
+    "question": "Tabby is training for a triathlon. She swims at a speed of 1 mile per hour. She runs at a speed of 10 miles per hour. She wants to figure out her average speed for these two events. What is the correct answer for her?",
+    "options": [
+      "8 mph",
+      "5.5 mph",
+      "3.5 mph",
+      "4 mph"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "(1 mph +10 mph)/2 = 5.5 mph\nCorrect option is: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0818",
+    "grade": 8,
+    "question": "John has 10pairs of dark blue socks and 10pairs of black socks. He keeps them all in the same bag. If he picks out 3socks at random, then what is the probability thathe will get a matching pair?",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "If he draws any combination of 3 socks he will definitely have the matching pair of either colour.\nA",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0837",
+    "grade": 8,
+    "question": "Out of a classroom of 6 boys and 4 girls the teacher picks a president for the student board, a vice president and a secretary.\nWhat is the probability that only girls will be elected?",
+    "options": [
+      "1/30",
+      "4/30",
+      "5/30",
+      "7/30"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "GBB (girl,boy,boy)\nGGB (girl,girl,boy)\nGGG (girl,girl,girl)\nthe probability of GGG is already known - 1/30.\nANS:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0848",
+    "grade": 8,
+    "question": "A person travelled from his house to office at 35km/hr and office to house at 65km/hr. Then find the average speed?",
+    "options": [
+      "30km/hr",
+      "45.5km/hr",
+      "48km/hr",
+      "50.5km/hr"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Average speed = (2*35*65)/(35+65)\r= 45.5km/hr\rAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0853",
+    "grade": 8,
+    "question": "The average age of 8 men increases by 2 years when two women are included in place of two men of ages 20 and 24 years. Find the average age of the women?",
+    "options": [
+      "27",
+      "21",
+      "30",
+      "27"
+    ],
+    "correct": 2,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "20 + 24 + 8 * 2\n= 60/2\n= 30\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0855",
+    "grade": 8,
+    "question": "The average of first five multiples of 3 is?",
+    "options": [
+      "6",
+      "8",
+      "9",
+      "5"
+    ],
+    "correct": 1,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Average = 3(1 + 2 + 3 + 4 + 5)/5\n= 45/5\n= 9.\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0883",
+    "grade": 8,
+    "question": "The average weight of 25 girls increases by 1 kg when a new girl comes in place of one of them weighing 55 kg. What might be the weight of the new girl?",
+    "options": [
+      "85 kg",
+      "90 kg",
+      "83 kg",
+      "80 kg"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Total weight increased = 25 x 1 kg = 25 kg.\nWeight of new person = 55 + 25 kg =80 kg\nAnswer : D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0898",
+    "grade": 8,
+    "question": "Find the average of first 27 natural numbers.",
+    "options": [
+      "14",
+      "14.2",
+      "15.2",
+      "15.8"
+    ],
+    "correct": 0,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Explanation:\nSum of first n natural numbers = n(n+1)/2\nHence, sum of first 27 natural numbers = (27 x 28)/2 = 378\nTherefore, required average of = 378/27 = 14\nANSWER: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0968",
+    "grade": 8,
+    "question": "What is the probability of getting exactly 1 head in a single throw of five fair coins?",
+    "options": [
+      "1/4",
+      "3/8",
+      "3/16",
+      "5/32"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "One possible case is HTTTT.\nP(HTTTT) = 1/2*1/2*1/2*1/2*1/2 = 1/32\nThere are 5C1 = 5 possible cases.\nP(1 head) = 5*1/32 = 5/32\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-stat-0970",
+    "grade": 8,
+    "question": "Find the value of x in the sequence of numbers 5,1,6,0,4,8,x,2 if the sum of the first 7 numbers is 30 and the average is 4.",
+    "options": [
+      "4",
+      "9",
+      "8",
+      "6"
+    ],
+    "correct": 3,
+    "tags": [
+      "statistics"
+    ],
+    "explanation": "Given 5+1+6+0+4+8+x =30 (36+6)/7 =6 Answer : D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  }
+]

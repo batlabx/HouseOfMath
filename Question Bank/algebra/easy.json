@@ -1,188 +1,3962 @@
 [
   {
-    "id": "alg-easy-001",
-    "grade": 6,
-    "question": "Solve for $x$: $x + 5 = 12$.",
+    "id": "aqua-alge-0006",
+    "grade": 8,
+    "question": "If (x^2 + 4x - 11)/5 \u2264 x + 1, then x could be represented by which of the following?",
     "options": [
-      "$x = 5$",
-      "$x = 7$",
-      "$x = 12$",
-      "$x = 17$"
+      "\u2212 3 \u2264 x \u2264 4",
+      "\u2212 4 \u2264 x \u2264 3",
+      "\u2212 3 \u2264 x \u2264 3",
+      "\u2212 4 \u2264 x \u2264 \u2212 3"
     ],
-    "correct": 1,
+    "correct": 0,
     "tags": [
-      "linear-equations",
-      "one-step"
+      "algebra"
     ],
-    "explanation": "Subtract 5 from both sides: $x = 12 - 5 = 7$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "IMO A is correct answer\nsolving through eqautions\nx^2 +4x-11<= 5x+5\n(x+3)(x-4)<=0",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-002",
-    "grade": 6,
-    "question": "Solve for $x$: $3x = 21$.",
+    "id": "aqua-alge-0019",
+    "grade": 8,
+    "question": "A person is traveling at 20 km/hr and reached his destiny in 2.5 hr then find the distance?",
     "options": [
-      "$x = 3$",
-      "$x = 6$",
-      "$x = 7$",
-      "$x = 18$"
+      "53 km",
+      "55 km",
+      "52 km",
+      "50 km"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "T = 2.5 hrs = 5/2 hrs\nD= T*S = 20*5/2 = 50 km\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0021",
+    "grade": 8,
+    "question": "Tim has 350 pounds of cement in 100, 50, and 25 pound bags. He has an equal number of each size bag. How many bags of cement does Tim have?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "8"
     ],
     "correct": 2,
     "tags": [
-      "linear-equations",
-      "one-step"
+      "algebra"
     ],
-    "explanation": "Divide both sides by 3: $x = 7$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the number of each sized bag = c\r100c + 50c + 25c = 350\r175c = 350\rc = 2\rTherefore, Tim has 3c = 6 bags of cement\rAnswer: C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-003",
-    "grade": 6,
-    "question": "Evaluate $2x + 3$ when $x = 4$.",
+    "id": "aqua-alge-0022",
+    "grade": 8,
+    "question": "What is the least value of x, So that 2x5475 is divisible by 9",
     "options": [
       "7",
-      "9",
+      "8",
+      "4",
+      "3"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nThe sum of the digits of the number is divisible by 9.\nThen the number is divisible by 9.\n2 + x + 5 + 4 + 7 + 5 = 23 + x\nLeast value of x may be '4',\nSo that the total 23 + 4 = 27\nis divisible by 9.\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0031",
+    "grade": 8,
+    "question": "What will be the difference in simple and compound interest on 2000 after three years at the rate of 10 percent per annum?",
+    "options": [
+      "160",
+      "42",
+      "62",
+      "20"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "For 3 years:\nDiff.=Sum\u00d7(rate)2(300+rate)/(100)3\n= 2000\u00d710\u00d710\u00d7310/100\u00d7100\u00d7100 = 62\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0033",
+    "grade": 8,
+    "question": "Find the constant k so that : -x2 - (k + 11)x - 8 = -(x - 2)(x - 4)",
+    "options": [
       "11",
+      "12",
+      "17",
       "14"
     ],
     "correct": 2,
     "tags": [
-      "substitution"
+      "algebra"
     ],
-    "explanation": "$2(4) + 3 = 8 + 3 = 11$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "-x2 - (k + 11)x - 8 = -(x - 2)(x - 4) : given\n-x2 - (k + 11)x - 8 = -x2 + 6x - 8\n-(k + 11) = 6 : two polynomials are equal if their corresponding coefficients are equal.\nk = -17 : solve the above for k\ncorrect answer C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-004",
-    "grade": 6,
-    "question": "Solve for $x$: $x - 7 = 10$.",
+    "id": "aqua-alge-0034",
+    "grade": 8,
+    "question": "A positive whole number has factors of 3 and 5. The number MUST be divisible by: I. 15 II. 30 III. 60",
     "options": [
-      "$x = 3$",
-      "$x = 7$",
-      "$x = 10$",
-      "$x = 17$"
+      "I & II",
+      "III",
+      "I & III",
+      "II & III"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "15 , 30 is not divisible by 60.But 60 is divisible by 3,5,15,30\nSo answer is III\nAnswer : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0036",
+    "grade": 8,
+    "question": "There are 8 players in a chess group, and each player plays each of the others once. Given that each game is played by two players, how many total games will be played?",
+    "options": [
+      "10",
+      "30",
+      "28",
+      "60"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "10 players are there.\ntwo players play one game with one another.\nso 8C2=8*7/2\n=28\nSO OPTION C is correct",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0037",
+    "grade": 8,
+    "question": "A pipe takes a hours to fill the tank. But because of a leakage it took 2 times of its original time. Find the time taken by the leakage to empty the tank",
+    "options": [
+      "50 min",
+      "60 min",
+      "90 min",
+      "120 min"
     ],
     "correct": 3,
     "tags": [
-      "linear-equations",
-      "one-step"
+      "algebra"
     ],
-    "explanation": "Add 7 to both sides: $x = 17$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "pipe a can do a work 60 min.\nlets leakage time is x;\nthen\n1/60 -1/x=1/120\nx=120 min\nANSWER:E",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-005",
-    "grade": 6,
-    "question": "Solve for $x$: $\\frac{x}{4} = 5$.",
+    "id": "aqua-alge-0038",
+    "grade": 8,
+    "question": "Today is 22 days before Mariah's graduation. If she graduates on a Friday, what day of the week is it today?",
     "options": [
-      "$x = 1$",
-      "$x = 9$",
-      "$x = 20$",
-      "$x = 25$"
+      "Monday",
+      "Friday",
+      "Tuesday",
+      "Thursday"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "linear-equations",
-      "one-step"
+      "algebra"
     ],
-    "explanation": "Multiply both sides by 4: $x = 20$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Each weekday is repeated every 7 days. 22 divided by 7 is 3, with a remainder of 1. Therefore, 22 days before the graduation occurs 1 day before the weekday of the graduation. Answer: D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-006",
-    "grade": 6,
-    "question": "Simplify: $3x + 2x$.",
+    "id": "aqua-alge-0043",
+    "grade": 8,
+    "question": "5358 x 51 = ?",
     "options": [
-      "$5$",
-      "$5x$",
-      "$6x$",
-      "$x^5$"
+      "273258",
+      "273268",
+      "273348",
+      "273358"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\n5358 x 51\t= 5358 x (50 + 1)\n= 5358 x 50 + 5358 x 1\n= 267900 + 5358\n= 273258.\nANSWER IS A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0054",
+    "grade": 8,
+    "question": "The smallest number when increased by \" 1 \" is exactly divisible by 6,9,15,35,45 is:",
+    "options": [
+      "631",
+      "630",
+      "359",
+      "629"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "LCM = 630\n630 - 1 = 629\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0055",
+    "grade": 8,
+    "question": "How many keystrokes are needed to type the numbers from 1 to 500?",
+    "options": [
+      "1156",
+      "1392",
+      "1480",
+      "1562"
     ],
     "correct": 1,
     "tags": [
-      "like-terms"
+      "algebra"
     ],
-    "explanation": "Combine like terms: $3x + 2x = 5x$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "There are 9 one-digit numbers from 1 to 9.\nThere are 90 two-digit numbers from 10 to 99.\nThere are 401 three-digit numbers from 100 to 500.\n9 + 90(2) + 401(3) = 1392\nThe answer is B.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-007",
-    "grade": 7,
-    "question": "Simplify: $5x - 2x + x$.",
+    "id": "aqua-alge-0060",
+    "grade": 8,
+    "question": "Find the number of zeroes in the expression 15*32*25*22*40*75*98*112*125",
     "options": [
-      "$2x$",
-      "$3x$",
-      "$4x$",
-      "$8x$"
-    ],
-    "correct": 2,
-    "tags": [
-      "like-terms"
-    ],
-    "explanation": "$(5 - 2 + 1)x = 4x$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-easy-008",
-    "grade": 7,
-    "question": "Solve for $x$: $2x + 1 = 9$.",
-    "options": [
-      "$x = 3$",
-      "$x = 4$",
-      "$x = 5$",
-      "$x = 8$"
+      "12",
+      "9",
+      "14",
+      "7"
     ],
     "correct": 1,
     "tags": [
-      "linear-equations",
-      "two-step"
+      "algebra"
     ],
-    "explanation": "Subtract 1: $2x = 8$. Divide by 2: $x = 4$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "(3*5)*(2*2*2*2*2)*(5*5)*(2*11)*(2*2*2*2*5)*(5*5*3)*(2*7*7)*(2*2*2*2*7)*(5*5*5)\nthere are 9 (5*2) pairs which gives zero\nso.no of zeros 9\nANSWER:B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-009",
-    "grade": 6,
-    "question": "Evaluate $x^2$ when $x = 3$.",
+    "id": "aqua-alge-0062",
+    "grade": 8,
+    "question": "If rupee one produces rupees nine over a period of 40 years, find the rate of simple interest?",
+    "options": [
+      "22 1/8 %",
+      "22 3/2 %",
+      "28 1/2 %",
+      "22 1/2 %"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "9 = (1*40*R)/100\nR = 22 1/2 %\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0069",
+    "grade": 8,
+    "question": "At the end of a business conference the nine people present all shake hands with each other once. How many handshakes will there be altogether ?",
+    "options": [
+      "20",
+      "45",
+      "36",
+      "90"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "number of handshakes = 9C2= 9*8/2 = 36\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0073",
+    "grade": 8,
+    "question": "If the population of a certain country increases at the rate of one person every 40 seconds, by how many persons does the population increase in 1 hour?",
+    "options": [
+      "90",
+      "120",
+      "150",
+      "180"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Answer = 1.5 * 60 = 90\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0083",
+    "grade": 8,
+    "question": "How many numbers from 39 to 79 are exactly divisible by 11?",
+    "options": [
+      "5",
+      "7",
+      "4",
+      "11"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "39/11 = 1 and 79/11 = 7 ==> 7 - 3 = 4 Numbers\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0094",
+    "grade": 8,
+    "question": "A and B invests Rs.3000 and Rs.4000 respectively in a business. If A doubles his capital after 6 months. In what ratio should A and B divide that year's profit?",
+    "options": [
+      "9:6",
+      "9:8",
+      "9:1",
+      "9:9"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(3*6 + 6*6): (4*12)\n54:48 => 9:8.Answer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0100",
+    "grade": 8,
+    "question": "A clock shows the time as 9 a.m. If the minute hand gains 5 minutes every hour, how many minutes will the clock gain by 5 p.m.?",
+    "options": [
+      "30 min",
+      "35 min",
+      "45 min",
+      "40 min"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "there are 8 hours in between 9 a.m. to 5 p.m.\n8*5=40 minutes.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0104",
+    "grade": 8,
+    "question": "B completes a work in 9 days. A alone can do it in 10 days. If both work together, the work can be completed in how many days?",
+    "options": [
+      "3.75 days",
+      "4.73 days",
+      "5.75 days",
+      "6.75 days"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1/9 + 1/10 = 19/90\n90/19 = 4.73 days\nANSWER: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0112",
+    "grade": 8,
+    "question": "In a division sum, the remainder is 6 and the divisor is 5 times the quotient and is obtained by adding 7 to the thrice of the remainder. The dividend is",
+    "options": [
+      "74",
+      "78",
+      "86",
+      "106"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Divisor = (6 * 3) + 7 = 25\n5 * Quotient = 25\nQuotient = 5.\nDividend = (Divisor * Quotient) + Remainder\nDividend = (20 * 5) + 6 = 106.\nE)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0117",
+    "grade": 8,
+    "question": "P and Q started a business investing Rs. 85,000 and Rs. 30,000 respectively. In what ratio the profit earned after 2 years be divided between P and Q respectively?",
+    "options": [
+      "17:6",
+      "17:0",
+      "17:4",
+      "17:2"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "P:Q = 85000 : 30000\n= 17:6.\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0120",
+    "grade": 8,
+    "question": "In how many different ways can the letters of the word \u2018ARMOUM\u2019 be arranged?",
+    "options": [
+      "200",
+      "210",
+      "230",
+      "360"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "ARMOUR = 6 letter whereas R repeated twice 6! 6xSx4x3x2x1 => 360\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0123",
+    "grade": 8,
+    "question": "A work which could be finished in 8 days was finished 3 days earlier after 10 more men joined. The number of men employed was?",
+    "options": [
+      "22",
+      "30",
+      "88",
+      "71"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "x ------- 8\n(x + 10) ---- 6\nx * 8 = (x + 10)6\nx = 30\n\\Answer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0126",
+    "grade": 8,
+    "question": "Renu can do a piece of work in 8 days, but with the help of her friend Suma , she can do it in 4 days. In what time Suma can do it alone?",
+    "options": [
+      "8",
+      "12",
+      "14",
+      "15"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Renu\u00e2\u20ac\u2122s one day\u00e2\u20ac\u2122s work = 1/8\nSuma\u00e2\u20ac\u2122s one day\u00e2\u20ac\u2122s work = 1/4 - 1/8 = 1/8\nSuma can do it alone in 8 days.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0129",
+    "grade": 8,
+    "question": "If by selling an article for Rs.60, a person loses 1/7 of money, what would he have gained or lost % by selling it for Rs.77?",
+    "options": [
+      "5%",
+      "10%",
+      "20%",
+      "30%"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Sol. CP - = EC7 = 70 1-7 6 77-70 % Profit = 100 = 10%\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0132",
+    "grade": 8,
+    "question": "some digits were given like 0 2 2 3 3 4 4 then how many no will be there which is greater than 1 lac ,all numbers are distinct",
+    "options": [
+      "530",
+      "540",
+      "550",
+      "560"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "( 6*6*5*4*3*2)/(2! *2!*2!)= 540 ways\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0133",
+    "grade": 8,
+    "question": "A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is:",
+    "options": [
+      "600",
+      "698",
+      "675",
+      "688"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1 year = Rs. (854 - 815) = Rs. 39.\n3 years = Rs.(39 x 3) = Rs. 117.\nPrincipal = Rs. (815 - 117) = Rs. 698\nANSWER B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0134",
+    "grade": 8,
+    "question": "Each of the following equations has at least one solution EXCEPT D. Is it true?",
+    "options": [
+      "-2*-a = 2a",
+      "2*a = (\u20132)*-a",
+      "-4*a = -3-a",
+      "-3*a = -3-a"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "If we put a= 1 then\nA. 2\nB. 2\nC. -4\nE. -3\nD. -3=-4 Not true",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0136",
+    "grade": 8,
+    "question": "If x is the product of the integers from 1 to 150, inclusive, and 5^y is a factor of x, what is the greatest possible value of y ?",
+    "options": [
+      "30",
+      "34",
+      "36",
+      "37"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "It basically asks for the number of 5s in 150!\n150/5 + 150/25 + 150/125 = 30 + 6 + 1. Hence 37\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0143",
+    "grade": 8,
+    "question": "If a sum of money doubles itself in 20 years at simple interest, the ratepercent per annum is",
+    "options": [
+      "12",
+      "12.5",
+      "13",
+      "5"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nLet sum = x then Simple Interest = x\nRate = (100 * x) / (x * 20) = 5\nOption D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0145",
+    "grade": 8,
+    "question": "Choose the missing terms out of the given alternatives.\nAZ, BY, CX, DW ?",
+    "options": [
+      "EF",
+      "GH",
+      "EV",
+      "DW"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "C\nEV\nThe first letter moves one step forward. The second letter moves one step backward.\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0151",
+    "grade": 8,
+    "question": "A woman complete a journey in 20 hours. She travels first half of the journey at the rate of 21 km/hr and second half at the rate of 24 km/hr. Find the total journey in km.",
+    "options": [
+      "334 km.",
+      "216 km.",
+      "314 km.",
+      "448 km."
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "0.5x/21 + 0.5x/24 = 20\n--> x/21 + x/24 = 40\n--> x =448 km.\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0153",
+    "grade": 8,
+    "question": "The sum of the present ages of two persons A and B is 60. If the age of A is twice that of B, find the sum of their ages 5 years hence?",
+    "options": [
+      "70",
+      "55",
+      "60",
+      "65"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "A+B=60 A=2B\n2B+B=60===>B=20\nA=40\n5 yrs ages 45 and 25\nSum of their ages = 70\nANSWER A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0154",
+    "grade": 8,
+    "question": "Find the number which when multiplied by 15 is increased by 196.",
+    "options": [
+      "14",
+      "20",
+      "26",
+      "28"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the number be x. Then, 15x - x = 196\n<=> 14x = 196 <=> x = 14.\nAnswer :A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0159",
+    "grade": 8,
+    "question": "What is the greatest possible value of integer n if 100! is divisible by 15^n",
+    "options": [
+      "20",
+      "21",
+      "22",
+      "24"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "15^n = 5^n * 3^n\nHighest prime factor will be the limiting factor.\n100/5 +100/25 =20+4 = 24\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0163",
+    "grade": 8,
+    "question": "The total age of A and B is 10 years more than the total age of B and C. C is how many years younger than A.?",
+    "options": [
+      "16",
+      "12",
+      "10",
+      "20"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(A+B)-(B-C)=10\nA-C=10\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0166",
+    "grade": 8,
+    "question": "A and B invests Rs.3000 and Rs.7000 respectively in a business. If A doubles his capital after 6 months. In what ratio should A and B divide that year's profit?",
+    "options": [
+      "9:6",
+      "9:8",
+      "9:14",
+      "9:9"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(3*6 + 6*6): (7*12)\n54:84 => 9:14.Answer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0172",
+    "grade": 8,
+    "question": "If n is a positive integer and n^2 is divisible by 450, then what is the largest positive integer that must divide n?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "450 = 2 * 3^2 * 5^2\nIf 450 divides n^2, then n must be divisible by 2 * 3 * 5 = 30\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0177",
+    "grade": 8,
+    "question": "A man is 30 years older than his son. In two years, his age will be twice the age of his son. The present age of the son is",
+    "options": [
+      "14 years",
+      "28 years",
+      "20 years",
+      "22 years"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Solution\nLet the son's present age be x years .Then, man's present age\t= (x+30)years.\nThen\t\u00e2\u20ac\u00b9=\u00e2\u20ac\u00ba(x+30)+2= 2(x+2)\n\u00e2\u20ac\u00b9=\u00e2\u20ac\u00bax+32=2x+4\nx= 28.\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0192",
+    "grade": 8,
+    "question": "Y and Z start a business with Rs.3000 and Rs.6000 respectively. How should they share their profits at the end of one year?",
+    "options": [
+      "4:1",
+      "1:3",
+      "1:4",
+      "1:2"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "They should share the profits in the ratio of their investments.\nThe ratio of the investments made by Y and Z =\n3000 : 6000 => 1:2 .\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0194",
+    "grade": 8,
+    "question": "P is two years older than Q who is twice as old as R. The total of the ages of P, Q and R is 25. How old is Q?",
+    "options": [
+      "7.2 years",
+      "8.2 years",
+      "9.8 years",
+      "9.2 years"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let age of R =x. Then,\nAge of Q =2x\nAge of P =2+2x\nTotal age of P,Q and R =25\n\u21d2(2+2x)+2x+x=25\n\u21d25x=23\n\u21d2x=23/5=4.6 years\nB's age =2x=2\u00d74.6=9.2 years\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0198",
+    "grade": 8,
+    "question": "If a man can cover 18 metres in one second, how many kilometres can he cover in 3 hours 45 minutes?",
+    "options": [
+      "288",
+      "162",
+      "878",
+      "243"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "18 m/s = 12 * 18/5 kmph\n3 hours 45 minutes = 3 3/4 hours = 15/4 hours\nDistance = speed * time = 18 * 18/5 * 15/4 km = 243 km.\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0207",
+    "grade": 8,
+    "question": "What is the lowest positive integer that is divisible by each of the integers 1 through 8, inclusive?",
+    "options": [
+      "420",
+      "560",
+      "840",
+      "960"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The integers are 1 , 2 , 3 , 4 , 5 , 6 , 7 and 8\nLowest positive integer that is is divisible by each of the integers 1 through 8\n= 2^3 * 3 * 5 * 7\n=8*3 *5 *7\n=24 * 35\n= 840\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0211",
+    "grade": 8,
+    "question": "A and B rent a pasture for 10 months. A put in 80 cows for 7 months. How many can B put in for the remaining 3 months, if he pays half as much again as A?",
+    "options": [
+      "298",
+      "608",
+      "279",
+      "280"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "80* 7: x* 3 = 1:1 1/2\n560: 3x = 2: 3\nx = 280\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0219",
+    "grade": 8,
+    "question": "What will come in place of the x in the following Number series? 46080, 3840, ?, 48, 8, 2, 1",
+    "options": [
+      "1",
+      "384",
+      "5",
+      "7"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "46080 /12 = 3840\n3840 /10 = 384\n384 /8 = 48\n48 /6 = 8\n8/4 = 2\n2 /2 = 1\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0223",
+    "grade": 8,
+    "question": "If a man lost 4% by selling oranges at the rate of 12 a rupee at how many a rupee must he sell them to gain 44%?",
+    "options": [
+      "3",
+      "8",
+      "9",
+      "6"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "96% ---- 12\n144% ---- ?\n96/144 * 12 = 8\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0240",
+    "grade": 8,
+    "question": "For any real number x, the operatoris defined as:\n(x) = x(2 \u2212 x)\nIf p + 2 =(p + 2), then p =",
+    "options": [
+      "1",
+      "0",
+      "1",
+      "-2"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(x) = x(2 \u2212 x)\n(p + 2) = (p + 2)(2 - p - 2) = -p(p+1)\nWe are given that p + 2 =(p + 2)\nTherefore -p(p+2) = (p + 2)\nOr (p + 2) + p(p+2) = 0\n(p + 2)(p+1) = 0\np = -1,p=-2\nOption D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0244",
+    "grade": 8,
+    "question": "What is the greatest prime factor of 2^10 - 1?",
+    "options": [
+      "17",
+      "19",
+      "23",
+      "31"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "2^10-1 = (2^5-1)(2^5+1) = 31*33\nThe answer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0251",
+    "grade": 8,
+    "question": "A person can swim in still water at 4 km/h. If the speed of water 2 km/h, how many hours will the man take to swim back against the current for 6km?",
+    "options": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "M = 4\nS = 2\nUS = 4 - 2 = 2\nD = 6\nT = 6/2 = 3\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0256",
+    "grade": 8,
+    "question": "If 4 men can colour 48 m long cloth in 2 days, then 6 men can colour 36 m long cloth in",
+    "options": [
+      "2 days",
+      "1 day",
+      "3 days",
+      "5 days"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The length of cloth painted by one man in one day = 48 / 4 \u00d7 2 = 6 m\nNo. of days required to paint 36 m cloth by 6 men = 36/ 6 \u00d7 6 = 1 day.\nB)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0268",
+    "grade": 8,
+    "question": "If k^3 is divisible by 120, what is the least possible value of integer k?",
+    "options": [
+      "12",
+      "30",
+      "60",
+      "90"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "120 = 2^3*3*5\nTherefore k must include at least 2 * 3 * 5 = 30.\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0270",
+    "grade": 8,
+    "question": "If n is a positive integer, which of the following expressions must be even?",
+    "options": [
+      "(n \u2212 1)( n + 1)",
+      "(n \u2212 4)( n + 1)",
+      "(n \u2212 2)( n + 6)",
+      "(n \u2212 5)( n + 1)"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Whether n is even or odd, (n-4)(n+1) will have one odd factor and one even factor.\nThe product will be even.\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0271",
+    "grade": 8,
+    "question": "30 liters of a mixture is created by mixing Liquid P and Liquid Q in the ratio 3:2. How many liters of Liquid Q must be added to make the ratio 3:4?",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let x be the amount of liquid Q to be added.\n(2/5)*30 + x = (4/7)*(30+x)\n420 + 35x = 600 + 20x\n15x = 180\nx = 12\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0274",
+    "grade": 8,
+    "question": "The simple interest at z% for z years will be $z on a sum of",
+    "options": [
+      "$ (1000)/z",
+      "$(100)z^2",
+      "$ z",
+      "$ (100)/z"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Principal =$(100*z)/(z*z)=$(100/z).\nAnswer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0277",
+    "grade": 8,
+    "question": "For every X, the action [X] is defined: [X] is the greatest integer less than or equal to X. What is the value of [6.5] x [2/3] + [2] x 7.2 + [8.4] - 6.2?",
+    "options": [
+      "12.6.",
+      "14.4.",
+      "15.8.",
+      "16.2."
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "[6.5] x [2/3] + [2] x 7.2 + [8.4] - 6.2\n= 6*0 + 2*7.2 + 8 - 6.2\n= 0 +14.4 +1.8\n16.2\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0286",
+    "grade": 8,
+    "question": "If x is 20 percent more than y and y is 60 percent less than z, then x is what percent of z?",
+    "options": [
+      "500%",
+      "48%",
+      "500/3%",
+      "125%"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Z = 100 ; Y = 40 so X = 48\nX as % of Z = 48/100 * 100 => 48%\nAnswer will be (B)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0287",
+    "grade": 8,
+    "question": "The sale price of an article including the sales tax is Rs. 616. The rate of sales tax is 10%. If the shopkeeper has made a profit of 12%, then the cost price of the article is:",
+    "options": [
+      "500",
+      "277",
+      "222",
+      "297"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\n110% of S.P. = 616\nS.P. = (616 * 100)/110 = Rs. 560\nC.P = (110 * 560)/112 = Rs. 500\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0293",
+    "grade": 8,
+    "question": "Water boils at 212\u00b0F or 100\u00b0C and melts at 32\u00b0F or 0\u00b0C . If the temperature of the particular day is 35\u00b0C , it is equal to",
+    "options": [
+      "40",
+      "80",
+      "95",
+      "100"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let F and C denotes the temparature in Fahrenheit anid Celcsius respectively.\nThen, (F - 32) /(212 - 32) = (C - 0)/(100 - 0), if c = 35, then F = 95.\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0296",
+    "grade": 8,
+    "question": "A cycle is bought for Rs.900 and sold for Rs.1080, find the gain percent?",
+    "options": [
+      "70%",
+      "20%",
+      "60%",
+      "10%"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\n900 ---- 180\n100 ---- ? => 20%\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0300",
+    "grade": 8,
+    "question": "In how many ways can a Chief Minister and a Vice Minister be elected from a team of 11 members?",
+    "options": [
+      "110",
+      "121",
+      "132",
+      "144"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "There are 11 choices for the Chief Minister.\nThen there are 10 choices for the Vice Minister.\nThe total number of ways is 11*10 = 110.\nThe answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0309",
+    "grade": 8,
+    "question": "If 2x^2 + y^2 = 2xy, then (x - y)^2 =",
+    "options": [
+      "-x^2",
+      "3x^2",
+      "4xy",
+      "2y^2"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(x-y)^2 = x^2 + y^2 - 2xy = x^2 + y^2-2x^2-y^2 = -x^2\nCorrect option : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0319",
+    "grade": 8,
+    "question": "What distance will be covered by a city bus moving at 72 kmph in 30 seconds?",
+    "options": [
+      "200 m",
+      "300 m",
+      "600 m",
+      "500 m"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "72 kmph = 72 * 5/18 = 20 mps\nDist = Speed * time = 20 * 30 = 600 m.\nANSWER C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0326",
+    "grade": 8,
+    "question": "If m > 0 and y is m percent of x, then, in terms of m, x is what percent of y?",
+    "options": [
+      "a) 100m",
+      "b) 1/100m",
+      "c) 10,000/m",
+      "d) 10/m"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "y= m/100 * x\nSo x= 100/m * y\nSo x= (10000/m)/100 *y\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0329",
+    "grade": 8,
+    "question": "If x and y are odd integers, which of the following must always be a non-integer",
+    "options": [
+      "-x^2y",
+      "y/x",
+      "xy/4",
+      "x/y"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "as X and Y are odd, multiplication of x and y would result in odd integer\n(Odd Integer)/4 will always be non integer.\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0331",
+    "grade": 8,
+    "question": "From below option 48 is divisible by which one?",
+    "options": [
+      "A)3",
+      "B)5",
+      "C)9",
+      "D)7"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "48/3 = 16\nA",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0332",
+    "grade": 8,
+    "question": "If (5^5)(9^3)=3(15^x), what is the value of x?",
+    "options": [
+      "5",
+      "9",
+      "11",
+      "13"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(5^5)(9^3)=3(15^x)\n=> 5^5 * 3^6 = 3 * 3^x * 5^x\n=> 5^5 * 3^6 = 3^(x+1) * 5^x\nValue of x = 5\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0333",
+    "grade": 8,
+    "question": "A no. when divided by the sum of 555 and 445 gives 2times their difference as quotient & 60 as remainder. Find the no. is?",
+    "options": [
+      "145646",
+      "236578",
+      "645353",
+      "220060"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(555 + 445) * 2 * 110 + 60 = 220000 + 60 = 220060\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0337",
+    "grade": 8,
+    "question": "If x/4 + 24/x = 5, what are the values of 4x - 7?",
+    "options": [
+      "8 and 9",
+      "8 and 24",
+      "25 and 41",
+      "12 and 29"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "I got the same thing C is the answer 25 or 41",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0340",
+    "grade": 8,
+    "question": "A tour group of 25 people paid a total of $1050 for entrance to a museum. If this price included a 5% sales tax, and all the tickets cost the same amount, what was the face value of each ticket price without the sales tax?\nChoices",
+    "options": [
+      "$22",
+      "$23.94",
+      "$40",
+      "$25.20"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Soln:-\n1050/25=x+0.05x\n1050/25=1.05x\nx=40\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0343",
+    "grade": 8,
+    "question": "Sachin is younger than Rahul by 4 years. If their ages are in the respective ratio of 7:9, how old is Sachin?",
+    "options": [
+      "24.8 years",
+      "28.5 years",
+      "84.5 years",
+      "24.5 years"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let Rahul's age be x years.\nThen, Sachin's age = (x - 7) years.\n(x - 7)/x = 7/9\n2x = 63 => x = 31.5\nHence, Sachin's age = (x - 7) = 24.5 years.\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0344",
+    "grade": 8,
+    "question": "What will be the difference between simple and compound interest at 16% per annum on a sum of Rs. 1000 after 4 years?",
+    "options": [
+      "164.19",
+      "164.12",
+      "170.6",
+      "167.1"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "S.I. = (1000 * 16 * 4)/100 = Rs. 640\nC.I. = [1000 * (1 + 16/100)4 - 1000] = Rs. 810.6 Difference = (810.6-640) = Rs. 170.6\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0348",
+    "grade": 8,
+    "question": "a school has 6 maths 5 physics and 5 chemistry teachers each teacher can teach 4 subjects max what is he minimum number of teachers required",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Total subjects = 6+5+5=16\nMax subjects by 1 teacher = 4\nSo, min of teachers required = 16/4 = 4\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0355",
+    "grade": 8,
+    "question": "A tradesman sold an article at a loss of 20%. If the selling price had been increased by $100, there would have been a gain of 5%. What was the cost price of the article ?",
+    "options": [
+      "$400",
+      "$150",
+      "$300",
+      "$550"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let C.P. be $x\nThen 105% of x - 80% of x = 100\n25% of x = 100\nx/4 = 100\nx = 400\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0363",
+    "grade": 8,
+    "question": "How many minutes does it take Dhoni to type 64 words if he types at the rate of 16 words per minute?",
+    "options": [
+      "10",
+      "15",
+      "12",
+      "16"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "time*rate=job --> time*16=64 --> time=64/4=16.\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0364",
+    "grade": 8,
+    "question": "A and B start walking towards each other at 6pm at speed of 6kmph and 4kmph. They were initially 50km apart. At what time do they meet?",
+    "options": [
+      "8pm",
+      "6pm",
+      "11pm",
+      "10pm"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Time of meeting = distance / relative speed = 50/4+6 = 50/10 = 5 hrs after 6pm = 11pm\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0368",
+    "grade": 8,
+    "question": "The present population of a town is 1000. Population increase rate is 25% p.a. Find the population of town before 1 years?",
+    "options": [
+      "800",
+      "1500",
+      "1000",
+      "750"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "P = 1000\nR = 25%\nRequired population of town = P/(1 + R/100)^T\n= 1000/(1 + 25/100)\n= 1000/(5/4)\n= 800\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0374",
+    "grade": 8,
+    "question": "If a person walks at 16 km/hr instead of 10 km/hr, he would have walked 20 km more. The actual distance traveled by him is:",
+    "options": [
+      "50 km",
+      "56 km",
+      "60 km",
+      "33.3 km"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the actual distance travelled be x km.\nx/10 = (x+20)/16\n16x = 10x + 200\n6x = 200\nx = 33.3 km.\nanswer :E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0377",
+    "grade": 8,
+    "question": "How many different values of positive integer x, for which |x+9|<x, are there?",
+    "options": [
+      "0",
+      "2",
+      "3",
+      "8"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Answer C\nI opted to put the random value option.\ni used 0 , 9 , -9 and the the extreme of 10 and -10..\ni was able to solve it in 1:09\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0383",
+    "grade": 8,
+    "question": "A can do a certain job in 16 days. B is 60% more efficient than A. How many days does B alone take to do the same job?",
+    "options": [
+      "11 1/4 days",
+      "8 days",
+      "5 days",
+      "10 days"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Ratio of times taken by A and B = 160 : 100 = 8 : 5.\nSuppose B alone takes x days to do the job.\nThen, 8 : 5 :: 16 : x = 8x = 5 x 16 =x = 10 days.\nAnswer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0384",
+    "grade": 8,
+    "question": "A can do a work in 22 days. B is 30% more efficient than A. How many days does B alone take to do the same job?",
+    "options": [
+      "222/13",
+      "221/13",
+      "220/13",
+      "219/13"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Ratio of times taken by A and B = 130:100 = 13:10\nsuppose B alone to take x days to do the work\nthen, 13:10::22:x\n13x= 10*22\nx=220/13 days\ncorrect option is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0385",
+    "grade": 8,
+    "question": "When Q is divided by X, the quotient is R and the remainder is E. Which of the following expressions is equal to E?",
+    "options": [
+      "-RX + Q",
+      "RX - Q",
+      "Q + RX",
+      "QX - R"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Q/X = R + E/W\nQ -RX = E\nAmswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0387",
+    "grade": 8,
+    "question": "If n is a natural number, then(6n^2+6n) is always divisible by?",
+    "options": [
+      "6 only",
+      "6 and 12",
+      "12 only",
+      "by 18 only"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(6n^2+6n)=6n(n+1), which is always divisible by 6 and 12 both, since n(n+1) is always even.\nCorrect Option: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0389",
+    "grade": 8,
+    "question": "Kul is 22 years old and Saras is 33 years. Find the ratio of Saras's age to Kul's age.",
+    "options": [
+      "3/1",
+      "3/2",
+      "5/2",
+      "5/3"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation :\nKul is 22 years old.Saras is 33 years old.Saras's age : Kul's age = 33 : 22 = 3 : 2\nAnswer : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0397",
+    "grade": 8,
+    "question": "The Julie's father's age is two more than thrice Julie's age. If Julie will be 15 after 4 years, what is her father's present age?",
+    "options": [
+      "35 years",
+      "33 years",
+      "32 years",
+      "34 years"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "LET AGE OF JULI BE 'J'\nAGE OF HER FATHER BE 'F'\nthen given 3J+2=F\nAND J+4=15\n====>J=11 at present\nthen F=3*11+2\nF=35\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0403",
+    "grade": 8,
+    "question": "A and B can do a piece of work in 7 days. With the help of C they finish the work in 5 days. C alone can do that piece of work in?",
+    "options": [
+      "15.5 days",
+      "19.5 days",
+      "17.5 days",
+      "16.5 days"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "C = 1/5 \u2013 1/7 = 2/35 => 17.5 days\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0408",
+    "grade": 8,
+    "question": "The numbers of students speaking English and Hindi are in the ratio of 4 : 5. If the number of students speaking English increased by 35% and that speaking Hindi increased by 20%, what would be the new respective ratio?",
+    "options": [
+      "19 : 20",
+      "7 : 8",
+      "8 : 9",
+      "None of these"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Reqd ratio = 4\u00d713/55\u00d7120=9:10\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0412",
+    "grade": 8,
+    "question": "In how many a committee of 5 members can be selected from 6men 5 ladies consisting of 3 men and 2 ladies",
+    "options": [
+      "231",
+      "150",
+      "200",
+      "450"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(3 men out of 6) and (2 ladies out of 5) are to be chosen\nRequired number of ways\n=(6C3 * 5C2)\n= 200\nAns: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0421",
+    "grade": 8,
+    "question": "A pipe takes a hours to fill the tank. But because of a leakage it took 7 times of its original time. Find the time taken by the leakage to empty the tank",
+    "options": [
+      "50 min",
+      "60 min",
+      "90 min",
+      "70 min"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "pipe a can do a work 60 min.\nlets leakage time is x;\nthen\n1/60 -1/x=1/420\nx=70 min\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0430",
+    "grade": 8,
+    "question": "If A lends Rs.3500 to B at 10% per annum and B lends the same sum to C at 11.5% per annum then the gain of B in a period of 3 years is?",
+    "options": [
+      "99.222",
+      "223.22",
+      "157.5",
+      "222.88"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(3500*1.5*3)/100\n=> 157.50\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0432",
+    "grade": 8,
+    "question": "A committee has 4 men and 6 women. What are the number of ways of selecting 2 men and 3 women from the given committee?",
+    "options": [
+      "127",
+      "120",
+      "882",
+      "272"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The number of ways to select two men and three women\n= 4C\u2082 * \u2076C\u2083\n= (4*3 )/(2 * 1) * (6 * 5 * 4)/(3 * 2)\n= 120\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0436",
+    "grade": 8,
+    "question": "a light flashes every 20 seconds, how many times will it flash in ? of an hour?",
+    "options": [
+      "550",
+      "600",
+      "650",
+      "180"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1flash=20sec\nfor 1 min=3flashes\nso for 1 hour=3*60=180 flashes.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0444",
+    "grade": 8,
+    "question": "What should come in place of the question mark(?) in the following equation? 28\u2044? = ?\u2044112",
+    "options": [
+      "70",
+      "56",
+      "48",
+      "64"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "28\u2044? = ?\u2044112\n\\ ? =\u221a28\u00d7112=56\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0445",
+    "grade": 8,
+    "question": "Find the value of 72517 x 9999 = m?",
+    "options": [
+      "456578972",
+      "436567874",
+      "653658791",
+      "725097483"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "72517 x 9999 = 72517 x (10000 - 1)\n= 72517 x 10000 - 72517 x 1\n= 725170000 - 72517\n= 725097483\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0457",
+    "grade": 8,
+    "question": "Find (7x + 4y ) / (x-2y) if x/2y = 3/2 ?",
     "options": [
       "6",
-      "9",
-      "12",
+      "8",
+      "7",
+      "25"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "given:\nx/2y = 3/2\n=> (x-2y)/2y = 1/2\n=> x = 3y\nPutting x = 3y in (7x+4y)/(x-3y) gives value 25.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0458",
+    "grade": 8,
+    "question": "What is the next number in this series?\n4,12,84,3612....",
+    "options": [
+      "6526884",
+      "6526888",
+      "6626884",
+      "6527884"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "((4^2)/2)+4=12\n((12^2)/2)+12=84\n((84^2)/2)+84=3612\n((3612^2)/2)+3612=6526884\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0459",
+    "grade": 8,
+    "question": "In how many ways, a committee of 5 members can be selected from 4 men and 5 ladies, consisting of 3 men and 2 ladies?",
+    "options": [
+      "40",
+      "152",
+      "175",
+      "200"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(3 men out 4) and (2 ladies out of 5) are to be chosen\nRequired number of ways = (4C3 * 5C2) = 40\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0460",
+    "grade": 8,
+    "question": "Rs.360 contained in a box consists of one rupee, 50 paisa and 25 paisa coins in the ratio 4:5:6. What is the number of 25 paisa coins?",
+    "options": [
+      "388",
+      "266",
+      "120",
+      "270"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "4x 5x 6x\n100 50 25\n400x + 250x + 150x = 36000\nx = 45\n6x = 270\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0477",
+    "grade": 8,
+    "question": "If 180/x is an integer and 108/x is an integer, which of the following must be true?\nI. 9/x is an integer.\nII. 12/x is an integer.\nIII. 36/x is an integer.",
+    "options": [
+      "I, II, and III",
+      "III only",
+      "I and II only",
+      "II and III only"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The largest possible value of x is 36 (the greatest common factor of 180 and 108), and if x=36 then\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0483",
+    "grade": 8,
+    "question": "Find the largest number of four digits which is exactly divisible by 27,18,12,15",
+    "options": [
+      "9700",
+      "9710",
+      "9720",
+      "9730"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nLCM of 27-18-12-15 is 540.\nAfter dividing 9999 by 540 we get 279 remainder.\nSo answer will be 9999-279 = 9720\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0485",
+    "grade": 8,
+    "question": "The contents of a certain box consist of 24 oranges and 30 kiwis. How many kiwis must be added to the box so that exactly 30% of the pieces of fruit in the box will be oranges?",
+    "options": [
+      "24",
+      "26",
+      "30",
+      "46"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "oranges = (oranges + kiwi + x)*0.3\n24 = (30 + 24 + x)*0.3\nx = 26.\nAnswer: B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0486",
+    "grade": 8,
+    "question": "A train 250 meters long completely crosses a 300 meters long bridge in 45 seconds. What is the speed of the train is?",
+    "options": [
+      "32",
+      "28",
+      "29",
+      "44"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "S = (250 + 300)/45 = 550/45 * 18/5 =44\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0489",
+    "grade": 8,
+    "question": "An individual deposited 20% of 25% of 30% of what he had into his account with a bank. If he deposited Rs.750, how much was he having initially with him before depositing?",
+    "options": [
+      "Rs.500000",
+      "Rs.50000",
+      "Rs.5000",
+      "Rs.15000"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "let x amount he has then 20% of 25% of 30% of x=750\nso x=50000\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0492",
+    "grade": 8,
+    "question": "It is only in the second option we find the sentence A in continuation with the opening sentence D. Sentence A alone explains, why the fear has such enormous effect on the human beings.",
+    "options": [
+      "28",
+      "99",
+      "728",
       "27"
     ],
     "correct": 1,
     "tags": [
-      "substitution",
-      "exponents"
+      "algebra"
     ],
-    "explanation": "$3^2 = 3 \\times 3 = 9$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Answer:B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-easy-010",
-    "grade": 6,
-    "question": "If $a = 5$ and $b = 3$, find $2a + b$.",
+    "id": "aqua-alge-0493",
+    "grade": 8,
+    "question": "What sum of money will produce Rs.70 as simple interest in 4 years at 3 1/2 percent?",
     "options": [
-      "8",
-      "10",
-      "13",
-      "16"
+      "266",
+      "500",
+      "287",
+      "26"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "70 = (P*4*7/2)/100\nP = 500\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0494",
+    "grade": 8,
+    "question": "If x > 1, which of the following decreases as x decreases?\nI. x + x^2\nII. 1/(2x^2 \u2212 x)\nIII. 1/(x + 1)",
+    "options": [
+      "I only",
+      "II only",
+      "III only",
+      "I and II only"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "let x= 4 and 3 b old and new values\nST1: x= 4 -> 4+16 = 20\nx=3-> 3+9 = 12 ...decreased\nST2:x= 4-> 2*16-4 = 1/28\nx=3->2*9-3 = 1/15\nincreased\nSt3: x=4-> 1/4 = .25\nx=3->1/3 = .33\nAns: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0499",
+    "grade": 8,
+    "question": "A man buys an article for $10. and sells it for $30. Find the gain percent?",
+    "options": [
+      "25%",
+      "50%",
+      "20%",
+      "300%"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "C.P. = $10\nS.P. = $30\nGain = $20\nGain% = 20/10 *100 = 300%\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0504",
+    "grade": 8,
+    "question": "In how many ways can the letters of the word ASTERIX be arranged in a row so that the vowels appear in alphabetic order?",
+    "options": [
+      "800",
+      "820",
+      "880",
+      "840 eight hundred forty"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "three letters can be arranged in 3! ways.\nonly one combination AEI is required.\n7 letters can be arranged in 7! ways.\nthus 7!/ 3! * 1 = 840.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0506",
+    "grade": 8,
+    "question": "If y exceeds x by 28%, then x is less than y by?",
+    "options": [
+      "16 2/8%",
+      "16 8/3%",
+      "21 7/8%",
+      "76 2/3%"
     ],
     "correct": 2,
     "tags": [
-      "substitution"
+      "algebra"
     ],
-    "explanation": "$2(5) + 3 = 10 + 3 = 13$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "X=100\ty=128\n128------28\n100-------? => 21 7/8%\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0507",
+    "grade": 8,
+    "question": "If 14 men do a work in 80 days, in how many days will 20 men do it?",
+    "options": [
+      "18 days",
+      "38 days",
+      "42 days",
+      "56 days"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "14 * 80 = 20 * x\nx = 56 days\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0508",
+    "grade": 8,
+    "question": "A sum of money is put out at compound interest for 2 years at 20%. It would fetch Rs.1446 more if the interest were payable half-yearly, then it were pay able yearly. Find the sum.",
+    "options": [
+      "32200",
+      "41897",
+      "58799",
+      "60000"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "P(11/10)^4 - P(6/5)^2 = 1446\nP = 60000\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0509",
+    "grade": 8,
+    "question": "A soccer team played 160 games and won 65 percent of them. How many games did it win?",
+    "options": [
+      "84",
+      "94",
+      "104",
+      "114"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "65% of 160 =x\n0.65*160 = x\n104=x\nanswer :C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0510",
+    "grade": 8,
+    "question": "If the numerator of a fraction be increased by 15% and its denominator be diminished by 8%, the value of the fraction is 15/16. Find the original fraction ?",
+    "options": [
+      "1/2",
+      "3/5",
+      "5/7",
+      "3/4"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the original fraction be x/y\nThen, 115% of x/92% of y = 15/16\n115x/92y = 15/16\nx/y = 3/4\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0519",
+    "grade": 8,
+    "question": "FOG + FOG + FOG + FOG = 1464.\nIf F,O and G are digits in a three-digit number in the preceding equation the F + O + G = ?",
+    "options": [
+      "11",
+      "12",
+      "13",
+      "15"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "given,FOG + FOG + FOG + FOG = 1464\n4(FOG)=1464\n=>FOG=366\nFace value of F is:3\nFace value of O is:6\nFace value of G is:6\nso F+O+G=3+6+6=15\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0526",
+    "grade": 8,
+    "question": "(469 + 174)(power 2) - (469 - 174)(power 2) / (469 x 174) = ?",
+    "options": [
+      "2",
+      "6",
+      "4",
+      "8"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Formula = (a + b)(power 2) - (a - b)(power 2) / ab\n= 4ab/ab\n= 4 (where a = 469, b = 174.)\nAnswer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0533",
+    "grade": 8,
+    "question": "10x + 2y = -6\n8x + y = 3\nIn the system of equations above, what is the value of x?",
+    "options": [
+      "-6",
+      "-4",
+      "-2",
+      "2"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "10x + 2y = -6 can be written as 5x + y = -3\nLet's subtract the second equation from this equation.\n-3x = -6\nx = 2\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0535",
+    "grade": 8,
+    "question": "A cycle is bought for Rs.900 and sold for Rs.1150, find the gain percent?",
+    "options": [
+      "15",
+      "20",
+      "27.77",
+      "40"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "900 ---- 250\n100 ---- ? => 27.77%\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0536",
+    "grade": 8,
+    "question": "If a man lost 4% by selling oranges at the rate of 12 a rupee at how many a rupee must he sell them to gain 44%?",
+    "options": [
+      "1",
+      "8",
+      "9",
+      "4"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "96% ---- 12\n144% ---- ?\n96/144 * 12 = 8\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0538",
+    "grade": 8,
+    "question": "The sequence x1, x2, x3,..., is such that Xn = 1/n - (1/(n+1)). What is the sum of the first 20 terms of the sequence?",
+    "options": [
+      "201/100",
+      "99/100",
+      "100/101",
+      "20/21"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Easy task and accomplish\nX1=1-1/2\nx2=1/2-1/3\nx3=1/3-1/4\n.....\nx20=1/20-1/21\nsum=X1+X2+X3+....X20=1-1/2+1/2-1/3+.......1/20-1/21=1-1/21=20/21\nE is the answer",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0539",
+    "grade": 8,
+    "question": "A car consumes 210 liters of petrol weekly. For how many days will 1470 liters of petrol be sufficient?",
+    "options": [
+      "38",
+      "20",
+      "28",
+      "49"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nNo explanation is available for this question!\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0542",
+    "grade": 8,
+    "question": "If s and t are positive integers such that s/t = 84.15, which of the following could be the remainder when s is divided by t ?",
+    "options": [
+      "2",
+      "4",
+      "8",
+      "9"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "s/t= 84.15\ns = 84.15t\ns = (84 + 0.15)t\ns = 84t + (15/100)t\ns = 84t + (3/20)t\nSo remainder will be multiple of 3. The only multiple of 3 is 9.\nAns. E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0547",
+    "grade": 8,
+    "question": "By investing a 6% stock at 96 an income of Rs. 100 is obtained by making and investment of ?",
+    "options": [
+      "Rs. 1600",
+      "Rs. 1504",
+      "Rs. 1666",
+      "Rs. 2000"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "For an income of Rs. 6, investment = Rs. 96.\nFor an income of Rs. 100, investment = Rs. (96 / 6) x 100 = Rs. 1600\nAnswer : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0554",
+    "grade": 8,
+    "question": "A football coach must choose 5freshers from a team of 12players. How many different ways can the coach choose the freshers?",
+    "options": [
+      "657",
+      "689",
+      "729",
+      "776"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Choose 5 starters from a team of 12 players. Order is not important.\n\\inline {\\color{Black} 12C_{5}}= 729\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0557",
+    "grade": 8,
+    "question": "A is twice as good a work man as B and together they finish the work in 14 days. In how many days A alone can finish the work?",
+    "options": [
+      "5 days",
+      "21 days",
+      "15 days",
+      "25 days"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nWC = 2:1\n2x + x = 1/14 => x = 1/42\n2x = 1/21\nA can do the work in 21 days.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0562",
+    "grade": 8,
+    "question": "If f(x) = x^4 - 4x^3 - 2x^2 + 5x , then f(-1) =",
+    "options": [
+      "-4",
+      "-2",
+      "-1",
+      "1"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "f(-1) = (-1)^4 - 4(-1)^3 - 2(-1)^2 + 5(-1) = 1+4-2-5 = -2\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0564",
+    "grade": 8,
+    "question": "Find the value of y from (12)^3 x 6^3 \u00f7 432 = y?",
+    "options": [
+      "2134",
+      "2234",
+      "2540",
+      "864"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "5184\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0570",
+    "grade": 8,
+    "question": "5358 x 51 = ?",
+    "options": [
+      "273255",
+      "273257",
+      "273258",
+      "273260"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "5358 x 51\t= 5358 x (50 + 1)\n= 5358 x 50 + 5358 x 1\n= 267900 + 5358\n= 273258.\nC)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0573",
+    "grade": 8,
+    "question": "How many integers between 100 and 600 are there such that their unit digit is odd?",
+    "options": [
+      "100",
+      "250",
+      "200",
+      "50"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "500 numbers between - 100 and 600\nOut of which half would be even, half odd.\nNumber of odd unit digit number =250.\ncorrect option is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0576",
+    "grade": 8,
+    "question": "Find the sum of prime numbers lying between 60 and 75?",
+    "options": [
+      "198",
+      "201",
+      "252",
+      "272"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Solution\nRequired sum\t= 61 + 67 + 71 + 73)\n= 272.\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0577",
+    "grade": 8,
+    "question": "The list price of an article is Rs.65. A customer pays Rs.57.33 for it. He was given two successive discounts, one of them being 10%. The other discount is?",
+    "options": [
+      "8%",
+      "7%",
+      "10%",
+      "2%"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Option E\nExplanation:\n65*(90/100)*((100-x)/100) = 57.33\nx = 2%",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0580",
+    "grade": 8,
+    "question": "When n is divided by 15, the remainder is 8. What is the remainder when 5n is divided by 6?",
+    "options": [
+      "2",
+      "6",
+      "3",
+      "4"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let n=8 (leaves a remainder of 8 when divided by 48)\n5n = 5(8) =40, which leaves a remainder of 4 when divided by 6.\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0582",
+    "grade": 8,
+    "question": "A garrison of 2000 men has provisions for 54 days. At the end of 15 days, a reinforcement arrives, and it is now found that the provisions will last only for 20 days more. What is the reinforcement?",
+    "options": [
+      "1900",
+      "2776",
+      "8888",
+      "1666"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "2000 ---- 54\n2000 ---- 39\nx ----- 20\nx*20 = 2000*39\nx = 3900\n2000\n-------\n1900\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0583",
+    "grade": 8,
+    "question": "1000 men have provisions for 20 days. If 650 more men join them, for how many days will the provisions last now?",
+    "options": [
+      "12.9",
+      "12.5",
+      "12.6",
+      "12.1"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1000*20 = 1650*x\nx = 12.1\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0587",
+    "grade": 8,
+    "question": "The distance between Delhi and Mathura is 110 kms. A starts from Delhi with a speed of 20 kmph at 7 a.m. for Mathura and B starts from Mathura with a speed of 25 kmph at 8 p.m. from Delhi. When will they meet?",
+    "options": [
+      "12a.m",
+      "10a.m",
+      "19a.m",
+      "76a.m"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "D = 110 \u2013 20 = 90\nRS = 20 + 25 = 45\nT = 90/45 = 2 hours\n8 a.m. + 2 = 10 a.m.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0591",
+    "grade": 8,
+    "question": "The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:",
+    "options": [
+      "234",
+      "127",
+      "274",
+      "918"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Required number = H.C.F. of (1657 - 6) and (2037 - 5)\n= H.C.F. of 1651 and 2032 = 127.\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0593",
+    "grade": 8,
+    "question": "How many multiples of 5 are there between 5 to 105?",
+    "options": [
+      "9",
+      "18",
+      "17",
+      "19"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation :\nAs you know, multiples of 5 are integers having 0 or 5 in the digit to the extreme right (i.e. the units place).\nSo the numbers are 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95, 100.\nAnswer : E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0596",
+    "grade": 8,
+    "question": "A man can do a piece of work in 15 days, but with the help of his son, he can do it in 6 days. In what time can the son do it alone?",
+    "options": [
+      "13",
+      "9",
+      "15",
+      "10"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Son's 1day's work = (1/6)-(1/15) = 3/30= 1/10\nThe son alone can do the work in 10 days\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0599",
+    "grade": 8,
+    "question": "Charles\u2019s and Sarah\u2019s current ages are C years and S years, respectively. If 6 years from now, Charles will be at least as old as Sarah was 2 years ago, which of the following must be true?",
+    "options": [
+      "C + 6 < S \u2212 2",
+      "C + 6 \u2264 S + 2",
+      ". C + 6 = S \u2212 2",
+      "C + 6 \u2265 S \u2212 2"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Now: Charles = C, Sarah = S\nin 6Y: C+6\u2265S\u22122,\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0606",
+    "grade": 8,
+    "question": "A courtyard is 18 meter long and 12 meter board is to be paved with bricks of dimensions 12 cm by 6 cm. The total number of bricks required is :",
+    "options": [
+      "16000",
+      "18000",
+      "20000",
+      "30000"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nNumber of bricks =Courtyard area /1 brick area\n=(1800\u00c3\u20141200 /12\u00c3\u20146)=30000\nOption D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0615",
+    "grade": 8,
+    "question": "Two taps can separately fill a cistern 10 minutes and 15 minutes respectively and when the waste pipe is open, they can together fill it in 18 minutes. The waste pipe can empty the full cistern in?",
+    "options": [
+      "6",
+      "5",
+      "7",
+      "9"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1/10 + 1/15 - 1/x\n= 1/18\nx = 9\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0621",
+    "grade": 8,
+    "question": "The smallest fraction, which each of 6/7, 5/14, 10/21 will divide exactly is?",
+    "options": [
+      "30/7",
+      "30/9",
+      "30/2",
+      "30/3"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Required fraction = L.C.M of 6/7, 5/14, 10/21\n= (L.C.M of 6, 5, 10) / (H.C.F of 7, 14, 21) = 30/7\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0631",
+    "grade": 8,
+    "question": "What sum of money will produce Rs.60 as simple interest in 4 years at 3 1/2 percent?",
+    "options": [
+      "337",
+      "429",
+      "266",
+      "288"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "60 = (P*4*7/2)/100\nP = 429\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0636",
+    "grade": 8,
+    "question": "A sum of money is put out at compound interest for 2 years at 20%. It would fetch Rs.482 more if the interest were payable half-yearly, then it were pay able yearly. Find the sum.",
+    "options": [
+      "277",
+      "277",
+      "2877",
+      "2000"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "P(11/10)4 - P(6/5)2 = 482\nP = 2000\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0642",
+    "grade": 8,
+    "question": "In the first 20 overs of a cricket game, the run rate was only 4.3. What should be the run rate in the remaining 30 overs to reach the target of 264 runs?",
+    "options": [
+      "5.93",
+      "6.5",
+      "6.75",
+      "7"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation :\nRequired run rate = (264 - (4.3 x 20))/30 = 178/30 = 5.93\nAnswer : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0643",
+    "grade": 8,
+    "question": "The difference between the two digit number and the number obtained by interchanging its digits is 54. The difference between the digits is?",
+    "options": [
+      "7",
+      "6",
+      "5",
+      "1"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\n(10x + y) \u00e2\u20ac\u201c (10y + x) = 54\nx \u00e2\u20ac\u201c y = 6\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0647",
+    "grade": 8,
+    "question": "A pipe takes a hours to fill the tank. But because of a leakage it took 5 times of its original time. Find the time taken by the leakage to empty the tank",
+    "options": [
+      "50 min",
+      "60 min",
+      "90 min",
+      "75 min"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "pipe a can do a work 60 min.\nlets leakage time is x;\nthen\n1/60 -1/x=1/300\nx=75 min\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0648",
+    "grade": 8,
+    "question": "A person is traveling at 65 km/hr and reached his destiny in 3 hr then find the distance?",
+    "options": [
+      "205 km",
+      "195 km",
+      "295 km",
+      "115 km"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "T = 3 hrs\nD= T*S = 65*3 = 195 km\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0649",
+    "grade": 8,
+    "question": "The number of boys in the class is 8 more than the number of girls in the class, which is five times the difference between the number of girls and boys in the class.How many boys are there in the class?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "8+y=5(x-y); y=no of girlz & x=boys\nso, y=32 & x=8+y ie 40\n40 ans.\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0651",
+    "grade": 8,
+    "question": "Solve 8x \u2013 4 = 4x + 11",
+    "options": [
+      "5(1/3)",
+      "6(1/3)",
+      "7(1/3)",
+      "3(3/4)"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Sol.\n8x \u2013 4 = 4x + 11\n=> 8x \u2013 4x = 11 + 4\n=> 4x = 15 => x = 15/3 = 3(3/4).\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0653",
+    "grade": 8,
+    "question": "The greatest number of four digits which is divisible by 10, 20, 25 and 60 is:",
+    "options": [
+      "9000",
+      "9300",
+      "9400",
+      "9600"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Greatest number of 4-digits is 9999.\nL.C.M. of 10, 20, 25 and 60 is 1500.\nOn dividing 9999 by 1500, the remainder is 999.\nRequired number (9999 - 999) = 9000.\nANSWER :A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0660",
+    "grade": 8,
+    "question": "A, B and C enter into partnership. A invests some money at the beginning, B invests double the amount after 6 months, and C invests thrice the amount after 8 months. If the annual gain be Rs.12000. A's share is?",
+    "options": [
+      "8876",
+      "2765",
+      "4000",
+      "1298"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "x* 12 : 2x* 6: 3x* 4\n1:1:1\n1/3 * 12000 = 4000\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0664",
+    "grade": 8,
+    "question": "A sum of money deposited at C.I. amounts to Rs.2420 in 2 years and to Rs.2662 in 3 years. Find the rate percent?",
+    "options": [
+      "30%",
+      "10%",
+      "20%",
+      "19%"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "2420 --- 242\n100 --- ? => 10%\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0667",
+    "grade": 8,
+    "question": "A sum of money at simple interest amounts to Rs. 815 in 3 years and to Rs. 854 in 4 years. The sum is?",
+    "options": [
+      "650",
+      "690",
+      "698",
+      "700"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "S.I. for 1 year = Rs. (854 - 815) = Rs. 39.\nS.I. for 3 years = Rs.(39 x 3) = Rs. 117.\nPrincipal = Rs. (815 - 117) = Rs. 698.\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0671",
+    "grade": 8,
+    "question": "What should come in place of the question mark (?) in the following equation?\n6000 + 500 = 870+ ?",
+    "options": [
+      "6789",
+      "3654",
+      "5630",
+      "6777"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "6000 + 500 = 870+ ?\n6000 + 500 \u2013 870= 5630\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0683",
+    "grade": 8,
+    "question": "Pipe A can fill a tank in 9 hours, pipe B in 12 hours, and pipe C in 18 hours. If all the pipes are open, in how many hours will the tank be filled?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The part filled by A + B + C in 1 hour\n= 1/9 + 1/12 + 1/18\n= 9/36 = 1/4\nAll the three pipes together will fill the tank in 4 hours.\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0686",
+    "grade": 8,
+    "question": "The Income of a man increase consistently by 2% per year. If his present income is Rs. 12000 then what will his income be after 1 year ?",
+    "options": [
+      "12040",
+      "12140",
+      "12240",
+      "12340"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation :\nIncome = 12000 x 1.02 = 12240\nAnswer : Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0687",
+    "grade": 8,
+    "question": "Two men started from the same place walk at the rate of 5kmph and 5.5kmph respectively. What time will they take to be 8.5 km apart, if they walk in the same direction?",
+    "options": [
+      "10hours",
+      "12hours",
+      "17hours",
+      "15hours"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "To be 0.5km apart they take 1 hour\nTo be 8.5km apart they take = 1/0.5 * 8.5 = 17 hours\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0688",
+    "grade": 8,
+    "question": "What distance (in meters) will be covered by a bus moving at 54 km/hr in 30 seconds?",
+    "options": [
+      "390",
+      "420",
+      "450",
+      "480"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "54 km/hr = 54 * 5/18 = 15 m/s\ndistance = 15 * 30 = 450 meters\nThe answer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0694",
+    "grade": 8,
+    "question": "Maddie has 24 apples, if she give 12 to mike, how many does she have left?",
+    "options": [
+      "12",
+      "14",
+      "16",
+      "18"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "24-12=12\nA 12",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0696",
+    "grade": 8,
+    "question": "A shopkeeper sold an article for Rs 2552.36. Approximately what was his profit percent if the cost price of the article was Rs 2400",
+    "options": [
+      "4%",
+      "5%",
+      "6%",
+      "7%"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nGain % = (152.36*100/2400) = 6.34 % = 6% approx\nOption C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0700",
+    "grade": 8,
+    "question": "On adding four times the age of Chris Hemsworth four years from now to five times his age five years from now, we will get ten times his current age.\nHow old is Chris right now?",
+    "options": [
+      "38 years",
+      "24 years",
+      "40 years",
+      "41 years"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "D\n41 years.\nIf the current age of Dakota is x\n4(x+4) + 4(x+5) = 10x\nThus x=41 years",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0710",
+    "grade": 8,
+    "question": "A student chose a number, multiplied it by 2, then subtracted 138 from the result and got 104. What was the number he chose?",
+    "options": [
+      "123",
+      "121",
+      "277",
+      "267"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let xx be the number he chose, then\n2\u00e2\u2039\u2026x\u00e2\u02c6\u2019138=104 2\u00e2\u2039\u2026x\u00e2\u02c6\u2019138=104\nx=121\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0711",
+    "grade": 8,
+    "question": "What is the next number of the following sequence\n8, 24, 12, 36, 18, 54 (...)",
+    "options": [
+      "30",
+      "32",
+      "34",
+      "36"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The series is\n4*4=16\n16/2=8\n8*4=32\n32/2=16\n16*4=64\n64/2=32\nANSWER: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0715",
+    "grade": 8,
+    "question": "The speed of a train is 90 kmph. What is the distance covered by it in 10 minutes?",
+    "options": [
+      "15",
+      "66",
+      "77",
+      "52"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "90 * 10/60 = 15 kmph\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0718",
+    "grade": 8,
+    "question": "Sophia finished 23 of a book. She calculated that she finished 90 more pages than she has yet to read. How long is her book?",
+    "options": [
+      "180",
+      "200",
+      "250",
+      "270"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let x be the total number of pages in the book, then she finished 23\u22c5x pages.\nThen she has x\u221223\u22c5x=13\u22c5x pages left.\n23\u22c5x\u221213\u22c5x=90\n13\u22c5x=90\nx=270.\nSo answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0727",
+    "grade": 8,
+    "question": "You have been given a physical balance and 7 weights of 52, 50, 48, 44, 45, 46 and 78 kgs. Keeping weights on one pan and object on the other, what is the maximum you can weigh less than 183 kgs.",
+    "options": [
+      "180",
+      "181",
+      "182",
+      "183"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "52+50+78 = 180\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0729",
+    "grade": 8,
+    "question": "Find the next number in the Sequence\n5, 14, 41, 86, ?",
+    "options": [
+      "146",
+      "145",
+      "149",
+      "143"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "+9 =>14\n+27 =>41\n+45 =>86\n+63 =>149\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0730",
+    "grade": 8,
+    "question": "Choose the missing terms out of the given alternatives.\nAZ, GT, MN, ?, YB",
+    "options": [
+      "KF",
+      "RX",
+      "TS",
+      "SH"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "E\nSH\nFirst letter moves 6 steps forward. Second letter moves 6 steps backward.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0735",
+    "grade": 8,
+    "question": "A can do a job in 30days and B in 40days. If they work on it together for 10 days, then the fraction of the work that is left is?",
+    "options": [
+      "2/11",
+      "3/13",
+      "5/12",
+      "7/10"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "A's 1 day work = 1/30\nB's 1day work = 1/40\nA+B 1day work = 1/30 + 1/40 = 7/120\nA+B 4days work = 7/120*10 = 7/12\nRemaining work = 1 - 7/12 = 5/12\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0740",
+    "grade": 8,
+    "question": "Sarah signed 1/2 of the Christmas cards, and Richard signed 3/8 of them. If there are 32 cards in\nall, how many are left to be signed?",
+    "options": [
+      "6",
+      "7",
+      "4",
+      "9"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1/2 x 32 = 16 Sarah signed\n3/8 x 32 = 12 Richard signed\n16 + 12 = 28 are signed\n32 - 28 = 4 cards left to be signed\ncorrect answer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0741",
+    "grade": 8,
+    "question": "The population of a city is 8000. It decreases annually at the rate of 20% p.a. What will be its population after 2 years?",
+    "options": [
+      "1000",
+      "1200",
+      "1250",
+      "5120"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Formula :\n( After =100 denominator\nAgo = 100 numerator)\n8000 \u00d7 80/100 \u00d7 80/100 = 5120\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0742",
+    "grade": 8,
+    "question": "A man buys an article for Rs. 27.50 and sells it for Rs 28.60. Find his gain percent",
+    "options": [
+      "1%",
+      "2%",
+      "3%",
+      "4%"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nSo we have C.P. = 27.50\nS.P. = 28.60\nGain = 28.60 - 27.50 = Rs. 1.10\nGain%=(GainCost\u2217100)%=(1.1027.50\u2217100)%=4%\nANSWER IS D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0746",
+    "grade": 8,
+    "question": "Excluding stoppages, the speed of a bus is 54 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
+    "options": [
+      "8 min",
+      "5 min",
+      "10 min",
+      "14 min"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Due to stoppages, it covers 9 km less.\nTime taken to cover 9 km = (9/54 x 60) min = 10 min\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0748",
+    "grade": 8,
+    "question": "How many cubes will have 4 coloured sides and two non-coloured sides ?",
+    "options": [
+      "5",
+      "4",
+      "3",
+      "2"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Only 4 cubes situated at the corners of the cuboid will have 4 coloured and 2 non-coloured sides.\nANSWER B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0763",
+    "grade": 8,
+    "question": "In 10 years, P will be as old as Q is now. Twenty years ago, Q was twice as old as P was then. How old is P now?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Q = P+10\nQ-20 = 2(P-20)\nP-10 = 2P-40\nP = 30\nThe answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0764",
+    "grade": 8,
+    "question": "Excluding stoppages, the speed of a bus is 72 kmph and including stoppages, it is 45 kmph. For how many minutes does the bus stop per hour?",
+    "options": [
+      "7 min",
+      "8 min",
+      "9 min",
+      "55.8 min"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Due to stoppages, it covers 9 km less.\nTime taken to cover 67 km =(67/72)x60 = 55.8 min\nanswer : E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0771",
+    "grade": 8,
+    "question": "A number when multiplied by 3 and then subtracted by 2 becomes the reverse of itself. Can you find out which smallest number is that?",
+    "options": [
+      "28",
+      "11",
+      "10",
+      "35"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "A\n28 is the required number.\n28 * 3 - 2 = 82.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0781",
+    "grade": 8,
+    "question": "If (2 to the x) - (2 to the (x-2)) = 3 (2 to the 9), what is the value of x?",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "15"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(2 to the power x) - (2 to the power (x-2)) = 3 (2 to the power 9)\n2^x - 2^(x-2) = 3. 2^9\nHence x = 11.\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0785",
+    "grade": 8,
+    "question": "What is the sum of the different positive prime factors of 1040?",
+    "options": [
+      "10",
+      "14",
+      "15",
+      "20"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "I think answer is E: 20\n1040 = 2*2*2*2*5*13\nSum of theDIFFERENTpositive prime factors = 2 + 5 + 13 = 20",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0787",
+    "grade": 8,
+    "question": "Look at this series: V, VIII, XI, XIV, XVII, __, ... What number should fill the blank?",
+    "options": [
+      "IX",
+      "XXIII",
+      "XV",
+      "XX"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation: This is a simple addition series; each number is 3 more than the previous number.\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0790",
+    "grade": 8,
+    "question": "If 16^5*15^4*14^3*13^2 = x, what is the units digit of x ?",
+    "options": [
+      "2",
+      "3",
+      "6",
+      "0"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "16^5*15^4*14^3*13^2 = x\nUnits digit of x will be\n6^5 * 5^4 * 4^3 * 3^2\n=6 * 5 * 4 * 9\n= 1080\nTherefore , units digit of x = 0\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0791",
+    "grade": 8,
+    "question": "Find the value of a from (15)^2 x 8^3 \u00c3\u00b7 256 = a.",
+    "options": [
+      "250",
+      "420",
+      "440",
+      "450"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Given Exp. =(15)^2 x 8^3 \u00c3\u00b7 256 = a\n= 225 x 512 \u00c3\u00b7 256 =\n450\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0798",
+    "grade": 8,
+    "question": "A committee has 5 men and 6 women. What are the number of ways of selecting 2 men and 3 women from the given committee?",
+    "options": [
+      "165",
+      "178",
+      "180",
+      "200"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nThe number of ways to select two men and three women = \u2075C\u2082 * \u2076C\u2083\n= (5 *4 )/(2 * 1) * (6 * 5 * 4)/(3 * 2)\n= 200\nE)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0801",
+    "grade": 8,
+    "question": "Using all the letters of the word \"WEDNESDAY\", how many different words can be formed?",
+    "options": [
+      "A)7",
+      "B)9!",
+      "C)8",
+      "D)7!"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nTotal number of letters = 9\nUsing these letters the number of 9 letters words formed is 8!.\nAnswer: Option B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0804",
+    "grade": 8,
+    "question": "If 4<x<6<y<10, then what is the greatest possible positive integer difference of x and y?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "4 < x < 6 < y < 10;\n4 < x\ny < 10\n4 + y < x + 10\ny - x <6.\nPositive integer difference is 5 (for example y = 9.5 and x = 4.5)\nAnswer: C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0817",
+    "grade": 8,
+    "question": "How many paying stones, each measuring 2 1/2 m * 2 m are required to pave a rectangular court yard 60 m long and 16 1/2 m board?",
+    "options": [
+      "99",
+      "18",
+      "16",
+      "198"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "60 * 33/2 = 5/2 * 2 * x => x\n= 198\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0826",
+    "grade": 8,
+    "question": "Chris age after 14years will be 5 times his age 5years back. what is the present age of Chris?",
+    "options": [
+      "A)20",
+      "B)25",
+      "C)15",
+      "E)11"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Chris present age= x\nafter 14years = x+14\n5years back = x-5\nx+14= 5(x-5)\nx=11\nAnswer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0828",
+    "grade": 8,
+    "question": "When x is divided by y, the quotient is z with remainder f. Which of the following is equal to f?",
+    "options": [
+      "yz \u2013 x",
+      "y/x\u2212z",
+      "x \u2013 y \u2013 z",
+      "x \u2013 yz"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "(x/y)=z(+f)\n(18/8)=2(+2)\nx-yz\nwhich is 18-(8*2)=2\nAnswer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0833",
+    "grade": 8,
+    "question": "Simplify: (7+2) \u2013 (5+3+1)-1.",
+    "options": [
+      "-1",
+      "\u20132",
+      "1",
+      "2"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Solution:\n(7+2) \u2013 (5+3+1)-1\n=9-5-3+1-1\n=9-8+1-1\n=2-1\n=1\nAnswer: (C)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0850",
+    "grade": 8,
+    "question": "Find large no. from below question The difference of two numbers is 1365. On dividing the larger number by the smaller, we get 6 as quotient and the 5 as remainder",
+    "options": [
+      "1637",
+      "1456",
+      "1567",
+      "1678"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the smaller number be x. Then larger number = (x + 1365).\nx + 1365 = 6x + 5\n5x = 1360\nx = 272\nLarge number = 272+1365 = 1637\nA",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0851",
+    "grade": 8,
+    "question": "How much interest can a person get on Rs. 8200 at 17.5% p.a. simple interest for a period of two years and six months?",
+    "options": [
+      "3000",
+      "4000.75",
+      "3587.5",
+      "3500"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "I = (8200 * 2.5 * 17.5)/100 = (8200 * 5 * 35)/(100 * 2 * 2) = Rs. 3587.50\nANSWER C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0859",
+    "grade": 8,
+    "question": "The profit earned by selling an article for Rs. 832 is equal to the loss incurred when the same article is sold for Rs. 448. What should be the sale price for making 70% profit?",
+    "options": [
+      "220",
+      "1088",
+      "960",
+      "780"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "C.P. = Rs. x.\nThen, 832 - x = x - 448\n2x = 1280 => x = 640\nRequired S.P. = 170% of Rs. 640 = 170/100 * 640 = Rs. 1088.\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0861",
+    "grade": 8,
+    "question": "Find the largest number of four digits which is exactly divisible by 27,18,12,15",
+    "options": [
+      "9700",
+      "9710",
+      "9720",
+      "9730"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nLCM of 27-18-12-15 is 540.\nAfter dividing 9999 by 540 we get 279 remainder.\nSo answer will be 9999-279 = 9720\nOption C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0867",
+    "grade": 8,
+    "question": "Anand and Deepak started a business investing Rs. 22,500 and Rs. 35,000 respectively. Out of a total profit of Rs. 14,720, Deepak's share is:?",
+    "options": [
+      "s.8467",
+      "s.8428",
+      "s.8400",
+      "s.8960"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Ratio of their shares\n= 22500 : 35000\n= 9:14\nDeepak's share\n= 14720 * 14/23\n= Rs.8960.\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0868",
+    "grade": 8,
+    "question": "Pipe A can fill in 20 minutes and Pipe B in 30 mins and Pipe C can empty the same in 40 mins.If all of them work together, find the time taken to fill the tank",
+    "options": [
+      "17 1/7 mins",
+      "20 mins",
+      "8 mins",
+      "9 mins"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "A = 20\nB = 30\nC = -40\nLCM = 120\n=> A = 6,TIMES\nB = 4\nC = -3\n=> A+B-C\n= 7\nTIME TAKEN TO FILL THE TANK = 120/7 MINS = 17 1/7 MINS\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0869",
+    "grade": 8,
+    "question": "A boy has 5 trousers and 13 shirts. In how many different ways can he select a trouser and a shirt?",
+    "options": [
+      "299",
+      "65",
+      "68",
+      "67"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The boy can select one trouser in 5 ways.\nThe boy can select one shirt in 13 ways.\nThe number of ways in which he can select one trouser and one shirt is 5 * 13\n= 65 ways.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0876",
+    "grade": 8,
+    "question": "Round off 9824.119 to the nearest thousand, hundred, ten and one.Represent the result with q,r,s,t, respectively.Which of the following statements is correct?",
+    "options": [
+      "q<s<t<r",
+      "s<r<t<q",
+      "r<s<q<t",
+      "r<s<t<q"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "9824.119..\nNearest thousand 10000..q\nNearest hundred 9800..r\nNearest ten 9820..s\nNearest one 9824..t\nr<s<t<q\nThe correct option is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0884",
+    "grade": 8,
+    "question": "A father said to his son, \"I was as old as you are at the present at the time of your birth\". If the father's age is 44 years now, the son's age five years back was:",
+    "options": [
+      "A)14",
+      "B)17",
+      "C)56",
+      "D)89"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the son's present age be x years. Then, (44 - x) = x\n2x = 44.\nx = 22.\nSon's age 5 years back (22 - 5) = 17 years.\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0900",
+    "grade": 8,
+    "question": "Find the term next in series ....\n1, 1/2,3/2,2,5,1/3,16/3,15,12,1/4,25/4,?",
+    "options": [
+      "next number is 48",
+      "58",
+      "40",
+      "43"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "[1,1/2,3/2,2], [5,1/3/16/3,15] ,[12,1/4,25/4,x]\n1+1/2=3/2......1/1/2= 2\n5+1/3=16/3.....5/1/3= 15\n12+1/4=25/4....12/1/4=48\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0905",
+    "grade": 8,
+    "question": "How many tiems do the hands of a clock coincide in day?",
+    "options": [
+      "11",
+      "12",
+      "22",
+      "24"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Sol.\nThe hands of a clock coincide 11 times in every 12 hours (Since between 11 and 1, they coincide only once, i.e. at 12 o\u2019clock).\n\u2234 The hands coincide 22 times in a day.\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0907",
+    "grade": 8,
+    "question": "If Henry were to add 9 gallons of water to a tank that is already 3/4 full of water, the tank would be 7/8 full. How many gallons of water would the tank hold if it were full?",
+    "options": [
+      "25",
+      "40",
+      "64",
+      "72"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "7/8x-3/4x=9galls\n1/8*x=9gallons\nx=72 gallons\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0916",
+    "grade": 8,
+    "question": "A man buys an article and sells it at a profit of 20%. If he had bought it at 20% less and sold it for Rs.75 less, he could have gained 25%. What is the cost price?",
+    "options": [
+      "388",
+      "375",
+      "288",
+      "266"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "CP1 = 100 SP1 = 120\nCP2 = 80 SP2 = 80 * (125/100) = 100\n20 ----- 100\n75 ----- ? => 375\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0921",
+    "grade": 8,
+    "question": "A certain store sells only black shoes and brown shoes. In a certain week, the store sold x black shoes and y brown shoes. If 2/7 of all shoes sold that week were black, which of the following expressions represents the value of y, in terms of x?",
+    "options": [
+      "x/3",
+      "5x/2",
+      "2x/3",
+      "3x/2"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "x/(x+y) = 2/7\n7x = 2x+2y\n5x = 2y\ny = 5x/2\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0924",
+    "grade": 8,
+    "question": "A person purchased a TV set for Rs. 16000 and a DVD player for Rs. 6250. He sold both the items together for Rs. 35150. What percentage of profit did he make?",
+    "options": [
+      "22",
+      "27",
+      "58",
+      "26"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The total CP = Rs. 16000 + Rs. 6250 = Rs. 22250 and SP = Rs. 35150\nProfit(%) = (35150 - 22250)/22250 * 100 = 58%.Answer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0933",
+    "grade": 8,
+    "question": "A and B working together could mow a field in 28days and with the help of C they could have mowed it in 21 days. How long would C take by himself?",
+    "options": [
+      "68days",
+      "84days",
+      "90days",
+      "72days"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Required answer = 28*21 / 28-21 = 84days\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0945",
+    "grade": 8,
+    "question": "In how many different number of ways 4 boys and 2 girls can sit on a bench?",
+    "options": [
+      "700",
+      "720",
+      "740",
+      "750"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "npn = n!\n6p6 = 6 \u00d7 5 \u00d7 4 \u00d7 3 \u00d7 2 \u00d7 1 = 720\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0954",
+    "grade": 8,
+    "question": "A tour group of 25 people paid a total of $670 for entrance to a museum. If this price included a 5% sales tax, and all the tickets cost the same amount, what was the face value of each ticket price without the sales tax?\nChoices",
+    "options": [
+      "$22",
+      "$23.94",
+      "$24",
+      "$25.46"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0963",
+    "grade": 8,
+    "question": "Ten telegenic contestants with a variety of personality disorders are to be divided into two \u201ctribes\u201d of four members each, tribe A and tribe B, for a competition. How many distinct groupings of two tribes are possible?",
+    "options": [
+      "120",
+      "126",
+      "210",
+      "1200"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "My ans is 10C4 = 210\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0966",
+    "grade": 8,
+    "question": "The greatest number which on dividing 1657 and 2037 leaves remainders 6 and 5 respectively, is:",
+    "options": [
+      "123",
+      "127",
+      "235",
+      "305"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "HCF of 1651 ( 1657-6) and 2032 (2037-5) is 127.\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0971",
+    "grade": 8,
+    "question": "if capacity of giving milk of a cow is y litre.from this 1litre is used to make tea.rest amount is multiply by 2 and then divided by 3.calculate the result if y=13 litre.",
+    "options": [
+      "6",
+      "5",
+      "8",
+      "9"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "from 13 litre 1 litre used to make tea,rest amount is 12 litre.\n12*2=24\nnow,24/3=8 litre\nanswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0974",
+    "grade": 8,
+    "question": "Find the ratio in which rice at Rs. 7.20 a kg be mixed with rice at Rs. 5.50 a kg to produce a mixture worth Rs. 6.30 a kg",
+    "options": [
+      "2:0",
+      "2:3",
+      "2:1",
+      "8:9"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "By the rule of alligation:\nCost of 1 kg rice of 1st kind Cost of 1 kg rice of 2nd kind\nRequired ratio = 80 : 90 = 8 : 9\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0975",
+    "grade": 8,
+    "question": "What is the sum of all 3 digit numbers that leave a remainder of '2' when divided by 8?",
+    "options": [
+      "61,600",
+      "64,850",
+      "64,749",
+      "49,700"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Find the number , Upon Sum of 3 Digits of a number Gives a Reminder 2 when it is Divided by 8\nSeeing the Options After Dividing an Finding the Reminder of 2\nMy Answer was A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0976",
+    "grade": 8,
+    "question": "(1^3 + 2^3 + 3^3 + ... + 10^3) = x?",
+    "options": [
+      "360",
+      "380",
+      "x=420",
+      "440"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "We know that (1^3 + 2^3 + 3^3 + ... + n^3) =\t1\t2n(n + 1)\n6\nPutting n = 10, required sum = 1\tx 10 x 10 x 21 = 2100/5\n420\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0978",
+    "grade": 8,
+    "question": "With a uniform speed a car covers a distance in 8 hours. Were the speed increased by 4 km/hr the same distance could be covered in 7 1\u20442 hours. What is the distance covered?",
+    "options": [
+      "640 km",
+      "480 km",
+      "420 km",
+      "Cannot be determined"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Here D\u20447.5 - D\u20448 = 4\n(where D is the distance in km)\n\u21d2 0.5 D = 4 \u00d7 8 \u00d7 7.5\n\u21d2 D = 2 \u00d7 4 \u00d7 8 \u00d7 7.5 = 480 km\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0990",
+    "grade": 8,
+    "question": "A person lent a certain sum of money at 4% per annum at simple interest and in 8 years the interest amounted to Rs.340 less than the sum lent. What was the sum lent?",
+    "options": [
+      "Rs:567",
+      "Rs:518",
+      "Rs:519",
+      "Rs:500"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "P - 340 = (P*4*8)/100\nP = 500\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0991",
+    "grade": 8,
+    "question": "I. c3 - 988 = 343,\nII. d2 - 72 = 49 to solve both the equations to find the values of c and d?",
+    "options": [
+      "a > b",
+      "a \u2265 b",
+      "a < b",
+      "a \u2264 b"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nc3 = 1331 => c= 11\nd2 = 121 => d= \u00b1 11\nc\u2265 d\nB)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0995",
+    "grade": 8,
+    "question": "How many minutes does Aditya take to cover a distance of 400 m, if he runs at a speed of 20 km/hr",
+    "options": [
+      "1 1/5min",
+      "2 1/5min",
+      "3 1/5min",
+      "4 1/5min"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanation:\nWe know that,\nTime=Distance/Speed\nSpeed=20 km/hr=20\u22175/18m/sec=50/9m/sec\nTime =(400\u22179/50)=72sec=1 1/5min\nOption A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0996",
+    "grade": 8,
+    "question": "A and B invests Rs.6000 and Rs.8000 in a business. After 6 months, A withdraws half of his capital and B withdraws one-fourth of his capital. In what ratio should they share the profits at the end of the year?",
+    "options": [
+      "13:15",
+      "9:13",
+      "9:11",
+      "9:14"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "A : B\n(6000*6)+(3000*6) : (8000*6)+(6000*6)\n54000 : 84000\n9 : 14\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0998",
+    "grade": 8,
+    "question": "Can anyhow help me with an easy solution for this\n3, 4, 49, 5, 3, 64, 7, 6, ?",
+    "options": [
+      "121",
+      "169",
+      "144",
+      "256"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "3, 4, 49, 5, 3, 64, 7, 6, ?\n3+4=7 and 7^2=49\n5+3=8 and 8^2=64\n7+6=13 and 13^2=169\nANSWER:B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

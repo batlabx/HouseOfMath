@@ -1,187 +1,1010 @@
 [
   {
-    "id": "geo-medium-001",
-    "grade": 6,
-    "question": "Area of a triangle with base 6 and height 4?",
+    "id": "aqua-geom-0001",
+    "grade": 8,
+    "question": "In the coordinate plane, points (x, 1) and (5, y) are on line k. If line k passes through the origin and has slope 1/5, then what are the values of x and y respectively?",
     "options": [
-      "10",
-      "12",
-      "20",
-      "24"
-    ],
-    "correct": 1,
-    "tags": [
-      "area"
-    ],
-    "explanation": "$\\text{Area} = \\frac{1}{2} \\times \\text{base} \\times \\text{height} = \\frac{1}{2} \\times 6 \\times 4 = 12$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-medium-002",
-    "grade": 7,
-    "question": "Circumference of a circle with radius 7 (use $\\pi = \\frac{22}{7}$)?",
-    "options": [
-      "22",
-      "44",
-      "49",
-      "154"
-    ],
-    "correct": 1,
-    "tags": [
-      "circles",
-      "circumference"
-    ],
-    "explanation": "$C = 2\\pi r = 2 \\times \\frac{22}{7} \\times 7 = 44$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-medium-003",
-    "grade": 6,
-    "question": "Volume of a cube with side 3?",
-    "options": [
-      "9",
-      "18",
-      "27",
-      "36"
+      "4 and 1",
+      "1 and 5",
+      "5 and 1",
+      "3 and 5"
     ],
     "correct": 2,
     "tags": [
-      "volume",
-      "3d-shapes"
+      "geometry"
     ],
-    "explanation": "$V = s^3 = 3^3 = 27$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Line k passes through the origin and has slope 1/5 means that its equation is y=1/5*x.\nThus: (x, 1)=(5, 1) and (5, y) = (5,1) -->x=5 and y=1\nAnswer: C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-medium-004",
-    "grade": 6,
-    "question": "Sum of interior angles of a quadrilateral?",
+    "id": "aqua-geom-0013",
+    "grade": 8,
+    "question": "If q is the square of a positive integer, which of the following must be equal to the square of the next positive integer?",
     "options": [
-      "$180°$",
-      "$270°$",
-      "$360°$",
-      "$540°$"
-    ],
-    "correct": 2,
-    "tags": [
-      "angles",
-      "polygons"
-    ],
-    "explanation": "Any quadrilateral's interior angles sum to $360°$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-medium-005",
-    "grade": 6,
-    "question": "Volume of a rectangular box with dimensions $3 \\times 4 \\times 5$?",
-    "options": [
-      "12",
-      "47",
-      "60",
-      "120"
-    ],
-    "correct": 2,
-    "tags": [
-      "volume"
-    ],
-    "explanation": "$V = l \\times w \\times h = 3 \\times 4 \\times 5 = 60$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-medium-006",
-    "grade": 7,
-    "question": "Area of a circle with radius 5 (use $\\pi = 3.14$)?",
-    "options": [
-      "15.7",
-      "31.4",
-      "78.5",
-      "157"
-    ],
-    "correct": 2,
-    "tags": [
-      "circles",
-      "area"
-    ],
-    "explanation": "$A = \\pi r^2 = 3.14 \\times 25 = 78.5$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-medium-007",
-    "grade": 6,
-    "question": "Two angles of a triangle are $50°$ and $60°$. The third angle is?",
-    "options": [
-      "$60°$",
-      "$70°$",
-      "$80°$",
-      "$90°$"
-    ],
-    "correct": 1,
-    "tags": [
-      "angles"
-    ],
-    "explanation": "Sum is $180°$: $180 - 50 - 60 = 70°$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "geo-medium-008",
-    "grade": 6,
-    "question": "Area of a parallelogram with base 8 and height 5?",
-    "options": [
-      "13",
-      "20",
-      "30",
-      "40"
+      "\u221an + 1",
+      "n + 1",
+      "n^2 + 1",
+      "q + 2\u221aq + 1"
     ],
     "correct": 3,
     "tags": [
-      "area"
+      "geometry"
     ],
-    "explanation": "$\\text{Area} = \\text{base} \\times \\text{height} = 8 \\times 5 = 40$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "If q is the square of a positive integer, which of the following must be equal to the square of the next positive integer?\nq = (x)^2 where x is a positive integer\nTo calculate -\n(x+1)^2 = x^2 + 2x + 1\nroot(q) = x\nAns - q + 2 root(q) + 1\nThis should be D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-medium-009",
-    "grade": 7,
-    "question": "A square has perimeter 36. What is its area?",
+    "id": "aqua-geom-0023",
+    "grade": 8,
+    "question": "Square P is inscribed in circle Q. If the perimeter of P is 40, what is the circumference of Q?",
     "options": [
-      "36",
-      "72",
+      "11\u221a 2\u03c0",
+      "10\u221a 2\u03c0",
+      "9\u221a 2\u03c0",
+      "8\u221a 2\u03c0"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "square forms two right angled triangles.\nAny time we have a right angle triangle inside a circle, the hypotenuse is the diameter.\nhypotenuse here = diagonal of the square = 10 sqrt(2) = diameter\n=> radius = 5 sqrt(2)\nCircumference of the circle = 2pi r = 10 pi sqrt(2)\nAnswer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0029",
+    "grade": 8,
+    "question": "A cheese factory sells its cheese in rectangular blocks. A normal block has a volume of 8 cubic feet. If a small block has half the width, half the depth, and half the length of a normal block, what is the volume of cheese in a small block in cubic feet?",
+    "options": [
+      "1",
+      "5",
+      "4",
+      "6"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Volume of cube=lbh=8\nNew cube l ,b, h are decreases of .5l, .5b,.5h\nNew volume of cube =.5l*.5b*.5h=.125*lbh\n=.125*8\n=1\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0075",
+    "grade": 8,
+    "question": "Find the area of a rhombus whose side is 25 cm and one of the diagonals is 30 cm?",
+    "options": [
+      "272 sq.cm",
+      "267 sq.cm",
+      "286 sq.cm",
+      "600 sq.cm"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Consider the rhombus ABCD. Let the diagonals intersect at E. Since diagonals bisect at right angles in a rhombus.\nBE2 + AE2 = AB2\n252 = 152 + AE2 AE\n= \u221a(625 - 225)\n= \u221a400 = 20,\nAC = 20 + 20 = 40 cm.\nArea of a rhombus\n= 1/2 * d1d2\n= 1/2 * 40 * 30\n= 600 sq.cm.\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0077",
+    "grade": 8,
+    "question": "The consumption of diesel per hour of a bus varies directly as square of its speed. When the bus is travelling at 60 kmph its consumption is 1 litre per hour. if each litre costs $60 and other expenses per hous is $ 60, then what would be the minimum expenditure required to cover a distance of 600 Km?",
+    "options": [
+      "120",
+      "1250",
+      "1200",
+      "1100"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "60 kmph consumption is 1 lt/hr\nso 600 km will take 10 hrs and the consumption is 10 lt for entire distance.\n1 lt costs $60\nso 10 lt costs $600\nextra expenses for 1 hr - $60\n10 hrs - $600\ntotal expense - $600 + $600 = $1200\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0080",
+    "grade": 8,
+    "question": "A train passes a station platform in 32 sec and a man standing on the platform in 20 sec. If the speed of the train is 54 km/hr. What is the length of the platform?",
+    "options": [
+      "228",
+      "240",
+      "887",
+      "180"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 54 * 5/18 = 15 m/sec.\nLength of the train = 15 * 20 = 300 m.\nLet the length of the platform be x m . Then,\n(x + 300)/32 = 15 => x = 180 m.\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0096",
+    "grade": 8,
+    "question": "If each side of a square is increased by 25%, find the percentage change in its area?",
+    "options": [
+      "65.25",
+      "56.25",
+      "65",
+      "56"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "let each side of the square be a , then area = a x a\nNew side = 125a / 100 = 5a / 4\nNew area =(5a x 5a) / (4 x 4) = (25a\u00b2/16)\nincreased area== (25a\u00b2/16) - a\u00b2\nIncrease %= [(9a\u00b2/16 ) x (1/a\u00b2 ) x 100]% = 56.25%\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0099",
+    "grade": 8,
+    "question": "Two jars contain milk and water in the ratio 5: 4 and 2: 1 regpectively. What volume should be taken out from the first jar if volumes have to be taken out from both jars so as to fill up a third 30 l jar with milk to water in the ratio 1: 1 ?",
+    "options": [
+      "7.5 l",
+      "15 l",
+      "22.5 l",
+      "It is impossible"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "In both jars concentration of milk is more than 50%.\nTherefore, in jar three concentration of milk cannot be 50%.\nHence, we cannot decide the volumes\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0152",
+    "grade": 8,
+    "question": "The average height in a group of 4 people is 175 cm. If the average height increased when 2 more people were added to the group, which of the following cannot be the heights of the two new people?",
+    "options": [
+      "179 cm and 172 cm",
+      "181 cm and 169 cm",
+      "173 cm and 178 cm",
+      "176 cm and 176 cm"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Denote X as the sum of the heights of the two new people. From the stem it follows that (700+X)6>175. This reduces to X>350. Only the heights from B add up to 350 cm. All other pairs add up to more than 350 cm.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0235",
+    "grade": 8,
+    "question": "Three bells chime at intervals of 18 min., 24 min. and 32 min. respectively. At a certain time they begin together. What length Z of time will elapse before they chime together again?",
+    "options": [
+      "2 hr. and 24 min.",
+      "4 hr. and 48 min.",
+      "1 hr. and 36 min.",
+      "5 hr."
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "It should be simple. All the three bells will chime again together whenver their time intervals intersect eachother.\nSo the LCM of the three time intervals (18, 24,32) would be the answer.\nLCM (18, 24, 32) Z= 288 => 4 hours 48 mins.B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0255",
+    "grade": 8,
+    "question": "If the complement of a certain angle is two times the measure of that certain angle, then what is the measure of that certain angle?",
+    "options": [
+      "45\u00b0",
+      "30\u00b0",
+      "22.5\u00b0",
+      "18\u00b0"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Thecomplementof angle A is the angle which, when added to angle A, gives 90 degrees. The two acute angles of a right triangle are complements, for example.\nThe original angle is x, so the complement is 2x, and together, these add up to 90 degrees.\nx + 2x = 90\n3x = 90\nx = 30\u00b0\nAnswer = (B)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0288",
+    "grade": 8,
+    "question": "A ladder 18 feet long is leaning against a wall that is perpendicular to level ground. The bottom of the ladder is 6 feet from the base of the wall. If the top of the ladder slips down 4 feet, how many feet will the bottom of the ladder slip?",
+    "options": [
+      "12.5",
+      "15",
+      "18",
+      "19"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "18^2-6^2=288\nit means that the height is equal to 16.9.\nsince the top of the ladder slips down 4 feet, then the height of the wall =16.9-4=12.9\nthe bottom =sqrt(18^2-12.9^2)=sqrt(324-166.41)=12.5\nans is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0302",
+    "grade": 8,
+    "question": "The length of a train and that of a platform are equal. If with a speed of 36 k/hr, the train crosses the platform in one minute, then the length of the train (in meters) is?",
+    "options": [
+      "299",
+      "300",
+      "299",
+      "750"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = [36 * 5/18] m/sec = 10 m/sec; Time = 1 min. = 60 sec.\nLet the length of the train and that of the platform be x meters.\nThen, 2x/60 = 10 => x = 10 * 60 / 2 = 300\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0313",
+    "grade": 8,
+    "question": "In the interior of a forest, a certain number of apes equal to the square of one-fourth of the total number are playing and having great fun. The remaining four apes are on a hill and the echo of their shrieks by the adjoining hills frightens them. They came and join the apes in the forest and play with enthusiasm. What is the total number of apes?",
+    "options": [
+      "48",
+      "8",
+      "64",
+      "80"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let total number be x\nNo in the interior = (x/4)^2\nNo outside = 4\nSo : x - (x/4)^2=4\nx^2-16x+64=0\n(x-8)^2=0\nSo x=8\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0316",
+    "grade": 8,
+    "question": "How much time will a train of length 400 m moving at a speed of 72 kmph take to cross another train of length 300 m, moving at 36 kmph in the same direction?",
+    "options": [
+      "40 sec",
+      "50 sec",
+      "60 sec",
+      "70 sec"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "The distance to be covered = Sum of their lengths = 400 + 300 = 700 m.\nRelative speed = 72 -36 = 36 kmph = 36 * 5/18 = 10 mps.\nTime required = d/s = 700/10 = 70 sec.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0358",
+    "grade": 8,
+    "question": "The volumes of two cones are in the ratio 1 : 10 and the radii of the cones are in the ratio of 1 : 2. What is the length of the wire?",
+    "options": [
+      "2:5",
+      "2:7",
+      "4:3",
+      "2:4"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "The volume of the cone = (1/3)\u03c0r2h\nOnly radius (r) and height (h) are varying.\nHence, (1/3)\u03c0 may be ignored.\nV1/V2 = r12h1/r22h2 => 1/10 = (1)2h1/(2)2h2\n=> h1/h2 = 2/5\ni.e. h1 : h2 = 2 : 5\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0402",
+    "grade": 8,
+    "question": "What is the measure of the acute angle between the hour and minute hands of a correctly\nworking clock at 4:18 ?",
+    "options": [
+      "12\u25e6",
+      "15\u25e6",
+      "18\u25e6",
+      "21\u25e6"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Consider an axis through the center of the clock with direction, the direction of the hands of the\nclock at 12:00. At 4:18 the angle between the axis and the hour hand is\n(4+18/60)*360\u25e6/12=129\u25e6\nThe angle between the axis and the minute hand is 18/60*360\u25e6=108\u25e6\ncorrect answer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0411",
+    "grade": 8,
+    "question": "A train passes a station platform in 32 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+    "options": [
+      "180 m",
+      "160 m",
+      "240 m",
+      "207 m"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = [54 * 5/18] m/sec\n= 15 m/sec.\nLength of the train = (15 * 20) m = 300 m.\nLet the length of the platform be x meters.\nThen, x + 300 / 32 = 15\nx + 300 = 480\nx =180m.\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0427",
+    "grade": 8,
+    "question": "Two trains travel in opposite directions at 36 kmph and 45 kmph and a man sitting in slower train passes the faster train in 8 seconds. The length of the faster train is",
+    "options": [
+      "80 m",
+      "100 m",
+      "120 m",
+      "180 m"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Solution\nRelative Speed\t= (36 + 45) km/hr\n= (81 x 5/18) m/sec\n= (45/2) m/sec\nLength of the train\t= (45 / 2 x 8) m\n= 180 m.\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0448",
+    "grade": 8,
+    "question": "There is a rectangular prism made of 1 in cubes that has been covered in tin foil. There are exactly 128 cubes that are not touching any tin foil on any of their sides. If the width of the figure created by these 128 cubes is twice the length and twice the height, what is the measure e in inches of the width of the foil covered prism?",
+    "options": [
+      "4",
+      "6",
+      "8",
+      "10"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "If the width is w, then length and height would be w/2.\nSo, w*w/2*w/2 = 128 => w^3 = (2^3)*64 = (2^3) * (4^3)\n=> w = 2*4 = 8 in.\nAlong the width of the cuboid, 8 cubes don't touch the tin foil. So the actual width will be non-touching cubes + touching cubes\n= 8 +2=e =10\nAns E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0465",
+    "grade": 8,
+    "question": "cube of side one meter length is cut into small cubes of side 10 cm each. How many such small cubes can be obtained?",
+    "options": [
+      "1002",
+      "2899",
+      "1000",
+      "2807"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Along one edge, the number of small cubes that can be cut\n= 100/10 = 10\nAlong each edge 10 cubes can be cut. (Along length, breadth and height). Total number of small cubes that can be cut\n= 10 * 10 * 10\n= 1000\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0478",
+    "grade": 8,
+    "question": "A train passes a station platform in 35 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+    "options": [
+      "120 m",
+      "225 m",
+      "300 m",
+      "360 m"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 54 x\t5/18\tm/sec = 15 m/sec.\nLength of the train = (15 x 20)m = 300 m.\nLet the length of the platform be x metres.\nThen,\t(x + 300)/35\t= 15\nx + 300 = 525\nx = 225 m.Answer: Option B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0496",
+    "grade": 8,
+    "question": "Tanks A and B are each in the shape of a right circular cylinder. The interior of tank A has a height of 10 meters and a circumference of 12 meters, and the interior of tank B has a height of 12 meters and a circumference of 10 meters. The capacity of tank A is what percent of the capacity of tank B?",
+    "options": [
+      "80%",
+      "90%",
+      "100%",
+      "120%"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "The radius of tank A is 12/(2*pi).\nThe capacity of tank A is 10*pi*144 / (4*pi^2) = 360 / (pi)\nThe radius of tank B is 10 / (2*pi).\nThe capacity of tank B is 12*pi*100 / (4*pi^2) = 300 / (pi)\nTank A / Tank B = 360/300 = 12/10 = 120%\nThe answer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0497",
+    "grade": 8,
+    "question": "The length of a rectangle is two - fifths of the radius of a circle. The radius of the circle is equal to the side of the square, whose area is 1225 sq.units. What is the area (in sq.units) of the rectangle if the rectangle if the breadth is 10 units?",
+    "options": [
+      "140 sq.units",
+      "186 sq.units",
+      "176 sq.units",
+      "865 sq.units"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Given that the area of the square = 1225 sq.units\n=> Side of square\n= \u221a1225 = 35 units\nThe radius of the circle\n= side of the square\n= 35 units Length of the rectangle\n= 2/5 * 35\n= 14 units\nGiven that breadth\n= 10 units\nArea of the rectangle\n= lb = 14 * 10\n= 140 sq.units\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0520",
+    "grade": 8,
+    "question": "A rectangular photograph is surrounded by a border that is 1 inch wide on each side. The total area of the photograph and the border is M square inches. If the border had been 3 inches wide on each side, the total area would have been (M + 64) square inches. What is the perimeter of the photograph, in inches?",
+    "options": [
+      "16",
+      "24",
+      "32",
+      "40"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let x and y be the width and length of the photograph.\n(x+2)(y+2)=M and so (1) xy + 2x + 2y + 4 = M\n(x+6)(y+6)=M and so (2) xy + 6x + 6y + 36 = M+64\nLet's subtract equation (1) from equation (2).\n4x + 4y + 32 = 64\n2x + 2y = 16, which is the perimeter of the photograph.\nThe answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0531",
+    "grade": 8,
+    "question": "A cylindrical bucket of height 36 cm and radius 21 cm is filled with sand. The bucket is emptied on the ground and a conical heap of sand is formed, the height of the heap being 12 cm. The radius of the heap at the base is :",
+    "options": [
+      "63 cm",
+      "53 cm",
+      "56 cm",
+      "66 cm"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Volume of the bucket = volume of the sand emptied\nVolume of sand = \u03c0(21)2 \u00d7 36\nLet r be the radius of the conical heap.\nThen, 1\u20443\u03c0r2 \u00d7 12 = \u03c0(21)2 \u00d7 36\nor r2 = (21)2 \u00d7 9 or r = 21 \u00d7 3 = 63\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0534",
+    "grade": 8,
+    "question": "How many minutes are there in two right angles?",
+    "options": [
+      "21",
+      "22",
+      "17",
+      "2880"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "E\n2880\nThey are the hour-minute, hour-second, and minute-second. Each hour, the minute hand will be at a right angle twice, so that's 48 right angles -- 2 for each hour of the day. Each hour, the second hand will go around 60 times and have 2 right angles for each, that's 120 right angles per hour or 120 * 24 = 2880",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0537",
+    "grade": 8,
+    "question": "A rectangular rug with side lengths of 2 feet and 7 feet is placed on a square floor that has an area of 64 square feet. If the surface of the rug does not extend beyond the area of the floor, what fraction of the area of the floor is not covered by the rug?",
+    "options": [
+      "A.3/16",
+      "1/4",
+      "C.1/2",
+      "25/32"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of the rectangular rug = 2*7 = 14\nFraction not covered by the rug = (Total Area - Rug area) / Total Area\n= (64 - 14)/64\n= 25/32=D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0540",
+    "grade": 8,
+    "question": "A larger cube has 343 cubic inch as a volume and in the cube there are 343 smaller cubes such that their volume is 1 cubic inch. What is the difference between the surface areas\u2019 sum of the 343 smaller cubes and the surface area of the larger cube, in square inch?",
+    "options": [
+      "54",
+      "64",
       "81",
-      "144"
+      "1764"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "area",
-      "perimeter"
+      "geometry"
     ],
-    "explanation": "Side = $\\frac{36}{4} = 9$. Area = $9^2 = 81$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Volume of larger cube = 343 = 7^3\nSide of larger cube = 7\nVolume of smaller cube = 1 --> Side of smaller cube = 1\nSurface area of larger cube = 6 * 7^2 = 294\nSurface area of 27 smaller cubes = 343 * 6 * 1 = 2058\nDifference = 2058 - 294 = 1764\nAnswer: E",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "geo-medium-010",
-    "grade": 6,
-    "question": "How many degrees are in a straight line?",
+    "id": "aqua-geom-0543",
+    "grade": 8,
+    "question": "A train passes a station platform in 36 sec and a man standing on the platform in 20 sec. If the speed of the train is 54 km/hr. What is the length of the platform?",
     "options": [
-      "$90°$",
-      "$120°$",
-      "$180°$",
-      "$360°$"
+      "287",
+      "240",
+      "772",
+      "211"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = 54 * 5/18 = 15 m/sec.\nLength of the train = 15 * 20 = 300 m.\nLet the length of the platform be x m . Then,\n(x + 300)/36 = 15 => x = 240 m.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0602",
+    "grade": 8,
+    "question": "A conical vessel, whose internal radius is 12 cm and height 50 cm, is full of liquid. The contents are emptied into a cylindrical vessel with internal radius 10 cm. Find the height to which the liquid rises in the cylindrical vessel.",
+    "options": [
+      "24 cm",
+      "14 cm",
+      "20 cm",
+      "37 cm"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Volume of the liquid in the cylindrical vessel\n= Volume of the conical vessel\n= ((1/3)* (22/7)* 12 * 12 * 50) )cm3 = (22 *4 *12 * 50)/7 cm3.\nLet the height of the liquid in the vessel be h.\nThen (22/7)*10*10*h =(22*4*12*50)/7 or h = (4*12*50)/100 = 24 cm\nANSWER A 24 cm",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0604",
+    "grade": 8,
+    "question": "A hollow iron pipe is 21 cm long and its external diameter is 8 cm. If the thickness of the pipe is 1 cm and iron weighs 8 g/cm3, then the weight of the pipe is:",
+    "options": [
+      "3.6 kg",
+      "3.696 kg",
+      "36 kg",
+      "36.9 kg"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Solution\nExternal radius = 4 cm,\nInternal radius = 3 cm.\nVolume of iron\t=(22/7\u00d7(42)-(32)\u00d721)cm3\n= (22/7\u00d77 \u00d71\u00d721)cm3\n= 462 cm3.\nWeight of iron = (462 x 8) gm = 3696 gm = 3.696 kg.\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0610",
+    "grade": 8,
+    "question": "A train passes a station platform in 36 seconds and a man standing on the platform in 20 seconds. If the speed of the train is 54 km/hr, what is the length of the platform?",
+    "options": [
+      "378",
+      "240",
+      "772",
+      "281"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Speed = (54 * 5/18) m/sec = 15 m/sec. Length of the train\n= (15 x 20)m\n= 300 m. Let the length of the platform be x meters. Then, (x + 300)/36\n= 15 ==> x + 300 = 540\n==> x\n= 240 m.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0613",
+    "grade": 8,
+    "question": "Square RSTU shown above is rotated in a plane about its center in a clockwise direction the minimum number of degrees necessary for R to be in the position where T is now shown. The number of degrees through which RSTU is rotated is",
+    "options": [
+      "135 degree",
+      "180 degree",
+      "225 degree",
+      "270 degree"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "From the options, I am assuming the positioning of T and R relative to each other to be as shown. To replace T by R, focus on OR. Say, you rotate OR clockwise (and with it the entire square) and bring it in place of OT. How many degrees did you go? You covered 2 right angles i.e. 180 degrees.\nAnswer : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0627",
+    "grade": 8,
+    "question": "Three of the sides of a rectangular prism have areas of 91, 39, and 21. What is the volume of the rectangular prism?",
+    "options": [
+      "252",
+      "269",
+      "273",
+      "920"
     ],
     "correct": 2,
     "tags": [
-      "angles"
+      "geometry"
     ],
-    "explanation": "A straight line forms a straight angle of $180°$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "One easy way to get the answer for this question is just multiply the unit's digits of these three numbers, i.e (1*9*1 = 9) (Why the multiplication is needed?, you can see the solution suggested by Bunuel in the above post)\nNow look out for the answer whose square gives us a 9 in the unit place.\nSo, it is easy to pic (C) 273 whose square will give us a 9 in the unit place( 3*3), and hence this is the answer.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0629",
+    "grade": 8,
+    "question": "At a conference, the only events scheduled for the day are seminars and breaks. All seminars are the same length and are 10 times as long as each break. A break must be between two consecutive seminars. If the first seminar begins at 9:00 a.m. and the third one ends at 11:00 a.m., how long will the conference last if there are a total of 6 seminars that day?",
+    "options": [
+      "hours and 15 minutes",
+      "hours and 20 minutes",
+      "hours and 25 minutes",
+      "hours and 35 minutes"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Well its like this S B S B S B S B S B S\nthe interval between 9 am to 11:40 am is 160 min having 3 seminars and 2 breaks .If 1 break is of 5 min than time for 3 seminars = 160 - 2*5=150\nTime of 1 seminar =150 /3=50 min .\nSo calculating for 6 seminars and 5 breaks ,total time comes out to be 5 hrs and 35 min .\nAnswer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0633",
+    "grade": 8,
+    "question": "A and B go around a circular track of length 600 m on a cycle at speeds of 36 kmph and 54 kmph. After how much time will they meet for the first time at the starting point?",
+    "options": [
+      "120 sec",
+      "165 sec",
+      "186 sec",
+      "167 sec"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Time taken to meet for the first time at the starting point\n= LCM { length of the track / speed of A , length of the track / speed of B}\n= LCM { 600/ (36 * 5/18) , 600/ (54 * 5 /18) }\n= LCM (60, 40)\n=120 sec.\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0695",
+    "grade": 8,
+    "question": "A stick of 30 cm is broken into two pieces, what is the length of the shorter piece if the longer piece is 6 cm longer than the other?",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "13"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Since, 30 is the total length. Smaller is any one from answers.\nTry Back solving from answer D, i.e. 12. 12+(12+6) = 31 > 30\nHence, Select next smaller no. : 12 +(12+6) =30.\nSo, 12 is the answer\nAnswer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0713",
+    "grade": 8,
+    "question": "An old man distributed all the gold coins he had to his two sons into two different numbers such that the difference between the squares of the two numbers is 81 times the difference between the two numbers. How many coins did the old man have?",
+    "options": [
+      "24",
+      "26",
+      "30",
+      "81"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let the number of coins one son got be x and the number of coins another got be y. Total = x + y.\nx^2 - y^2 = 81(x - y) --> x + y = 81.\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0736",
+    "grade": 8,
+    "question": "A motor cycle is moving with the speed of 47.52 km/hr and the radius of the wheel of the motorcycle is 21 cms. Calculate the approximate no of revolutions made by the wheel in one minute.",
+    "options": [
+      "400 rpm",
+      "500 rpm",
+      "600 rpm",
+      "700 rpm"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Given Speed = 47.52 km/h = 47.52 * 1000/60 m/s\n= 792 metre/minute\nthe radius of the wheel of the motorcycle = 21 cm\ncircumference of the wheels = 2*22/7*21 = 132cm = 1.32 m\nNumber of revolutions made by the wheel in one minute\n= Speed (in metre/minute)/circumference(in m)\n= 792/1.32 = 600\nSo no of revolutions made by the wheel in one minute will be 600\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0759",
+    "grade": 8,
+    "question": "A train is running at a speed of 40 km/hr and it crosses a post in 18 seconds. What is the length of the train?",
+    "options": [
+      "190 metres",
+      "160 metres",
+      "200 metres",
+      "120 metres"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Explanation:\nSpeed of the train, v = 40 km/hr = 40000/3600 m/s = 400/36 m/s\nTime taken to cross, t = 18 s\nDistance Covered, d = vt = (400/36)\u00d7 18 = 200 m\nDistance covered is equal to the length of the train = 200 m\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0765",
+    "grade": 8,
+    "question": "Bruce and Bhishma are running on a circular track of length 600m. Speed of Bruce is 30 m/s and that of Bhishma is 20 m/s .They start fro the same point at the same time in the same direction. When will they meet again for the first time?",
+    "options": [
+      "40",
+      "45",
+      "50",
+      "60"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Actually Arjun has to make a lead of 600 m, because when Arjun will be 600m ahead of Bhishma, they will be together again as a person when completes the total length it starts retracing he same path and thus Arjun and Bhishma can be together again.\nSince , they make a difference of 10 m in 1 second. so, he will create 600m difference in 60 second.\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0768",
+    "grade": 8,
+    "question": "The area of a square field 3136 sq m, if the length of cost of drawing barbed wire 3 m around the field at the rate of Rs.1.50 per meter. Two gates of 1 m width each are to be left for entrance. What is the total cost?",
+    "options": [
+      "Rs.500",
+      "Rs.250",
+      "Rs.896",
+      "Rs.999"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Explanation:\na^2 = 3136 => a = 56\n56 * 4 * 3 = 672 \u2013 6 = 666 * 1.5 =Rs. 999\nAnswer : E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0808",
+    "grade": 8,
+    "question": "A rectangular rug with side lengths of 6 feet and 6 feet is placed on a square floor that has an area of 64 square feet. If the surface of the rug does not extend beyond the area of the floor, what fraction of the area of the floor is not covered by the rug?",
+    "options": [
+      "A.3/16",
+      "1/4",
+      "C.1/2",
+      "7/16"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of the rectangular rug = 6*6 = 36\nFraction not covered by the rug = (Total Area - Rug area) / Total Area\n= (64 - 36)/64\n= 7/16=D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0849",
+    "grade": 8,
+    "question": "Two trains of equal length are running on parallel lines in the same directions at 46km/hr. and 36km/hr. The faster trains pass the slower train in 18 seconds. The length of each train is:",
+    "options": [
+      "25m",
+      "50m",
+      "72m",
+      "80m"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Explanation:\nThe relative speed of train is 46-36 = 10 Km/hr = (10 X 5) / 18 = 25/9 m/s10\u00d7518=259m/s\nIn 18 secs the total distance traveled is 18x25/9 = 50 m.\nTherefore the length of each train is = 50/2 = 25 m.\nAnswer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0860",
+    "grade": 8,
+    "question": "A rectangular field is to be fenced on three sides leaving a side of 20 feet uncovered. If the area of the field is 390 sq. feet, how many feet of fencing will be required?",
+    "options": [
+      "34",
+      "59",
+      "68",
+      "88"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Given that length and area, so we can find the breadth.\nLength x Breadth = Area\n20 x Breadth = 390\nBreadth = 19.5 feet\nArea to be fenced = 2B + L = 2 (19.5) + 20 = 59 feet answer : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0865",
+    "grade": 8,
+    "question": "The length of a rectangular plot is 20 metres more than its breadth. If the cost of fencing the plot @ Rs. 26.50 per metre is Rs. 5300, what is the length of the plot in metres?",
+    "options": [
+      "20",
+      "200",
+      "300",
+      "400"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let length of plot = L meters, then breadth = L - 20 meters\nand perimeter = 2[L + L - 20] = [4L - 40] meters\n[4L - 40] * 26.50 = 5300\n[4L - 40] = 5300 / 26.50 = 200\n4L = 240\nL = 240/4= 60 meters. Answer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0874",
+    "grade": 8,
+    "question": "Students at a school were on average 180 cm tall. The average female height was 170 cm, and the average male height was 182 cms. What was the ratio of men to women?",
+    "options": [
+      "5:2",
+      "5:1",
+      "4:3",
+      "4:1"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "We're given a few facts to work with:\n1) The average height of the females is 170cm\n2) The average height of the males is 182cm\n3) The average of the GROUP is 180cm\nWe're asked for the RATIO of men to women.\nW = number of Women\nM = number of Men\n(170W + 182M)/(W+M) = 180\n170W + 182M = 180W + 180M\n2M = 10W\nM = 5W\nM/W = 5/1\nThe ratio of men to women is 5 to 1.\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0877",
+    "grade": 8,
+    "question": "Two trains are running in opposite directions with the same speed. If the length of each train is 120 m and they cross each other in 12 sec, then the speed of each train is?",
+    "options": [
+      "10",
+      "18",
+      "63",
+      "36"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let the speed of each train be x m/sec.\nThen, relative speed of the two trains = 2x m/sec.\nSo, 2x = (120 + 120)/12 => x = 10\nSpeed of each train = 10 m/sec.\n= 10 * 18/5 =- 36 km/hr.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0890",
+    "grade": 8,
+    "question": "A rectangular park 60 m long and 40 m wide has two concrete crossroads running in the middle of the park and rest of the park has been used as a lawn. If the area of the lawn is 2109 sq. m, then what is the width of the road?",
+    "options": [
+      "2.2 m",
+      "2.4 m",
+      "3 m",
+      "3.4 m"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Area of the park = (60 x 40) m2= 2400 m2.\nArea of the lawn = 2109 m2.\nArea of the crossroads = (2400 - 2109) m2= 291 m2.\nLet the width of the road be x metres. Then,\n60x + 40x - x2 = 291\nx2 - 100x + 291 = 0\n(x - 97)(x - 3) = 0\nx = 3.\nANSWER : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0902",
+    "grade": 8,
+    "question": "Two trains 140 m and 160 m long run at the speed of 60 km/hr and 40 km/hr respectively in opposite directions on parallel tracks. The time which they take to cross each other is?",
+    "options": [
+      "9",
+      "9.6",
+      "10",
+      "8"
+    ],
+    "correct": 3,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Relative speed = 60 + 40 = 100 km/hr.\n= 100 * 5/18 = 250/9 m/sec.\nDistance covered in crossing each other = 140 + 160 = 300 m.\nRequired time = 300 * 9/250 = 54/5 = 10.8 sec.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0947",
+    "grade": 8,
+    "question": "In a race, A beats B by 15 metres and C by 29 metres. If B and C run over the course together, B wins by 15 metres. What is the length of the course?",
+    "options": [
+      "225m",
+      "120m",
+      "220m",
+      "160m"
+    ],
+    "correct": 0,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Explanation:\nLet X be the length of the course\naccording to the question,\nA beats B by 15 metres and C by 29 metres\nApplying this,\nIf A runs X metres, B runs (X-15) and C runs ( X-29) metres.\nB and C together run, B runs X metres and C runs (X-15)\n=> If B runs 1 metre, C runs X-15/X\n=> B runs X-15 m, C runs (X-15/x) * (X-15)\nAPPLYING THIS,\nX-29 = (X-15)(X-15) / X\nSolving,\nX2 -29X= X2 \u2013 30 X + 225\nX = 225\nThus, length of the course is 225 metres.\nANSWER A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0962",
+    "grade": 8,
+    "question": "A rectangular floor is covered by a rug except for a strip 4 meters wide along each of the four edge. If the floor is 25 meters by 20 meters, what is the area of the rug in square meters?",
+    "options": [
+      "256",
+      "266",
+      "204",
+      "224"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "A strip of 4 meters is covering the inner rectangular rug for all 4 sides.\nLength of inner rug = 25-(2*4)\nbreadth of inner rug= 20-(2*4)\nArea of Rug= 17 * 12 = 204 sq. mt\n\u00c2nswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0982",
+    "grade": 8,
+    "question": "When magnified 1,000 times by an electron microscope, the image of a certain circular piece of tissue has a diameter of 2 centimeter. The actual diameter of the tissue, in centimeters, is",
+    "options": [
+      "0.005",
+      "0.002",
+      "0.001",
+      "0.0005"
+    ],
+    "correct": 1,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "It is very easy if x is the diameter, then the magnified length is 1000x.\nince 1000x=2 then x=2/1000=0.002.\nThe answer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-geom-0999",
+    "grade": 8,
+    "question": "There are 4 people of different heights standing in order of increasing height. The difference is 2 inches between the first person and the second person, and also between the second person and the third person. The difference between the third person and the fourth person is 6 inches and the average height is 77. How tall is the fourth person?",
+    "options": [
+      "79",
+      "81",
+      "83",
+      "85"
+    ],
+    "correct": 2,
+    "tags": [
+      "geometry"
+    ],
+    "explanation": "Let x be the height of the first person.\nThen the heights are x, x+2, x+4, and x+10.\n4x+16 = 4(77) = 308\nx = 73 and the fourth person has a height of 73+10 = 83 inches\nThe answer is C.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

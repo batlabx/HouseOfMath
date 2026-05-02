@@ -1,188 +1,902 @@
 [
   {
-    "id": "ari-medium-001",
-    "grade": 5,
-    "question": "$234 + 567 = ?$",
+    "id": "aqua-arit-0004",
+    "grade": 8,
+    "question": "The speed at which a man can row a boat in still water is 25 kmph. If he rows downstream, where the speed of current is 11 kmph, what time will he take to cover 80 metres?",
     "options": [
-      "701",
-      "791",
-      "801",
-      "811"
+      "18 seconds",
+      "27 seconds",
+      "26 seconds",
+      "8 seconds"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "addition",
-      "multi-digit"
+      "arithmetic"
     ],
-    "explanation": "Add column by column: $4+7=11$ (write 1, carry 1), $3+6+1=10$ (write 0, carry 1), $2+5+1=8$. Result $801$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Speed of the boat downstream = 25 +11\n= 36 kmph\n= 36 * 5/18 = 10 m/s\nHence time taken to cover 80 m = 80/10\n= 8 seconds.\nAnswer:E",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-002",
-    "grade": 5,
-    "question": "$456 - 189 = ?$",
+    "id": "aqua-arit-0016",
+    "grade": 8,
+    "question": "Given that k/l < 1, and both k and l are positive integers, which one of the following must be greater than 1?",
     "options": [
-      "267",
-      "277",
-      "287",
-      "367"
+      "k/l^2",
+      "k^2/l",
+      "k^2/l^2",
+      "l/k"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Since k/l is a fraction l must always be > 1\nGiven -\nWhich one of the following must be greater than 1\nWe can get the result one only when the denominator in k/l ( Which is less than 1 ) becomes numerator..\nAmong the given options only (D) has the required characteristic we are looking for...\nHence answer will be (D)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0039",
+    "grade": 8,
+    "question": "Suppose a, b, and c are positive integers with a < b < c such that\n1/a\n+\n1/b\n+\n1/c\n= 1. What is\na + b + c?",
+    "options": [
+      "1",
+      "4",
+      "9",
+      "11"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "First note that we must have 1/a < 1, so a > 1. Since 1/a > 1/b > 1/c, we\nmust also have 1/a > 1/3; so a < 3. Thus, a/ 2. Now 1/b + 1/c = 1/2 where 2 < b < c.\nSimilar to before, 1/b > 1/4, so b < 4. Thus, b = 3. With a = 2 and b = 3 we have\n1/2+1/3+1/c = 1, which is satisfied when c = 6. To conclude, a+b+c = 2+3+6 = 11.\ncorrect answer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0042",
+    "grade": 8,
+    "question": "A person can walk at a constant rate of 8mph and can bike at a rate of 16mph. If he wants to travel 64 miles in 8 hours using bike and walking at their constant rates, how much distance would he require to walk?",
+    "options": [
+      "20",
+      "30",
+      "48",
+      "64"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Total distance = 64\nDistance = Speed * Time\nWalking speed = s1 = 8\nWalking time = t1\nBike speed = s2 = 16\nTime traveled in bike = t2\nd1 + d2 = 64\ns1t1 + s2t2 = 64\n8*t1 + 16*t2 = 64\nt1 + 2*t2 = 8 ----- (1)\nGiven: t1 + t2 = 8 ----- (2)\n(1) - (2) --> t2 = 0 and t1 = 8 - 0 = 8\nWalking distance = s1*t1 = 8*8 = 64\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0056",
+    "grade": 8,
+    "question": "In a two-digit number, the digit in the unit's place is four times the digit in ten's place and the sum of the digits is equal to 10. What is the number?",
+    "options": [
+      "82",
+      "41",
+      "14",
+      "28"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the ten's digit be x. then, unit's digit = 4x\ntherefore x + 4x = 10 ==> 5x = 10 ==> x = 2\nso ten's digit is 2 and unit's digit is 8, so the number is 28\nso the correct answer is option E) 28",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0068",
+    "grade": 8,
+    "question": "Three numbers are in the ratio 5 : 6 : 7. The sum of its longest and smallest numbers equals the sum of the third number and 54. Find the third number?",
+    "options": [
+      "A)37",
+      "B)85",
+      "C)48",
+      "E)54"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the numbers be 5x, 6x, 7x.\nLargest number = 7x.\nSmallest number = 5x.\nThird number = 6x.\n7x + 5x = 6x + 54\n6x = 54 => third number is 54.\nAnswer: Option E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0089",
+    "grade": 8,
+    "question": "If books bought at prices ranging from Rs. 98 to Rs. 195 are sold at prices ranging from Rs. 120 to Rs 215, what is the greatest possible profit that might be made in selling 13 books ?",
+    "options": [
+      "Rs. 1650",
+      "Rs. 3000",
+      "Rs. 1521",
+      "Rs. 1400"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "The greatest profit is possible only if the cost price of the books are minimum and selling prices are maximum.\nLet lowest cost price of the 13 books = 98*13 = Rs. 1,274\nMaximum selling price of 13 books = 215 *13 = Rs. 2,795\nSo, maximum profit = 2795 - 1274 = Rs. 1,521\nANSWER : OPTION C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0122",
+    "grade": 8,
+    "question": "A train 125 m long passes a man, running at 1 km/hr in the same direction in which the train is going, in 10 sec. The speed of the train is?",
+    "options": [
+      "65 km/hr",
+      "17 km/hr",
+      "76 km/hr",
+      "46 km/hr"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed of the train relative to man = 125/10 = 25/2 m/sec.\n= 25/2 * 18/5 = 45 km/hr\nLet the speed of the train be x km/hr. Then, relative speed = (x - 1) km/hr.\nx - 1 = 45 => x = 46 km/hr.\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0124",
+    "grade": 8,
+    "question": "Each digit in the two-digit number G is halved to form a new two-digit number H. Which of the following could be the sum of G and H",
+    "options": [
+      "153",
+      "159",
+      "137",
+      "121"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "let the number be x, now x is halved => x/2..the question asks what is x?\nx(number) + x/2 (half of that number) = something\n=> 3x/2 = something\n=> x = 2 (something) / 3\nso the answer choice must be divisible by 3\neliminate C, E right away\ncheck the rest\nB satisfies\n3x/ 2 = 159\n=> x = 106\nVerify. 106 + 53 = 159\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0125",
+    "grade": 8,
+    "question": "The product of two numbers is 2028 and their H.C.F. is 13. The number of such pairs is:",
+    "options": [
+      "9",
+      "2",
+      "7",
+      "8"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the numbers 13a and 13b.\nThen, 13a x 13b = 2028\n=>ab = 12.\nNow, the co-primes with product 12 are (1, 12) and (3, 4).\n[Note: Two integers a and b are said to be coprime or relatively prime if they have no common positive factor other than 1 or, equivalently, if their greatest common divisor is 1 ]\nSo, the required numbers are (13 x 1, 13 x 12) and (13 x 3, 13 x 4).\nClearly, there are 2 such pairs.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0156",
+    "grade": 8,
+    "question": "A man covers a distance on scooter. Had he moved 3kmph faster he would have taken 40 min less. If he had moved 2kmph slower, he would have taken 40min more. The distance is.",
+    "options": [
+      "30 km",
+      "40 km",
+      "45 km",
+      "50 km"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let distance = x m\nUsual rate = y kmph\nx/y \u2013 x/y+3 = 40/60 hr\n2y(y+3) = 9x ---------------------------------(1)\nx/y-2 \u2013 x/y = 40/60 hr y(y-2) = 3x -----------(2)\ndivide 1 & 2 equations\nby solving we get x = 40 km\nAnswer : B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0160",
+    "grade": 8,
+    "question": "Find the invalid no.from the following series 15, 16, 34, 105, 424, 2124, 12756",
+    "options": [
+      "15",
+      "16",
+      "34",
+      "2124"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "2nd term = (1st term) * 1 + 1 = 15 *1 + 1 = 16.\n3rd term = (2nd term) * 2 + 2 = 16 * 2 + 2 = 34\n4th term = (3th term) *3 + 3 = 34 * 3 + 3 = 105\n5th term = (4th term) * 4 + 4 = 105 * 4 + 4 = 424\n6th term = (5th term) * 5 + 5 = 424 * 5 + 5 = 2125\n6th term should 2125 instead of 2124.\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0164",
+    "grade": 8,
+    "question": "In an election between two candidates, 10% of votes are were declares invalid. First candidate got 3600 votes which were 60% of the total valid votes . The total number of votes enrolled in that election was:",
+    "options": [
+      "9000",
+      "98000",
+      "20000",
+      "11000"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "100 % - 10 % = 90 %\n54%-36%=18%\n18% ------> 3600 ( 18 \u00d7 200 = 3600)\n100% -------> 20000 votes (100 \u00d7 200 = 20000)\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0168",
+    "grade": 8,
+    "question": "A boat covers a certain distance downstream in 1 hour, while it comes back in 11\u00e2\u0081\u201e2 hours. If the speed of the stream be 3 kmph, what is the speed of the boat in still water?",
+    "options": [
+      "31 kmph",
+      "16 kmph",
+      "19 kmph",
+      "15 kmph"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the speed of the water in still water =x\nGiven that speed of the stream = 3 kmph\nSpeed downstream =(x+3) kmph\nSpeed upstream =(x\u00e2\u02c6\u20193) kmph\nHe travels a certain distance downstream in 1 hour and come back in 11\u00e2\u0081\u201e2 hour.\ni.e., distance travelled downstream in 1 hour = distance travelled upstream in 11\u00e2\u0081\u201e2 hour\nSince distance = speed \u00c3\u2014 time, we have\n(x+3)\u00c3\u20141=(x-3)3/2\n2(x+3)=3(x-3)\n2x+6=3x-9\nx=6+9=15 kmph\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0175",
+    "grade": 8,
+    "question": "Afreena walks 8 km towards East and then walks 13 km back, then she turns left and walks 4 km; then walks 5 km after turning left; she turns left again and walks 3 km. How far is she from the starting point ?",
+    "options": [
+      "3 km",
+      "2 km",
+      "1 km",
+      "6 km"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nFrom given details we know that she walks in square shaped path and will be in 1 km away from starting point.\nANSWER IS C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0184",
+    "grade": 8,
+    "question": "Find at what time between 8 and 9 o'clock will the hands of a clock be in the same straight line but not together.",
+    "options": [
+      "10x11/10",
+      "10x10/11",
+      "11x10/11",
+      "12x10/11"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Solution\nAt 8 o'clock, the hour is at 8 and the minute hand is at 12,i.e. the two hands are 20 min. Spaces apart.\nSo, the minute hand gain\t= (30 - 20)minute\n55 minutes will be gained in 60 min.\n10 minutes spaces will be gained in (60/55 x10) min.\t= 10x10/11 min.\nThe hands will be in the same straight line but not together at 10x10/11 min.past 8.\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0212",
+    "grade": 8,
+    "question": "If K is the sum of reciprocals of the consecutive integers from 53 to 58, inclusive, then K is closest in value to which of the following?",
+    "options": [
+      "1/12",
+      "1/10",
+      "1/8",
+      "1/10"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "1/53 , 1/54 , 1/55 , 1/56 , 1/57 , 1/58\nHypothetically , assume all 6 Numbers to be 1/53\nHence sum of it would result in = 6/53 ( almost equals 1/7 , or slightly less than 1/7 - )\nIf all 6 nos were to be 1/58 ... Sum of which would result in 6/58 = 1/10 .\nHence answer should lie between 1/7 and 1/10\nE i.e 1/10",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0246",
+    "grade": 8,
+    "question": "Jones covered a distance of 50 miles on his first trip. On a later trip he traveled 300 miles while going three times as fast. His new time compared with the old time was:",
+    "options": [
+      "three times as much",
+      "twice as much",
+      "the same",
+      "half as much"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let speed of the 1st trip x miles / hr. and speed of the 2nd trip 3x / hr.\nWe know that\nSpeed = Distance/Time.\nOr, Time = Distance/Speed.\nSo, times taken to covered a distance of 50 miles on his first trip = 50/x hr.\nAnd times taken to covered a distance of 300 miles on his later trip = 300/3x hr.\n= 100/x hr.\nSo we can clearly see that his new time compared with the old time was: twice as much.\ncorrect answer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0265",
+    "grade": 8,
+    "question": "One-third of Rahul's savings in National Savings Certificate is equal to one-half of his savings in Public Provident Fund. If he has Rs. 1,50,000 as total savings, how much has he saved in Public Provident Fund ?",
+    "options": [
+      "Rs. 10000",
+      "Rs. 5896",
+      "Rs. 2580",
+      "Rs. 60000"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nLet savings in N.S.C and P.P.F. be Rs. x and Rs. (150000 - x) respectively. Then,\n1/3x=1/2(150000-x)\nx/3+x/2=75000\nx=75000*6/5=90000\nSavings in Public Provident Fund = Rs.(150000-90000)=Rs. 60000\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0272",
+    "grade": 8,
+    "question": "The speed at which a man can row a boat in still water is 21 kmph. If he rows downstream, where the speed of current is 5 kmph, what time will he take to cover 90 metres?",
+    "options": [
+      "23.46",
+      "27.46",
+      "28.46",
+      "12.46"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed of the boat downstream = 21 + 5 = 26 kmph\r= 26 * 5/18 = 7.22 m/s\rHence time taken to cover 90 m = 90/7.22\r= 12.46 seconds.\rAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0283",
+    "grade": 8,
+    "question": "A man takes twice as long to row a distance against the stream as to row the same distance in favour of the stream. The ratio of the speed of the boat (in still water) and the stream is:",
+    "options": [
+      "3 : 1",
+      "1 : 3",
+      "1 : 2",
+      "2 : 1"
     ],
     "correct": 0,
     "tags": [
-      "subtraction",
-      "borrowing"
+      "arithmetic"
     ],
-    "explanation": "Borrow as needed. $456 - 189 = 267$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Explanation :\nLet speed upstream = x\nThen, speed downstream = 2x\nSpeed in still water = (2x + x)/2 = 3x/2\nSpeed of the stream = (2x \u2212 x)/2 = x/2\nSpeed in still water : Speed of the stream = (3x/2) (2x/2) = 3 : 1. Answer : Option A",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-003",
-    "grade": 5,
-    "question": "$23 \\times 14 = ?$",
+    "id": "aqua-arit-0306",
+    "grade": 8,
+    "question": "One-third of Rahul's savings in National Savings Certificate is equal to one-half of his savings in Public Provident Fund. If he has Rs. 1,75,000 as total savings, how much has he saved in Public Provident Fund ?",
     "options": [
-      "282",
-      "302",
-      "322",
-      "342"
+      "80000",
+      "60000",
+      "50000",
+      "70000"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let savings in N.S.C and P.P.F. be Rs. x and Rs. (175000 - x) respectively. Then,\n=1/3 x = 1/2 (175000 - x)\n=x/3 + x/2 = 87500\n=5x/6 = 87500\n=x = 87500 x 6 /5\t= 105000\nSavings in Public Provident Fund = Rs. (175000 - 105000) = Rs. 70000\nAnswer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0366",
+    "grade": 8,
+    "question": "Find the remainder of the division (3^50)/7.",
+    "options": [
+      "5",
+      "3",
+      "2",
+      "1"
     ],
     "correct": 2,
     "tags": [
-      "multiplication",
-      "multi-digit"
+      "arithmetic"
     ],
-    "explanation": "$23 \\times 14 = 23 \\times 10 + 23 \\times 4 = 230 + 92 = 322$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Find the pattern of the remainders after each power:\n(3^1)/7 remainder 3\n(3^2)/7 remainder 2\n(3^3)/7 remainder 6\n(3^4)/7 remainder 4\n(3^5)/7 remainder 5\n(3^6)/7 remainder 1 -->this is where the cycle ends\n(3^7)/7 remainder 3 -->this is where the cycle begins again\n(3^8)/7 remainder 2\nContinuing the pattern to (3^50)/7 gives us a remainder of 2\nFinal Answer:\nC) 2",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-004",
-    "grade": 5,
-    "question": "$144 \\div 12 = ?$",
+    "id": "aqua-arit-0380",
+    "grade": 8,
+    "question": "In an election between 2 candidates, 50% of the voters cast their votes, out of which 10% of the votes were declared invalid. A candidate got 5000 votes which were 50% of the total valid votes. Find the total number of votes enrolled in that election?",
     "options": [
-      "10",
-      "11",
-      "12",
-      "14"
-    ],
-    "correct": 2,
-    "tags": [
-      "division"
-    ],
-    "explanation": "$144 \\div 12 = 12$ because $12 \\times 12 = 144$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-medium-005",
-    "grade": 5,
-    "question": "What is $8^2$?",
-    "options": [
-      "16",
-      "32",
-      "64",
-      "82"
-    ],
-    "correct": 2,
-    "tags": [
-      "exponents"
-    ],
-    "explanation": "$8^2 = 8 \\times 8 = 64$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-medium-006",
-    "grade": 5,
-    "question": "Using order of operations, $3 + 4 \\times 2 = ?$",
-    "options": [
-      "10",
-      "11",
-      "14",
-      "16"
+      "16200",
+      "18000",
+      "17500",
+      "15823"
     ],
     "correct": 1,
     "tags": [
-      "order-of-operations",
-      "bodmas"
+      "arithmetic"
     ],
-    "explanation": "Multiply first: $4 \\times 2 = 8$. Then add: $3 + 8 = 11$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the total number of votes enrolled be x.\nThen, number of votes cast = 50% of x.\nValid votes = 90% of (50% of x)\n50% of (90% of (50% of x)) = 4050\n(50/100)*(90/100)*(50/100)x = 4050\nx = 18000\nAnswer is B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-007",
-    "grade": 6,
-    "question": "$5^3 = ?$",
+    "id": "aqua-arit-0399",
+    "grade": 8,
+    "question": "The speed of boat in still water is 20 km/hr. If it travels 26 km downstream and 14 km upstream in same time, what is the speed of the stream?",
     "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nLet X be speed of stream\nSpeed of boat downstream = (20 + X )\nSpeed of boat upstream = (20 \u2013 X)\nIt is given that boat takes same time to travel 26 km downstream and 14 km upstream\n[26/(20 +X)] = [14 / (20 \u2013 X)]\n520 \u2013 26 X = 280 + 14X\n40X = 240\nX = 6 km/hr\nANSWER: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0425",
+    "grade": 8,
+    "question": "Which of the following fractions terminates?",
+    "options": [
+      "3/160",
+      "5/900",
+      "7/220",
+      "9/120"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "For a fraction to have terminating decimal, it must either have only 2 and/or 5 in the denominator. All other values in the denominator leads to non terminating decimal values\nHence,\n1. 160 = 2 * 2 * 2 * 2 * 2 * 5, hence is terminating\n2. There is a 3 in the denominator, hence it is a non terminating decimal\n3. There is an 11 in the denominator, hence it is a non terminating decimal\n4. There is a 3 in the denominator, hence it is a non terminating decimal\n5. There is an 11 in the denominator, hence non terminating\nOption A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0466",
+    "grade": 8,
+    "question": "On a certain transatlantic crossing, 20 percent of a ship\u2019s passengers held round-trip tickets and also took their cars abroad the ship. If 80 percent of the passengers with round-trip tickets did not take their cars abroad the ship, what percent of the ship\u2019s passengers held round-trip tickets?",
+    "options": [
+      "20%",
+      "40%",
+      "60%",
+      "100%"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let T be the total number of passengers.\nLet x be the number of people with round trip tickets.\n0.2T had round trip tickets and took their cars.\n0.2x had round trip tickets and took their cars.\n0.2x = 0.2T\nx = T\nThe answer is E.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0479",
+    "grade": 8,
+    "question": "Let N be the greatest number that will divide 1305, 4665 and 6905, leaving the same remainder in each case. Then sum of the digits in N is:",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "8"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nN = H.C.F. of (4665 - 1305), (6905 - 4665) and (6905 - 1305)\n= H.C.F. of 3360, 2240 and 5600 = 1120.\nSum of digits in N = ( 1 + 1 + 2 + 0 ) = 4\nANSWER IS A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0484",
+    "grade": 8,
+    "question": "Jones covered a distance of 50 miles on his first trip. On a later trip he traveled 300 miles while going three times as fast. His new time compared with the old time was:",
+    "options": [
+      "three times as much",
+      "twice as much",
+      "a third as much",
+      "half as much"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "et speed of the 1st trip x miles / hr. and speed of the 2nd trip 3x / hr.\nWe know that\nSpeed = Distance/Time.\nOr, Time = Distance/Speed.\nSo, times taken to covered a distance of 50 miles on his first trip = 50/x hr.\nAnd times taken to covered a distance of 300 miles on his later trip = 300/3x hr.\n= 100/x hr.\nSo we can clearly see that his new time compared with the old time was: twice as much.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0516",
+    "grade": 8,
+    "question": "A can give B 100 meters start and C 200 meters start in a kilometer race. How much start can B give C in a kilometer race?",
+    "options": [
+      "111.12 m",
+      "111.19 m",
+      "111.82 m",
+      "113.12 m"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "A runs 1000 m while B runs 900 m and C runs 800 m.\nThe number of meters that C runs when B runs 1000 m,\n= (1000 * 800)/900 = 8000/9 = 888.88 m.\nB can give C = 1000 - 888.88 = 111.12 m.\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0550",
+    "grade": 8,
+    "question": "If a, b, and c are consecutive integers such that a < b < c and a is an even prime number, which of the following is true?\nI. a + b + c > a^3\nII. a \u00d7 b \u00d7 c < a^3\nIII. 5b > bc",
+    "options": [
+      "I only",
+      "II only",
+      "III only",
+      "II and III"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Only 'A' is possible solution. If a is even prime number i.e 2, b is 3 and c is 4\nPutting the values in the answers only 'A' seems valid.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0567",
+    "grade": 8,
+    "question": "A certain car can travel 20 minutes on a gallon of gasoline at 60 miles per hour. If the car had started with a full tank and had 8 gallons of gasoline left in its tank at the end, then what percent of the tank was used to travel 80 miles at 60 mph?",
+    "options": [
+      "33%",
+      "20%",
+      "25%",
+      "30%"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Total time for travelling 80 miles @ 60 mph = 80/60 = 4/3 hour = 80 minutes.\nGiven, the car uses 1 gallon for every 20 minutes of driving @ 60 mph. Thus in 80 minutes it will use = 4 gallons. Thus, full tank = 4+8 = 12 gallons ---> 4/12= 33% of the fuel used. A is the correct answer.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0625",
+    "grade": 8,
+    "question": "A sum of Rs. 1530 has been divided among A, B and C such that A gets of what B gets and B gets of what C gets. B\u2019s share is:",
+    "options": [
+      "Rs. 120",
+      "Rs. 160",
+      "Rs. 270",
+      "Rs. 300"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "EXPLANATION\nLet C\u2019s share = Rs. x\nThen, B\u2019s share = Rs. x/4 , A\u2019s share = Rs. (2/3 x x/4 ) = Rs. x/6\n=x/6 + x/4 + x = 1530\n=> 17x/12 = 1530\n=> 1530 x 12/ 17 = Rs.1080\nHence, B\u2019s share = Rs. (1080/4) = Rs. 270.\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0655",
+    "grade": 8,
+    "question": "If each term in the sum a1+a2+a3+.....+an is either 7 or 77 and the sum equals 343, which of the following could be equal to n?",
+    "options": [
+      "38",
+      "39",
+      "40",
+      "41"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Since, there is no 49 in the answer choices (343/7 = 49), we know there is at least one 77.\n343 - 77 = 266\n266/7 = 38\n38+1 = 39.\nIf 39 wasn't there, I would have subtracted 77 from 266 and continued in a similar way.\nAns.B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0669",
+    "grade": 8,
+    "question": "A man has Rs.355 in the denominations of one-rupee notes, 20-rupee notes and 50-rupee notes. The number of notes of each denomination is equal. What is the total number of notes that he has ?",
+    "options": [
+      "20",
       "15",
-      "75",
+      "71",
+      "40"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let number of notes of each denomination be x.\nThen x + 20x + 50x = 355\n71x = 355\nx = 5\nHence, total number of notes = 3x = 15.\nAnswer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0678",
+    "grade": 8,
+    "question": "Mohit sold an article for Rs. 18000. Had he offered a discount of 10% on the selling price, he would have earned a profit of 8%. What is the cost price of the article?",
+    "options": [
+      "Rs.15000",
+      "15002",
+      "26879",
+      "26992"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the CP be Rs. x.\nHad he offered 10% discount, profit = 8%\nProfit = 8/100 x and hence his SP = x + 8/100 x\n= Rs. 1.08x = 18000 - 10/100(18000)\n= 18000 - 1800 = Rs. 16200\n=> 1.08x = 16200\n=> x = 15000\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0698",
+    "grade": 8,
+    "question": "A train 110 m long is running with a speed of 60 km/hr. In what time will it pass a man who is running at 6 km/hr in the direction opposite to that in which the train is going?",
+    "options": [
+      "5",
+      "6",
+      "7",
+      "9"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed of train relative to man = 60 + 6 = 66 km/hr.\n= 66 * 5/18 = 55/3 m/sec.\nTime taken to pass the men = 110 * 3/55 = 6 sec.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0732",
+    "grade": 8,
+    "question": "In an election between two candidates, one got 45% of the total valid votes, 20% of the votes were invalid. If the total number of votes was 2000, the number of valid votes that the other candidate got, was:",
+    "options": [
+      "1500",
+      "4500",
+      "3270",
+      "1100"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Number of valid votes = 80% of 2000= 1600.\nValid votes polled by other candidate = 55% of 2000\n=(55/100)X2000 =1100\nANSWER =D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0734",
+    "grade": 8,
+    "question": "A person bought an article and sold it at a loss of 10%. If he had bought it for 20% less and sold it for Rs.55 more he would have had a profit of 40%. The cost price of the article is___",
+    "options": [
       "125",
-      "150"
+      "150.5",
+      "112.5",
+      "None"
     ],
-    "correct": 2,
+    "correct": 3,
     "tags": [
-      "exponents"
+      "arithmetic"
     ],
-    "explanation": "$5^3 = 5 \\times 5 \\times 5 = 25 \\times 5 = 125$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "now x is CP\nsold it at a loss of 10%=90x/100=9x/10\nbought it for 20% less=80x/100=4x/5\nprofit 40%of 4x/5=140x/100*4x/5=56x/50\n56x/50-9x/10=55rs\n560x-450x/500=55rs\n110x/500=55rs\nx=500*55/110\nx=27500/110=250\nx=250\nANSWER:E",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-008",
-    "grade": 6,
-    "question": "The sum of two consecutive whole numbers is 25. What is the smaller number?",
+    "id": "aqua-arit-0755",
+    "grade": 8,
+    "question": "A man covers a distance on scooter. Had he moved 3kmph faster he would have taken 40 min less. If he had moved 2kmph slower, he would have taken 40min more. The distance is.",
     "options": [
-      "11",
-      "12",
-      "13",
-      "14"
+      "30 km",
+      "40 kilometre",
+      "45 km",
+      "50 km"
     ],
     "correct": 1,
     "tags": [
-      "word-problems"
+      "arithmetic"
     ],
-    "explanation": "Let the numbers be $n$ and $n+1$. $n + (n+1) = 25$, so $2n = 24$, giving $n = 12$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let distance = x m\nUsual rate = y kmph\nx/y \u2013 x/y+3 = 40/60 hr\n2y(y+3) = 9x ---------------------------------(1)\nx/y-2 \u2013 x/y = 40/60 hr y(y-2) = 3x -----------(2)\ndivide 1 & 2 equations\nby solving we get x = 40 km\nAnswer : B.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-009",
-    "grade": 5,
-    "question": "$1.5 + 2.7 = ?$",
+    "id": "aqua-arit-0758",
+    "grade": 8,
+    "question": "David covered a distance of 50 miles on his first trip. On a later trip he traveled 75 miles while going three times as fast. His new time compared with the old time was:",
     "options": [
-      "3.2",
-      "4.1",
-      "4.2",
-      "4.3"
+      "twice as much",
+      "three times as much",
+      "the same",
+      "half as much"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let t be the time of the first trip.\nOn the later trip, David can travel 150 miles in time t.\nThe trip of 75 miles takes t/2.\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0761",
+    "grade": 8,
+    "question": "There are 5 bags three of which each contains 5 white and 2 black balls, and remaining 2 bags each contains 1 white and 4 black ball; a white ball has been drawn, find the chance that it came from first group.",
+    "options": [
+      "2/7",
+      "6/35",
+      "8/25",
+      "75/89"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Please go through my solution and suggest any mistake.\nChances of selecting a white ball from group 1: 5/7----------------------Chances of selecting a white ball from group 2: 1/5\nThus combined probability of section of white ball from group 1:\n3/5 x 5/7 = 3/7\nThus combined probability of section of white ball from group 2:\n2/5 x 1/5 = 2/25\nOut of these chances, chance of occurrence of first case : (3/7) / (3/7 + 2/25) = 75/89\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0783",
+    "grade": 8,
+    "question": "Three consecutive odd integers are in increasing order such that the sum of the last two integers is 13 more than the first integer. Find the three integers?",
+    "options": [
+      "7, 9, 29",
+      "7, 2, 10",
+      "7, 9, 10",
+      "7, 9, 11"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nLet the three consecutive odd integers be x, x + 2 and x + 4 respectively.\nx + 4 + x + 2 = x + 13 => x = 7\nHence three consecutive odd integers are 7, 9 and 11.\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0834",
+    "grade": 8,
+    "question": "A man has some hens and cows. If the number of heads be 48 and the number of feet equals 140, then the number of hens will be:",
+    "options": [
+      "26",
+      "25",
+      "23",
+      "22"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the number of hens be x and the number of cows be y.\nThen, x + y = 48 .... (i)\nand 2x + 4y = 140\nx + 2y = 70 .... (ii)\nSolving (i) and (ii) we get: x = 26, y = 22.\nThe required answer = 26.\nAnswer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0852",
+    "grade": 8,
+    "question": "Mohit sold an article for Rs. 18000. Had he offered a discount of 10% on the selling price, he would have earned a profit of 8%. What is the cost price of the article?",
+    "options": [
+      "15000",
+      "15002",
+      "26879",
+      "26992"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the CP be Rs. x.\nHad he offered 10% discount, profit = 8%\nProfit = 8/100 x and hence his SP = x + 8/100 x\n= Rs. 1.08x = 18000 - 10/100(18000)\n= 18000 - 1800 = Rs. 16200\n=> 1.08x = 16200\n=> x = 15000\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0870",
+    "grade": 8,
+    "question": "A and B are positive two-digit integers such that the tens digit in A is the same as the units digit in B, and the units digit in A is the same as the tens digit in B. Which of the following CANNOT be the difference of A and B ?",
+    "options": [
+      "72",
+      "45",
+      "33",
+      "27"
     ],
     "correct": 2,
     "tags": [
-      "decimals",
-      "addition"
+      "arithmetic"
     ],
-    "explanation": "Align decimal points: $1.5 + 2.7 = 4.2$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "A and B are positive two-digit integers such that the tens digit in A is the same as the units digit in B, and the units digit in A is the same as the tens digit in B:\nA = 10x + y\nB = 10y + x\nA - B = (10x + y) - (10y + x) = 9(x - y). As you can see the difference must be a multiple of 9. Only option C is not a multiple of 9.\nAnswer: C.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-medium-010",
-    "grade": 5,
-    "question": "$6.4 - 2.9 = ?$",
+    "id": "aqua-arit-0920",
+    "grade": 8,
+    "question": "The cost of 10 kg of mangos is equal to the cost of 24 kg of rice. The cost of 6 kg of flour equals the cost of 2 kg of rice. The cost of each kg of flour is $22. Find the total cost of 4 kg of mangos, 3 kg of rice and 5 kg of flour?",
     "options": [
-      "3.3",
-      "3.5",
-      "3.7",
-      "4.5"
+      "347.6",
+      "987.6",
+      "941.6",
+      "637.6"
     ],
-    "correct": 1,
+    "correct": 2,
     "tags": [
-      "decimals",
-      "subtraction"
+      "arithmetic"
     ],
-    "explanation": "$6.4 - 2.9 = 3.5$. Borrow from the ones place when subtracting tenths.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the costs of each kg of mangos and each kg of rice be $a and $r respectively.\n10a = 24r and 6 * 22 = 2r\na = 12/5 r and r = 66\na = 158.4\nRequired total cost = 4 * 158.4 + 3 * 66 + 5 * 22\n= 633.6 + 198 + 110 = $941.60\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0928",
+    "grade": 8,
+    "question": "Two trains 140 meters and 160 meters long are running in the same direction with speeds of 92 km/hr, 56km/hr. In how much time will the first train cross the second",
+    "options": [
+      "37 sec",
+      "25 sec",
+      "30 sec",
+      "28 sec"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nRelative speed of the trains = (92 - 56) km/hr = 36 km/hr\n= (36\u00c3\u2014 5/18) m/sec = 10 m/sec.\nTime taken by the trains to cross each other\n= Time taken to cover (140 + 160) m at 10 m /sec = (300/10) sec = 30 sec.\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0956",
+    "grade": 8,
+    "question": "If Rs. 10 be allowed as true discount on a bill of Rs. 110 due at the end of a certain time, then the discount allowed on the same sum due at the end of double the time is:",
+    "options": [
+      "Rs. 20",
+      "Rs. 21.80",
+      "Rs. 22",
+      "Rs. 18.33"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "S.I. on Rs. (110 - 10) for a certain time = Rs. 10.\nS.I. on Rs. 100 for double the time = Rs. 20.\nT.D. on Rs. 120 = Rs. (120 - 100) = Rs. 20.\nT.D on Rs. 110 = Rs.(20/120)x100=Rs.18.33\nanswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0988",
+    "grade": 8,
+    "question": "The sum of the non-prime numbers between 50 and 60, non-inclusive, is",
+    "options": [
+      "263",
+      "293",
+      "323",
+      "383"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "sum of consecutive integers from 51 to 59, inclusive ====> (A1 + An)/2 * # of terms = (51 + 59)/2 * 9 = 55 *9 = 495\nsum of non-prime numbers b/w 50 and 60, non inclusive ===> 495 - 112 (i.e., 53 + 59, being the prime #s in the range) =383\nAnswer: E",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

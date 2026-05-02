@@ -1,189 +1,92 @@
 [
   {
-    "id": "ari-difficult-001",
-    "grade": 6,
-    "question": "$(-3) + (-7) = ?$",
+    "id": "aqua-arit-0200",
+    "grade": 8,
+    "question": "If S is the product of all positive integers less than 31, than what is the greatest integer k for which S/18^k is an integer?",
     "options": [
-      "-10",
-      "-4",
-      "4",
-      "10"
-    ],
-    "correct": 0,
-    "tags": [
-      "integers",
-      "negative-numbers"
-    ],
-    "explanation": "Adding two negatives gives a more negative result: $(-3) + (-7) = -10$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-difficult-002",
-    "grade": 6,
-    "question": "$(-12) \\times 4 = ?$",
-    "options": [
-      "-48",
-      "-16",
-      "16",
-      "48"
-    ],
-    "correct": 0,
-    "tags": [
-      "integers",
-      "multiplication"
-    ],
-    "explanation": "Negative times positive is negative: $(-12) \\times 4 = -48$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-difficult-003",
-    "grade": 6,
-    "question": "$(-15) \\div (-3) = ?$",
-    "options": [
-      "-5",
-      "-3",
       "3",
-      "5"
+      "6",
+      "7",
+      "14"
     ],
-    "correct": 3,
+    "correct": 2,
     "tags": [
-      "integers",
-      "division"
+      "arithmetic"
     ],
-    "explanation": "Negative divided by negative is positive: $(-15) \\div (-3) = 5$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "30! S must be divisible by (3*3*2)^k.\nAs I will find a lot of 2's among 30!'s factors I will focus on the 3's (that also occurs twice instead of only once as a factor in 18).\nEvery multiple of 3 will provide me with atleast one factor of 3. There aren't that many so I list them quickly.\n3 6 9*\n12 15 18*\n21 24 27**\n30\nThe stars are marked as they are multiples of 9* or 27** and thus provides two or three 3's respectively.\n3=3 (occurs 10 times) +10\n3*3=9 (occurs 3 times) +3(adding just one additional three each as they were not counted for in the multiples of 3)\n3*3*3=27 (occurs 1 time) +1 (again, adding just one as they were previously not counted)\nTotal: 14.\nFor every k we add two 3's. So we must divide 14 by 2 to get the highest integer K before we receive a non-integer result.\nAnswer: 7 -> Answer choice: C.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-difficult-004",
-    "grade": 7,
-    "question": "$2^3 \\times 2^2 = ?$",
+    "id": "aqua-arit-0646",
+    "grade": 8,
+    "question": "Out of n consecutive natural numbers, four numbers are selected such that the differences of all the possible pairs are distinct. What is the least value of n for which this is possible?",
     "options": [
-      "16",
-      "32",
-      "64",
-      "128"
+      "6",
+      "7",
+      "8",
+      "9"
     ],
     "correct": 1,
     "tags": [
-      "exponents",
-      "laws-of-exponents"
+      "arithmetic"
     ],
-    "explanation": "Same base: add exponents. $2^3 \\times 2^2 = 2^{3+2} = 2^5 = 32$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Explanation :\nLet the 4 numbers be X1, X2, X3, X4 where X1<X2<X3<X4. Let X1 + a1 = X2, X2 + a2 = X3, X3 + a3 = X4. The difference of X1 and each of the other three, of X2 and each of the greater two, of X3 and X4 are tabulated.\nX1\tX2\tX3\nX2\ta1\nX3\ta1+a2\ta2\nX4\ta1+a2+a3\ta2+a3\ta3\nWe require that n be minimized and these 6 expressions have distinct values. Let X1 = 1\nNow, n = 1+a1+a2+a3. Now a1, a2, a3 can be chosen as the least possible values i.e. 1,2 and 3. However the order of chosing should be such that the six expressions (differences) should all be distinct.\nBy little trial and error (a1, a2, a3) can be (1, 3, 2) or (2, 3, 1) in which case n = 7 and the four numbers can be (1, 2, 5, 7) or (1, 3, 6, 7) respectively.\nHence the minimum value of n is 7.\nAnswer : B",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-difficult-005",
-    "grade": 7,
-    "question": "$\\sqrt{81} = ?$",
+    "id": "aqua-arit-0909",
+    "grade": 8,
+    "question": "If the ratio of the ages of two friends A and B is in the ratio 3 : 5 and that of B and C is 3 : 5 and the sum of their ages is 147, then how old is B?",
     "options": [
-      "7",
-      "8",
-      "9",
-      "10"
+      "27 Years",
+      "75 Years",
+      "45 Years",
+      "49 Years"
     ],
     "correct": 2,
     "tags": [
-      "square-roots"
+      "arithmetic"
     ],
-    "explanation": "$\\sqrt{81} = 9$ because $9 \\times 9 = 81$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Explanation:\nThe ratio of the ages of A and B is 3 : 5.\nThe ratio of the ages of B and C is 3 : 5.\nB's age is the common link to both these ratio. Therefore, if we make the numerical value of the ratio of B's age in both the ratios same, then we can compare the ages of all 3 in a single ratio.\nThe can be done by getting the value of B in both ratios to be the LCM of 3 and 5 i.e., 15.\nThe first ratio between A and B will therefore be 9 : 15 and\nthe second ratio between B and C will be 15 : 25.\nNow combining the two ratios, we get A : B : C = 9 : 15 : 25.\nLet their ages be 9x, 15x and 25x.\nThen, the sum of their ages will be 9x + 15x + 25x = 49x\nThe question states that the sum of their ages is 147.\ni.e., 49x = 147 or x = 3.\nTherefore, B's age = 15x = 15 \u00d7 3 = 45\nAnswer: C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-difficult-006",
-    "grade": 6,
-    "question": "Find the LCM of 12 and 18.",
+    "id": "aqua-arit-0930",
+    "grade": 8,
+    "question": "If m \u2260 1 and if nm/(n - m) = 1, what is the value of n in terms of m?",
     "options": [
-      "6",
-      "24",
-      "36",
-      "72"
+      "m/(m+1)",
+      "(m - 1)/m",
+      "m/(1-m)",
+      "(m + 1)/m"
     ],
     "correct": 2,
     "tags": [
-      "lcm",
-      "factors"
+      "arithmetic"
     ],
-    "explanation": "Multiples of 12: 12, 24, 36, ... Multiples of 18: 18, 36, ... Smallest common is $36$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "This question comes with a particular 'quirk' (one that you probably won't see on Test Day). The GMAT won't test you on the concept of undefined numbers (re: numbers divided by 0), so any time that this concept is a possibility, the question writers have to add a restriction that removes the option that a 0 could occur in the denominator.\nHere, we're told that B CANNOT = 1, which is a bit strange because that restriction doesn't seem to impact the original equation much. In fact, it impacts JUST ONE of the answer choices - so you have to ask WHY that restriction is even there. It's actually because that one answer is the correct one.\nFinal Answer:\nC",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-difficult-007",
-    "grade": 6,
-    "question": "Find the HCF (GCD) of 24 and 36.",
+    "id": "aqua-arit-0993",
+    "grade": 8,
+    "question": "A palindrome is a number that reads the same front-to-back as it does back-to-front (e.g. 202, 575, 1991, etc.) p is the smallest integer greater than 800 that is both a prime and a palindrome. What is the sum of the digits of p?",
     "options": [
-      "6",
-      "8",
-      "12",
-      "18"
-    ],
-    "correct": 2,
-    "tags": [
-      "hcf",
-      "factors"
-    ],
-    "explanation": "Factors of 24: 1, 2, 3, 4, 6, 8, 12, 24. Factors of 36: 1, 2, 3, 4, 6, 9, 12, 18, 36. Largest common: $12$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-difficult-008",
-    "grade": 7,
-    "question": "Express $0.625$ as a fraction in simplest form.",
-    "options": [
-      "$\\frac{5}{8}$",
-      "$\\frac{3}{5}$",
-      "$\\frac{6}{25}$",
-      "$\\frac{7}{8}$"
-    ],
-    "correct": 0,
-    "tags": [
-      "decimals",
-      "fractions"
-    ],
-    "explanation": "$0.625 = \\frac{625}{1000} = \\frac{5}{8}$ after dividing top and bottom by 125.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-difficult-009",
-    "grade": 6,
-    "question": "Evaluate $(3 \\times 4) + (2 \\times 5) - 6$.",
-    "options": [
-      "10",
-      "12",
-      "14",
-      "16"
+      "3",
+      "4",
+      "5",
+      "7"
     ],
     "correct": 3,
     "tags": [
-      "order-of-operations"
+      "arithmetic"
     ],
-    "explanation": "Brackets first: $12 + 10 - 6 = 16$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-difficult-010",
-    "grade": 7,
-    "question": "$2^4 + 3^2 = ?$",
-    "options": [
-      "13",
-      "20",
-      "25",
-      "26"
-    ],
-    "correct": 2,
-    "tags": [
-      "exponents"
-    ],
-    "explanation": "$2^4 = 16$ and $3^2 = 9$. Sum: $16 + 9 = 25$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Given that p is smallest integer greater than 800 - assume there is a 3-digit that satisfies the above conditions. Let the number be xyx ; question asks us the values of 2x+y\nWe can straight away cross out options A) and D) - sum of digits 3 or 6 implies it is divisible by 3 ---> we know that p is a prime number\nComing to option B) 2x + y = 4 --> only x = 2 and y = 0 satisfy this equation ( x> 2 will never give sum of digits = 4) ; but 202 is divisible by 2 ; we know that p is a prime number\nSimilarly option C) 2x+y = 5 --> only x = 2 and y = 1 satisfy this equation ( x> 2 will never give sum of digits = 5) ; but 212 is divisible by 2 ; we know that p is a prime number\nTherefore answer option should be E ---> can be verified by taking 2x+y = 7 ---> x = 3 and y = 1 ; gives 313\nE",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

@@ -1,189 +1,1046 @@
 [
   {
-    "id": "alg-difficult-001",
-    "grade": 9,
-    "question": "Solve: $x^2 - 5x + 6 = 0$.",
-    "options": [
-      "$x = 1$ or $x = 6$",
-      "$x = 2$ or $x = 3$",
-      "$x = -2$ or $x = -3$",
-      "$x = 5$ only"
-    ],
-    "correct": 1,
-    "tags": [
-      "quadratic-equations",
-      "factoring"
-    ],
-    "explanation": "Factor: $(x-2)(x-3) = 0$, so $x = 2$ or $x = 3$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-002",
-    "grade": 9,
-    "question": "Solve: $2x^2 = 50$.",
-    "options": [
-      "$x = 5$ only",
-      "$x = \\pm 5$",
-      "$x = \\pm 10$",
-      "$x = 25$"
-    ],
-    "correct": 1,
-    "tags": [
-      "quadratic-equations"
-    ],
-    "explanation": "$x^2 = 25 \\Rightarrow x = \\pm 5$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-003",
-    "grade": 9,
-    "question": "Find the slope of the line through $(1, 2)$ and $(4, 11)$.",
-    "options": [
-      "$2$",
-      "$3$",
-      "$\\frac{1}{3}$",
-      "$9$"
-    ],
-    "correct": 1,
-    "tags": [
-      "coordinate-geometry",
-      "slope"
-    ],
-    "explanation": "Slope $= \\frac{11 - 2}{4 - 1} = \\frac{9}{3} = 3$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-004",
-    "grade": 9,
-    "question": "Solve the system: $x + y = 7$, $x - y = 1$.",
-    "options": [
-      "$x = 3, y = 4$",
-      "$x = 4, y = 3$",
-      "$x = 5, y = 2$",
-      "$x = 6, y = 1$"
-    ],
-    "correct": 1,
-    "tags": [
-      "simultaneous-equations"
-    ],
-    "explanation": "Add the equations: $2x = 8$, so $x = 4$. Then $y = 3$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-005",
-    "grade": 9,
-    "question": "Factor: $x^2 - 9$.",
-    "options": [
-      "$(x-3)(x-3)$",
-      "$(x+3)(x+3)$",
-      "$(x-3)(x+3)$",
-      "$(x-9)(x+1)$"
-    ],
-    "correct": 2,
-    "tags": [
-      "factoring",
-      "difference-of-squares"
-    ],
-    "explanation": "Difference of squares: $a^2 - b^2 = (a-b)(a+b)$. So $x^2 - 9 = (x-3)(x+3)$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-006",
-    "grade": 9,
-    "question": "Expand: $(2x - 3)^2$.",
-    "options": [
-      "$4x^2 - 9$",
-      "$4x^2 + 9$",
-      "$4x^2 - 12x + 9$",
-      "$2x^2 - 6x + 9$"
-    ],
-    "correct": 2,
-    "tags": [
-      "expansion",
-      "perfect-squares"
-    ],
-    "explanation": "$(a-b)^2 = a^2 - 2ab + b^2$. So $(2x)^2 - 2(2x)(3) + 9 = 4x^2 - 12x + 9$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-007",
+    "id": "aqua-alge-0003",
     "grade": 8,
-    "question": "Solve: $3(x - 2) - 2(x + 1) = 0$.",
+    "question": "Carl is facing very difficult financial times and can only pay the interest on a $10,000 loan he has taken. The bank charges him a quarterly compound rate of 4%. What is the approximate interest he pays annually?",
     "options": [
-      "$x = 4$",
-      "$x = 6$",
-      "$x = 8$",
-      "$x = 10$"
-    ],
-    "correct": 2,
-    "tags": [
-      "linear-equations",
-      "distribution"
-    ],
-    "explanation": "$3x - 6 - 2x - 2 = 0 \\Rightarrow x - 8 = 0 \\Rightarrow x = 8$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-008",
-    "grade": 9,
-    "question": "If $x + \\frac{1}{x} = 3$, find $x^2 + \\frac{1}{x^2}$.",
-    "options": [
-      "$5$",
-      "$7$",
-      "$8$",
-      "$9$"
-    ],
-    "correct": 1,
-    "tags": [
-      "algebraic-identities"
-    ],
-    "explanation": "Square both sides: $\\left(x+\\frac{1}{x}\\right)^2 = x^2 + 2 + \\frac{1}{x^2} = 9$, so $x^2 + \\frac{1}{x^2} = 7$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "alg-difficult-009",
-    "grade": 9,
-    "question": "Find the roots of $x^2 + 4x - 5 = 0$.",
-    "options": [
-      "$x = 1, -5$",
-      "$x = -1, 5$",
-      "$x = 1, 5$",
-      "$x = -1, -5$"
+      "$1600",
+      "$2000",
+      "$2150",
+      "$2500"
     ],
     "correct": 0,
     "tags": [
-      "quadratic-equations",
-      "factoring"
+      "algebra"
     ],
-    "explanation": "Factor: $(x+5)(x-1) = 0 \\Rightarrow x = -5$ or $x = 1$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Usually, you are given the annual rate of interest and it is mentioned that it is annual rate.\nThe bank charges him a quarterly compounded ANNUAL rate of 16%.\nHere you find per quarter rate as (16/4)% = 4%\nI have actually never seen a question with quarter rate given but since this question did not mentionannual rate of interestand since the options did not make sense with 4% annual rate of interest, it is apparent that the intent was a 4% quarterly rate. So the bank charges 4% every quarter and compounds it in the next quarter. Had it been a simple quarterly rate, we would have just found 4 * 4% of 10,000 = $1600 as our answer.\nBut since, the interest is compounded, it will be a bit more than $1600. Option (A) looks correct.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "alg-difficult-010",
-    "grade": 9,
-    "question": "Simplify: $\\frac{x^2 - 4}{x - 2}$ (where $x \\neq 2$).",
+    "id": "aqua-alge-0012",
+    "grade": 8,
+    "question": "q is a positive integer and multiple of 2; p = 4^q, what is the remainder when p is divided by 10?",
     "options": [
-      "$x - 2$",
-      "$x + 2$",
-      "$x^2$",
-      "$\\frac{1}{x-2}$"
+      "10",
+      "6",
+      "4",
+      "0"
     ],
     "correct": 1,
     "tags": [
-      "algebraic-fractions",
-      "factoring"
+      "algebra"
     ],
-    "explanation": "$x^2 - 4 = (x-2)(x+2)$. Cancel $(x-2)$: result is $x + 2$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "It is essential to recognize that the remainder when an integer is divided by 10 is simply the units digit of that integer. To help see this, consider the following examples:\n4/10 is 0 with a remainder of 4\n14/10 is 1 with a remainder of 4\n5/10 is 0 with a remainder of 5\n105/10 is 10 with a remainder of 5\nIt is also essential to remember that the q is a positive integer and multiple of 2. Any integer that is a multiple of 2 is an even number. So, q must be a positive even integer.\nWith these two observations, the question can be simplified to:what is the units digit of 4 raised to an even positive integer?\nThe units digit of 4 raised to an integer follows a specific repeating pattern:\n4^1 = 4\n4^2 = 16\n4^3 = 64\n4^4 = 256\n4^(odd number) --> units digit of 4\n4^(even number) --> units digit of 6\nThere is a clear pattern regarding the units digit. 4 raised to any odd integer has a units digit of 4 while 4 raised to any even integer has a units digit of 6.\nSince q must be an even integer, the units digit of p=4^q will always be 6. Consequently, the remainder when p=4^q is divided by 10 will always be 6.\nIn case this is too theoretical, consider the following examples:\nq=2 --> p=4^q=16 --> p/10 = 1 with a remainder of 6\nq=4 --> p=4^q=256 --> p/10 = 25 with a remainder of 6\nq=6 --> p=4^q=4096 --> p/10 = 409 with a remainder of 6\nq=8 --> p=4^q=65536 --> p/10 = 6553 with a remainder of 6\nAnswer: B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0024",
+    "grade": 8,
+    "question": "A debtor reached an agreement with his creditor to repay a loan by making a monthly payment which is double of the amount she paid the previous month. If the debtors first payment was $200, and he is expected to pay back 51200, how many months will it take to fully repay the loan?",
+    "options": [
+      "9",
+      "10",
+      "9",
+      "12"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "First payment--$200\nTotal amount to be repaid--$25600\nFirst month payment--$200\nSecond month payment( double the previous month payment)--$200*2=$400\nThird month payment( double the previous month payment)--$400*2=$800\nFourth month payment( double the previous month payment)--$800*2=$1600\nFifth month payment( double the previous month payment)--$1600*2=$3200\nSixth month payment( double the previous month payment)--$3200*2=$6400\nSeventh month payment( double the previous month payment)--$6400*2=$12800\nEight month payment( double the previous month payment)--$12800*2=$25600\nNinth month payment( double the previous month payment)--$25600*2=$51200\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0025",
+    "grade": 8,
+    "question": "As a bicycle salesperson, James earns a fixed salary of $30 per week plus $6 per bicycle for the first 6 bicycles he sells, $12 per bicycle for the next 6 bicycles he sells, and $18 per bicycle for every bicycle sold after first 12. This week, he earned more than twice as much as he did last week. If he sold x bicycles last week and y bicycles this week, which of the following statements must be true?\nI. y<2x\nII. y>x\nIII. y>3",
+    "options": [
+      "I,II only",
+      "I only",
+      "II,III only",
+      "II only"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "II. y>x --> since this week, James earned more than he did last week and the total salary is in direct relationship with the # of bicycle sold, then y (# of bicycle sold this week) must be more than x (# of bicycle sold last week);\nIII. y>3 --> if James sold 3 bicycles this week then this week he earned 30+3*6=$48, which cannot be more than twice as much as he earned the last week, since the minimum salary is fixed to $30. So y must be more than 3;\nI. y<2x --> is not always true.\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0045",
+    "grade": 8,
+    "question": "In a recent survey at a local deli, it was observed that 3 out of 5 customers bought a bagel and 5 out of 7 customers bought a coffee. Some customers bought both. If 8 customers are selected, what are the chances that at least 1 customer bought a coffee and a bagel?",
+    "options": [
+      "27/343",
+      "3/7",
+      "27/125",
+      "199/245"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let us take 7*5=35 as the total number of customers. So 7*3=21 customers bought a bagel and 5*5=25 customers bought a coffee.\nchances that at least 1 customer bought a coffee and a bagel = 1 - chances that no customer bought a coffee and a bagel\nchances that no customer bought a coffee and a bagel=24/35*23/34*22/33*21/32*20/31*19/30*18/29*17/28=46/245\nchances that at least 1 customer bought a coffee and a bagel= 1 - 46/245 = 199/245\nAnswer D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0048",
+    "grade": 8,
+    "question": "In a graduate physics course, 70 percent of the students are male and 30 percent of the students are married. If two-sevenths of the male students are married, what fraction of the male students is single?",
+    "options": [
+      "2/7",
+      "1/3",
+      "1/2",
+      "5/7"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "let assume there are 100 students of which 70 are male and 30 are females\nif 30 are married then 70 will be single.\nnow its given that two-sevenths of the male students are married that means 2/7 of 70 = 20 males are married\nif 30 is the total number of students who are married and out of that 20 are males then the remaining 10 will be females who are married.\ntotal females = 70\nmarried males = 20\nthen single males = 70-20 = 50\nwe need to find the fraction of male students who are single i.e single male students / total male student\n= 50/70 = 5/7 [E]",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0066",
+    "grade": 8,
+    "question": "A question paper consists of three sections 4,5 and 6 questions respectively. Attempting one question from each section is compulsory but a candidate need not attempt all the questions. In how many ways can a candidate attempt the questions?",
+    "options": [
+      "209",
+      "(4!-1)*(5!-1)*(6!-1)",
+      "119",
+      "29295"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Solution:\nAt least 1 question from each section is compulsory, so from the 1st section the candidate can attempt 1 or 2 or 3 or 4 questions.\nIn each section each question can be dealt with in 2 ways, i.e. either he attempts it or leaves it.\nSo far 4 question there are 2 *2 *2 *2 ways to attempt. As he has to attempt at least 1 question, the total number of ways in which he can attempt questions from 1st section is 24\u22121.\nSimilarly for the 2nd section there are 25\u22121 ways in which he can attempt and for the 3rd section there are 26\u22121 ways.\nThe ways in which the attempts one or more questions in any section is independent of the number of ways in which he attempts one or more questions from the other sections.\nThus, total number of ways\nAnswer: Option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0072",
+    "grade": 8,
+    "question": "Each of the following equations W has at least one solution EXCEPT",
+    "options": [
+      "W=\u20132^n = (\u20132)^-n",
+      "2^-n = (\u20132)^n",
+      "2^n = (\u20132)^-n",
+      "(\u20132)^n = \u20132^n"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "While it is possible to reason out which of these choices must not work, we may not have time or the confidence to do so. However, this problem has variable in its answer choice, and relatively simple math. Therefore, an easy alternative is picking numbers.\nSince we're dealing with exponents, we want to keep things as easy as possible. Hence, we'll start with the easiest exponent possible: n = 1. A, B, and C are not solved (x^-n = 1/(x^n), so we're comparing integers to fractions), but choices D and E both end up valid, eliminating them from contention.\nIn the process of doing this, however, we've uncovered a major clue to our next step: A, B, and C, all compared integers to fractions, and the only integer equal to it's reciprocal is 1, which is equal to 1/1. This, in turn, tells us the we need to pick n = 0. Remember, for all non-zero x, x^0 = 1.\nIf we plug n = 0 into choices B and C, we end up with 1 = 1 both times. Choice A, however, results in the false 1 = -1. Thus, we conclude that the first choice has no valid solutions, and is therefore the correct answer.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0090",
+    "grade": 8,
+    "question": "Two trains A and B starting from two points and travelling in opposite directions, reach their destinations 9 hours and 4 hours respectively after meeting each other. If the train A travels at 60kmph, find the rate at which the train B runs.",
+    "options": [
+      "40",
+      "90",
+      "120",
+      "80"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "If two objects A and B start simultaneously from opposite points and, after meeting, reach their destinations in \u2018a\u2019 and \u2018b\u2019 hours respectively (i.e. A takes \u2018a hrs\u2019 to travel from the meeting point to his destination and B takes \u2018b hrs\u2019 to travel from the meeting point to his destination), then the ratio of their speeds is given by:\nSa/Sb = \u221a(b/a)\ni.e. Ratio of speeds is given by the square root of the inverse ratio of time taken.\nSa/Sb = \u221a(4/9) = 2/3\nThis gives us that the ratio of the speed of A : speed of B as 2:3.\nSince speed of A is 60 kmph, speed of B must be 60*(3/2) = 90 kmph\nAnswer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0102",
+    "grade": 8,
+    "question": "How many positive 5-digit integers have the odd sum E of their digits?",
+    "options": [
+      "9*10^2",
+      "9*10^3",
+      "10^4",
+      "45*10^3"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "We are looking at numbers between 10000 and 99999 both inclusive.\nThere are 90000 numbers.\nNow for\n10000 : sum of digits is odd;\n10001 :sum of digits is even;\n10002 : sum of digits is odd ; so on and so forth. So every alternate number is such that the sum of digit is odd.\n(Exception for the above statement :\nWhen it is 10009 the E sum is even and for 10010 again the sum is even; But if you look at 10019 :sum is odd; 10020 : sum is odd\nand this pattern continues so basically the number of odd sum of digits and even sum of digits are equal)\nThis means exactly half of the numbers will have odd sum of their digits. i.e 45000\nAnswer :D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0137",
+    "grade": 8,
+    "question": "Product M is produced by mixing chemical X and chemical Y in the ratio of 5 : 4. Chemical X is prepared by mixing two raw materials, A and B, in the ratio of 1 : 3. Chemical Y is prepared by mixing raw materials, B and C, in the ratio of 2 : 1. Then the final mixture is prepared by mixing 864 units of product M with water. If the concentration of the raw material B in the final mixture is 50%, how much water had been added to product M?",
+    "options": [
+      "328 units",
+      "368 units",
+      "392 units",
+      "616 units"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The final product is obtained by mixing 864 units of product M with water.\nIn 864 units of Product M, amount of B = 864\u00d777/108 = 616\nIn the final mixture, concentration of B is 50%.\nTherefore, the total quantity of final mixture = 616 \u00d7 2 = 1232\nWater added = 1232 \u2013 864 = 368\nThe correct answer is Choice B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0181",
+    "grade": 8,
+    "question": "Otto and Han are driving at constant speeds in opposite directions on a straight highway. At a certain time they are driving toward each other and are 40 miles apart. One and a half hours later, they are again 40 miles apart, driving away from each other. If Otto drives at a speed of x miles per hour, then, in terms of x, Han drives at a speed of how many miles per hour?",
+    "options": [
+      "a) 80-x",
+      "b) 53.33-x",
+      "c) 80-2x",
+      "d) 120-x"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let's say the two cars have speeds V1 and V2. The fact that they are moving in opposite direction means that their relative speed is (V1 + V2). In other words, any gap between them will be changing in size at a rate of (V1 + V2). It doesn't matter whether they are moving toward each other or away from each other. If they are approaching each other, the gap between them is decreasing at a rate of (V1 + V2). If they are moving away from each other, the gap between them is increasing at a rate of (V1 + V2). Either way, the number for the rate of change remains the same.\nHere, the two cars approach a distance 40 mi, then move away from each other another distance of 40 miles. That's a total distance of 80 miles in 1.5 hr, which gives a rate of:\nR = (80 mi)/(1.5) = 53.33 mph\nThat's the rate of change of the gap, so it must equal the sum of the speeds of the two cars.\nOne of the speeds is x, and let's call the other y. We want y.\nx + y = 53.33\ny = 53.33 - x\nAnswer =(B)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0185",
+    "grade": 8,
+    "question": "On Sunday morning, Pugsley and Wednesday are trading pet spiders. If Pugsley were to give Wednesday four of his spiders, Wednesday would then have four times as many spiders as Pugsley does. But, if Wednesday were to give Pugsley five of her spiders, Pugsley would now have five fewer spiders than Wednesday had before they traded. How many pet spiders does Pugsley have before the trading game commences?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "10"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "If Pugsley were to give Wednesday four of his spiders, Wednesday would then have five times as many spiders as Pugsley does:\n(w + 4) = 4(p - 4)\nIf Wednesday were to give Pugsley five of her spiders, Pugsley would now have five fewer spiders than Wednesday had before they traded:\np + 5 = w - 5\nSolving gives p = 10 and w = 20.\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0188",
+    "grade": 8,
+    "question": "A book store bought copies of a new book by a popular author, in anticipation of robust sales. The store bought 400 copies from their supplier, each copy at wholesale price W. The store sold the first 150 copies in the first week at 80% more than W, and then over the next month, sold a 100 more at 20% more than W. Finally, to clear shelf space, the store sold the remaining copies to a bargain retailer at 40% less than W. What was the bookstore\u2019s net percent profit or loss on the entire lot of 400 books?",
+    "options": [
+      "30% loss",
+      "10% loss",
+      "10% profit",
+      "20% profit"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "C.P. = 400W\nS.P. = 1.8W*150 + 1.2W*100 + 0.6W*150 = 480W\nSince, S.P. > C.P., there is net profit.\nProfit = S.P. - C.P. = 480W - 400W = 80W\nProfit % = (Profit/C.P.)*100 = (80W/400W)*100 = 20%\nSo, the correct answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0190",
+    "grade": 8,
+    "question": "If 73! has 16 zeroes at the end, how many zeroes will 80! have at the end?",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "19"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Prime Factoring: you need a 2 and a 5 to make a 10 (a \"zero\"), and there are TONS of 2's so let's skip these and focus on the (rarer) 5s:\n80! = 1*2*3*4*5*6...*78*79*80\nSince there are 80 consecutive numbers, there are 16 multiples of 5 in there, but if we're prime factoring, we need to remember that SOME multiples of 5 actually contain more than just one 5. Which? 25 comes to mind -- it's got two of them! So all the multiples of 25 actually contain two 5's (ie: 50 and 75)\nSo, to recap, we have 16 of them, plus 3 more (the additional 5's in 25, 50, and 75), so that makes 19, and since we have more than enough 2's, we know our number will have exactly 19 zeros at the end.\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0209",
+    "grade": 8,
+    "question": "There are two water tanks A and B, A is much smaller than B. While water fills at the rate of one liter every hour in A, it gets filled up like 10, 20, 40, 80, 160 in tank B. (At the end of first hour, B has 10 liters, second hour it has 20, third hour it has 40 and so on). If tank B is 1/32 filled after 21 hours, what is the total duration required to fill it completely?",
+    "options": [
+      "22",
+      "28",
+      "269",
+      "26"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The data related to the first tank A is not necessary. As you can see, the capacity that gets filled in the tank B after each hour is doubled. So If the tank is 1/32nd part is full after 21 hours, it is 1/16th part full after 22 hours, 1/8th part full after 23 hours, 1/4th part full after 24 hours, 1/2 full after 25 hours, completely full after 26 hours.\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0215",
+    "grade": 8,
+    "question": "In a class of 60 students, the number of boys and girls participating in the annual sports is in the ratio 3 : 2 respectively. The number of girls not participating in the sports is 5 more than the number of boys not participating in the sports. If the number of boys participating in the sports is 15, then how many girls are there in the class ?",
+    "options": [
+      "22",
+      "32",
+      "30",
+      "28"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the number of boys and girls participating in sports be 3x and 2x respectively.\nThen, 3x = 15 or x = 5.\nSo, number of girls participating in sports = 2x = 10.\nNumber of students not participating in sports = 60 - (15 + 10) = 35.\nLet number of boys not participating in sports be y.\nThen, number of girls not participating in sports = (35 -y).\nTherefore (35 - y) = y + 5 2y 30 y = 15.\nSo, number of girls not participating in sports = (35 - 15) = 20.\nHence, total number of girls in the class = (10 + 20) = 30.\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0248",
+    "grade": 8,
+    "question": "There are two buildings P and Q. If 15 persons are sent from P to Q, then the number of persons in each building is the same. If 20 persons are sent from Q to P, then the number of persons in P is double the number of persons in Q. How many persons are there in building P?",
+    "options": [
+      "110",
+      "100",
+      "120",
+      "140"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let the number of persons in building P = p\nand the number of persons in building Q = q\nIf 15 persons are sent from P to Q,\nthen the number of persons in each building is the same\n=> p-15 = q+15\n=> p - q = 30 ----(Equation 1)\nIf 20 persons are sent from Q to P,\nthen the number of persons in P is double the number of persons in Q\n=> 2(q - 20) = (p + 20)\n=> 2q - 40 = p + 20\n=> 2q - p = 60 ----(Equation 2)\n(Equation 1) + (Equation 2)=> q = 90\nFrom Equation 1, p = 30 + q = 30 + 90 = 120\ni.e., Building P has 120 persons\nAnswer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0249",
+    "grade": 8,
+    "question": "In a business school case competition, the top three teams receive cash prizes of $5,000, $3,000, and $2,000, respectively, while the remaining teams are not ranked and do not receive any prizes. There are 6 participating teams, named Team A, Team B, Team C, Team D, Team E, and Team F. If Team A wins one of the prizes, Team B will also win one of the prizes. How many outcomes W of the competition are possible?",
+    "options": [
+      "18",
+      "20",
+      "54",
+      "84"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "the ways the three teams can be selected is..\ni) A is selected, B is also selected, third can be any of the remaining 4.. so total ways 4.. they can be arranged in 4*3!=24 ways..\nii) A is not selected. threee teams can be selected from remaining 5 so total arrangements =5C3*3!=60\ntotal W=84 outcomes\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0252",
+    "grade": 8,
+    "question": "Bradley owns b video game cartridges. If Bradley\u2019s total is one-third the total owned by Andrew and twice the total owned by Charlie, how many video game cartridges do the three of them own altogether, in terms of b?",
+    "options": [
+      "(16/3)b",
+      "(17/4)b",
+      "(13/4)b",
+      "(9/2)b"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Step 1: Categorize the problem\nThis problem is testing basic algebra and equations, with an extra layer of complexity by having variables in the answer choices.\nStep 2: Think like the test maker\nWhat is the key detail or key details in the problem? The key detail to immediately recognize is that the problem gives you Andrew and Charlie\u2019s totals in relation to Bradley\u2019s total rather than giving you Bradley\u2019s total in relation to the other two; and then the problem asks you to solve the problem in terms of b. This means that you have to relate Andrew and Charlie\u2019s values in relation to Bradley\u2019s total. The test maker is attempting to force you to structure the problem in the opposite way that most people are used to structuring information. By gaining this insight, it makes it easier to solve the problem.\nStep 3: Solve the problem\nb = Bradley\u2019s total\n3b = Andrew\u2019s total\n(1/2)b = Charlie\u2019s total\nAdd each total\nb + 3b+ (1/2)b = 4b + (1/2)b = (16/4)b + (1/2)b = (9/2)b\nTherefore,choose D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0307",
+    "grade": 8,
+    "question": "Crazy Eddie has a key chain factory. Eddie managed to decrease the cost of manufacturing his key chains while keeping the same selling price, and thus increased the profit from the sale of each key chain from 30% of the selling price to 50% of the selling price. If the manufacturing cost is now $50, what was it before the decrease?",
+    "options": [
+      "$20",
+      "$40",
+      "$50",
+      "$70"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Deargoodyear2013,\nI'm happy to help.This is a relatively straightforward problem, not very challenging. BTW,Crazy Eddiewas the actually name of an electronics chain on the East Coast of the USA back in the 1970s.\nManufacturing now is $50. They now are making a 50% profit, so the selling price must be $100.\nThey had this same selling price, $100, before they made the change, and had a profit of 30%, so the manufacturing must have been $70. Answer = (D).",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0318",
+    "grade": 8,
+    "question": "The Simplastic language has only 2 unique values and 3 unique consonants. Every noun in Simplastic has the structure CVCVC, where C stands for a consonant and V stands for a vowel. How many different nouns are possible in Simplastic?",
+    "options": [
+      "9",
+      "12",
+      "36",
+      "108"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The nouns havefixed structureC-V-C-V-C. Now,each Ccan take 3 values (let's say X, Y or Z) andeach Vcan take 2 values (let's say A or E), so there will be 3*2*3*2*3=108 nouns possible.\nAnswer: E.\nIt's basically the same if it were how many different 5-digit numbers are possible with the following structure odd-even-odd-even-odd, where odd numbers can be only 1, 3 or 5 and even numbers only 2 and 4.\nIt's natural to think that a noun can have for example two same vowels (X-A-Y-A-Z) or 3 same consonants (X-A-X-A-X), so if this was not the case then this would be explicitly mentioned.answer is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0324",
+    "grade": 8,
+    "question": "In how many ways can we put 4 different balls in 3 different boxes when any box can contain any number of balls?",
+    "options": [
+      "80",
+      "81",
+      "64",
+      "63"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Stage 1: Select a box for the 1st ball to go into.\nThere are 3 available boxes, so we can complete stage 1 in 3 ways\nStage 2: Select a box for the 2nd ball to go into.\nThere are 3 available boxes, so we can complete stage 2 in 3 ways\nStage 3: Select a box for the 3rd ball to go into.\nThere are 3 available boxes, so we can complete stage 3 in 3 ways\nStage 4: Select a box for the 4th ball to go into.\nThere are 3 available boxes, so we can complete stage 4 in 3 ways\nBy the Fundamental Counting Principle (FCP), we can complete all 4 stages (and thus distribute all 4 balls) in (3)(3)(3)(3)(4) ways (= 81 ways)\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0339",
+    "grade": 8,
+    "question": "A 30 kg metal bar made of alloy of tin and silver lost 3 kg of its weight in the water. 10 kg of tin loses 1.375 kg in the water; 5 kg of silver loses 0.375 kg. What is the ratio of tin to silver in the bar?",
+    "options": [
+      "1/4",
+      "2/5",
+      "1/2",
+      "2/3"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "you can simply use this formula to avoid confusion:\nw1/w2 = (A2 - Aavg)/(Avg - A1)\nHere is how you will find the values of A1 an A2.\nWe have an overall loss (average loss). The average loss is 3 kg when 30 kg alloy is immersed.\nThis is a loss of (3/30)*100 = 10%.\nThis is Aavg\nThe loss of tin is 1.375 kg for every 10 kg.\nThis means it loses (1.375/10)*100 = 13.75% of its weight in water.\nThis is A1.\nThe loss of silver is .375 kg for every 5 kg.\nThis means it loses (.375/5)* 100 = 7.5% of its weight in water.\nThis is A2.\nWeight of Tin/Weight of Silver = (Silver's loss - Avg loss)/(Avg loss - Tin's loss)\nX/Y = (7.5 - 10)/(10 - 13.75) = 2/3\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0356",
+    "grade": 8,
+    "question": "On January 1, 2011, James invests 80% of his retirement savings in Antarctic largecap stocks, 10% in Antarctic midcaps, and 10% in Antarctic smallcaps. In 2011, largecaps rise 10%, midcaps rise 10%, and smallcaps rise 20% in the Antarctic stock market; however, in 2012, largecaps fall 5% and midcaps fall 10%, while smallcaps rise x% in Antarctica. If, on January 1, 2013,James has the same total amount of retirement savings as he did two years before, then x is between",
+    "options": [
+      "10 and 20",
+      "20 and 30",
+      "30 and 40",
+      "40 and 50"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Pick a smart number for the total retirement savings James starts with\u2014say, $1,000. (If you pick $100, you\u2019ll wind up needing to track decimals, so give yourself more zeros to start with.)\nHere are the starting values:\nL = $800\nM = $100\nS = $100\nApply the first year\u2019s changes, so that you have these numbers on 1/1/2012:\nNewer L = $800 + 10% = $880\nNewer M = $100 + 10% = $110\nNewer S = $100 + 20% = $120\nNow apply the second year\u2019s changes to L and M:\nNewest L = $880 \u2013 5% = $880 \u2013 $44 = $836\nNewest M = $110 \u2013 10% = $110 \u2013 $11 = $99\nAdd these to get $935. So the newest S must be $1,000 (the target final total of James\u2019s retirement savings) minus $935, $65\nThe dollar change in S from 1/1/12 to 1/1/13 is $120 \u2013 $55 = $65. So the question is this: what percent change does $65 represent, from a starting point of $120? Since $120 is a nasty divisor, switch to benchmarks:\n20% of $120 = $24.\nSo 40% is just double that, or $48.\nAnd 50% is equal to or $60.\nFrom this $55 lies between $48 and $60\nThe correct answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0361",
+    "grade": 8,
+    "question": "In a certain province in Russia there are 15 cities. If a single road segment connects only two cities, how many road segments are required in order to connect the cities so that each city is connected to all other cities with a single road segment?",
+    "options": [
+      "30",
+      "105",
+      "330",
+      "14!"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Method-1:\nRussia has Total Cities = 15 and each city should be connected with every other city\nSo Total Roads required to connect 1st City with other 14 cities = 14\nNow 1st City is connected with all other cities so,\nSo Total Roads required to connect 2nd City with 13 cities (Other than 1st) = 13\nNow 1st and 2nd Cities are connected with all other cities so,\nSo Total Roads required to connect 3rd City with 12 cities (Other than 1st, and 2nd) = 12\n......and so on...\nTotal Roads required = 14 + 13 + 12 + 11 + 10 + 9 + 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 105=B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0370",
+    "grade": 8,
+    "question": "A cargo ship carrying four kinds of items, doohickies, geegaws, widgets, and yamyams, arrives at the port. Each item weighs 2, 11, 5, and 7 pounds, respectively, and each item is weighed as it is unloaded. If, in the middle of the unloading process, the product of the individual weights of the unloaded items equals 104,350,400,000 pounds, how many widgets have been unloaded?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "We need to know the number of widgets (which weigh 5 pounds each). The number of times that 5 divides the number is related to the number of times that 10 divides the number.\nWhen we divide 104,350,400,000 by 100,000, we get 104,350,400,000 = 1,043,504 * 5^5 *2^5.\n1,043,504 is not divisible by 5, thus there are 5 widgets.\nThe answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0405",
+    "grade": 8,
+    "question": "Of the science books in a certain supply room, 50 are on botany, 75 are on zoology, 90 are on physics. 50 are on geology, and 110 are on chemistry. If science books are removed randomly from the supply room, how many must be removed to ensure that 80 of the books removed are on the same science?",
+    "options": [
+      "81",
+      "59",
+      "166",
+      "334"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "I solve it using the tough luck technique:\nAccording to question: What is the least number of books you should pick so as to get at least 80 books of the same science subject.\n80 books of the same science subjects is possible only for two subjects: Physics=90>80 OR Chemistry=110>80\nNow, we need to be certain that out of the books we picked, there are either at least 80 physics books or 80 chemistry books\nWhat if we pick the first 80 books and none of them is either Physics or Chemistry. Possible. Thus, we first count all our negatives.\nWe picked:\n50 Botany Books\n75 Zoology Books\n50 Geology Books\nNow, any book we pick will be either Chemistry or Physics. But unfortunately, we can't be lucky enough to pick 80 books and all of them will be Physics, right!!\nThus, in order to make sure that we have 80 books of either of these 2 subjects, we must pick\n79*2+1 books\nBecause, we could have picked the books in following order;\n1st book picked: Physics\n2nd book picked: Chemistry\n3rd book picked: Physics\nThus, Total= 50+75+50+79*2+1=175+1+158=334\nAns:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0418",
+    "grade": 8,
+    "question": "To deliver an order on time, a company has to make 25 parts a day. After making 25 parts per day for 3 days, the company started to produce 5 more parts per day, and by the last day of work 100 more parts than planned were produced. Find how many parts the company made and how many days this took.",
+    "options": [
+      "347",
+      "3667",
+      "387",
+      "675"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let xx be the number of days the company worked. Then 25x is the number of parts they planned to make. At the new production rate they made:\n3\u22c525+(x\u22123)\u22c530=75+30(x\u22123)3\u22c525+(x\u22123)\u22c530=75+30(x\u22123)\nTherefore: 25x=75+30(x\u22123)\u221210025x=75+30(x\u22123)\u2212100\n25x=75+30x\u221290\u221210025x=75+30x\u221290\u2212100\n190\u221275=30x\u221225190\u221275=30x\u221225\n115=5x115=5x\nx=23x=23\nSo the company worked 23 days and they made 23\u22c525+100=67523\u22c525+100=675 pieces.\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0423",
+    "grade": 8,
+    "question": "X and Y run a 100m race,where X beats Y by 20 m. To do a favor to Y, X starts 10m behind the starting line in a second 100m race. Both run at the same previous speed. Which of the following is true?",
+    "options": [
+      "X Beats Y by 2m",
+      "X Beats Y by 0.5 m",
+      "X Beats Y by 4 m",
+      "Y Beats X by 10m"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let's suppose that the speed of X is 10m/s and that the speed of Y is 8m/s.\nSo, in the first race, the results are the following:\nX crosses the finish line in 10s. In other words, X has run 100m in 10 s.\nIn 10s, Y has run 80 meters.\nTherefore, there is the difference of 20 meters mentioned in the question.\nNow, let's review the second race.\nIn 12 seconds, X can complete the 120 meters race. We have to remember that X is 20 meters behind the starting line.\nBut in 12 seconds, Y has covered (80+16) =96 meters. Also, it is important to notice that in 12 seconds Y cannot arrive to the finish line.\nSo, 100 - 96 = 4 meter\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0434",
+    "grade": 8,
+    "question": "As a bicycle salesperson, David earns a fixed salary of $40 per week plus $6 per bicycle for the first 6 bicycles he sells, $12 per bicycle for the next 6 bicycles he sells, and $18 per bicycle for every bicycle sold after first 12. This week, he earned more than twice as much as he did last week. If he sold x bicycles last week and y bicycles this week, which of the following statements must be true? I. y<2x II. y>x III. y>3",
+    "options": [
+      "I,II only",
+      "I only",
+      "II only",
+      "II,III only"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "II. y>x --> since this week, David earned more than he did last week and the total salary is in direct relationship with the # of bicycle sold, then y (# of bicycle sold this week) must be more than x (# of bicycle sold last week);\nIII. y>3 --> if David sold 3 bicycles this week then this week he earned 40+3*6=$58, which cannot be more than twice as much as he earned the last week, since the minimum salary is fixed to $40. So y must be more than 3;\nI. y<2x --> is not always true.\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0437",
+    "grade": 8,
+    "question": "Company S produces two kinds of stereos: basic and deluxe. Of the stereos produced by Company S last month, 2/3 were basic and the rest were deluxe. If it takes 1.2 as many hours to produce a deluxe stereo as it does to produce a basic stereo, then the number of hours it took to produce the deluxe stereos last month was what fraction of the total number of hours it took to produce all the stereos?",
+    "options": [
+      "3/8",
+      "14/31",
+      "7/15",
+      "17/35"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "The easiest way for me is to plug in numbers.\nLet the number of basic stereos produced be 40, and number of delux stereos produced be 20. Total of 60 stereos.\nIf it takes an hour to produce a basic stereo then it will take 1.2 hours to produce a deluxe stereo.\n40 basic stereos = 40 hours.\n20 delux stereos = 24 hours.\nTotal hours = 64.\nThen the fraction would be 24/64 = 3/8. Therefore answer A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0472",
+    "grade": 8,
+    "question": "A man has $ 10,000 to invest. He invests $ 4000 at 5 % and $ 3500 at 4 %. In order to have a yearly income of $ 500, he must invest the remainder at:",
+    "options": [
+      "6 %",
+      "6.1 %",
+      "6.2 %",
+      "6.4 %"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Income from $ 4000 at 5 % in one year = $ 4000 of 5 %.\n= $ 4000 \u00d7 5/100.\n= $ 4000 \u00d7 0.05.\n= $ 200.\nIncome from $ 3500 at 4 % in one year = $ 3500 of 4 %.\n= $ 3500 \u00d7 4/100.\n= $ 3500 \u00d7 0.04.\n= $ 140.\nTotal income from 4000 at 5 % and 3500 at 4 % = $ 200 + $ 140 = $ 340.\nRemaining income amount in order to have a yearly income of $ 500 = $ 500 - $ 340.\n= $ 160.\nTotal invested amount = $ 4000 + $ 3500 = $7500.\nRemaining invest amount = $ 10000 - $ 7500 = $ 2500.\nWe know that, Interest = Principal \u00d7 Rate \u00d7 Time\nInterest = $ 160,\nPrincipal = $ 2500,\nRate = r [we need to find the value of r],\nTime = 1 year.\n160 = 2500 \u00d7 r \u00d7 1.\n160 = 2500r\n160/2500 = 2500r/2500 [divide both sides by 2500]\n0.064 = r\nr = 0.064\nChange it to a percent by moving the decimal to the right two places r = 6.4 %\nTherefore, he invested the remaining amount $ 2500 at 6.4 % in order to get $ 500 income every year.\nCorrect Answer: E)6.4 %",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0488",
+    "grade": 8,
+    "question": "If 9 engines consume 24 metric tonnes of coal, when each is working 8 hoursday, bow much coal will be required for 8 engines, each running 13hours a day, it being given that 3 engines of former type consume as much as 4 engines of latter type?",
+    "options": [
+      "22",
+      "24",
+      "26",
+      "28"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let 3 engines of former type consume 1 unit in 1 hour.\nThen, 4 engines of latter type consume 1 unit in 1 hour.\nTherefore 1 engine of former type consumes(1/3) unit in 1 hour.\n1 engine of latter type consumes(1/4) unit in 1 hour.\nLet the required consumption of coal be x units.\nLess engines, Less coal consumed (direct proportion)\nMore working hours, More coal consumed (direct proportion)\nLess rate of consumption, Less coal consumed(direct prportion)\nNumber of engines 9: 8\nWorking hours\t8 : 13 } :: 24 : x\nRate of consumption (1/3):(1/4)\n[ 9 x 8 x (1/3) x x) = (8 x 13 x (1/4) x 24 ) = 24x = 624 = x = 26.\nHence, the required consumption of coal = 26 metric tonnes.\nAnswer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0495",
+    "grade": 8,
+    "question": "the hiker walking at a constant rate of 7 miles per hour is passed by a cyclist traveling in the same direction along the same path at 28 miles per hour. the cyclist stops to wait for the hiker 5 minutes after passing her, while the hiker continues to walk at her constant rate, how many minutes must the cyclist wait until the hiker catches up?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "For the 5 minutes the cyclist continues to overtake the hiker, she is going at 21 miles per hour faster than the hiker.\nOnce the cyclist stops, the hiker is going at 7 miles per hour while the cyclist is at rest\nSo the amount of time the hiker will take to cover the distance between them is going to be in the ratio of the relative speeds. 21/7 * 5 or 15 minutes\nAnswer is (B)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0527",
+    "grade": 8,
+    "question": "Yukou enjoys reading science-fiction. It is the New Year and he has made a resolution to read a book every week for this year. He has a collection of monster books and space travel books in the ratio of 4:5. He presently has 20 space travel books. How many more books (of each genre) does he need to buy to keep his resolution, without changing the ratio?",
+    "options": [
+      "6 monster, 10 space",
+      "8 monster, 10 space",
+      "8 monster, 9 space",
+      "4 monster, 10 space"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "There are 52 weeks in a year. Youku has 20 space travel books, so 4:5 is 4/5:1 means (4/5)(20) = 16 monster books. So, he has 20 + 16 = 36 books. Youku needs 52 - 36 = 16 more books.\nKeeping with the ratio of 4:5 and allowing for the fact that we can not have a fraction of a book, the minimum ratio that satisfies these restrictions is 8:10 giving 18 books, of which 8 are monster books and 10 space travel books.\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0530",
+    "grade": 8,
+    "question": "In a certain mathematical activity, we have five cards with five different prime numbers on them. We will distribute these five cards among three envelope: all could go in any envelope, or they could be broken up in any way among the envelopes. Then in each envelop, we find the product of all the cards in that envelope: that is the \u201cnumber\u201d of the envelope. An envelope containing no cards has the number 1. We then put the three envelope numbers in order, from lowest to highest, and that is our set. How many different K sets can be produced by this process?",
+    "options": [
+      "41",
+      "89",
+      "125",
+      "243"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Case 1: 1 used envelope => 1 way\nCase 2: 2 used envelopes\n- 4-1-0: Choose 4 from 5 cards: 5 ways\n- 3-2-0: Choose 3 from 5 cards: 10 ways\nCase 3: All envelopes used\n- 3-1-1: Choose 3 from 5 andno need to choose 1 from 2: 10 ways\n- 2-2-1: Choose 2 from 5 and choose 2 from 3, but two groups are the same => (10X3):2 = 15\nTotal K: 1+5+10+10+15=41 => Answer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0552",
+    "grade": 8,
+    "question": "An investor purchased 100 shares of stock X at 8 1/8 dollars per share and sold them all a year later at 24 dollars per share. If the investor paid a 2 percent brokerage fee on both the total purchase price and the total selling price, which of the following is closest to the investor's percent gain on this investment?",
+    "options": [
+      "92%",
+      "240%",
+      "190%",
+      "300%"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "If the purchase price was 8$ per share then the investor would have made a profit of 200%.\nSince the purchase price is slightly more than 8$ the profit would be slightly less than 200%.\nAlso a 2% brokerage is negligible and it brings down the profit percentage only by a small value. Approximation is very useful to solve these kind of problems as the answer choices are far apart.\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0561",
+    "grade": 8,
+    "question": "A five-digit number divisible by 3 is to be formed using numerical 0, 1, 2, 3, 4 and 5 without repetition. The total number W of ways this can be done is:",
+    "options": [
+      "122",
+      "210",
+      "216",
+      "217"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "We should determine which 5 digits from given 6, would form the 5 digit number divisible by 3.\nWe have six digits: 0, 1, 2, 3, 4, 5. Their sum=15.\nFor a number to be divisible by 3 the sum of the digits must be divisible by 3. As the sum of the six given numbers is 15 (divisible by 3) only 5 digits good to form our 5 digit number would be 15-0={1, 2, 3, 4, 5} and 15-3={0, 1, 2, 4, 5}. Meaning that no other 5 from given six will total the number divisible by 3.\nSecond step:\nWe have two set of numbers:\n1, 2, 3, 4, 5 and 0, 1, 2, 4, 5. How many 5 digit numbers can be formed using these two sets:\n1, 2, 3, 4, 5 --> 5! as any combination of these digits would give us 5 digit number divisible by 3. 5!=120.\n0, 1, 2, 4, 5 --> here we can not use 0 as the first digit, otherwise number won't be any more 5 digit and become 4 digit. So, desired # would be total combinations 5!, minus combinations with 0 as the first digit (combination of 4) 4! --> 5!-4!=4!(5-1)=4!*4=96\n120+96=216=W\nAnswer: C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0574",
+    "grade": 8,
+    "question": "Right now, Al and Eliot have bank accounts, and Al has more money than Eliot. The difference between their two accounts is 1/10 of the sum of their two accounts. If Al\u2019s account were to increase by 10% and Eliot\u2019s account were to increase by 20%, then Al would have exactly $22 more than Eliot in his account. How much money does Eliot have in his account right now?",
+    "options": [
+      "$110",
+      "$152.3",
+      "$180",
+      "$220"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Lets assume Al have amount A in his bank account and Eliot's bank account got E amount. We can form an equation from the first condition.\nA-E = 1/10*(A+E) ==> 9A = 11E ------------ (1)\nSecond condition gives two different amounts, Al's amount = 1.1A and Eliot's amount = 1.2E\n1.1A = 22 + 1.2E ==> 11A =220 +12E -------(2)\nSubstituting (1) in (2):\n11E/9*11 = 220+12E or (121/9-12) E = 220 or 13/9 E =220 E = 220*9/13 =152.3\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0578",
+    "grade": 8,
+    "question": "In a group of 6 boys and 4 girls, four children are to be selected. In how many different ways can they be selected such that at least one boy should be there?",
+    "options": [
+      "209",
+      "210",
+      "211",
+      "213"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "In a group of 6 boys and 4 girls, four children are to be selected such that at least one boy should be there.\nHence we have 4 options as given below\nWe can select 4 boys ...(option 1)\nNumber of ways to this = 6C4\nWe can select 3 boys and 1 girl ...(option 2)\nNumber of ways to this = 6C3 \u00d7 4C1\nWe can select 2 boys and 2 girls ...(option 3)\nNumber of ways to this = 6C2 \u00d7 4C2\nWe can select 1 boy and 3 girls ...(option 4)\nNumber of ways to this = 6C1 \u00d7 4C3\nTotal number of ways\n= 6C4 + 6C3 \u00d7 4C1 + 6C2 \u00d7 4C2 + 6C1 \u00d7 4C3\n= 6C2 + 6C3 \u00d7 4C1 + 6C2 \u00d7 4C2 + 6C1 \u00d7 4C1[\u2235 nCr = nC(n-r)]\n=\n6\n\u00d7\n5\n2\n\u00d7\n1\n+\n6\n\u00d7\n5\n\u00d7\n4\n3\n\u00d7\n2\n\u00d7\n1\n\u00d7\n4\n=6\u00d752\u00d71+6\u00d75\u00d743\u00d72\u00d71\u00d74\n+\n6\n\u00d7\n5\n2\n\u00d7\n1\n\u00d7\n4\n\u00d7\n3\n2\n\u00d7\n1\n+\n6\n\u00d7\n4\n+6\u00d752\u00d71\u00d74\u00d732\u00d71+6\u00d74\n=\n15\n+\n80\n+\n90\n+\n24\n=\n209\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0579",
+    "grade": 8,
+    "question": "Set S contains points whose abscissa and ordinate are both natural numbers. Point P, an element in set S has the property that the sum of the distances from point P to the point (8, 0) and the point (0, 12) is the lowest among all elements in set S. How many such points P exist in set S?",
+    "options": [
+      "1",
+      "5",
+      "11",
+      "3"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Explanatory Answer\nThe sum of the distances from point P to the other two points will be at its lowest only when point P lies on the line segment joining the points (8, 0) and (0, 12).\nThe equation of the line segment joining the points (8, 0) and (0, 12) is x/8 + y/12 = 1\nOr the equation is 12x + 8y = 96 or 3x + 2y = 24.\nThe question states that the elements of set S contain points whose abscissa and ordinate are both natural numbers.\nThe equation of the line is 3x + 2y = 24 and hence, x will take even values while y will take values that are multiples of 3.\nThe values are x = 2, y = 9; x = 4, y = 6; x = 6, y = 3.\nHence, there are 3 such points that exist in set S.\nThe correct choice is (E)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0618",
+    "grade": 8,
+    "question": "What is the sum of all remainders obtained when the first 130 natural numbers are divided by 9?",
+    "options": [
+      "397",
+      "401",
+      "403",
+      "412"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "A positive integer can give only the following 9 remainders when divided by 9: 1, 2, 3, 4, 5, 6, 7, 8, and 0.\n1 divided by 9 gives the remainder of 1;\n2 divided by 9 gives the remainder of 2;\n...\n8 divided by 9 gives the remainder of 8;\n9 divided by 9 gives the remainder of 0.\nWe'll have 11 such blocks, since 99/9=11. The last will be:\n91 divided by 9 gives the remainder of 1;\n92 divided by 9 gives the remainder of 2;\n...\n98 divided by 9 gives the remainder of 8;\n99 divided by 9 gives the remainder of 0.\nThe last number, 100, gives the remainder of 1 when divided by 9, thus the sum of all remainders will be:\n11(1+2+3+4+5+6+7+8+0)+1=412.\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0654",
+    "grade": 8,
+    "question": "A company, Chauncy Co., has an annual travel budget of $59,000. The accounting department estimates that transportation expenses will increase 5 percent in the coming year, and nontransportation travel expenses will increase by 15 percent in the coming year. Last year, Chauncy Co. spent $19,500 on transportation-related expenses, and $35,000 on nontransportation travel expenses. If the annual travel budget does not increase this year, and if the accounting department\u2019s estimates are correct, how far over the annual travel budget will expenses be this year?",
+    "options": [
+      "Expenses will not go over the budget.",
+      "$500",
+      "$4,225",
+      "$1,725"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "annual travel budget of $59,000\nLet, Transportation expenses = T = 19500\nand Non-Transportation expenses = N=35000\ni.e. Increased Transportation expenses = 1.05T = 20475\nand Increased Non-Transportation expenses = 1.15N = 40250\nTotal Expense = 20475+40250 = 60725\nExpense over Budget = Budget - expense = 59000-60725 = 1725\nAnswer: Option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0684",
+    "grade": 8,
+    "question": "A bartender removed from a bottle a certain quantity of a drink which had 25 % ALCOHOL CONTENT and replaced the same quantity with another drink that had an alcohol content of 10%. The alcohol content in the drink after replacement is 20 % What the quantity of the drink that he replaced if there was 1 Litres of the drink in the bottle",
+    "options": [
+      "1/2",
+      "1/3",
+      "2/3",
+      "3/5"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "1 litre of drink = 1000 milliliters\nLet x be the quantity taken out\nWe now have 1000 - x quantity of liquid => there is 0.25(1000-x) quantity of alcohol. --- (1)\nNow, we add x amount of alcohol from a 10% concentrate. It means 0.1x alcohol is added ---(2)\nSince it says final alcohol content in 1 litre of drink is 20% or 200 milli litre\nfrom (1) and (2) above -\n(1000-x)0.25 + 0.1x = 200\nSolving for x, we get 333.33 ml or 1/3 of a litre\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0692",
+    "grade": 8,
+    "question": "A bus travels from town A to town B. If the bus's speed is 50 km/hr, it will arrive in town B 42 min later than scheduled. If the bus increases its speed by 509509 m/sec, it will arrive in town B 30 min earlier than scheduled. Find:\nA) The distance between the two towns;\nB) The bus's scheduled time of arrival in B;\nC) The speed of the bus when it's on schedule.",
+    "options": [
+      "60",
+      "37",
+      "26",
+      "28"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "First we will determine the speed of the bus following its increase. The speed is increased by 509509 m/sec =50\u22c560\u22c56091000=50\u22c560\u22c56091000 km/hr =20=20 km/hr. Therefore, the new speed is V=50+20=70V=50+20=70 km/hr. If xx is the number of hours according to the schedule, then at the speed of 50 km/hr the bus travels from A to B within (x+4260)(x+4260) hr. When the speed of the bus is V=70V=70 km/hr, the travel time is x\u22123060x\u22123060 hr. Then\n50(x+4260)=70(x\u22123060)50(x+4260)=70(x\u22123060)\n5(x+710)=7(x\u221212)5(x+710)=7(x\u221212)\n72+72=7x\u22125x72+72=7x\u22125x\n2x=72x=7\nx=72x=72 hr.\nSo, the bus is scheduled to make the trip in 33 hr 3030 min.\nThe distance between the two towns is 70(72\u221212)=70\u22c53=21070(72\u221212)=70\u22c53=210 km and the scheduled speed is 210/7/2=60 km/hr.\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0693",
+    "grade": 8,
+    "question": "If x = |x| , then which one of the following statements could be true?\nI. x = 0\nII. x < 0\nIII. x > 0",
+    "options": [
+      "None",
+      "I only",
+      "III only",
+      "I and II and III"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Answer copied from NOVA guide\nStatement I could be true because \u00b1 0 = \u2212(+0) = \u2212(0) = 0 .\nStatement II could be true because the right side of the equation is always negative [ \u00b1 x = (a positive number) = a negative number].\nNow, if one side of an equation is always negative, then the other side must always be negative,\notherwise the opposite sides of the equation would not be equal.\nSince Statement III is the opposite of Statement II, it must be false. But let\u2019s show this explicitly:\nSuppose x were positive. Then x = x, and the equation x = \u00b1 x becomes x = x. Dividing both sides of this equation by x yields 1 = 1. This is contradiction.\nHence, x cannot be positive. The answer is (D).",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0721",
+    "grade": 8,
+    "question": "There are 10 people in a room. If each person shakes hands with exactly 3 other people, what is the total number of handshakes?",
+    "options": [
+      "15",
+      "30",
+      "45",
+      "60"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "4 people: shrive 555, cranky, karishma and Mr X\nWe have to shake hands in this group such that each person shakes hands with 3 people.\nSo shrive555 starts:\nshrive555 - craky : 1 handshake but 2 hands were shaken. shrive 555's and cranky's\nshrive 555 - karishma : 1 handshake but 2 hands were shaken. shrive 555's and karishma's\nshrive 555 - Mr X : 1 handshake but 2 hands were shaken. shrive 555's and Mr X's\nNow shrive 555 has shaken hands with 3 people. There were 3 handshakes. But 6 hands were shaken.\nNow, when all 4 of us shake hands with 3 people, each person's hand will be shaken 3 times. i.e. in all 12 hands will be shaken. But they will add up to only 6 handshakes.\nThe other 3 handshakes will be:\ncranky - karishma\ncranky - Mr X\nkarishma - Mr X\nSo all of us have shaken hands with exactly 3 people.\nSimilarly when there are 10 people, each person shakes his hand 3 times. So in all 30. But 2 of these hands combined to make one handshake. So we will get only 15 total handshakes.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0744",
+    "grade": 8,
+    "question": "A part-time employee\u2019s hourly wage was increased by 40%. She decided to decrease the number of hours worked per week so that her total income did not change. By approximately what percent should the number of hours worked be decreased?",
+    "options": [
+      "9%",
+      "15%",
+      "29%",
+      "50%"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let's plug in somenicenumbers and see what's needed.\nLet's say the employee used to make $1/hour and worked 100 hours/week\nSo, the TOTAL weekly income was $100/week\nAfter the 40% wage increase, the employee makes $1.40/hour\nWe want the employee's income to remain at $100/week.\nSo, we want ($1.40/hour)(new # of hours) = $100\nDivide both sides by 1.40 to get:\nnew # of hours = 100/1.40\n\u2248 71 hours\nSo, the number of hours decreases from 100 hours to (approximately) 71 hours.\nThis represents a 29% decrease (approximately) .\nAnswer : C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0767",
+    "grade": 8,
+    "question": "The total population of dogs in a community is estimated to be 50% male and 50% female.The total number of black dogs is 20% greater than the total number of male black dogs. If the total number of female dogs is eight times more than the number of female black dogs what percentage of male dogs is black?",
+    "options": [
+      "84.4",
+      "70.2",
+      "80.1",
+      "62.5"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Since we are dealing in percentage let us pick 100 as the number of black male dogs.\nThat means that the total number of black dogs is= 120 (20% more),\ntherefore the number of black female dogs is 20.\nThe total number of female dogs is 8x the number of black female= 20*8=160 female dogs.\nMale dogs are 50% of the dogs, and because there are 160 female dogs, then there must also be 160 male dogs\nTherefore percentage of male dogs that are black= 100/160*100=62.5\nCorrect option is E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0772",
+    "grade": 8,
+    "question": "In country Z, 10% of the people do not have a university diploma but have the job of their choice, and 30% of the people who do not have the job of their choice have a university diploma. If 40% of the people have the job of their choice, what percent of the people have a university diploma?",
+    "options": [
+      "35%",
+      "48%",
+      "55%",
+      "65%"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Setting up a matrix is how I solve this one.\nDiploma No Diploma Totals\nJob of Choice w/Diploma\nJob of Choice w/o Diploma = 10%\nJob of Choice Total = 40%\nNot Job of Choice with Diploma =.3X\nNot Job of Choice w/o Diploma= .7X\nTotal Not Job of Choice = X\nTotal with Diploma\nTotal without Diploma\nTotal citizen = 100\nIf 40% of people have their job of choice, then 60% of people do NOT have their job of choice. 30% of 60% = 18%. We can also see that 30% of the people have their job of choice and a diploma (40%-10%=30%). 30% + 18% = 48%. Therefore 48% of the people in Country Z have a diploma.\nAns B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0816",
+    "grade": 8,
+    "question": "If set A={4,4,4,....,n times} , set B={3,3,3,3....m times} and set C={11,11,11...k time} , then in terms of m,n and k , how many possible subsets from sets A,B, and C can be created ?",
+    "options": [
+      "a) k(n+m+mn)+ k",
+      "b) (1+n+m+mn)(k+1)",
+      "c) k^2(mn+n/m)",
+      "d) kmn(k+m+n)"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "a) how many 2's are included?\nb) how many 3's are included?\nand\nc) how many 11's are included?\nFor the number of 2, we could have zero 2's, or one 2, or two 2's, all the way up to n 2's. That's (n + 1) possibilities for the 2's. Similarly, (m + 1) possibilities for the 3's and (k + 1) possibilities for the 11's. We simply multiply these three numbers.\nNOTICE that one set, the set that includes no 2's, no 3's, and no 11's, is included. This is known in mathematics as thenull set, sometimes called the empty set, a set with no members. Technically, this is a subset of every possible set, but that's a technical detail of set theory that goes well beyond what the GMAT would expect students to know. Even the the calculation is not that difficult, some of the technical aspects of this question are not in line with the GMAT's expectations.\nThe number of subsets is (m + 1)(n + 1)(k + 1). The answer is not given in that form. Instead, the first two factors have been FOILed together:\n(mn + m + n + 1)(k + 1).\nMike\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0827",
+    "grade": 8,
+    "question": "John and David were each given X dollars in advance for each day they were expected to perform at a community festival. John eventually performed on all 30 days of the festival, while David performed on 5 fewer days than John performed. If David gives John y dollars of her advance payment so that they would have each received the same daily rate, what was John paid in advance, in terms of Y?",
+    "options": [
+      "11Y",
+      "15Y",
+      "13Y",
+      "10Y"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Both of them were given X $ each\nDavid to adjust Y $ in advance to John\nSo David now has (X-Y)$ and John has (X+Y) $ such that their daily rate becomes same\nSo Rate of David= Rate of John\nAlso , David works for 25 days and John works for full 30 days\n(X-Y) / 25 = (X+Y) / 30\nSolving 30x-30y=25x+25y =>5x=55y => x=55/5y\nX= 11Y\nAnswer : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0829",
+    "grade": 8,
+    "question": "At the first meeting of the amputees\u2019 support group, there were\n93 fewer handshakes than there would have been if everyone\nhad at least one arm and shook hands once with everyone else.\nThe people with less than one arm made up 1/11 of the group.\nHow many of them were there?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "perfect example to use the units digit to get the answer quick.\nlet's assume the answer is A, then (22*21)/2 - (20*19)/2 = 93?\nwe can actually ignore the second part (after the minus) of the equation because it will always end with a units digit of 0.\nthe first part will have a units digit of 1 --> (units digit of 2 * units digit of 1) / 2\nfor the rest\nB) (33*32) / 2 --> (units digit 3 * units digit 2) / 2 = 3 (success)\nC) (44*43) / 2 --> (units digit 4 * units digit 3) / 2 = 6 (fail)\nD) (55*54) / 2 --> (units digit 5 * units digit 4) / 2 = 0 (fail)\nE) (66*65) / 2 --> (units digit 6 * units digit 5) / 2 = 0 (fail)\nInteresting approach, but I don't think the unit digit is correct for B, D and E. The even number will become half and that reduced number should be used to get the unit digit.\nB) (33*32) / 2 --> (units digit 3 * units digit 6) = 8\nD) (55*54) / 2 --> (units digit 5 * units digit 7) = 5\nE) (66*65) / 2 --> (units digit 3 * units digit 5) = 5\nanswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0864",
+    "grade": 8,
+    "question": "If x + |x| + y = 7 and x + |y| - y =6 , then x + y =",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correct": 0,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "If x + |x| + y = 7 and x + |y| - y =6 , then x + y =\ncan be done in 2.3 mins :\nthere are 4 cases to be tested :\n1) x is -ve and y is -ve\nsubstituting in the equation , we get x-x+y=7 and x-y-y=6 solve for x and y we get x=20 and y=7 , so x+y=27 REJECT\n2)x is +ve and y is +ve\nsubstitute in the equation, we ger x+x+y=7 and x+y-y=6 solve for x and y we get x=6 and y=-5 ,therefore x+y=1 not on list so REJECT\n3) x is -ve and y is +ve\nsubstitute , we get x-x=y=7 and x+y-y=6 solve fo x and y we get x=6 and y=7, x+y=13 not on list so REJECT\n4) x is +ve and y is -ve\nsubstitute , we get x+x=y=7 and x-y-y=6 solve for x and y , we get x=4 and y= -1 ,x+y=3 , ANSWER CHOICE ANSWER A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0919",
+    "grade": 8,
+    "question": "The original price of a certain TV set is discounted by x percent, and the reduced price is then discounted by 2x percent. If P is the original price of the TV Set, which of the following represents the price of the television set after the two successive discounts?",
+    "options": [
+      "P(1 - 0.03x + 0.02x^2)",
+      "P(1 - 0.03x + 0.0002x^2)",
+      "P(1 - 0.03x + 0.002x^2)",
+      "P(1 - 2x^2)"
+    ],
+    "correct": 1,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "Let us say that P = 100 $ and x = 10 %\nNow if there are two successive discounts of 10 % and 20 % then the effective discount percentage will be -10 - 20 + (-10) (-20)/100 = -30 + 2 = 28 %\nHence the new price will be 100 - 28 = 72\nHence by plugging in P = 100 and x = 10 the answer should be 72\nA: P(1 - 0.03x + 0.02x^2) = 100 (1 - 0.3 + 2) = 100(2.7)\nB: P(1 - 0.03x + 0.0002x^2) = 100 (1 - 0.3 + 0.02) = 100 (1 - 0.28) = 72 (BINGO!) (Let's still eliminate all other answer options - what if another one gives me 72)\nC: P(1 - 0.03x + 0.002x^2) = 100 (1 - 0.3 + 0.2)\nD: P(1 - 2x^2) = 100 ( 1 - 200)\nE: P(1 - 3x + 2x^2) = 100 ( 1 - 0.2 + 200)\nHence the answer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0952",
+    "grade": 8,
+    "question": "If a positive odd integer N has p positive factors, how many positive factors will 3N have ?",
+    "options": [
+      "p",
+      "2p",
+      "P+1",
+      "2p+1"
+    ],
+    "correct": 2,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "I have added some extra text to make this question more GMAT-like:\nLet's TEST some values of N\nTry N = 3\nThe factors of 3 are {1, 3}. Here, p =2\nSo, 2N = (2)(3) = 6\nThe factors of 6 are {1, 2, 3, 6}. So, we have a total of4\nNow check the answer choices:\nA) p =2No good. We want an output of4. ELIMINATE\nB) 2p = (2)(2) = 4. PERFECT! KEEP B\nC) P+1 =2+ 1 = 3 No good. We want an output of4. ELIMINATE\nD) 2p+1 = (2)(2) + 1 = 5 No good. We want an output of4. ELIMINATE\nE) Cannot be determined. POSSIBLE. KEEP E\nLet's TEST another value of N\nTry N = 7\nThe factors of 7 are {1, 7}. Here, p =2\nSo, 2N = (2)(7) = 14\nThe factors of 14 are {1, 2, 7, 14}. So, we have a total of4\nNow check the REMAINING answer choices:\nB) 2p = (2)(2) =4. PERFECT! KEEP B\nE) Cannot be determined. POSSIBLE. KEEP E\nLet's TEST one more (non-prime) value of N\nTry N = 9\nThe factors of 9 are {1, 3, 9}. Here, p =3\nSo, 2N = (2)(9) = 18\nThe factors of 18 are {1, 2, 3, 6, 9}. So, we have a total of6\nNow check the REMAINING answer choices:\nB) 2p = (2)(3) =6. PERFECT! KEEP B\nE) Cannot be determined. POSSIBLE. KEEP E\nAt this point, it SEEMS LIKELY that the correct answer is C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-alge-0957",
+    "grade": 8,
+    "question": "Two cars, Car1 and Car2 move towards each other from W and Y respectively with respective speeds of 20 m/s and 15 m/s. After meeting each other Car1 reaches Y in 10 seconds. In how many seconds does Car 2 reach W starting from Y?",
+    "options": [
+      "15.5 sec",
+      "8.4 sec",
+      "33.6 sec",
+      "31.11 sec"
+    ],
+    "correct": 3,
+    "tags": [
+      "algebra"
+    ],
+    "explanation": "W--------------------------------------|----------------------------Y\nCar A(20mps)------------------------->P<---------------Car B(15mps)\nLet 2 cars meet each other at point P in t seconds.\nCar1 covers distance= 20t. Car2 covers distance=15t. So, total distance WY= 35t.\nFrom P, Car 1 reaches onto Y in 10 secs. So it covers 15t further.\nso, 15t/20 = 10\nSo t=40/3 sec and total distance = (35*40)/3\nHence Car2 will cover total distance in (35*40)/(3*15) = 31.11 sec approx.\nAnswer D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]

@@ -1,185 +1,2198 @@
 [
   {
-    "id": "ari-easy-001",
-    "grade": 3,
-    "question": "$7 + 5 = ?$",
+    "id": "aqua-arit-0010",
+    "grade": 8,
+    "question": "If Tim had lunch at $50 and he gave 20% tip, how much did he spend?",
     "options": [
-      "10",
-      "11",
-      "12",
-      "13"
+      "A)$60.00",
+      "B)$35.42",
+      "C)$60.60",
+      "D)$21.56"
     ],
-    "correct": 2,
+    "correct": 0,
     "tags": [
-      "addition"
+      "arithmetic"
     ],
-    "explanation": "$7 + 5 = 12$. Count up 5 from 7: 8, 9, 10, 11, 12.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "The tip is 20% of what he paid for lunch.\ntip = 20% of 50.00 = (20/100)*50.00 = = $10.00\nTotal spent\n50.00 + 10.00 = $60.00\ncorrect answer is A)$60.00",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-easy-002",
-    "grade": 3,
-    "question": "$12 - 4 = ?$",
+    "id": "aqua-arit-0014",
+    "grade": 8,
+    "question": "Rs. 5600 is divided into three parts A, B and C. How much A is more than C if their ratio is 1/7:1/7:1/14?",
     "options": [
-      "6",
-      "7",
-      "8",
-      "9"
+      "300",
+      "992",
+      "1120",
+      "552"
     ],
     "correct": 2,
     "tags": [
-      "subtraction"
+      "arithmetic"
     ],
-    "explanation": "$12 - 4 = 8$. Count down 4 from 12: 11, 10, 9, 8.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "1/7:1/7:1/14 = 2:2:1\n1/5*5600 = 1120\n2240-1120 = 1120\nAnswer: C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-easy-003",
-    "grade": 3,
-    "question": "$6 \\times 3 = ?$",
+    "id": "aqua-arit-0015",
+    "grade": 8,
+    "question": "If a/b=3/4 and 8a+5b=22,then find the value of a.",
     "options": [
-      "15",
-      "16",
-      "18",
-      "21"
-    ],
-    "correct": 2,
-    "tags": [
-      "multiplication"
-    ],
-    "explanation": "$6 \\times 3 = 18$. Three groups of six: $6 + 6 + 6 = 18$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-easy-004",
-    "grade": 3,
-    "question": "$20 \\div 4 = ?$",
-    "options": [
-      "4",
-      "5",
-      "6",
-      "8"
+      "1/2",
+      "3/2",
+      "5/2",
+      "4/2"
     ],
     "correct": 1,
     "tags": [
-      "division"
+      "arithmetic"
     ],
-    "explanation": "$20 \\div 4 = 5$. Four equal groups from 20 gives 5 each.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "(a/b)=3/4 \uf0deb=(4/3) a.\nTherefore, 8a+5b=22 = 8a+5*(4/3) a=22 \uf0de 8a+(20/3) a=22\n=44a = 66 = a=(66/44)=3/2\nAnswer is B.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-easy-005",
-    "grade": 3,
-    "question": "What is the next number in the pattern: 2, 4, 6, 8, ?",
+    "id": "aqua-arit-0041",
+    "grade": 8,
+    "question": "A bottle of coke contains 200gm in place of 1kg of fluid. Find the actual % difference, given a 10% gain on initial fluid?",
     "options": [
+      "32.5%",
+      "112.5%",
+      "35%",
+      "40%"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "fluid price of 200gm = 100+10 = 110\nDifference = 110-20 = 90\n% of difference = 90*100/80 =112.5 %\nAnswer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0053",
+    "grade": 8,
+    "question": "A train 500 m long can cross an electric pole in 20 sec and then find the speed of the train?",
+    "options": [
+      "95 Kmph",
+      "90 Kmph",
+      "92 Kmph",
+      "95 Kmph"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Length = Speed * time\nSpeed = L/T\nS = 500/20\nS = 25 M/Sec\nSpeed= 25*18/5 (To convert M/Sec in to Kmph multiply by 18/5)\nSpeed = 90 Kmph\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0057",
+    "grade": 8,
+    "question": "The edge of a cube is 7a cm. Find its surface?",
+    "options": [
+      "24a8",
+      "24a4",
+      "24a1",
+      "294a2"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "6a2 = 6 * 7a * 7a = 294a2\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0081",
+    "grade": 8,
+    "question": "If |w|=\u2212w, which of the following must be true?",
+    "options": [
+      "x\u22650",
+      "w\u22640",
+      "x2>x",
+      "x3<0"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "|w| =-w means absolute value of w is equal to negative of w. Since absolute value cannot be negative hence negative of w should result in a non negative number. It means w is a non positive number i.e. w<0. Answer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0088",
+    "grade": 8,
+    "question": "Half of 2 percent written as decimal is",
+    "options": [
+      "0.01",
+      "0.5",
+      "0.05",
+      "0.005"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nIt will be 1/2(2%) = 1/2(2/100) = 2/200 = 0.01\nOption A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0101",
+    "grade": 8,
+    "question": "At a Supermarket a certain item has increased from 72 cents per pound to 78 cents per pound. What is the % increase in the cost of item?",
+    "options": [
+      "6.33%",
+      "7.22%",
+      "8.33%",
+      "8%"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Percent change = (New Value- Old Value )/ old value x 100\n=((78-72)/72)x100\n= (6/72)*100\n= 8.33%\nThere was an 8.33% increase in the cost of item\nanswer -C = 8.33%",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0106",
+    "grade": 8,
+    "question": "A car is running at a speed of 96kmph. What distance will it cover in 14sec?",
+    "options": [
+      "378m",
+      "350m",
+      "380m",
+      "200m"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed = 96kmph = 96*5/18 = 27 m/s\nDistance covered in 14sec = 27*14 = 378m\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0110",
+    "grade": 8,
+    "question": "If two numbers are in the ratio 2:3. If 10 is added to both of the numbers then the ratio becomes 3:4 then find the smallest number?",
+    "options": [
+      "12",
+      "18",
+      "20",
+      "24"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "2:3\n2x + 10 : 3x + 10 = 3 : 4\n4[2x + 10] = 3[3x + 10]\n8x + 40 = 9x + 30\n9x - 8x = 40 - 30\nx = 10\nThen smallest number is = 2\n2x = 20\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0119",
+    "grade": 8,
+    "question": "A 1200 m long train crosses a tree in 120 sec, how much time will I take to pass a platform 700 m long?",
+    "options": [
+      "277 Sec",
+      "190 Sec",
+      "187 Sec",
+      "286 Sec"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "L = S*T\nS= 1200/120\nS= 10 m/Sec.\nTotal length (D)= 1900 m\nT = D/S\nT = 1900/10\nT = 190 Sec\nAnswer:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0140",
+    "grade": 8,
+    "question": "A chair is bought for Rs.300/- and sold at Rs.420/- find gain or loss percentage",
+    "options": [
+      "15% loss",
+      "40% gain",
+      "25% gain",
+      "30% gain"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Formula = (Selling price ~ Cost price)/Cost price * 100\n= (450- 300)/300= 40% gain\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0147",
+    "grade": 8,
+    "question": "A train 360 m long is running at a speed of 45 km/hr. In what time will it pass a bridge 140 m long?",
+    "options": [
+      "40 sec",
+      "42 sec",
+      "45 sec",
+      "48 sec"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed = 45 * 5/18 = 25/2 m/sec\nTotal distance covered = 360 + 140 = 500 m\nRequired time = 500 * 2/25 = 40 sec\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0148",
+    "grade": 8,
+    "question": "What is the scope including 1/21+1/22+1/23+......+1/30?",
+    "options": [
+      "1/6~1/5",
+      "1/5~1/4",
+      "1/4~1/3",
+      "1/3~1/2"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "For Maximum value : It should be less than 1/21 + 1/21 +1/21... 10 times = 10/21 ~ 1/2\nFor Minimum Value : It should be greater than 1/30+ 1/30+ 1/30 .. 10 times = 10/30 = 1/3\nThus, the answer should lie between 1/3 and 1/2. Correct ans : D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0162",
+    "grade": 8,
+    "question": "A shopkeeper gave an additional 20 per cent concession on the reduced price after giving 30 per cent standard concession on an article. If Arun bought that article for 1,120, what was the original price?",
+    "options": [
+      "3,000",
+      "4,000",
+      "2,400",
+      "2,000"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Original price = 1120 \u00d7 100\u204470 \u00d7 100\u204480 = 2000\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0170",
+    "grade": 8,
+    "question": "0.5, 0.55, 0.65, 0.8, ?",
+    "options": [
+      "0.7",
+      "0.9",
+      "0.95",
+      "1"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "The pattern is + 0.05, + 0.10, + 0.15, .....\nAnswer : D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0179",
+    "grade": 8,
+    "question": "If 2^(2w) = 8^(w\u22122), what is the value of w?",
+    "options": [
+      "3",
+      "6",
       "9",
-      "10",
-      "11",
       "12"
     ],
     "correct": 1,
     "tags": [
-      "patterns"
+      "arithmetic"
     ],
-    "explanation": "Each number increases by 2. After 8 comes $8 + 2 = 10$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "2^(2w) = 8^(w\u22122)\n2^(2w) = 2^(3*(w\u22122))\n2^(2w) = 2^(3w-6)\nLet's equate the exponents as the bases are equal.\n2w = 3w-6\nw = 6\nThe answer is B.",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-easy-006",
-    "grade": 3,
-    "question": "$25 + 17 = ?$",
+    "id": "aqua-arit-0183",
+    "grade": 8,
+    "question": "A jeep takes 4 hours to cover a distance of 620 Km. how much should the speed in Kmph be maintained to cover the same direction in 3/2th of the previous time?",
     "options": [
-      "32",
-      "41",
+      "148 Kmph",
+      "152 Kmph",
+      "106 Kmph",
+      "103 Kmph"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Time = 4\nDistance = 620\n3/2 of 4 hours = 4 * 3/2 = 6 Hours\nRequired speed = 620/6 = 103 Kmph\nD)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0195",
+    "grade": 8,
+    "question": "A man can row with a speed of 20 kmph in still water. If the stream flows at 7 kmph, then the speed in downstream is?",
+    "options": [
+      "27",
+      "23",
+      "20",
+      "27"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "M = 20\nS = 7\nDS = 20 + 7 = 27\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0205",
+    "grade": 8,
+    "question": "Three numbers are in the ratio 1 : 2 : 3 and their H.C.F is 3. The numbers are",
+    "options": [
+      "12, 24, 30",
+      "12, 24, 38",
+      "12, 24, 362",
+      "3, 6, 9"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nLet the required numbers be x, 2x, 3x. Then, their H.C.F =x. so, x= 3\n\\inline \\fn_jvn \\therefore The numbers are 3, 6, 9\nAnswer: D) 3, 6, 9",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0210",
+    "grade": 8,
+    "question": "Find the sum of first 30 natural numbers",
+    "options": [
+      "470",
+      "468",
+      "465",
+      "463"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nSum of n natural numbers\n=n(n+1) / 2\n=30(30+1) / 2=30(31) / 2=465\nOption C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0218",
+    "grade": 8,
+    "question": "160 is what percent of 50 ?",
+    "options": [
+      "5%",
+      "20%",
+      "320%",
+      "200%"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "50*x=160 --> x=3.2 --> 3.2 expressed as percent is 320%.\nAnswer: C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0222",
+    "grade": 8,
+    "question": "The inverse ratio of 4: 2: 1 is?",
+    "options": [
+      "2:4:8",
+      "2:3:9",
+      "2:3:2",
+      "2:3:6"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "1/4: 1/2: 1/1 = 2:4:8\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0225",
+    "grade": 8,
+    "question": "Three times the first of three consecutive odd integers is 8 more than twice the third. The third integer is:",
+    "options": [
+      "9",
+      "11",
+      "13",
+      "20"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the three integers be x, x + 2 and x+ 4.\nThen,\n3x = 2(x + 4) + 8\nx = 16\nThird integer = x + 4 = 20.\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0231",
+    "grade": 8,
+    "question": "What is the investment made if one invests in 15% stock at 50 and earns Rs.2000?",
+    "options": [
+      "5000",
+      "2767",
+      "2697",
+      "126967"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nTo earn Rs.15, investment = Rs.50.\nHence, to earn Rs.1500, investment = (1500*50)/15\n= Rs.5000\nANSWER: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0236",
+    "grade": 8,
+    "question": "A man can row downstream at 25 kmph and upstream at 15 kmph. Find the time to reach a destination point at a distance of 50km along the downstream.",
+    "options": [
+      "4 hrs.",
+      "1 hrs.",
+      "3 hrs.",
+      "2 hrs."
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the speed of the man in downstream=25 kmph. distance to be covered along the stream=50kmph\n=>time taken =D/S =50/25 =2 Hrs.\nAnswer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0237",
+    "grade": 8,
+    "question": "Find the number that fits somewhere into the middle of the series. Some of the items involve both numbers and letters\nLook at this series: C19, E21, __, I25, K27, ... What number should fill the blank?",
+    "options": [
+      "D20",
+      "E21",
+      "F22",
+      "G23"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "B\nG23\nIn this series, the letters progress by 2, and the numbers increase by 2.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0239",
+    "grade": 8,
+    "question": "The ratio of three numbers is 2:3:5 and their sum is 150. The second number of the three numbers is?",
+    "options": [
+      "24",
+      "26",
+      "27",
+      "45"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "2:3:5\nTotal parts = 10\n10 parts --> 150\n1 part ---->15\nThe second number of the three numbers is = 3*15= 45\nAnswer : E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0253",
+    "grade": 8,
+    "question": "If a - b = 2 and a2 + b2 = 25, find the value of ab.",
+    "options": [
+      "A)10.5",
+      "B)12",
+      "C)15",
+      "D)18"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n2ab = (a2 + b2) - (a - b)2\n= 25 - 4 = 21\nab =10.5\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0254",
+    "grade": 8,
+    "question": "3, 7, 15, 31, 63, ?",
+    "options": [
+      "125",
+      "112",
+      "153",
+      "127"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "E\n127\nEach number in the series is the preceding number multiplied by 2 and then increased by 1.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0257",
+    "grade": 8,
+    "question": "If the sum of 1/3 and 22/99 is converted to a decimal, what is the 3000th digit to the right of the decimal place?",
+    "options": [
+      "2",
+      "3",
+      "5",
+      "8"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "1/3 +22/99 = 5/9=0.555555555...\nhence, the 3000th digit would also be 5\nAns: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0284",
+    "grade": 8,
+    "question": "Two numbers are in the ratio of 1 : 2. If 6 be added to both, their ratio changes to 3 : 5. The greater number is",
+    "options": [
+      "20",
+      "24",
+      "28",
+      "32"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the ratio be X : Y,\nGiven X/Y = 1/2 ,\n(X + 6)/(Y + 6) = 3/5\n=> X = 12\nAnd Y = 24\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0285",
+    "grade": 8,
+    "question": "On flipping 3 coins together what is the outcomes for at least two tail?",
+    "options": [
+      "1/7",
+      "3/8",
+      "3/11",
+      "4/13"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Sample space, S = {HHH, HHT, HTH, THH, TTH, THT, HTT, TTT}\nFavorable outcomes for at least two heads\n= favorable outcomes for exactly two heads and favorable outcomes for more than two heads\n= {TTH, HTT, TTT}\n3/8\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0295",
+    "grade": 8,
+    "question": "If 4/a + 5/a + 6/a is an integer, which of the following must also be an integer?",
+    "options": [
+      "12/a",
+      "3/a",
+      "6/a",
+      "15/a"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "4/a + 5/a + 6/a\n=15/a\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0298",
+    "grade": 8,
+    "question": "If m and n are positive integers, and m=2n and k=9m, then -",
+    "options": [
+      "k is a factor of m.",
+      "2m is a factor of k.",
+      "3m is a factor of k/2.",
+      "m/2 is a factor of k."
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "m=2n --> m is even.\nk=9m --> m is factor of k, thus m/2 = integer must also be a factor of k.\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0317",
+    "grade": 8,
+    "question": "If k is a non-negative integer and 21^k is a divisor of 435,961 then 7^k - k^7 =",
+    "options": [
+      "0",
+      "1",
       "42",
+      "118"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "4+3+5+9+6+1 = 28, so this number is not divisible by 3 and thus not divisible by 21.\nTherefore, k=0\n7^k - k^7 =1-0=1\nThe answer is B.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0322",
+    "grade": 8,
+    "question": "Which No. Replace in Question mark?\n4,02,42,82,23,63,?",
+    "options": [
+      "04",
+      "05",
+      "06",
+      "07"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "4*(4+0)=4\n4*(4+1)=20 i.e 02\n4*(4+2)=24 i.e 42\n4*(4+3)=28 i.e 82\n4*(4+4)=32 i.e 23\n4*(4+5)=36 i.e 63\nhence\n4*(4+6)=40... i.e.ans:04\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0323",
+    "grade": 8,
+    "question": "What number has a 5:1 ratio to the number 11?",
+    "options": [
+      "22",
+      "50",
+      "55",
       "52"
     ],
     "correct": 2,
     "tags": [
-      "addition"
+      "arithmetic"
     ],
-    "explanation": "Add ones: $5 + 7 = 12$ (write 2, carry 1). Add tens: $2 + 1 + 1 = 4$. Result: $42$.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "5:1 = x: 10\nx = 55\nAnswer: C",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-easy-007",
-    "grade": 4,
-    "question": "$100 - 35 = ?$",
+    "id": "aqua-arit-0325",
+    "grade": 8,
+    "question": "There are two numbers. If 50% of the first number is added to the second number, then the second number increases to its five-fourth. Find the ratio of the first number to the second number?",
     "options": [
-      "55",
-      "65",
-      "75",
-      "85"
+      "5/9",
+      "5/7",
+      "5/3",
+      "2/1"
     ],
-    "correct": 1,
+    "correct": 3,
     "tags": [
-      "subtraction"
+      "arithmetic"
     ],
-    "explanation": "$100 - 35 = 65$. Subtract 30 to get 70, then subtract 5 more to get 65.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Let the two numbers be x and y.\n50/100 * x + y = 5/4y\n=> 1/2 x = 1/4 y => x/y\n= 2/1\nAnswer: E",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   },
   {
-    "id": "ari-easy-008",
-    "grade": 4,
-    "question": "$9 \\times 8 = ?$",
+    "id": "aqua-arit-0327",
+    "grade": 8,
+    "question": "What is the HCF of 2/3, 4/9 and 6/18",
     "options": [
-      "64",
-      "72",
-      "81",
-      "98"
-    ],
-    "correct": 1,
-    "tags": [
-      "multiplication",
-      "times-table"
-    ],
-    "explanation": "$9 \\times 8 = 72$. Memorize: nine eights are seventy-two.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-easy-009",
-    "grade": 4,
-    "question": "$36 \\div 6 = ?$",
-    "options": [
-      "5",
-      "6",
-      "7",
-      "8"
-    ],
-    "correct": 1,
-    "tags": [
-      "division",
-      "times-table"
-    ],
-    "explanation": "$36 \\div 6 = 6$ because $6 \\times 6 = 36$.",
-    "source": "houseofmath-seed-v1",
-    "license": "MIT"
-  },
-  {
-    "id": "ari-easy-010",
-    "grade": 4,
-    "question": "Round 47 to the nearest 10.",
-    "options": [
-      "40",
-      "45",
-      "50",
-      "47"
+      "7/45",
+      "2/45",
+      "1/9",
+      "8/45"
     ],
     "correct": 2,
     "tags": [
-      "rounding",
-      "place-value"
+      "arithmetic"
     ],
-    "explanation": "47 is between 40 and 50. Since the ones digit (7) is 5 or more, round up to 50.",
-    "source": "houseofmath-seed-v1",
+    "explanation": "Explanation:\nHCF of Fractions = HCF of Numerators/LCM of Denominators\n= (HCF of 2, 4, 6)/(LCM of 3, 9, 18) = 2/18 = 1/9\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0334",
+    "grade": 8,
+    "question": "Find the odd man out. 12, 24, 34, 48, 64, 84",
+    "options": [
+      "48",
+      "34",
+      "24",
+      "12"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation :\nAll numbers except 34 are multiples of 4. Answer : Option B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0354",
+    "grade": 8,
+    "question": "What numbers should go on the bottom line?\n3 6 9 15\n8 2 10 12\n11 8 19 27\n19 10 29 39\n? ? ? ?",
+    "options": [
+      "20 18 48 61",
+      "50 18 48 62",
+      "10 18 48 68",
+      "30 18 48 66"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "D\n30 18 48 66.\nStarting at the top, add pairs of numbers in each column to arrive at the next number.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0357",
+    "grade": 8,
+    "question": "\u221a{(3.5)(10^9)} is closest to which of the following?",
+    "options": [
+      "60,000",
+      "75,000",
+      "140,000",
+      "220,000"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "\u221a{(3.5)(10^9)} = \u221a{(35)(10^8)} = \u221a(35)\u221a(10^8) = (\u221a35) * 10,000 which is almost 60,000.\nThe answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0369",
+    "grade": 8,
+    "question": "The speed of a boat in still water is 60kmph and the speed of the current is 12kmph. Find the speed downstream and upstream?",
+    "options": [
+      "87 kmph",
+      "40 kmph",
+      "16 kmph",
+      "48 kmph"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed downstream = 60 + 12\n= 72 kmph\nSpeed upstream = 60 - 20\n= 48 kmph\nAnswer:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0375",
+    "grade": 8,
+    "question": "Insert the missing number. 2, 7, 10, 22, 18, 37, 26",
+    "options": [
+      "26",
+      "22",
+      "2",
+      "52"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "There are two series here\n2, 10, 18, 26, ... (Increase by 8)\n7, 22, 37, ... (Increase by 15)\nHence, next term is 37+15 = 52\nAnswer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0382",
+    "grade": 8,
+    "question": "Prathik purchased 40 shirts for rs 3000.he spends 10% for transportation. What should be the selling price per shirt to earn profit of 20% ?",
+    "options": [
+      "96 rs",
+      "97 rs",
+      "98 rs",
+      "99 rupees"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "total CP = 3000 + 3000*10/100 = 3300\nto gain 20% profit, SP = (100+20)*3300/100 = 3960\nselling price per shirt = 3960/40 = 99 rs/shirt\nANSWER:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0386",
+    "grade": 8,
+    "question": "The sum of the digits of a two-digit number is 15 and the difference between the digits is 3. What is the two-digit number?",
+    "options": [
+      "69",
+      "78",
+      "96",
+      "56"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "let the digits be x,y\nx + y = 15\nx - y = 3\n2x = 18, x = 9 so y = 6\nhence the number is 96\nso the correct answer is option C) 96.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0390",
+    "grade": 8,
+    "question": "If 2/a + 3/a + 6/a is an integer, which of the following must also be an integer?",
+    "options": [
+      "12/a",
+      "3/a",
+      "6/a",
+      "11/a"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "2/a + 3/a + 6/a\n=11/a\nAnswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0391",
+    "grade": 8,
+    "question": "What percent is 240 of 90?",
+    "options": [
+      "133 1/3 %",
+      "134 1/3 %",
+      "135 1/3 %",
+      "266 2/3 %"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "240/90 = 8/3\n8/3 \u00d7 100 = 800/3 = 266 2/3 %\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0395",
+    "grade": 8,
+    "question": "The compound ratio of 5:6, 5:2 and 4:5?",
+    "options": [
+      "1:1",
+      "5:3",
+      "1:6",
+      "1:9"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "5/6 * 5/2 * 4/5 = 5/3\n5:3\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0396",
+    "grade": 8,
+    "question": "A car runs at the speed of 40 km per hour when not serviced and runs at 80 kmph when serviced. After servicing the car covers a certain distance in 8 hours. How much time will the car take to cover the same distance when not serviced?",
+    "options": [
+      "8 hours 12 minutes",
+      "12 hours",
+      "16 hours",
+      "17 hours"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation :\nTime = 80*8 / 40 = 16 hours\nAnswer \u00e2\u20ac\u201c C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0401",
+    "grade": 8,
+    "question": "Set J consists of 5 consecutive even numbers. If the smallest term in the set is -2, what is the range of the positive integers in set J?",
+    "options": [
+      "0",
+      "2",
+      "4",
+      "6"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Since there are only 5 integers, another approach is the just list all 5.\nWe get: -2,0,2, 4, 6\nRange of POSITIVE INTEGERS =6 - 2= 4\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0404",
+    "grade": 8,
+    "question": "A train 300 m long is running at a speed of 99 km/hr. In what time will it pass a bridge 195 m long?",
+    "options": [
+      "17",
+      "18",
+      "19",
+      "20"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed = 99 * 5/18 = 55/2 m/sec\nTotal distance covered = 300 + 195 = 495 m\nRequired time = 495 * 2/55 = 18 sec\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0414",
+    "grade": 8,
+    "question": "The current of a stream runs at the rate of 4 kmph. A boat goes 6 km and back to the starting point in 2 hours, then find the speed of the boat in still water?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "5"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "S = 4\nM = x\nDS = x + 4\nUS = x - 4\n6/(x + 4) + 6/(x - 4) = 2\nx = 8\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0415",
+    "grade": 8,
+    "question": "A train covers a certain distance at a speed of 340kmph in 4 hours. To cover the same distance in 2 3/4 hours, it must travel at a speed of",
+    "options": [
+      "495km/hr",
+      "420km/hr",
+      "450km/hr",
+      "550km/hr"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nDistance = 340\u00c3\u20144 = 1360km\nRequired speed = (1360\u00c3\u2014 4/11) = 495km/hr\nAnswer: Option A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0417",
+    "grade": 8,
+    "question": "Find the odd man out?\n396, 462, 572, 427, 671, 264.",
+    "options": [
+      "2378",
+      "427",
+      "297",
+      "2678"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nIn each number except 427, the middle digit is the sum of other two.\nAnswer: C) 427",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0429",
+    "grade": 8,
+    "question": "the ratio of two no. addition and subtraction be 4:3.the what is the ratio of numbers?",
+    "options": [
+      "3:2",
+      "4:3",
+      "5:1",
+      "7:1"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "(x+y)/(x-y)=4/3\ndividing numerator and denominator by y\n(x/y)+1/(x/y)-1=4/3\nlet x/y be z\nz+1/z-1=4/3\n3z+3=4z-4\nz=7\nx/y=7\nanswer E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0438",
+    "grade": 8,
+    "question": "log(a(a(a)^1/4)^1/4)^1/4 here base is a.",
+    "options": [
+      "0",
+      "21/64",
+      "1",
+      "22/63"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "log(a(a(a^1/4)^1/4)^1/4\n=> log(a(a^1+1/4)^1/4)^1/4\n=> log(a(a^5/4)^1/4)^1/4\n=>log(a(a^5/16)^1/4\n=>log(a^1+5/16)^1/4\n=>log(a^21/16)^1/4\n=>log(a^21/64)\n=>21/64 log(a)\n=>21/64\nANSWER:B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0439",
+    "grade": 8,
+    "question": "What is the CP of Rs 100 stock at 2 discount, with 1/5% brokerage?",
+    "options": [
+      "99.6",
+      "96.2",
+      "97.5",
+      "98.2"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nUse the formula,\nCP= 100 \u00e2\u20ac\u201c discount + brokerage%\nCP= 100-2+1/5\n98.2\nThus the CP is Rs 98.2.\nANSWER D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0441",
+    "grade": 8,
+    "question": "A man can row upstream at 20 kmph and downstream at 60 kmph, and then find the speed of the man in still water?",
+    "options": [
+      "27",
+      "29",
+      "40",
+      "20"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "US = 20\nDS = 60\nM = (20 + 60)/2\n= 40\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0451",
+    "grade": 8,
+    "question": "What is the diffference between the place value and face value of 4 in the numeral 2694?",
+    "options": [
+      "10",
+      "0",
+      "5",
+      "3"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "place value of 4 = 4 * 1 = 4\nface value of 4 = 4\n4 - 4 = 0\nB",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0464",
+    "grade": 8,
+    "question": "A dishonest dealer professes to sell goods at the cost price but uses a false weight and gains 25%. Find his false weight age?",
+    "options": [
+      "600",
+      "400",
+      "500",
+      "800"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "E\n25 = E/(1000 - E) * 100\n1000 - E = 4E\n1000 = 5E => E = 200\n1000 - 200 = 800",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0471",
+    "grade": 8,
+    "question": "In a group of buffaloes and ducks, the number of legs are 24 more than twice the number of heads. What is the number of buffaloes in the group ?",
+    "options": [
+      "6",
+      "10",
+      "8",
+      "12"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nLet the number of buffaoes be x and number of ducks be y.\nThen 4x + 2y = 2(x + y) + 24\n=> 2x = 24\n=> x = 12.\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0482",
+    "grade": 8,
+    "question": "A train 120 m long crosses a platform 120 m long in 6 sec; find the speed of the train?",
+    "options": [
+      "144 kmph",
+      "58 kmph",
+      "54 kmph",
+      "94 kmph"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "D = 120 + 120 = 240\nT = 6\nS = 240/6 * 18/5 = 144 kmph\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0498",
+    "grade": 8,
+    "question": "Which of the following is a prime number ?",
+    "options": [
+      "33",
+      "81",
+      "93",
+      "97"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nClearly, 97 is a prime number.\nANSWER IS D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0505",
+    "grade": 8,
+    "question": "There are 3 numbers A, B and C. If A:B = 3/5, B:C = 5/4, C:D = 4/8, then A:D will be?",
+    "options": [
+      "1 : 2",
+      "3 : 5",
+      "5 : 7",
+      "3:8"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Sol. A : B = 3 : 5, B : C = 5 : 4, C : D = 4 : 8\n\u2234A\u2236B\u2236C\u2236D= 3 : 5:4 : 8\nThus, A : D = 3 : 8\nE",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0548",
+    "grade": 8,
+    "question": "I bought two books; for Rs.540. I sold one at a loss of 15% and other at a gain of 19% and then I found each book was sold at the same price. Find the cost of the book sold at a loss?",
+    "options": [
+      "197",
+      "280",
+      "189",
+      "315"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "x*(85/100)\n= (540 - x)119/100\nx = 315\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0556",
+    "grade": 8,
+    "question": "Find the product of the local value and absolute value of 4 in 564823",
+    "options": [
+      "1600",
+      "8000",
+      "16000",
+      "12000"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nPlace value = Local value\nFace value = Absolute value\nThe place value of 4 in 564823 is 4 x 1000 = 4000\nThe face value of 4 in 564823 is nothing but 4.\n=> 4000 x 4 = 16000\nAnswer: Option C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0575",
+    "grade": 8,
+    "question": "A shopkeeper sells 300 metres of cloth for Rs. 18000 at a loss of Rs.5 per metre. Find his cost price for one metre of cloth?",
+    "options": [
+      "12",
+      "27",
+      "29",
+      "65"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "SP per metre = 18000/300 = Rs. 60 Loss per metre = Rs. 5 CP per metre = 60 + 5 = Rs. 65.Answer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0588",
+    "grade": 8,
+    "question": "In a partnership between A, B and C. A's capital is Rs.2000. If his share of a profit of Rs.600 is Rs.200 and C's share is Rs.130, what is B's capital?",
+    "options": [
+      "Rs.5500",
+      "Rs.5600",
+      "Rs.5700",
+      "Rs.5400"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "200 + 130 = 330\n600 - 330 = 270\n200 ---- 2000\n270 ---- ? => Rs.5400\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0595",
+    "grade": 8,
+    "question": "If 60% of 3/5 of a number is 36, then the number is?",
+    "options": [
+      "80",
+      "100",
+      "75",
+      "90"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the number be x. Then 60% of 3/5 of x=36\n60/100*3/5*x=36\nx=(36*25/9)=100\nRequired number=100.\nCorrect Option: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0598",
+    "grade": 8,
+    "question": "There r 4 prime numbers in ascending order. The multiplication of first 3 is 385 and that of last 3is 1001. what is the last number is",
+    "options": [
+      "8",
+      "10",
+      "11",
+      "13"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nabcbcd=3851001=>ad=513\nabcbcd=3851001=>ad=513\nSo d = 13\nD",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0607",
+    "grade": 8,
+    "question": "The cube root of .000216 is:",
+    "options": [
+      ".6",
+      ".06",
+      "77",
+      "87"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n(.000216)1/3\t= [216/(10)6\t]\t1/3 = 6/100 =0.06\nANSWER IS B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0608",
+    "grade": 8,
+    "question": "Find k if 64 / k = 4.",
+    "options": [
+      "16",
+      "17",
+      "18",
+      "14"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Since 64 /k = 4 and 64/ 16 = 4, then\nk = 16 correct answer A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0619",
+    "grade": 8,
+    "question": "A merchant marks his wares 40% more than the real price and allows 20% discount. His profit is:",
+    "options": [
+      "20%",
+      "18%",
+      "16%",
+      "12%"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the CP = 100 Rs.\nMark Price = 140\nDiscount = 20%\nSelling price 80/100 \u00d7 140\nHence profit = 12%\nAnswer: D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0620",
+    "grade": 8,
+    "question": "(161)^2 - (162)^2 =",
+    "options": [
+      "1",
+      "100",
+      "229",
+      "325"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Using the formula:\n(a+1)^2 - a^2 = 2a+1\nSo, Answer = 162*2 + 1\n= 324+1 = 325 = Answer = D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0623",
+    "grade": 8,
+    "question": "A trader sold two items for Rs.2500 each, if he made a profit of 28% from the first item and a loss of 20% from the second item, calculate his total gain or loss.",
+    "options": [
+      "2.6",
+      "12.6",
+      "3.6",
+      "5.6"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "(28*20)/100 = 5.6%\nAnswer: E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0635",
+    "grade": 8,
+    "question": "What are the last two digits of 55*34*86*47*23*51?",
+    "options": [
+      "18",
+      "20",
+      "23",
+      "25"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "55*34*86*47*23*51=\nWe have to focus on the last two digits only, so 55*34=70*86=20*47=40\n40*23=20 therefore 20*51=20\nHence Answer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0652",
+    "grade": 8,
+    "question": "3,4,7,11,18,29,47,?",
+    "options": [
+      "76",
+      "77",
+      "75",
+      "78"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Each number is the sum of the previous two numbers, ie 29 + 47 = 76.\nAnswer : A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0658",
+    "grade": 8,
+    "question": "If log 2= 0.030103, the number of digits in 264 is :",
+    "options": [
+      "18",
+      "19",
+      "20",
+      "21"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "log 264 = 64 log 2 = (64*0.30103) = 1926592\nIts characteristics is 19.\nHence, the number of digits in 264 is 20.\nANSWER:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0670",
+    "grade": 8,
+    "question": "If \u221a10 = 3.16, find the value of If \u221a5/2",
+    "options": [
+      "1.3",
+      "1.58",
+      "2.03",
+      "2.15"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n\u221a(5/2) =\u221a(5\u00d72/2\u00d72)= \u221a(10)/2 =3.16/2 = 1.58\nANSWER: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0675",
+    "grade": 8,
+    "question": "The L.C.M of two numbers is 45 times their H.C.F if one of the numbers is 125and sum of H.C.F and L.C.M. is 1150, the other number is:",
+    "options": [
+      "215",
+      "220",
+      "225",
+      "235"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let H.C.F be h and L.CM be l.Then, l-45h and l+h=1150\n45h+h=1150 or h=25.so, l=(1150-25)-1125.\nHence, other number=(25*1125/125)=225.\nCorrect Option:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0691",
+    "grade": 8,
+    "question": "The sale price sarees listed for Rs.400 after successive discount is 25% and 20% is?",
+    "options": [
+      "297",
+      "879",
+      "342",
+      "240"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "400*(75/100)*(80/100)\n= 240\nAnswer: D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0697",
+    "grade": 8,
+    "question": "2,5,10,17,?,41",
+    "options": [
+      "26",
+      "27",
+      "29",
+      "28"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "2+3=5\n5+5=10\n10+7=17\n17+11=28\n28+13=41\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0704",
+    "grade": 8,
+    "question": "Find the odd man out. 1050, 510, 242, 108, 46, 16, 3",
+    "options": [
+      "46",
+      "106",
+      "510",
+      "108"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation :\n1050\n(1050 - 30)/2 = 510\n(510 - 26)/2 = 242\n(242 - 22)/2 = 110\n(110 - 18)/2 = 46\n(46- 14)/2 = 16\n(16- 10)/2 = 3\nHence, 110 should have come in place of 108. Answer : Option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0707",
+    "grade": 8,
+    "question": "How much 60% of 50 is greater than 40% of 30?",
+    "options": [
+      "18",
+      "99",
+      "77",
+      "66"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "(60/100) * 50 \u2013 (40/100) * 30\n30 - 12 = 18ch 60% of 50 is greater than 40% of 30?\nAnswer:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0714",
+    "grade": 8,
+    "question": "Which of the following is equal to the cube of a non-integer?",
+    "options": [
+      "-64",
+      "-1",
+      "8",
+      "9"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "A. -64 -> cube of -4\nB. -1 -> cube of -1\nC. 8 -> cube of 2\nD. 9\nE. 27 -> cube of 3\nAll other options are cubes of integers except 9. 9 will be the cube of a number slightly greater than 2 since the cube of 2 is 8.\nAnswer (D)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0716",
+    "grade": 8,
+    "question": "The fourth proportional to 5, 8, 15 is:",
+    "options": [
+      "15",
+      "5",
+      "24",
+      "8"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Let the fourth proportional to 5, 8, 15 be x.\nThen, 5 : 8 : 15 : x\n= 5x = (8 x 15)\nx = (8 x 15)/5= 24.\nAnswer is C.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0720",
+    "grade": 8,
+    "question": "Evaluate 28% of 450 + 45% of 240",
+    "options": [
+      "232",
+      "242",
+      "252",
+      "234"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n= (28/100) * 450 + (45/100) * 240\n= 126 + 108 = 234\nAnswer: Option E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0723",
+    "grade": 8,
+    "question": "Which of the following is closest to (5!-4!)/(5!+4!)?",
+    "options": [
+      "0.01",
+      "0.1",
+      "0.2",
+      "0.7"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "(5!-4!)/(5!+4!)\n4! (5-1)/4! (5+1)\n4/6 = 2/3 =0.7 (approximately)\nD is the answer",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0728",
+    "grade": 8,
+    "question": "In the class of 40 students, 30 speak Hindi and 20 speak English. What is the lowest possible number of students who\nspeak both the languages?",
+    "options": [
+      "10",
+      "15",
+      "20",
+      "25"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "let the student who speaks hindi-x\nlet the student who speaks english-y\nas (xuy)-(xny)=total\n30+20-(xny)=40\n=10\nA)",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0738",
+    "grade": 8,
+    "question": "A car takes 6 hours to cover a distance of 469 Km. how much should the speed in Kmph be maintained to cover the same direction in 3/2th of the previous time?",
+    "options": [
+      "48 Kmph",
+      "50 Kmph",
+      "52 Kmph",
+      "56 Kmph"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Time = 6\nDistence = 469\n3/2 of 6 hours = 6 * 3/2 = 9 Hours\nRequired speed = 469/9 = 52 Kmph\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0745",
+    "grade": 8,
+    "question": "A reduction of 15% in the price of oil enables a house wife to obtain 5kgs more for Rs.800, what is the reduced price for kg?",
+    "options": [
+      "s.24",
+      "s.46",
+      "s.40",
+      "s.41"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "800*(15/100) = 120 ---- 5\n? ---- 1 => Rs.24\nAnswer: A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0751",
+    "grade": 8,
+    "question": "Jill bought items costing $3.45, $1.99, $6.59, and $12.98. She used a coupon worth $2.50.\nIf Jill had $50.00 when she went into the store, how much did she have when she left?",
+    "options": [
+      "$17.49",
+      "$27.49",
+      "$37.49",
+      "$57.49"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "$3.45 + $1.99 + $6.59 + $12.98 = $25.01\n$25.01 - $2.50 = $22.51\n$50.00 - $22.51 = $27.49 is money left\ncorrect answer B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0756",
+    "grade": 8,
+    "question": "After decreasing 90% in the price of an article costs Rs.320. Find the actual cost of an article?",
+    "options": [
+      "2777",
+      "2987",
+      "3200",
+      "9977"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "CP* (10/100) = 320\nCP= 32* 100 => CP = 3200\nAnswer: C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0806",
+    "grade": 8,
+    "question": "A chair is bought for Rs.200/- and sold at Rs.320/- find gain or loss percentage",
+    "options": [
+      "75% loss",
+      "20% gain",
+      "60% gain",
+      "30% gain"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Formula = (Selling price ~ Cost price)/Cost price * 100\n= (320- 200)/200 = 60% gain\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0807",
+    "grade": 8,
+    "question": "If the selling price of 50 articles is equal to the cost price of 45 articles, then the loss or gain percent is:",
+    "options": [
+      "45%",
+      "10%",
+      "20%",
+      "60%"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "C.P. of each article be Re. 1.\nThen, C.P. of 50 articles = Rs. 50;\nS.P. of 50 articles = Rs. 45.\nLoss % = 5/50 * 100 = 10%\nANSWER B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0830",
+    "grade": 8,
+    "question": "Find the value of (1-(1/3))(1-(1/4))(1-(1/5))\u2026.(1-(1/100)).",
+    "options": [
+      "1/50",
+      "3/50",
+      "4/50",
+      "6/50"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Answer is A.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0831",
+    "grade": 8,
+    "question": "Find the missing number:\n6 13 25 51 101 ?",
+    "options": [
+      "201",
+      "202",
+      "203",
+      "204"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "C\n203\n6x2+1=13\n13x2-1=25\n25x2+1=51\n51x2-1=101\n101x2+1=203",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0838",
+    "grade": 8,
+    "question": "The owner of a cell phone shop charges his customer 23% more than the cost price. If a customer paid Rs.8,517 for a cell phone, then what was the cost price of the cell phone?",
+    "options": [
+      "Rs.5,845",
+      "Rs.6,750",
+      "Rs.5,700",
+      "Rs.6,925"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n123% of CP =SP\nTherefore, CP = Rs.8,517x100/123 = Rs.6925\nAnswer: Option D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0840",
+    "grade": 8,
+    "question": "If a+b+c=21, what is the total number of non-negative integral solutions?",
+    "options": [
+      "223",
+      "233",
+      "240",
+      "253"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Think of it is a problem of diving 21 items to three people A, B & C which may or may not receive an item.\nSo simply use Combination here as (n-r+1) C (r-1) i.e.\n(21+3-1) C (3-1) => 23 C 2 == > 253 solutions.\nANSWER:E",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0844",
+    "grade": 8,
+    "question": "A trader sold an article on a certain price with 20% profit. If he sold double of previous selling price then find its profit %",
+    "options": [
+      "140%",
+      "120%",
+      "100%",
+      "90%"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "let cost price = 100%\nselling price = 120%\nnew s.p. = 240%\np% = 240-100 = 140%\nAnswer is A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0873",
+    "grade": 8,
+    "question": "A girl goes to her school from her house at a speed of 6km/hr and returns at a speed of 4 km/hr. If she takes 10 hours in going and coming back, the distance between her school and house is",
+    "options": [
+      "12km",
+      "16 km",
+      "20 km",
+      "24 km"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation :\nLet distance be D\n10 = D/4 + D/6\nAnswer \u2013 D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0878",
+    "grade": 8,
+    "question": "Evaluate: 30 - 12\u00f73\u00d72 =",
+    "options": [
+      "11",
+      "22",
+      "33",
+      "44"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "According to order of operations, 12\u00f73\u00d72 (division and multiplication) is done first from left to right\n12\u00f73\u00d72 = 4 \u00d7 2 = 8\nHence\n30 - 12\u00f73\u00d72 = 30 - 8 = 22\ncorrect answer is B) 22",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0893",
+    "grade": 8,
+    "question": "The sum an integer N and its reciprocal is equal to 78/15. What is the value of N?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "5"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Write equation in N as follows\nN + 1/N = 78/15\nMultiply all terms by N, obtain a quadratic equation and solve to obtain N = 5.\ncorrect answer is E) 5",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0901",
+    "grade": 8,
+    "question": "If the product of two numbers is 17820 and their H.C.F. is 12, find their L.C.M.",
+    "options": [
+      "2574",
+      "2500",
+      "1485",
+      "1574"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\nHCF * LCM = 17820, because we know\nProduct of two numbers = Product of HCF and LCM\nLCM = 17820/12 = 1485\nOption C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0904",
+    "grade": 8,
+    "question": "The sum of two numbers is 16. The difference is 0. What are the two numbers?",
+    "options": [
+      "10-6",
+      "8-8",
+      "9-7",
+      "11-5"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "8+8 = 16\n8 - 8 = 0\nThe Answer is B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0906",
+    "grade": 8,
+    "question": "Which of the following is closer to \u221a0.8+\u221a0.05?",
+    "options": [
+      "0.5",
+      "0.7",
+      "0.9",
+      "1.1"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "\u221a0.8+\u221a0.05=approximately \u221a0.81+\u221a0.04=0.9+0.2=1.1. Hence, the correct answer is D.",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0915",
+    "grade": 8,
+    "question": "Which is odd one\n10, 25, 45, 54, 60, 75, 80",
+    "options": [
+      "10",
+      "45",
+      "54",
+      "60"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "All numbers except 54 is multiple of 5.\nanswer :C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0922",
+    "grade": 8,
+    "question": "The speed of a boat in upstream is 100 kmph and the speed of the boat downstream is 180 kmph. Find the speed of the boat in still water and the speed of the stream?",
+    "options": [
+      "10",
+      "99",
+      "88",
+      "40"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Speed of the boat in still water = (100+180)/2 = 70 kmph. Speed of the stream = (180-100)/2 = 40 kmph. Answer:D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0931",
+    "grade": 8,
+    "question": "If the L.C.M of two numbers is 450 and their product is 22500, find the H.C.F of the numbers.",
+    "options": [
+      "50",
+      "30",
+      "125",
+      "25"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "H.C.F = (Product of the numbers) / (Their L.C.M) = 22500/450 = 50.\nANSWER:A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0934",
+    "grade": 8,
+    "question": "(2^2+4^2+6^2+.....+22^2)=?",
+    "options": [
+      "5578",
+      "7996",
+      "9964",
+      "2024"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "=(1x2)^2+(2x2)^2,+(2x3)^3+......(2x11)^2\n=2^2 x (1^2+2^2+3^2+.......+11^2)\nformula is =1/6 n(n+1)(2n+1)\n=(4x1/6x11x12x23)\n=(4x506)=2024\nAnswer is D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0936",
+    "grade": 8,
+    "question": "Which of the following ratios is greatest?",
+    "options": [
+      "7 : 15",
+      "15 : 23",
+      "17 : 25",
+      "21 : 29"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Sol.\n7/15 = 0.466,\n15/23 = 0.652,\n17/25 = 0.68<,br/> 21/29 = 0.724,\nClearly, 0.724 is greatest and therefore, 21 : 29 is greatest.\nAnswer D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0942",
+    "grade": 8,
+    "question": "The true discount on a bill of Rs.2160 is Rs.360.The banker's discount is",
+    "options": [
+      "430",
+      "431",
+      "432",
+      "433"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Solution\nP.W\t= Rs.(2160 - 360)\n= Rs. 1800\nS.I on Rs. 2160\t=Rs.(360/900 x 2160)\n= Rs. 432.\nAnswer C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0944",
+    "grade": 8,
+    "question": "In an increasing sequence of 10 consecutive integers, the sum of the first 5 integers is 550. What is the sum of the last 5 integers in the sequence?",
+    "options": [
+      "585",
+      "580",
+      "575",
+      "570"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "All 5 integers are 5 numbers larger than in the first sum (eg. 1 becomes 6, 2 7...). 5*5=25+550=575\nC",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0961",
+    "grade": 8,
+    "question": "If 4a = 16b and 8b = 13c, Find a:b:c?",
+    "options": [
+      "52:13:8",
+      "13:7:52",
+      "7:13:52",
+      "7:13:54"
+    ],
+    "correct": 0,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n(4a = 16b ==> a/b = 16/4)\nand (8b = 13c ==> b/c = 13/8)\n==> a:b = 16:4 and b:c = 13:8\na:b:c = 52:13:8\nAnswer: Option A",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0964",
+    "grade": 8,
+    "question": "Find the value of\n(10)150\u00f7(10)146",
+    "options": [
+      "10",
+      "100",
+      "1000",
+      "10000"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Explanation:\n=(10)150/(10)146=10(4)=10000\nOption D",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0967",
+    "grade": 8,
+    "question": "In each of the following questions a number series is given with one term missing. Choose the correct alternative that will continue the same pattern and fill in the blank spaces.\n2, 7, 14, ?, 34, 47",
+    "options": [
+      "31",
+      "23",
+      "36",
+      "31"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "B\n23\nThe given sequence is +5, +7, +9, \u2014\u2014\nie. 2+ 5 = 7, 7 + 7 = 14, 14 + 9 = 23",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0977",
+    "grade": 8,
+    "question": "A train 300 m long can cross an electric pole in 20 sec and then find the speed of the train?",
+    "options": [
+      "17 Kmph",
+      "54 Kmph",
+      "72 Kmph",
+      "18 Kmph"
+    ],
+    "correct": 1,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "Length = Speed * time\nSpeed = L/T\nS = 300/20\nS = 15 M/Sec\nSpeed= 15*18/5 (To convert M/Sec in to Kmph multiply by 18/5)\nSpeed = 54 Kmph\nAnswer: B",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0989",
+    "grade": 8,
+    "question": "The C.P of 10 pens is equal to the S.P of 12 pens. Find his gain % or loss%?",
+    "options": [
+      "16 2/8%",
+      "16 6/3%",
+      "16 2/3%",
+      "18 2/3%"
+    ],
+    "correct": 2,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "10 CP = 12 SP\n12 --- 2 CP loss\n100 --- ? => 16 2/3%\nAnswer:C",
+    "source": "math-fetcher-agent",
+    "license": "MIT"
+  },
+  {
+    "id": "aqua-arit-0994",
+    "grade": 8,
+    "question": "The 52nd term of the series a, b , b, c, c, c, d, d, d, d, e, e, e, e, e, .... is",
+    "options": [
+      "f",
+      "k",
+      "l",
+      "j"
+    ],
+    "correct": 3,
+    "tags": [
+      "arithmetic"
+    ],
+    "explanation": "a is one time, b,2 times so on...\nso 52=n(n+1)/2..\n0r n(n+1)= 104... now 10*11=110...9*10<104 so n= 10.. and 10th alphabet is J. ans D",
+    "source": "math-fetcher-agent",
     "license": "MIT"
   }
 ]
